@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (QRx5VcN2lU+elTyZjoK+Pw) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="XRQ6xoRCIkiPxB5kg6qPyw"  model="..\..\..\..\Analysis Model.mdx"  contain="0000000000001100100000100000011000000010011000000000101100000000000100000000000000000000000000010000000111000000101000100000000001000000010000000001000100000000010000000001000010"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;oTGAKA5gOESZZWq5p5rjrA&quot; &gt;&lt;nam&gt;Quan ly BHXH,BHYT&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="oTGAKA5gOESZZWq5p5rjrA" >
+<nam>Quan ly BHXH,BHYT</nam>
+<mnd>
+<RMS:LRF id="5iA6UVTs/UCKSu9Dbc114A" />
+</mnd>
+<owd>
+<dgx id="5iA6UVTs/UCKSu9Dbc114A" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="JUAb5iskaEO9WtghK/hCUg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</mdr>
+<chl>
+<ssv id="nLOT1auhFE2+h68GpvuLuw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="GnKIa2gMUkiQNTXYF/vKlQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="cHpRmVxETUKJu0fS8UUj6w" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="BlAtCVpySkGiLFClXRpucw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(4868,4472)</ext>
+<pst>(1500,3500)</pst>
+</pgv>
+<pgv id="ssiG8P1m5Uy9t6cp6UlQgw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</mdr>
+<chl>
+<ssv id="IaFNdz806Eyqenk+00nCmw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="x7REHnU1rU+klXPTia63uQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="fpr3rc0z+kepkUBg3M9Xng" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="YDvrnC5Xo0+ZG05obOklGQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(6164,6166)</ext>
+<pst>(9750,3500)</pst>
+</pgv>
+<cnv id="+tjmu5IpnUaJJIK0Bqyyqg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="lQl/iDNJQ02vtESa/degRg"  name="Analysis Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="v6bucOYidEmLd3JcgoR8JQ" />
+</mdr>
+<bnd>
+(6350,3500)
+(9757,3500)
+</bnd>
+<frv>
+<RMS:LRF id="JUAb5iskaEO9WtghK/hCUg" />
+</frv>
+<lbl>
+<olv id="ljLBKXKKqEa8JT05nMwBbQ" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="ESVS5cGO+U2IqhCZx/xnMg" />
+</mdr>
+<fre>-200</fre>
+<frl>100</frl>
+</olv>
+<olv id="ZXrgTng1pU+bv3PG4+Km+w" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="TOi2gqzNdEqov2DmTh6V+A" />
+</mdr>
+<fre>200</fre>
+<frl>-100</frl>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="ssiG8P1m5Uy9t6cp6UlQgw" />
+</tvw>
+</cnv>
+</chl>
+</dgx>
+</owd>
+<rlt>
+<asn id="O2WeF1sLhkGxZQTQNo8aog" >
+<end>
+<ase id="GwAejzAJnUyYv8Nj8r2kaw" >
+<noe>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="RCSVWLf+L0KfouEYNO/kAg" >
+<noe>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+<asn id="v6bucOYidEmLd3JcgoR8JQ" >
+<end>
+<ase id="ESVS5cGO+U2IqhCZx/xnMg" >
+<noe>
+<RMS:LRF id="60coEDLkn02OIPG4uuwsyg" />
+</noe>
+<mlt>1</mlt>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="TOi2gqzNdEqov2DmTh6V+A" >
+<noe>
+<RMS:LRF id="Oxvv25283UWQ6uqHspBatw" />
+</noe>
+<mlt>n</mlt>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+</rlt>
+<cls>
+<clx id="60coEDLkn02OIPG4uuwsyg" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc reserve="566" >Bảng chứa thông tin chi tiết về bảo hiểm xã hội của từng nhân viên.
+Các trường dữ liệu:
+SocialInsuranceID: mã lần lập bảng BHXH cho từng nhân viên- Khóa chính
+RestDays: Số ngày nghỉ trong kỳ
+RestDaysApproved: Số ngày nghỉ trong kỳ sau khi cơ quan BHXH đã xét duyệt
+AllRestDaysApproved: Số ngày nghỉ lũy kế từ đầu năm sau khi cơ quan BHXH đã xét duyệt
+Note: Ghi chú
+MoneyAllowance: Số tiền trợ cấp BHXH mà cơ quan đã xét duyệt
+EmployeeID: mã nhân viên.
+PeriodID: mã lần thực hiện lập danh sách BHXH
+</dsc>
+<nam>tblSocialInsurance</nam>
+<mlt>*</mlt>
+<att>
+<att id="oQjwis9eY0qfNydrmwcJeA" >
+<otv>
+<ntv id="sg7S60p8KUGqrLil6MWMfw" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="PlmXCaltz0qDleK5MVXGTw" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>SocialInsuranceID</nam>
+<tye>Integer</tye>
+</att>
+<att id="4Zg6kygAFkO+TzlsvpTg/A" >
+<otv>
+<ntv id="GaXBLcbdzESrBa0TMeqzQQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="zIt65LHhxUC5ygNtwcfFbA" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>EmployeeID</nam>
+<tye>Integer</tye>
+</att>
+<att id="LQd2vmtLrkmyKCanXShyPg" >
+<nam>RestDays</nam>
+<tye>Integer</tye>
+</att>
+<att id="S20QLxUiOkeFJB0kN9TYbA" >
+<nam>MoneyAllowance</nam>
+<tye>Currency</tye>
+</att>
+<att id="xx6VMToVXEi5P33IcA/kag" >
+<nam>RestDaysApproved</nam>
+<tye>Integer</tye>
+</att>
+<att id="r1NG20aUu0+/azsCGPXNBA" >
+<nam>Note</nam>
+<tye>String</tye>
+</att>
+<att id="duWg3zFgOkKByi7EHYBD4Q" >
+<nam>AllRestDayApprovedInYear</nam>
+<tye>Integer</tye>
+</att>
+<att id="uYUI/bIeo0eDIYpXGfdGAw" >
+<otv>
+<ntv id="eiDxkG07sU+y8iLwXIy/iQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>PeriodID</nam>
+<tye>Integer</tye>
+</att>
+</att>
+</clx>
+<clx id="Oxvv25283UWQ6uqHspBatw" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc reserve="428" >Bảng chứa thông tin về những lần lập danh sách bảo hiểm xã hội trong năm. 
+Các trường dữ liệu:
+PeriodID: mã lần thực hiện lập danh sách BHXH
+StartPointDate: Ngày đầu tiên của kỳ lập danh sách BHXH
+EndPointDate: Ngày cuối của kỳ lập danh sách BHXH
+Dựa vào thông tin thời gian StartPointDate và EndPointDate để người sử dụng không bị nhầm lẫn giữa các lần lập bảng khác nhau.</dsc>
+<nam>tblInsurancePeriod</nam>
+<mlt>1..*</mlt>
+<att>
+<att id="3pZxLTT2RkGXrWHL+H64cw" >
+<otv>
+<ntv id="ndoZmC4uxkGxyuWriI9DxQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="fgCNAFqGAEiaisjf8JbGlw" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>SocialInsuranceID</nam>
+<tye>Integer</tye>
+</att>
+<att id="am7YzKmHN0+dPlG0jU0Shw" >
+<otv>
+<ntv id="FGjECh4UbkeKcXF5x424aQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="VH1r8JdaZ0qDSAOCHBm+Fw" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>StartPointDate</nam>
+<tye>Date</tye>
+</att>
+<att id="2cAcDLXAlEygP/YHYYsNZw" >
+<otv>
+<ntv id="MKEtnS1MwEqPMbGkU480hA" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="pqqwG3c5j0aQuYA3yTOQYg" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>EndPointDate</nam>
+<tye>Date</tye>
+</att>
+<att id="csBlXZYc0EiMDlUdALlIRg" >
+<otv>
+<ntv id="WCRw/yDZLkmlxvvPZtbI0g" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="aq2DK0pcckS1GX5Sb2amkw" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>PeriodID</nam>
+<tye>Integer</tye>
+</att>
+</att>
+</clx>
+<clx id="AIo3e9Uh+UWmU/ZsvCUZng" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc reserve="609" >Bảng đối chiếu số lượng thu nộp bảo hiểm theo các kỳ đóng bảo hiểm
+FromDate,ToDate : Khoảng thời gian trong kỳ đóng bảo hiểm
+TotalEmployee : Số lao động phải đóng bảo hiểm 
+TotalSalary : Tổng quỹ lương
+TotalPay : Số bảo hiểm phải nộp trong quý (theo quy định hiện nay là 23% quỹ lương)
+LastBring : Số kỳ trước chuyển sang(thừa nếu &lt; 0, thiếu nếu &gt; 0, do BH phải được thanh toán từ đầu kỳ nên cuối kỳ khi thay đổi nhân sự thường xảy ra thừa thiếu )
+ReadyPay : Số đã nộp trong quý số chuyển sang kỳ sau
+NextSend : Số chuyển sang kỳ sau</dsc>
+<nam>tblInsurancePay</nam>
+<att>
+<att id="qMXys02eRUGSameovlaghQ" >
+<otv>
+<ntv id="DyYfMZqIN0ynGOwtXdcbQQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>FromDate</nam>
+<tye>Date</tye>
+</att>
+<att id="iwcheb503UuRIjlauGSfIQ" >
+<otv>
+<ntv id="CK0Evtz8NUSrxUhk4HbkAg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>ToDate</nam>
+<tye>Date</tye>
+</att>
+<att id="TStVDMTrUkyHmScjCiHikg" >
+<otv>
+<ntv id="ISD9/USgZkm74fKSd3/Gpw" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>TotalEmployee</nam>
+<tye>Integer</tye>
+</att>
+<att id="7Xue7zitzkK/YdYhhAQNPQ" >
+<otv>
+<ntv id="IgsrmzyR9Ey5/DFlh2VNkw" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>TotalSalary</nam>
+<tye>Currency</tye>
+</att>
+<att id="A2VNH7v1gkWgr6aipY2dXQ" >
+<otv>
+<ntv id="ifGqG6bg0k+FuyTMqN055w" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>TotalPay</nam>
+<tye>Currency</tye>
+</att>
+<att id="Ck1lcxsRJke+H1iNKieCmQ" >
+<otv>
+<ntv id="jximrQfU8kKLbbdPzvQp9A" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>LastBring</nam>
+<tye>Currency</tye>
+</att>
+<att id="lSkyV155vkOGHbIRrOnAhA" >
+<otv>
+<ntv id="e99LiANCFUeRzWNzKIDG8w" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>ReadyPay</nam>
+<tye>Currency</tye>
+</att>
+<att id="gKNiXoYgDUuyaTGHfSfXFQ" >
+<otv>
+<ntv id="y8PmcG8Fz0OxqfG1WNJ6VQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>NextSend</nam>
+<tye>Currency</tye>
+</att>
+</att>
+</clx>
+</cls>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

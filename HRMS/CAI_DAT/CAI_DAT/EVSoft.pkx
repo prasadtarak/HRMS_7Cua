@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (7CIpZTpRZkCORPtVILC9mw) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="2x9GRMGmBEeGzCFIHWi88g"  model="..\..\CAI_DAT.mdx"  contain="0000000000001100100000000000011000000000010000000100001100000000000100000000100000000000000000000000000101000000011100000000000001000000010000000101000000000000010000000001000000"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;zZ70utBTnky9KQrK2xpRkA&quot; &gt;&lt;tvs&gt;&lt;RMS:URF id=&quot;4FRDGzE0BUywQC8mTpgpNA&quot;  name=&quot;Design Model::.Net::namespace&quot;  classStr=&quot;str&quot; /&gt;&lt;/tvs&gt;&lt;nam&gt;EVSoft&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.407.200"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="zZ70utBTnky9KQrK2xpRkA" >
+<tvs>
+<RMS:URF id="4FRDGzE0BUywQC8mTpgpNA"  name="Design Model::.Net::namespace"  classStr="str" />
+</tvs>
+<nam>EVSoft</nam>
+<ari>3 0:14 1:C#</ari>
+<nsp>
+<pkx id="X+yS01DQLU20Z0LP8Tpshg"  file="EVSoft\HRMS.pkx" >
+</pkx>
+</nsp>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (/ys0kJect0WTYyatd/P1ww) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="XRQ6xoRCIkiPxB5kg6qPyw"  model="..\..\..\..\Analysis Model.mdx"  contain="0000000000001100100000100000011000000010011000000000101100000000000100000000000000001000000000010000000111000000101000100000000001000000010000000001001100000000010100000001000110"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;7C4iCRmHIE+T0IeTgHD7Xg&quot; &gt;&lt;nam&gt;Quan tri he thong&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="7C4iCRmHIE+T0IeTgHD7Xg" >
+<nam>Quan tri he thong</nam>
+<mnd>
+<RMS:LRF id="NaieVgPIdU+7nRXTxv2zRQ" />
+</mnd>
+<owd>
+<dgx id="NaieVgPIdU+7nRXTxv2zRQ" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:LRF id="RT2YDhwPDU+AG4qs4OLE/g" />
+</tvs>
+<nam>Main</nam>
+<typ>CLASS</typ>
+<chl>
+<pgv id="PwvkTd6XaEKTtuS5La+F0g" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</mdr>
+<chl>
+<ssv id="meSCdtk8GkaoVC3zVmNRoQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="qPzYwwLex0K1LIBEujWzLg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="Lp5E4N3JFU6ZYQslj0cZMg" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="9uhpqe99OUq1YBFonO1/8A" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3650,4472)</ext>
+<pst>(3750,13750)</pst>
+</pgv>
+<pgv id="p0Ahzgd/AEGO9jalAfC2uw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:LRF id="1GuuDOVajEews2GwCO4g1g" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</mdr>
+<chl>
+<ssv id="9OOyeABDGkq/DYwmYvM4sA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="wummyYe6NkybhW83+c+9sw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,26)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="CzBK2qCVsUubC1b3Omfqig" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>0.4566929133858268</hgr>
+<ovh>58</ovh>
+</lcv>
+<lcv id="IcU1duwhvUWkyDW6wyeQNQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>0.06299212598425197</hgr>
+<ovh>7</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(5132,4049)</ext>
+<pst>(9750,14000)</pst>
+</pgv>
+<cnv id="YE4MnwHLOkOsPAvYP7C5JQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="lQl/iDNJQ02vtESa/degRg"  name="Analysis Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="/W81iUwRmE6R/P1ISyt0ow" />
+</mdr>
+<bnd>
+(9750,16025)
+(7400,16025)
+</bnd>
+<frv>
+<RMS:LRF id="p0Ahzgd/AEGO9jalAfC2uw" />
+</frv>
+<lbl>
+<olv id="0BHGbX/Je0OuWHQV7d8PyQ" >
+<fch>Name;Visibility</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="RXsWxjsod0yA5eiMhoz0rw" />
+</mdr>
+<fre>-200</fre>
+<frl>-100</frl>
+</olv>
+<olv id="smBXGgYZbkOm2f+yhWkbEw" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="RXsWxjsod0yA5eiMhoz0rw" />
+</mdr>
+<fre>-200</fre>
+<frl>100</frl>
+</olv>
+<olv id="2BM3dhGWk0KUtTUoow3FHA" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="SxE2YWmHN0yCy70oateOwQ" />
+</mdr>
+<fre>200</fre>
+<frl>-100</frl>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="PwvkTd6XaEKTtuS5La+F0g" />
+</tvw>
+</cnv>
+<pgv id="Oe2q8oHv5EuneIvsNHxYQA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</mdr>
+<chl>
+<ssv id="flEpzxTutkqSUH9CbZeGDw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="LBZHuHOjlkqwPtaWtB+HKQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="k4s77tsLIUuLJx528gIZng" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="vxeLIGQJyEuQYmi7rn9nqQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(5768,17172)</ext>
+<pst>(-6000,3750)</pst>
+</pgv>
+<cnv id="patMh2mgIU6EPQxn4lwBqw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="lQl/iDNJQ02vtESa/degRg"  name="Analysis Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="+9Mduq6HAkeuvZcplruQGQ" />
+</mdr>
+<bnd>
+(-232,17200)
+(3750,17200)
+</bnd>
+<frv>
+<RMS:LRF id="Oe2q8oHv5EuneIvsNHxYQA" />
+</frv>
+<lbl>
+<olv id="blmDJ+exP0iHzgY23aXXZw" >
+<fch>Name;Visibility</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="1sKp5TuDl06OQZPtxp76hA" />
+</mdr>
+<fre>-200</fre>
+<frl>-100</frl>
+</olv>
+<olv id="42K6m8wsBESMg8WQ4SU+Aw" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="1sKp5TuDl06OQZPtxp76hA" />
+</mdr>
+<fre>-200</fre>
+<frl>100</frl>
+</olv>
+<olv id="FxXB13AoQEaSDP8zWnqSJQ" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="ObxX8dyJE0+JXXqyUq2GKQ" />
+</mdr>
+<fre>200</fre>
+<frl>-100</frl>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="PwvkTd6XaEKTtuS5La+F0g" />
+</tvw>
+</cnv>
+<pgv id="NlRzwnFcgEOSlhEfArXlLQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</mdr>
+<chl>
+<ssv id="Txu+P4YO50+RqWsAndZMoQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="7Ii/6aNKrkW89wrfASlKwg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="crFPzFWZ8Eqtx6HFtmKu6g" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="syUbPQz8gkitDwCUm4wALw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(4736,3626)</ext>
+<pst>(11000,8500)</pst>
+</pgv>
+<cnv id="Evwq8VWwEkCvM4fxyMkqxQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="lQl/iDNJQ02vtESa/degRg"  name="Analysis Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="80refuu6gUmLgcHt6Lbipw" />
+</mdr>
+<bnd>
+(12400,14000)
+(12393,12126)
+</bnd>
+<frv>
+<RMS:LRF id="p0Ahzgd/AEGO9jalAfC2uw" />
+</frv>
+<lbl>
+<olv id="4P1fulpcv0eAIUiETRN0Zg" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="d7P1JvaYmUmBOVUaVQ1lng" />
+</mdr>
+<fre>-200</fre>
+<frl>100</frl>
+</olv>
+<olv id="S9OU5W35wEKRkzRAYALfdw" >
+<fch>Multiplicity</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="FhQn3lfRDU2jfW/qLTCnfw" />
+</mdr>
+<fre>200</fre>
+<frl>-100</frl>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="NlRzwnFcgEOSlhEfArXlLQ" />
+</tvw>
+</cnv>
+</chl>
+<lcs>
+<sty id="RT2YDhwPDU+AG4qs4OLE/g" >
+<dsn>Print</dsn>
+<nam reserve="455" >cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=-20343;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1</nam>
+<btv>
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="XbLfWflDUUGkyIcRFmMxxQ" >
+<tgd>
+<RMS:URF id="nVQBwsDTUEu5qK1A4Z1JLg"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1::PageBreakLeft"  classStr="tgd" />
+</tgd>
+<val>-20343</val>
+</itv>
+</tgv>
+<typ>DiagramPrint</typ>
+</sty>
+<sty id="1GuuDOVajEews2GwCO4g1g" >
+<dsn>View</dsn>
+<nam>autoresize=0;fillcolor=13434879;shapestereotype=2;showparentname=0</nam>
+<btv>
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</btv>
+<tgv>
+<ntv id="EXFnmug7JU6ebDfciH2OHg" >
+<tgd>
+<RMS:URF id="HHDoRyt6DEG5GhUDfdVa6g"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0::AutoResize"  classStr="tgd" />
+</tgd>
+</ntv>
+</tgv>
+<typ>ViewAppearance</typ>
+</sty>
+</lcs>
+</dgx>
+</owd>
+<rlt>
+<asn id="/W81iUwRmE6R/P1ISyt0ow" >
+<end>
+<ase id="RXsWxjsod0yA5eiMhoz0rw" >
+<nam>tblUser</nam>
+<noe>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</noe>
+<mlt>0..*</mlt>
+<isn>TRUE</isn>
+</ase>
+<ase id="SxE2YWmHN0yCy70oateOwQ" >
+<noe>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</noe>
+<mlt>0..1</mlt>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+<asn id="+9Mduq6HAkeuvZcplruQGQ" >
+<end>
+<ase id="1sKp5TuDl06OQZPtxp76hA" >
+<nam>tblUser</nam>
+<noe>
+<RMS:LRF id="Cbo5Rx4aI06nzYeQxAvAPw" />
+</noe>
+<mlt>0..*</mlt>
+<isn>TRUE</isn>
+</ase>
+<ase id="ObxX8dyJE0+JXXqyUq2GKQ" >
+<noe>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</noe>
+<mlt>1</mlt>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+<asn id="AI7oIMrp2kGBD4W7I8Fk5Q" >
+<end>
+<ase id="fIA0RL63sEuQmR72KoTFqA" >
+<noe>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="IDDTAKTjyUyk6j1MpeEiHg" >
+<noe>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+<asn id="80refuu6gUmLgcHt6Lbipw" >
+<end>
+<ase id="d7P1JvaYmUmBOVUaVQ1lng" >
+<noe>
+<RMS:LRF id="XWQ8G0fPUkS8ytkwlMDJIg" />
+</noe>
+<mlt>*</mlt>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="FhQn3lfRDU2jfW/qLTCnfw" >
+<noe>
+<RMS:LRF id="F/vGs62FRUy8MGzfI7pnjQ" />
+</noe>
+<mlt>1</mlt>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+</rlt>
+<cls>
+<clx id="Cbo5Rx4aI06nzYeQxAvAPw" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc reserve="94" >Bàng chứa thông tin về người sử dụng trong hệ thống
+Khóa chính: UserID, kiểu Int, tự tăng</dsc>
+<nam>tblUser</nam>
+<att>
+<att id="SnxIsDG8e0yAutN9obU80w" >
+<otv>
+<ntv id="SLC5QrGIpEyzN/uhvXb6LA" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="vlasS26nT0ulZEfWctEdrw" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<dsc>Mã người sử dụng</dsc>
+<nam>UserID</nam>
+<tye>Integer</tye>
+</att>
+<att id="3/PnBKe7UEG8qUEOe5ROng" >
+<otv>
+<ntv id="RhrVUh1NNEG/vyDwUaPqVg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<dsc>Tên đăng nhập</dsc>
+<nam>UserName</nam>
+<tye>String</tye>
+</att>
+<att id="tEpB2Rb6aUie5BU5kPmT0Q" >
+<otv>
+<ntv id="b3o8cwkZwUaZuofc3coUWg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<dsc>Mật khẩu</dsc>
+<nam>Password</nam>
+<tye>String</tye>
+</att>
+<att id="U5EUHeR4EkKHcYPq5S1syQ" >
+<dsc>Mô tả người sử dụng</dsc>
+<nam>Description</nam>
+<tye>String</tye>
+</att>
+</att>
+</clx>
+<clx id="F/vGs62FRUy8MGzfI7pnjQ" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc reserve="104" >Bảng chứa thông tin về nhóm người sử dụng trong hệ thống
+Khóa chính: UserGropuID, kiểu Int, tự tăng</dsc>
+<nam>tblUserGroup</nam>
+<att>
+<att id="lUfefVRXd0aGug0nHpO8VQ" >
+<otv>
+<ntv id="zh7iMXFLLEGpN5HLY70Irw" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="3PHIDRYmQkC7xD8sa9MKzw" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<dsc>Mã nhóm sử dụng</dsc>
+<nam>UserGroupID</nam>
+<tye>String</tye>
+</att>
+<att id="j5xB457N+UmKOy6ml/piPg" >
+<otv>
+<ntv id="b8Ho+gpEBky+L7VfDiUGdg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<dsc>Tên nhóm người sử dụng</dsc>
+<nam>UserGroupName</nam>
+<tye>String</tye>
+</att>
+<att id="dQ0UHLPSLUSK78nMJPW7cg" >
+<dsc>MÔ tả nhóm quyền sử dụng</dsc>
+<nam>Description</nam>
+<tye>String</tye>
+</att>
+</att>
+</clx>
+<clx id="FWgZl5rUj0ux80XGxfpZ4Q" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc reserve="133" >Bảng chứa thông tin quá trình sử dụng của user trong hệ thống ( hiện tại chưa sử dụng)
+Khóa chính: LogUsersID, kiểu Int, tự tăng</dsc>
+<nam>tblLogUsers</nam>
+<att>
+<att id="9Ue8IIAInUeLBJ0RsZBNjg" >
+<otv>
+<ntv id="wg/MeopeOU+vFzK46HDm2g" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>DepartmentID</nam>
+<tye>Integer</tye>
+</att>
+<att id="fsJtoxjsrkCTZN+bmIGBKA" >
+<otv>
+<ntv id="ogZRV60F0k2x97Go7egOtg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>tblLogUsers_ID</nam>
+<tye>Integer</tye>
+</att>
+<att id="aW5ET37XGkiNsgCZtu52QQ" >
+<otv>
+<ntv id="ZhEusBgxdUymtAePZ4BMIQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>IPAdress</nam>
+<tye>String</tye>
+</att>
+<att id="9c2jBXPRJUSnhSRmn/jApw" >
+<otv>
+<ntv id="W6VSHj1UOUGJRPAZkvrFOw" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="Ama6RdcWCkO/SRO2LtD1UA" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>LogUsersID</nam>
+<tye>Long</tye>
+</att>
+<att id="e7UZa7s4YUK9n0tRf+ej2A" >
+<otv>
+<ntv id="Xu1w2ksfOE+5kotqJy97OA" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>AccessTime</nam>
+<tye>Date</tye>
+</att>
+</att>
+</clx>
+<clx id="XWQ8G0fPUkS8ytkwlMDJIg" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc>Bảng  liên kết giữa nhóm người dùng với quyền sử dụng hệ thống</dsc>
+<nam>tblUserGroupPermission</nam>
+<att>
+<att id="Sy7KmzAfJk+iP6BGs7iJFg" >
+<dsc>mã quyền sử dụng hệ thống</dsc>
+<nam>PermissionID</nam>
+</att>
+<att id="/6JeA4WStUuSQIP8AwruRA" >
+<dsc>Mã nhóm người dùng</dsc>
+<nam>UserGroupID</nam>
+</att>
+</att>
+</clx>
+<clx id="bk6JZ8ENgU+wgtD8edre0Q" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc>Bảng chứa quyền sử dụng của user trong hệ thống</dsc>
+<nam>tblPermission</nam>
+<att>
+<att id="oHetWn3Pe02dcKH0R30wvQ" >
+<otv>
+<ntv id="D2vNHxnLCEiDIOCW/KCO8g" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="WrvhTFQ4sUWq9qs3G8rzPQ" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<dsc>Mã quyền sử dụng, kiểu Int, tự tăng</dsc>
+<nam>PermissionID</nam>
+<tye>Integer</tye>
+</att>
+<att id="yiR1H6DY6Ey1cs8xTyqReA" >
+<dsc>Tên quyền sử dụng</dsc>
+<nam>PermissionName</nam>
+<tye>String</tye>
+</att>
+<att id="M8JUJodjuUGnwHu88KtQ0g" >
+<dsc>Tên đối tượng ứng với người sử dụng</dsc>
+<nam>ItemName</nam>
+<tye>String</tye>
+</att>
+<att id="o7gey+WIhUe7I6cRaQd/+A" >
+<dsc>Nút quyền cha</dsc>
+<nam>ParentNode</nam>
+<tye>Integer</tye>
+</att>
+</att>
+</clx>
+<clx id="k2D0XWEmuEuNnCHjlV3Siw" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<nam>tblSysVar</nam>
+<att>
+<att id="r1W7tZZR+EWOTvodBxI/5g" >
+<nam>SysName</nam>
+</att>
+<att id="AgGrcfj/pUCNsxIz8VLPWw" >
+<nam>Descriptions</nam>
+</att>
+<att id="0j7rrgEi7Ui1XiMr6DdQjg" >
+<nam>SysValue</nam>
+</att>
+<att id="MepdY4fcsUG/nPxEpW4WeQ" >
+<nam>Modify</nam>
+</att>
+</att>
+</clx>
+</cls>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

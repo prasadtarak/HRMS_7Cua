@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 87
+CacheData
+CardReader.resharper.user
+_ReSharper.CardReader
+_UpgradeReport_Files
+bin
+obj
+
+END

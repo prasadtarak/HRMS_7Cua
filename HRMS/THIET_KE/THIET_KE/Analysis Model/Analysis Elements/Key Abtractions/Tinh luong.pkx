@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (s4YORV8CEkSh1HNd1N6WXw) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="XRQ6xoRCIkiPxB5kg6qPyw"  model="..\..\..\..\Analysis Model.mdx"  contain="0000000000000000100000100000011000000000011000000000101100000000000100000000000000001000000000010000000111000000001000100000000001000000010000000001001100000000010100000001000010"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;ztbrliJs70GEuzwqcqisPg&quot; &gt;&lt;nam&gt;Tinh luong&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.407.200"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="ztbrliJs70GEuzwqcqisPg" >
+<nam>Tinh luong</nam>
+<mnd>
+<RMS:LRF id="yzge7CwtkkOJF19Plwr6sQ" />
+</mnd>
+<owd>
+<dgx id="yzge7CwtkkOJF19Plwr6sQ" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:LRF id="0JarHP6YpkegV2/mLVgjOQ" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="L/7W/TGAaUiP3c8xsruuxw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="+kJcuMLV9Um2esMV1pd/gA" />
+</mdr>
+<chl>
+<ssv id="CC+9/lT00kCZ1NSDTkBDZA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="+kJcuMLV9Um2esMV1pd/gA" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="RGgexDmJ60K/NaN+1YENxw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="+kJcuMLV9Um2esMV1pd/gA" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="Apw2s4HZgkWlK8mYACn/1Q" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="+kJcuMLV9Um2esMV1pd/gA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="8MQjt1+Js02rMZUFUqicoQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="+kJcuMLV9Um2esMV1pd/gA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(6402,11246)</ext>
+<pst>(5849,4000)</pst>
+</pgv>
+</chl>
+<lcs>
+<sty id="0JarHP6YpkegV2/mLVgjOQ" >
+<dsn>Print</dsn>
+<nam reserve="454" >cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=-5798;pagescale=100;papersize=0;showfooter=-1;showheader=-1</nam>
+<btv>
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="d0KLv9blMkyapCtP7CTN8g" >
+<tgd>
+<RMS:URF id="lJSEkggsJ0KtyCPzZr3oGQ"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1::PageBreakTop"  classStr="tgd" />
+</tgd>
+<val>-5798</val>
+</itv>
+</tgv>
+<typ>DiagramPrint</typ>
+</sty>
+</lcs>
+</dgx>
+</owd>
+<cls>
+<clx id="+kJcuMLV9Um2esMV1pd/gA" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<dsc>Bảng chứa thông tin lương tháng tổng hợp 
+Khóa chính: Month, Year, EmployeeID</dsc>
+<nam>tblSalary</nam>
+<att reserve="18" >
+<att id="soD8XS/9GUKL+Hziu/aIHQ" >
+<dsc>Lương cơ bản</dsc>
+<nam>BasicSalary</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="Wvic1bRYW0+pbPh+jniz+Q" >
+<dsc>Tiền trợ cấp ăn trưa</dsc>
+<nam>LunchAllowance</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="HKWN/j4dbka9EezJ7s4jow" >
+<dsc>Số tiền trợ cấp độc hại</dsc>
+<nam>HarmfulAllowance</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="DGhCUia56kyZ3Cn5xSvzSg" >
+<dsc>Mức tiền bảo hiểm xã hội</dsc>
+<nam>Insurance</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="baWcSzWbqkCSdJAZ+AYgQQ" >
+<dsc>Tiền phí thu nhập cá nhân </dsc>
+<nam>PersonalIncomeTax</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="m6lAAMExz0KZvbzPsCQ3Xg" >
+<dsc>Khoản tiền khấu trừ ngoài ra</dsc>
+<nam>OtherDeduction</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="ir12MqooCkSUuIjr4MB+JA" >
+<otv>
+<ntv id="cwhcm2F0OkmjF8pmDhEfGw" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="mlLboNy13km73yepLYmsJA" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<dsc>Tháng làm việc</dsc>
+<nam>Month</nam>
+<tye>Integer</tye>
+</att>
+<att id="nHnZFBDHhEOgYimFLolOsw" >
+<otv>
+<ntv id="Zc8EZcSDvU6noUy0DCrmhg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="DEp+FRBNzU6VQBmOvBg7DQ" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<dsc>Năm làm việc</dsc>
+<nam>Year</nam>
+<tye>Integer</tye>
+</att>
+<att id="bii8EIxTVUOx/WlAaJhW0Q" >
+<dsc>Tiền trợ cấp trách nhiệm</dsc>
+<nam>ResponsibleAllowance</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="mp/oL5ZLL0613kXf6mGQdQ" >
+<dsc>Tổng số ngày công làm trong tháng của nhân viên</dsc>
+<nam>TotalTimeSheet</nam>
+<dve>0</dve>
+<tye>Double</tye>
+</att>
+<att id="bSemamYZekidwMeYYQ8IGg" >
+<dsc>Tiền lương thực lĩnh</dsc>
+<nam>RealSalary</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+<att id="6KTOLTNvdkyjGP2s6Gan2g" >
+<dsc>Làm thêm giờ hệ số 1</dsc>
+<nam>OverTime1</nam>
+<dve>0</dve>
+<tye>Double</tye>
+</att>
+<att id="oHcDneXp9UG7A5zM+gTRDA" >
+<dsc>Làm thêm giờ hệ số 1.5</dsc>
+<nam>OverTime2</nam>
+<dve>0</dve>
+<tye>Double</tye>
+</att>
+<att id="MnBsUtjo2E6kn1GeGJVfTg" >
+<dsc>Làm thêm giờ hệ số 2</dsc>
+<nam>OverTime3</nam>
+<dve>0</dve>
+<tye>Double</tye>
+</att>
+<att id="02vpvFZ/AECt0+5QmS/EIQ" >
+<dsc>Làm thêm giờ hệ số 3</dsc>
+<nam>OverTime4</nam>
+<dve>0</dve>
+<tye>Double</tye>
+</att>
+<att id="7JPlNO7q20CzFMif7m1vKw" >
+<dsc>Số tiền làm thêm giờ</dsc>
+<nam>OverTimeMoney</nam>
+<tye>Currency</tye>
+</att>
+<att id="YQoEAy8JU0KReV+bMlhqXA" >
+<dsc>Số tiền trợ cấp khác</dsc>
+<nam>OtherAddition</nam>
+<tye>Currency</tye>
+</att>
+<att id="94L6ixs6ZUKK5E89rpW9ww" >
+<dsc>Tổng số tiền trợ cấp ăn trưa</dsc>
+<nam>TotalPaidLunch</nam>
+<dve>0</dve>
+<tye>Currency</tye>
+</att>
+</att>
+</clx>
+</cls>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

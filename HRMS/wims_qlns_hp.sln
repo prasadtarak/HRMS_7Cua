@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CAI_DAT", "CAI_DAT\CAI_DAT.csproj", "{7B5A25EC-B129-4981-81E6-77CD6F65BE84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Controls", "Controls\Controls.csproj", "{ADAE1513-A97C-45DA-A846-3785EFBA0B64}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaitingForm", "WaitingForm\WaitingForm.csproj", "{A22CE783-A7C3-4C1F-BC2C-10F336A9225B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B5A25EC-B129-4981-81E6-77CD6F65BE84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B5A25EC-B129-4981-81E6-77CD6F65BE84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B5A25EC-B129-4981-81E6-77CD6F65BE84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B5A25EC-B129-4981-81E6-77CD6F65BE84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADAE1513-A97C-45DA-A846-3785EFBA0B64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADAE1513-A97C-45DA-A846-3785EFBA0B64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADAE1513-A97C-45DA-A846-3785EFBA0B64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADAE1513-A97C-45DA-A846-3785EFBA0B64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A22CE783-A7C3-4C1F-BC2C-10F336A9225B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A22CE783-A7C3-4C1F-BC2C-10F336A9225B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A22CE783-A7C3-4C1F-BC2C-10F336A9225B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A22CE783-A7C3-4C1F-BC2C-10F336A9225B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

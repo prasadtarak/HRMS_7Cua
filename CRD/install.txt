@@ -1,0 +1,7 @@
+
+http://www.developer.com/net/vb/article.php/3080731/Create-Your-Own-Windows-Service.htm
+
+InstallUtil.exe c:\YourProject\bin\YourApp.exe
+
+InstallUtil.exe /u c:\YourProject\bin\YourApp.exe
+C:\Windows\Microsoft.NET\Framework\v4.0.30319

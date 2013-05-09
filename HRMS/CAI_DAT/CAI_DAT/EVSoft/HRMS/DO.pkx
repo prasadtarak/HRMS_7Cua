@@ -1,0 +1,4696 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (zQX53dPt8kWDdwZyKHRj0g) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="2x9GRMGmBEeGzCFIHWi88g"  model="..\..\..\..\CAI_DAT.mdx"  contain="0000000000001100100000000000011000000000010000000000001100000000000100000000100000000000000000000000000101000000011100000000000001000000010000000101000000000000010000000001000000"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;nceVsPo/lke13holtpf/Uw&quot; &gt;&lt;RMS:IMPORTS&gt;&lt;RMS:IMPORT uref=&quot;2:31:2:144:SW1wb3J0IG9mIG1vZGVsICdTeXN0ZW0uRGF0YS5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCcgdXNpbmcgZGV2ZWxvcG1lbnQgY29tcG9uZW50IFJURSBSZXBvc2l0b3J5IE1vZGVscw==:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:24:XFN5c3RlbS5EYXRhLm1keA==:8:ZHVtbXk=:8:ZHVtbXk=:104:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxTeXN0ZW0uRGF0YS5tZHg=:&quot;  id=&quot;E7XYW8CEOEi+594svVN3bg&quot;  refcount=&quot;42&quot; /&gt;&lt;RMS:IMPORT uref=&quot;2:31:2:140:SW1wb3J0IG9mIG1vZGVsICdtc2NvcmxpYi5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCcgdXNpbmcgZGV2ZWxvcG1lbnQgY29tcG9uZW50IFJURSBSZXBvc2l0b3J5IE1vZGVscw==:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:20:XG1zY29ybGliLm1keA==:8:ZHVtbXk=:8:ZHVtbXk=:100:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxtc2NvcmxpYi5tZHg=:&quot;  id=&quot;wAzxWiZigE6fQ5fncH96ww&quot;  refcount=&quot;23&quot; /&gt;&lt;/RMS:IMPORTS&gt;&lt;tvs&gt;&lt;RMS:URF id=&quot;4FRDGzE0BUywQC8mTpgpNA&quot;  name=&quot;Design Model::.Net::namespace&quot;  classStr=&quot;str&quot; /&gt;&lt;/tvs&gt;&lt;nam&gt;DO&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:IMPORTS>
+<RMS:IMPORT uref="2:31:2:144:SW1wb3J0IG9mIG1vZGVsICdTeXN0ZW0uRGF0YS5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCcgdXNpbmcgZGV2ZWxvcG1lbnQgY29tcG9uZW50IFJURSBSZXBvc2l0b3J5IE1vZGVscw==:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:24:XFN5c3RlbS5EYXRhLm1keA==:8:ZHVtbXk=:8:ZHVtbXk=:104:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxTeXN0ZW0uRGF0YS5tZHg=:"  id="E7XYW8CEOEi+594svVN3bg"  refcount="42" />
+<RMS:IMPORT uref="2:31:2:140:SW1wb3J0IG9mIG1vZGVsICdtc2NvcmxpYi5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCcgdXNpbmcgZGV2ZWxvcG1lbnQgY29tcG9uZW50IFJURSBSZXBvc2l0b3J5IE1vZGVscw==:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:20:XG1zY29ybGliLm1keA==:8:ZHVtbXk=:8:ZHVtbXk=:100:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxtc2NvcmxpYi5tZHg=:"  id="wAzxWiZigE6fQ5fncH96ww"  refcount="23" />
+</RMS:IMPORTS>
+<RMS:ROOT>
+<pkx id="nceVsPo/lke13holtpf/Uw" >
+<tvs>
+<RMS:URF id="4FRDGzE0BUywQC8mTpgpNA"  name="Design Model::.Net::namespace"  classStr="str" />
+</tvs>
+<nam>DO</nam>
+<ari>3 0:14 1:C#</ari>
+<cls reserve="23" >
+<clx id="jvwU8aOGzE2TcA1739c1Kg" >
+<otv>
+<stv id="hBMesEGg0kSjeMF/5xd2Rg" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="121" >EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Security.Cryptography,System.Text,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for AdminDO.</dsc>
+<nam>AdminDO</nam>
+<rlt>
+<asn id="G96dy6ktt06au2dG4cyFow" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="10Y4QFGyMUGBnjXBhG3BIg" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="4c+gSvc0UEmawO0QmxUdtg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="jvwU8aOGzE2TcA1739c1Kg" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="8sWGpPjx60OpGj9pr/36aQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="ozExcumUEUGQ7ZCZ6S7Sgw" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="Y1krMTBlukuvpupMmder/w" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="jvwU8aOGzE2TcA1739c1Kg" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="txlF1dN0KUaJ8gcfG6NYNg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="srHk1d8JoEG9YNQWX+wDOg" >
+<nam>dataAdapter</nam>
+<anc reserve="178" >16 Name:dataAdapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.dataAdapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="Qd8NtwY5wEWRBHrFiX+JnA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="jvwU8aOGzE2TcA1739c1Kg" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="aokWzAXNzkyHNIQDL7ooUA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="p7sZMjcAa0iKVAwnXc4dPg" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="1bqAxyIi1kGOmSSDjXQ6ew" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="jvwU8aOGzE2TcA1739c1Kg" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="zqR//9XhpUaxi0HDCj7+dw" >
+<otv>
+<stv id="i5AGJ2J4DUi8LLNTRbuKwg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.AdminDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="258" >12 Name:AdminDO44 Description:Summary description for AdminDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:140 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Security.Cryptography,System.Text,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.AdminDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr reserve="20" >
+<opr id="+rpNOBXHjkquR0hL7cTWhw" >
+<dsc>Lấy thông tin người dùng trong hệ thống</dsc>
+<nam>GetAllUsers</nam>
+<anc reserve="274" >8 NetAttr:16 Name:GetAllUsers6 Kind:012 Type:DataSet8 Access:051 Description:Lấy thông tin người dùng trong hệ thống14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetAllUsers()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="maKQXyONaUG+wQcCDacJoQ" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="3yaF8KJGKUKGPMV57xGk2A" >
+<dsc>Thêm một người dùng vào CSDL</dsc>
+<nam>AddUser</nam>
+<anc reserve="287" >8 NetAttr:12 Name:AddUser6 Kind:08 Type:int8 Access:040 Description:Thêm một người dùng vào CSDL14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.AddUser(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="nNzU4mHpnE+Am8dgxCvNbQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="s6ChdgD38UuhaM65dyyu7g" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="3DWiu5x1NkafAiBqhsBPvQ" >
+<dsc>Cập nhật thông tin người dùng</dsc>
+<nam>UpdateUser</nam>
+<anc reserve="291" >8 NetAttr:15 Name:UpdateUser6 Kind:08 Type:int8 Access:041 Description:Cập nhật thông tin người dùng14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.UpdateUser(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="j/WpZ6EdBkWYxJKMmY9g9g" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="J7CCfvG9mkm0q5iLYw0JWw" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="XnHH+zTOykaxsxvkvHITxw" >
+<dsc>Xóa một người dùng khỏi hệ thống</dsc>
+<nam>DeleteUser</nam>
+<anc reserve="294" >8 NetAttr:15 Name:DeleteUser6 Kind:08 Type:int8 Access:044 Description:Xóa một người dùng khỏi hệ thống14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.DeleteUser(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Pgld95fojU2AFo/D5lnRLg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="xeW2Vdn3EkGQOMRPqPDvbQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="YPw0N7Asv0+7tcEl3Sm0pg" >
+<dsc>Lấy danh sách các nhóm trong CSDL</dsc>
+<nam>GetAllGroups</nam>
+<anc reserve="269" >8 NetAttr:17 Name:GetAllGroups6 Kind:012 Type:DataSet8 Access:045 Description:Lấy danh sách các nhóm trong CSDL14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetAllGroups()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Vt0jS3se/k+Q9ek0PetpnQ" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="ou1FEQWYmUSVCfHxD99ETw" >
+<dsc>Thêm một nhóm mới</dsc>
+<nam>AddGroup</nam>
+<anc reserve="280" >8 NetAttr:13 Name:AddGroup6 Kind:08 Type:int8 Access:032 Description:Thêm một nhóm mới14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.AddGroup(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="lxf6H/w3RkKI9chGO+mF7Q" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="rXTkUOlxz0Gy7h31HI2kmA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="LcfkXDbgykq9Pqv60+7TIA" >
+<dsc>Cập nhật nhóm</dsc>
+<nam>UpdateGroup</nam>
+<anc reserve="279" >8 NetAttr:16 Name:UpdateGroup6 Kind:08 Type:int8 Access:028 Description:Cập nhật nhóm14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.UpdateGroup(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="EGRRsD7xGkqiKqk13rd/TA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="HVgOgBRBrEiWeCZYD7h2TA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="LidkgrNS70eDT+VTy9aFfg" >
+<dsc>Xóa nhóm trong CSDL</dsc>
+<nam>DeleteGroup</nam>
+<anc reserve="282" >8 NetAttr:16 Name:DeleteGroup6 Kind:08 Type:int8 Access:031 Description:Xóa nhóm trong CSDL14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.DeleteGroup(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="eTbdSBiaHUa55yXd/F41Sw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="mWylKzBVPE2JGciu1Dxj1w" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="MAzApw/Jd0C4r5TaUUPcKw" >
+<nam>GetAllPermissions</nam>
+<anc reserve="241" >8 NetAttr:22 Name:GetAllPermissions6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetAllPermissions()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="K6UIleKi4kGWqrUwHO4l3Q" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="2WSpI8SJUEWM1gKHz/QMgg" >
+<nam>GetUsersNotInGroup</nam>
+<anc reserve="283" >8 NetAttr:23 Name:GetUsersNotInGroup6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;string;UserGroupID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:43 AllParameterDescription:16 11 UserGroupID0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetUsersNotInGroup(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="pBA92LMD80urPIXqOdiJgQ" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="g/GjWyjChkO6xH1XRp1S4Q" >
+<nam>UserGroupID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="70yZze+dsUixIvkNxMtI3Q" >
+<nam>GetUsersInGroup</nam>
+<anc reserve="280" >8 NetAttr:20 Name:GetUsersInGroup6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;string;UserGroupID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:43 AllParameterDescription:16 11 UserGroupID0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetUsersInGroup(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="CmuX90U9XEGqm/MduVuPcA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="HsyD7vQCZkiSieLO3+4xGg" >
+<nam>UserGroupID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="LNf6J75h2kGlVnOXZ3jPxw" >
+<nam>GetPermissionByGroup</nam>
+<anc reserve="285" >8 NetAttr:25 Name:GetPermissionByGroup6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;string;UserGroupID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:43 AllParameterDescription:16 11 UserGroupID0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetPermissionByGroup(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="R031aFS2JkeXPRnCGhpwMA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="HqmdxGiJQk27WHYMLi6bVw" >
+<nam>UserGroupID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="XXupXsPYL0+oinE07BQcKg" >
+<nam>AddGroupPermission</nam>
+<anc reserve="319" >8 NetAttr:23 Name:AddGroupPermission6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:53 ParamList:;;;string;UserGroupID;;;;;int;PermissionID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:63 AllParameterDescription:16 11 UserGroupID0 17 12 PermissionID0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.AddGroupPermission(:string,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="+TnuUfWfKEG3aUKoP8ZFSg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="h2/mkC8Cak2LzRko/i8Tvg" >
+<nam>UserGroupID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="BzleA8I5tUCd5h712fR4FQ" >
+<nam>PermissionID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="pVspO0X600SzFiYyh4Istw" >
+<nam>DeleteGroupPermission</nam>
+<anc reserve="281" >8 NetAttr:26 Name:DeleteGroupPermission6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;string;UserGroupID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:43 AllParameterDescription:16 11 UserGroupID0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.DeleteGroupPermission(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="RyYhSgpBQEG2Fwta9eEogQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="hpZWM7oRDUKjASsetQIG/A" >
+<nam>UserGroupID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Gk4VQ77K8keIFTdghSnsKg" >
+<nam>GetPermissionByUser</nam>
+<anc reserve="277" >8 NetAttr:24 Name:GetPermissionByUser6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;string;UserName;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:39 AllParameterDescription:12 8 UserName0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetPermissionByUser(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ykBlJ8D+bkC/OFxiWkO3ng" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="MvxnYpLY+kOmua0mDwt3FA" >
+<nam>UserName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="cduglIEWIEu+PBMnW4NreQ" >
+<nam>GetEmployeeNameByUser</nam>
+<anc reserve="278" >8 NetAttr:26 Name:GetEmployeeNameByUser6 Kind:011 Type:string8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;string;UserName;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:39 AllParameterDescription:12 8 UserName0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetEmployeeNameByUser(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="l0s35KD/70uxAg0gD1ycNg" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="F0ppXpHNiUKSJqz+fBKqXg" >
+<nam>UserName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="9LDXqf+2VkquFU3RjwNMHQ" >
+<nam>ChangePass</nam>
+<anc reserve="262" >8 NetAttr:15 Name:ChangePass6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.ChangePass(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="uv/POybm6kyktGfV8pzZ3A" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="KBMEICExdkqO86EUUvTbAA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="KtL4wpgkMUytrBwnfbIVjg" >
+<nam>GetUser</nam>
+<anc reserve="265" >8 NetAttr:12 Name:GetUser6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;string;UserName;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:39 AllParameterDescription:12 8 UserName0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.GetUser(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="dqZ4IsDczk62tLJ9dkf8Nw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Ocyfv22e2EirGSSbRe32Ag" >
+<nam>UserName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="G+ZiUuGFI0qhcFOp4niOnA" >
+<nam>SetMD5hash</nam>
+<anc reserve="256" >8 NetAttr:15 Name:SetMD5hash6 Kind:011 Type:String8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:24 ParamList:;;;String;str;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:33 AllParameterDescription:7 3 str0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.SetMD5hash(:String)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="IN5XWtGFjUCVeykGLjxMvQ" >
+<nam>String</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>String</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="OIT/CJEZIUSy0qAxsAZzJw" >
+<nam>str</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>String</tye>
+</prm>
+</prm>
+</opr>
+<opr id="10KHRUwm5ke+axb/krHdpA" >
+<nam>DeleteUser1</nam>
+<anc reserve="263" >8 NetAttr:16 Name:DeleteUser16 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.AdminDO.DeleteUser1(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="oOsNDND2t0GllAoQch8cBw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="4F8koi8otEyjNdgRo6ixxg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="fygboXfCFEWiTWZWY20xyw" >
+<otv>
+<stv id="k5bZnrGhG0mHHQXr02pe2Q" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="95" >EVSoft.HRMS.Common,EVSoft.HRMS.DO,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for PayrollDO.</dsc>
+<nam>PayrollDO</nam>
+<rlt>
+<asn id="2wwlkO3IjUyoRTlBHAXaog" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="pUmiPv0ciU6YimRhVNRsFA" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="tN34UjRYzE2brjIN2T1dnA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="fygboXfCFEWiTWZWY20xyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="3NeonK4rkEet2U0AUML1fQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="kMrzpNlcTES0Uo7Jl+W7rg" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="N03kGY5pjEm0ha+jNeoGlw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="fygboXfCFEWiTWZWY20xyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="LrCYlad+80CpDonHxnbGFg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="opm0japzlkeEVGNR2dYd2g" >
+<nam>dataAdapter</nam>
+<anc reserve="178" >16 Name:dataAdapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.dataAdapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="PBNYPsT1IEiBxOZT/1qcJg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="fygboXfCFEWiTWZWY20xyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="iKWwh6B1GUKh8AR3A38jqw" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="AwxdjMkn5U6wsUfTE9NkZw" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="aEQ8SFV2CUmiwD7JPN3nZg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="fygboXfCFEWiTWZWY20xyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="LPDV7BgmTUazwxCFIKwqeA" >
+<otv>
+<stv id="8TIghgYHK0C4H24rFlgb+Q" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.PayrollDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="236" >14 Name:PayrollDO46 Description:Summary description for PayrollDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:114 NameResolutionList:EVSoft.HRMS.Common,EVSoft.HRMS.DO,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.PayrollDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="gkuHFkvhiUGT+GfBv4fY6A" >
+<dsc>Lấy thông tin các khoản lương trong hệ thống</dsc>
+<nam>GetPayrollItems</nam>
+<anc reserve="283" >8 NetAttr:20 Name:GetPayrollItems6 Kind:012 Type:DataSet8 Access:056 Description:Lấy thông tin các khoản lương trong hệ thống14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.GetPayrollItems()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="QYFM4kdZuEa+brORftBkuw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="z0ukIhhgw0SBan8mfFpM6g" >
+<dsc>Thêm một khoản lương vào CSDL</dsc>
+<nam>AddPayrollItem</nam>
+<anc reserve="295" >8 NetAttr:19 Name:AddPayrollItem6 Kind:08 Type:int8 Access:041 Description:Thêm một khoản lương vào CSDL14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.AddPayrollItem(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="h2Re/z4NPUOMd10OfBrQlQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="MrmvOJVrB0CxAHiGksiJ2w" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="NOKL5T3q6U2H0U9+t+u5KA" >
+<dsc>Cập nhật thông tin người dùng</dsc>
+<nam>UpdatePayrollItem</nam>
+<anc reserve="298" >8 NetAttr:22 Name:UpdatePayrollItem6 Kind:08 Type:int8 Access:041 Description:Cập nhật thông tin người dùng14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.UpdatePayrollItem(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="vDeLER1i5UiS8dBvcRCbiA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Ejzwf4Vtw0CSvfs9JhUBQw" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="bqumrAuUD0Kf8sfPRWBM7Q" >
+<dsc>Xóa một người dùng khỏi hệ thống</dsc>
+<nam>DeletePayrollItem</nam>
+<anc reserve="301" >8 NetAttr:22 Name:DeletePayrollItem6 Kind:08 Type:int8 Access:044 Description:Xóa một người dùng khỏi hệ thống14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PayrollDO.DeletePayrollItem(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="IlefrPKpQ0KxO37m2VlOSA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="PU4oFHF7nEu5CYdBuPP0IQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="NFsYH1ai8k698HTY3n80vw" >
+<otv>
+<stv id="X0d/Dixb5kakwfCqq6ZB4g" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc reserve="81" >Lớp kết nối và thao tác cơ sở dữ liệu của chức năng quản lý nhân viên</dsc>
+<nam>EmployeeDO</nam>
+<rlt>
+<grz id="u8NNXc0u50i57FP9qGmEdQ" >
+<otv>
+<stv id="bKV8s78r5UiFAkaeP9RvMQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.EmployeeDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+<asn id="Y3y/eX2Lqk63vRyQlxIPbA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="RzPz8K70Ska6nAP2ImMiyA" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="xqmUGTds4Eu+D5jx9y7tng" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NFsYH1ai8k698HTY3n80vw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="JphjPsadoUe80OX85X/CIg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="+tjv1jfDxESO76ROUsi78w" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="qvDGWFMAIkqD2rVOnn6QBQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NFsYH1ai8k698HTY3n80vw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="ePuIXDmsCU6US2H+mEjBcg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="7+6b4RynMkS2Fm7pX9yFXQ" >
+<nam>dataAdapter</nam>
+<anc reserve="178" >16 Name:dataAdapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.dataAdapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="TKioa+NKA0OXqT8oEDT0pA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NFsYH1ai8k698HTY3n80vw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="xZIAQxfClUiIz+bwfFRpKQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="Zy4j4CexmUqVV39yF90Svw" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="LZBzjzYVkEu4LDpNe8YSCA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NFsYH1ai8k698HTY3n80vw" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="268" >15 Name:EmployeeDO93 Description:Lớp kết nối và thao tác cơ sở dữ liệu của chức năng quản lý nhân viên16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att>
+<att id="LMRo1hTnr02xqjQI1x9k7Q" >
+<nam>param</nam>
+<anc reserve="148" >10 Name:param17 Type:SqlParameter12 Description:8 Access:211 Stereotype:13 IsConst:False17 InitialValue:null14 IsStatic:False8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.param</ans>
+<ari>14 6:SqlParameter4 1:C#10 3:Variable3 0:1</ari>
+<dve>null</dve>
+<tye>SqlParameter</tye>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr reserve="22" >
+<opr id="k29ap4TEyUmGbTOECfj9Ng" >
+<dsc>Lấy thông tin hồ sơ một nhân viên</dsc>
+<nam>GetAllEmployees</nam>
+<anc reserve="272" >8 NetAttr:20 Name:GetAllEmployees6 Kind:012 Type:DataSet8 Access:045 Description:Lấy thông tin hồ sơ một nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetAllEmployees()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="oAbJ8QqD3kisotVwcPJV5A" >
+<nam>DataSet</nam>
+<ari>4 1:C#3 0:1</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="HJ7RshrDgUu72EgeyScedw" >
+<dsc>Lấy thông tin hồ sơ một nhân viên</dsc>
+<nam>GetEmployeeProfile</nam>
+<anc reserve="339" >8 NetAttr:23 Name:GetEmployeeProfile6 Kind:012 Type:DataSet8 Access:045 Description:Lấy thông tin hồ sơ một nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:42 ReturnParameterDescription:Hồ sơ nhân viên55 AllParameterDescription:28 10 EmployeeID12 Mã nhân viên</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetEmployeeProfile(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="EhYH1Jh2TEuXXnsOluSBjw" >
+<dsc>Hồ sơ nhân viên</dsc>
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="WGu8Yd4bikqthosncENHQw" >
+<dsc>Mã nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="HRmsIeXRyUWDgraEn4SDLQ" >
+<dsc>Lấy thông tin hồ sơ các nhân viên trong một phòng</dsc>
+<nam>GetEmployeeByDepartment</nam>
+<anc reserve="336" >8 NetAttr:28 Name:GetEmployeeByDepartment6 Kind:012 Type:DataSet8 Access:061 Description:Lấy thông tin hồ sơ các nhân viên trong một phòng14 IsStatic:False16 IsAbstract:False10 Modifiers:30 ParamList:;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:44 AllParameterDescription:17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetEmployeeByDepartment(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="uIA1XvAiSkynJuPlY3UjnA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Zuxl4nMw/EmhN94nYS1Jvw" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="pwqHP8oSk0q74+YwZyPsgQ" >
+<dsc>Lấy danh sách những nhân viên đã bị xóa tạm thời</dsc>
+<nam>GetDeletedEmployee</nam>
+<anc reserve="290" >8 NetAttr:23 Name:GetDeletedEmployee6 Kind:012 Type:DataSet8 Access:060 Description:Lấy danh sách những nhân viên đã bị xóa tạm thời14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetDeletedEmployee()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ehbhqJb0zUaeTBM+sSrpaw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="0ue9hIn5ukuLh7+VOEnFew" >
+<dsc>Lấy thông tin hồ sơ các nhân viên trong một phòng</dsc>
+<nam>GetSearchEmployee</nam>
+<anc reserve="402" >8 NetAttr:22 Name:GetSearchEmployee6 Kind:012 Type:DataSet8 Access:061 Description:Lấy thông tin hồ sơ các nhân viên trong một phòng14 IsStatic:False16 IsAbstract:False10 Modifiers:69 ParamList:;;;int;DepartmentID;;;;;string;SearchString;;;;;int;delete;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:77 AllParameterDescription:17 12 DepartmentID0 17 12 SearchString0 10 6 delete0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetSearchEmployee(:int,:string,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="6l57o2w2i0WMpZlnvC2GeA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="TJsFsNJ2jEqbdAXlea4A3g" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="s5qxB8Jv+k20rmmbpMW3ng" >
+<nam>SearchString</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="u/x+nSPh106LLz3IRr77Ww" >
+<nam>delete</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="AoALdS0m7UW9nX06F3i9wg" >
+<dsc>Thêm một nhân viên vào cơ sở dữ liệu</dsc>
+<nam>AddNewEmployee</nam>
+<anc reserve="339" >8 NetAttr:19 Name:AddNewEmployee6 Kind:08 Type:int8 Access:048 Description:Thêm một nhân viên vào cơ sở dữ liệu14 IsStatic:False16 IsAbstract:False10 Modifiers:34 ParamList:;;;DataSet;EmployeeInfo;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:70 AllParameterDescription:43 12 EmployeeInfo25 Thông tin hồ sơ nhân viên</anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.AddNewEmployee(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="/1xiVU683EGNJ244JfBG+Q" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="cRcQC1s5sEefKyYLyn1SiQ" >
+<dsc>Thông tin hồ sơ nhân viên</dsc>
+<nam>EmployeeInfo</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="TFKWc3lKNEav90syXoSZCg" >
+<dsc>Cập nhật thông tin hồ sơ nhân viên</dsc>
+<nam>UpdateEmployee</nam>
+<anc reserve="311" >8 NetAttr:19 Name:UpdateEmployee6 Kind:08 Type:int8 Access:046 Description:Cập nhật thông tin hồ sơ nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:34 ParamList:;;;DataSet;EmployeeInfo;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:44 AllParameterDescription:17 12 EmployeeInfo0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.UpdateEmployee(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="nFxyP4nFqUyc+WOjZdsXSw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="XLTizj+YoU6OOaBjCfPllg" >
+<nam>EmployeeInfo</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Bb9/kLtM9kiG9yQQE6AIAA" >
+<dsc reserve="109" >Xóa nhân viên tạm thời (Remove nhân viên khỏi các danh sách nhưng chưa xóa hoàn toàn trong CSDL: Deleted = 1)</dsc>
+<nam>DeleteEmployee</nam>
+<anc reserve="379" >8 NetAttr:19 Name:DeleteEmployee6 Kind:08 Type:int8 Access:0121 Description:Xóa nhân viên tạm thời (Remove nhân viên khỏi các danh sách nhưng chưa xóa hoàn toàn trong CSDL: Deleted = 1)14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 EmployeeID0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.DeleteEmployee(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="mdYuty5UZEK/oPgc/rwvrg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="g7hrc92aqE+nPoCmyjQspg" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="cyWo2YI3nUWuJ+Dgki2pbA" >
+<dsc reserve="85" >Xóa hoàn toàn nhân viên khỏi cơ sở dữ liệu (Cùng với tất cả các dữ liệu có liên quan)</dsc>
+<nam>DeleteEmployeePermanent</nam>
+<anc reserve="360" >8 NetAttr:28 Name:DeleteEmployeePermanent6 Kind:08 Type:int8 Access:097 Description:Xóa hoàn toàn nhân viên khỏi cơ sở dữ liệu (Cùng với tất cả các dữ liệu có liên quan)14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.DeleteEmployeePermanent(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Ske4fts40kC1q9piW3DzaQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="QUAPj1NHCEWIJXaS48qQAA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="LLqbdUj2XE+nhja6gTHBkQ" >
+<dsc>Khôi phục nhân viên đã bị xóa (Deleted = 0)</dsc>
+<nam>RestoreEmployee</nam>
+<anc reserve="313" >8 NetAttr:20 Name:RestoreEmployee6 Kind:08 Type:int8 Access:055 Description:Khôi phục nhân viên đã bị xóa (Deleted = 0)14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 EmployeeID0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.RestoreEmployee(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="H7CRou2kukefAGCeA+p6pw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="JiNQWevP/Eab1BKF3LvvMA" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="o7LHiO/xeEqMtNnHra+1YA" >
+<dsc>Lấy thông tin hồ sơ các nhân viên trong một phòng</dsc>
+<nam>GetDepartmentHistory</nam>
+<anc reserve="329" >8 NetAttr:25 Name:GetDepartmentHistory6 Kind:012 Type:DataSet8 Access:061 Description:Lấy thông tin hồ sơ các nhân viên trong một phòng14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 EmployeeID0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetDepartmentHistory(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="n2RiNrLyM0uOdfV8IFWiOg" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="9AaCUl6hUEm8ST5fxqjS2w" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="6t8FzpyKm020GKBnSqctdw" >
+<dsc>Thêm lịch sử phòng ban mới</dsc>
+<nam>AddDepartmentHistory</nam>
+<anc reserve="298" >8 NetAttr:25 Name:AddDepartmentHistory6 Kind:08 Type:int8 Access:038 Description:Thêm lịch sử phòng ban mới14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.AddDepartmentHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="LVo+4cjUIUKhu/+PBjquDA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="M4sWgjBEIUW3FDk8/nFe6w" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="4GyWOomX10anuQ4grJs7Yw" >
+<nam>UpdateDepartmentHistory</nam>
+<anc reserve="275" >8 NetAttr:28 Name:UpdateDepartmentHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.UpdateDepartmentHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ZoAj7mwMY0u0FS7Ehfu3GA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="B9pinSoAQE64NRzOo0bt9g" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="rb7sOiNL8k6A4+M3+alBKQ" >
+<nam>DeleteDepartmentHistory</nam>
+<anc reserve="275" >8 NetAttr:28 Name:DeleteDepartmentHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.DeleteDepartmentHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="xAOYIO+RkUy+3Dy8fAaH8w" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="fccAD1gEwEuMJVzP5WrAoA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Zcma2aytBkuiOjp6oKRjpA" >
+<dsc>Lấy thông tin hồ sơ các nhân viên trong một phòng</dsc>
+<nam>GetPositionHistory</nam>
+<anc reserve="327" >8 NetAttr:23 Name:GetPositionHistory6 Kind:012 Type:DataSet8 Access:061 Description:Lấy thông tin hồ sơ các nhân viên trong một phòng14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 EmployeeID0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetPositionHistory(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="a6yWhM8cI0WZwMmrKfHikA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="nICf/IlHZUmzbj1ORAxKOA" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="UfOGzv32gk6Bq1subGNjyQ" >
+<dsc>Thêm lịch sử phòng ban mới</dsc>
+<nam>AddPositionHistory</nam>
+<anc reserve="296" >8 NetAttr:23 Name:AddPositionHistory6 Kind:08 Type:int8 Access:038 Description:Thêm lịch sử phòng ban mới14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.AddPositionHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ZTmTJsr2Hk6WJjjKEZq0hw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="3rezUhRLLk+LbURb4THKCQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="hrPWJbwtWEGdqY4cbCH47Q" >
+<nam>UpdatePositionHistory</nam>
+<anc reserve="273" >8 NetAttr:26 Name:UpdatePositionHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.UpdatePositionHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="R6MyKmxSrk2T+C4PIN8kUg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="vs9J920CvEelHutGWcTMPw" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="c+kmN2F9j0K7tis9dwfiUQ" >
+<nam>DeletePositionHistory</nam>
+<anc reserve="273" >8 NetAttr:26 Name:DeletePositionHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.DeletePositionHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="gyWlmoAnH06QaJwlgR9Hnw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="gyj8Y3UaXECtvc9kRGWNIQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Tk3ZrXdln0uQIzlRGk8oiQ" >
+<dsc>Lấy thông tin hồ sơ các nhân viên trong một phòng</dsc>
+<nam>GetSalaryHistory</nam>
+<anc reserve="325" >8 NetAttr:21 Name:GetSalaryHistory6 Kind:012 Type:DataSet8 Access:061 Description:Lấy thông tin hồ sơ các nhân viên trong một phòng14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 EmployeeID0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.GetSalaryHistory(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ZUw4Zut0/kKC1/H8TfbDIg" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="bQ3oy/A53EOP1x+BnTmZFg" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Fo5trai9yUyVNl6LZgPxog" >
+<nam>AddSalaryHistory</nam>
+<anc reserve="268" >8 NetAttr:21 Name:AddSalaryHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.AddSalaryHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="BEit17O5PUSQJ7oD9f78xA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="2Ryam5+ovUKIvOz8aLzbcg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="r5fHlkraFU6MJePe20w+4A" >
+<nam>UpdateSalaryHistory</nam>
+<anc reserve="271" >8 NetAttr:24 Name:UpdateSalaryHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.UpdateSalaryHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="YRT4TniSLESvrFXdz9/xtg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="L0ZrRiUhWkuiNs117yg/og" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="35lx7EhhoEuonRdUpeNbJA" >
+<nam>DeleteSalaryHistory</nam>
+<anc reserve="271" >8 NetAttr:24 Name:DeleteSalaryHistory6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.EmployeeDO.DeleteSalaryHistory(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="lhXWtqZWpU2ebnc+h0zYYw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="bmIF30veRkCWTwGEDUx4/w" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="22scpwkL30+rPgcDp7v4BQ" >
+<otv>
+<stv id="LS05vEfeDkqPiwxiVOVKbA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc reserve="90" >Lớp kết nối và thao tác cơ sở dữ liệu của chức năng xây dựng bộ máy tổ chức</dsc>
+<nam>DepartmentDO</nam>
+<rlt>
+<grz id="I2vNfp9qOE6aTzoRcf81bg" >
+<otv>
+<stv id="Xd8cIk1s+UWMZBE+jGQlsA" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.DepartmentDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+<asn id="N79wxqRqkUmuNR4Qsfgdkw" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="HbyZpRb8xU6XuYILIXxCTQ" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="1y63h7QGs02WMbI82A/V9Q" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="22scpwkL30+rPgcDp7v4BQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="r42Q9zVNyEKSnd9lCqKXvQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="3430dhOEJk6w7s00JiwGfQ" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="lxxqXuJIkEqAYvfCs906mw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="22scpwkL30+rPgcDp7v4BQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="A89KWOQqbE2ixHopyUCWUQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="xehBaEE1j0Wn8jmmdN+3NQ" >
+<nam>dataAdapter</nam>
+<anc reserve="178" >16 Name:dataAdapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.dataAdapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="y9HAhJlsnkauaZ8DrjwDzw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="22scpwkL30+rPgcDp7v4BQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="DH2YiwZEXEejImZONUxkdg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="ic2b4Yn3Pkqi5qhCPvTZTQ" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="pxXDHn1yLUGT7Ggww8JZ7w" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="22scpwkL30+rPgcDp7v4BQ" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="280" >17 Name:DepartmentDO102 Description:Lớp kết nối và thao tác cơ sở dữ liệu của chức năng xây dựng bộ máy tổ chức16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr reserve="11" >
+<opr id="8emgzuJLrEiKqPA6C8yEoA" >
+<dsc>Lấy tất cả danh sách các phòng ban, bộ phận (trừ phòng ban gốc - tên công ty)</dsc>
+<nam>GetDepartments</nam>
+<anc reserve="315" >8 NetAttr:19 Name:GetDepartments6 Kind:012 Type:DataSet8 Access:089 Description:Lấy tất cả danh sách các phòng ban, bộ phận (trừ phòng ban gốc - tên công ty)14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.GetDepartments()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="x9AQo/fB5kiXw/PD4DcbMg" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="SZRRNhZPe0+WXeIkVQ7S+Q" >
+<dsc>Lấy danh sách các nhân viên của một phòng ban</dsc>
+<nam>GetDepEmployees</nam>
+<anc reserve="376" >8 NetAttr:20 Name:GetDepEmployees6 Kind:012 Type:DataSet8 Access:057 Description:Lấy danh sách các nhân viên của một phòng ban14 IsStatic:False16 IsAbstract:False10 Modifiers:30 ParamList:;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:66 ReturnParameterDescription:Thông tin các nhân viên trong phòng ban57 AllParameterDescription:30 12 DepartmentID12 Mã phòng ban</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.GetDepEmployees(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="NU85JlIzBUibauxa9uIJ2A" >
+<dsc>Thông tin các nhân viên trong phòng ban</dsc>
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="2h30w+smbkW8tSlIPKNX6g" >
+<dsc>Mã phòng ban</dsc>
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="lA1U0O4jcEmGt5Ftsyrzlg" >
+<dsc>Lấy danh sách tất cả các phòng ban, bộ phân kể cả phòng ban gốc- tên công ty</dsc>
+<nam>GetAllDepartments</nam>
+<anc reserve="317" >8 NetAttr:22 Name:GetAllDepartments6 Kind:012 Type:DataSet8 Access:088 Description:Lấy danh sách tất cả các phòng ban, bộ phân kể cả phòng ban gốc- tên công ty14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.GetAllDepartments()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="tHZgAKnskkSVfgyNepbqgA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="ce1UyBJ2S02rjRgji2+iAw" >
+<dsc>Thêm một phòng ban vào cây phòng ban</dsc>
+<nam>AddDepartment</nam>
+<anc reserve="394" >8 NetAttr:18 Name:AddDepartment6 Kind:08 Type:int8 Access:048 Description:Thêm một phòng ban vào cây phòng ban14 IsStatic:False16 IsAbstract:False10 Modifiers:77 ParamList:;;;string;DepartmentName;;;;;string;Description;;;;;int;ParentNode;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:83 AllParameterDescription:19 14 DepartmentName0 16 11 Description0 15 10 ParentNode0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.AddDepartment(:string,:string,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="R1mTktIHAE64CGDkFUcqUA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="1RE65YSWX0O+jlh+FZASzA" >
+<nam>DepartmentName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="VvliB7YZn0C6HfnIqYBmhg" >
+<nam>Description</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="Ij1W/i5b8EemEYFHifKvww" >
+<nam>ParentNode</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="UlsPnCGvM0in2mJlT+5XYw" >
+<dsc>Cập nhật thông tin một phòng ban</dsc>
+<nam>UpdateDepartmentInfo</nam>
+<anc reserve="401" >8 NetAttr:25 Name:UpdateDepartmentInfo6 Kind:08 Type:int8 Access:044 Description:Cập nhật thông tin một phòng ban14 IsStatic:False16 IsAbstract:False10 Modifiers:79 ParamList:;;;int;DepartmentID;;;;;string;DepartmentName;;;;;string;Description;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:85 AllParameterDescription:17 12 DepartmentID0 19 14 DepartmentName0 16 11 Description0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.UpdateDepartmentInfo(:int,:string,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="JUEVaFv1x0ipD3RupSFGIQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="haN8zSr7t0CIf9TcPifTlA" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="QgCtrXKsJEqGi6wjHlmNpA" >
+<nam>DepartmentName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="IM6xWPiIaEmKVSPUTuSKMQ" >
+<nam>Description</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="zjni4lUt90azLCzY7xGB2w" >
+<dsc>Xóa một phòng ban</dsc>
+<nam>DeleteDepartment</nam>
+<anc reserve="292" >8 NetAttr:21 Name:DeleteDepartment6 Kind:08 Type:int8 Access:029 Description:Xóa một phòng ban14 IsStatic:False16 IsAbstract:False10 Modifiers:30 ParamList:;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:44 AllParameterDescription:17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.DeleteDepartment(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="XhHCDPcTaUKweLOJoFtOPw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="oFN0Ab70I0Wp5LkGotHSTg" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="NheNrLoV8UO861ozDSy00Q" >
+<dsc>Thêm một chức vụ</dsc>
+<nam>AddPosition</nam>
+<anc reserve="286" >8 NetAttr:16 Name:AddPosition6 Kind:08 Type:int8 Access:028 Description:Thêm một chức vụ14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;DataSet;dsPosition;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 dsPosition0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.AddPosition(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="DCz0fwT23kCpmmEeY6nJZQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="+vliFVeAuku0YW046qwoxw" >
+<nam>dsPosition</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="BeNwEp3G5kaWyP9wIBqvwA" >
+<dsc>Cập nhật thông tin một chức vụ</dsc>
+<nam>UpdatePosition</nam>
+<anc reserve="303" >8 NetAttr:19 Name:UpdatePosition6 Kind:08 Type:int8 Access:042 Description:Cập nhật thông tin một chức vụ14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;DataSet;dsPosition;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 dsPosition0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.UpdatePosition(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="6rCQsnstoEKmry0Kxk/u+Q" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="3Hi0Xe1OAUyQi5AdykiM4g" >
+<nam>dsPosition</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="haDmnIi85EyQYiqJhR81HA" >
+<dsc>Xóa một Chức Vụ</dsc>
+<nam>DeletePosition</nam>
+<anc reserve="288" >8 NetAttr:19 Name:DeletePosition6 Kind:08 Type:int8 Access:027 Description:Xóa một Chức Vụ14 IsStatic:False16 IsAbstract:False10 Modifiers:32 ParamList:;;;DataSet;dsPosition;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:42 AllParameterDescription:15 10 dsPosition0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.DeletePosition(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="10O/wMtNE0OUEo6coHiKww" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="qTMiEpurw0+5N5cVzPrfug" >
+<nam>dsPosition</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Wo2YtWlRQkykD+kwADt7QQ" >
+<dsc>Lấy tất cả các chức vụ</dsc>
+<nam>GetAllPositions</nam>
+<anc reserve="261" >8 NetAttr:20 Name:GetAllPositions6 Kind:012 Type:DataSet8 Access:034 Description:Lấy tất cả các chức vụ14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.GetAllPositions()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Fb+6tT4TEUCQXvN1pkP/Jw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="3yiVaj1nr0eBJBdMUlX3YQ" >
+<dsc>Lấy thông tin một chức vụ</dsc>
+<nam>GetPositionInfo</nam>
+<anc reserve="285" >8 NetAttr:20 Name:GetPositionInfo6 Kind:012 Type:DataSet8 Access:037 Description:Lấy thông tin một chức vụ14 IsStatic:False16 IsAbstract:False10 Modifiers:23 ParamList:;;;string;id;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:32 AllParameterDescription:6 2 id0 </anc>
+<ans>EVSoft.HRMS.DO.DepartmentDO.GetPositionInfo(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="OZeOTia1e0msbCUs/IZE0w" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="JSF3OiiskU6IHOY3qZqPEA" >
+<nam>id</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="NrNtp6WEwk+NaeuNzngkOw" >
+<otv>
+<stv id="iQHCPVkmkkCfOo6c/lXL7g" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for TimeInOutDO.</dsc>
+<nam>TimeInOutDO</nam>
+<rlt>
+<grz id="ksMWDuqEck2XO6hmTYM3Rg" >
+<otv>
+<stv id="/mbHWnYil0WIhcS+TlPHtQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.TimeInOutDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+<asn id="UvGcM3Y64UGK8eg1B0Ddbg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="az8eSPSh7k2AhxzLcLWHvA" >
+<nam>dsTimeInOut</nam>
+<anc reserve="161" >16 Name:dsTimeInOut24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.dsTimeInOut</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="IrJSRC4rf0eep4mMASnLtw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NrNtp6WEwk+NaeuNzngkOw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="GFTyoHs+xUesqbWpjlOB1Q" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="FbD0BpE67USDxGmzqn2KtA" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="VV/j614CKE2kBHNvs8I9FA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NrNtp6WEwk+NaeuNzngkOw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="JNVZuffnQUqVdEAtLcVhAA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="lq/MzjICs0WRmlJ5uAf+Rw" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="N82RPQnA80evAIgl5hdhEQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NrNtp6WEwk+NaeuNzngkOw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="Hzww4bNNYkqndK4rSra0JQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="MyAnAaI11UG5MUu0RlLUmA" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="UcNBH0L43kO1jNXd7Ri+oA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="NrNtp6WEwk+NaeuNzngkOw" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="224" >16 Name:TimeInOutDO48 Description:Summary description for TimeInOutDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="1I2i0fqOYUS3Vr0FydBqEw" >
+<nam>TimeInOutDO</nam>
+<anc reserve="227" >8 NetAttr:16 Name:TimeInOutDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.TimeInOutDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="aJPvFj4syEWL5VYPzNzN6A" >
+<nam>DeleteTimeInOut</nam>
+<anc reserve="267" >8 NetAttr:20 Name:DeleteTimeInOut6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.DeleteTimeInOut(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ND0eZhLS1kucPITmF+W59g" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="UHRTwoNVtUy2pgAsp1g6yQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="6L2O9AnMPku2FT2wT9LN6A" >
+<nam>UpdateTimeInOut</nam>
+<anc reserve="267" >8 NetAttr:20 Name:UpdateTimeInOut6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.UpdateTimeInOut(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ySqDMum41EKNcCqE+E+qpw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="b9bCu6nAgEeJYTY4Ut5hSA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="ljc0Kv94AUqBQoctbqCEmQ" >
+<nam>GetShift</nam>
+<anc reserve="232" >8 NetAttr:13 Name:GetShift6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.GetShift()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="rLfw6y8/ME+bbqQBUwC6hw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="ZeUZSy9JmkW1o6gGRjwa1g" >
+<dsc>Lấy thông tin về thời gian vào, ra của nhân viên trong một khoảng thời gian</dsc>
+<nam>GetTimeInOut</nam>
+<anc reserve="417" >8 NetAttr:17 Name:GetTimeInOut6 Kind:012 Type:DataSet8 Access:087 Description:Lấy thông tin về thời gian vào, ra của nhân viên trong một khoảng thời gian14 IsStatic:False16 IsAbstract:False10 Modifiers:70 ParamList:;;;int;EmployeeID;;;;;DateTime;FromDate;;;;;DateTime;ToDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:70 AllParameterDescription:15 10 EmployeeID0 12 8 FromDate0 10 6 ToDate0 </anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.GetTimeInOut(:int,:DateTime,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="dpQPOTOZx0eeEHFCS+DnbA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="uqZyqgvnWEOrHEmKLY4k4Q" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="EhYpblS/GUukkzqUJSMjwQ" >
+<nam>FromDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="oItsyCzW6EicD5ORg9Wg5w" >
+<nam>ToDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="6qK85wnAV0uMOglumScVUw" >
+<nam>AddTimeInOut</nam>
+<anc reserve="264" >8 NetAttr:17 Name:AddTimeInOut6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.TimeInOutDO.AddTimeInOut(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="u+VOARgb30yoP0IaqNkKbQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="03mCC3hUlkuxM0Wzd8NYZw" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="qBCuGCQ6cESbk5V+HBhMKg" >
+<otv>
+<stv id="7YAo0kRSbE6TQ5m8gyBGaw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient</val>
+</stv>
+</otv>
+<dsc>Lớp kết nối và thao tác cơ sở dữ liệu của chức năng tạo báo cáo</dsc>
+<nam>WorkingDayReportDO</nam>
+<rlt>
+<grz id="Ax2W5w7e1EGQK9IqHcP4jA" >
+<otv>
+<stv id="n37AyuqM4UOQiVcoyrfyOg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.WorkingDayReportDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="250" >23 Name:WorkingDayReportDO88 Description:Lớp kết nối và thao tác cơ sở dữ liệu của chức năng tạo báo cáo16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:78 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient</anc>
+<ans>EVSoft.HRMS.DO.WorkingDayReportDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="QsySkPlYhUSC37QcTRElJQ" >
+<nam>getReportInfo</nam>
+<anc reserve="302" >8 NetAttr:18 Name:getReportInfo6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:47 ParamList:;;;string;FromDate;;;;;string;ToDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:52 AllParameterDescription:12 8 FromDate0 10 6 ToDate0 </anc>
+<ans>EVSoft.HRMS.DO.WorkingDayReportDO.getReportInfo(:string,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="HyemlX1aBk+ey1Dnlk5YEw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="C7SN3QDqake6HOqcfRdqiw" >
+<nam>FromDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="oIDloDQGHkeLcScRzaielg" >
+<nam>ToDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="RDOofdXETUqefXVKBkO1wA" >
+<nam>getWokingDayInfo</nam>
+<anc reserve="232" >8 NetAttr:21 Name:getWokingDayInfo6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.WorkingDayReportDO.getWokingDayInfo()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+</opr>
+</clx>
+<clx id="N63TWRd6ZkasEZAZADrIWA" >
+<dsc>Lớp kết nối và thao tác cơ sở dữ liệu của chức năng lập lịch</dsc>
+<nam>ScheduleDO</nam>
+<rlt>
+<grz id="PS7dNAxZmEOfmoYWbojIkg" >
+<otv>
+<stv id="bq44x1CrR0S3XowlnV8fdg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.ScheduleDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="179" >15 Name:ScheduleDO84 Description:Lớp kết nối và thao tác cơ sở dữ liệu của chức năng lập lịch16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:19 NameResolutionList:</anc>
+<ans>EVSoft.HRMS.DO.ScheduleDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="pgTTH9yPb0uw9XGT7Jj5Hw" >
+<nam>UpdateTaskSchedule</nam>
+<anc reserve="234" >8 NetAttr:23 Name:UpdateTaskSchedule6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ScheduleDO.UpdateTaskSchedule()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+<opr id="ZlXMhmR3OUCCsI6SQzwMXw" >
+<nam>InsertShiftDO</nam>
+<anc reserve="229" >8 NetAttr:18 Name:InsertShiftDO6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ScheduleDO.InsertShiftDO()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+<opr id="6Ejzz9U7KUOFjl0cS5CRng" >
+<nam>UpdateShiftDO</nam>
+<anc reserve="229" >8 NetAttr:18 Name:UpdateShiftDO6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ScheduleDO.UpdateShiftDO()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+<opr id="0ZWh/jT3cUqL2TbLK/4KBg" >
+<nam>DeleteShiftDO</nam>
+<anc reserve="229" >8 NetAttr:18 Name:DeleteShiftDO6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ScheduleDO.DeleteShiftDO()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+</opr>
+</clx>
+<clx id="UC8FwzMFFU6/65L+4nu0Qw" >
+<otv>
+<stv id="FlYc/9qtcESNvGrSNKdjXA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc reserve="97" >Lớp kết nối và thao tác cơ sở dữ liệu của chức năng định nghĩa kiểu ngày làm việc</dsc>
+<nam>DayTypeDO</nam>
+<rlt>
+<grz id="eJH241NhxkuldK4TrjO5Sw" >
+<otv>
+<stv id="Hb8xkhD9K0e4POgyFh5y9w" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.DayTypeDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+<asn id="5l4D1pYr502nlq/91yehVg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="NxjeaDD2okSDx87QV3DPTg" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="GmnLb+hclUebMeUnAwxKtA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="UC8FwzMFFU6/65L+4nu0Qw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="fRWsd7/dUkqlWgJLTLNYdg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="EuFBjFypakWRGHH5+zfbFg" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="7AaXdfjFN0SCkRWDNLMuzA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="UC8FwzMFFU6/65L+4nu0Qw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="VUR0d6yR8ECR+Tve4PJuYg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="RVBfb6cVlUycsQjSgXrsMw" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="KyoZ7Ea2YUSI1s456UWFSw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="UC8FwzMFFU6/65L+4nu0Qw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="Of2beIT0Ek+Zen3Mf0RB6w" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="+KdPN+pZ50KpI6PxHv3NkA" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="n7hNYNjmrkOk2n5MbfAmpw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="UC8FwzMFFU6/65L+4nu0Qw" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="284" >14 Name:DayTypeDO109 Description:Lớp kết nối và thao tác cơ sở dữ liệu của chức năng định nghĩa kiểu ngày làm việc16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="IooQ8RiLakWLRchZF5DCBw" >
+<dsc>Lấy ra một bảng đưa vào Dataset</dsc>
+<nam>GetDayType</nam>
+<anc reserve="269" >8 NetAttr:15 Name:GetDayType6 Kind:012 Type:DataSet8 Access:047 Description:Lấy ra một bảng đưa vào Dataset14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.GetDayType()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="3t5GGr+PrEGX205AnUvC6w" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="NobY8oQ8+0+Rxjqb/585ug" >
+<dsc>Xóa một kiểu ngày</dsc>
+<nam>DeleteDayTypeDB</nam>
+<anc reserve="292" >8 NetAttr:20 Name:DeleteDayTypeDB6 Kind:08 Type:int8 Access:033 Description:Xóa một kiểu ngày14 IsStatic:False16 IsAbstract:False10 Modifiers:31 ParamList:;;;DataSet;dsDayType;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:40 AllParameterDescription:13 9 dsDayType0 </anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.DeleteDayTypeDB(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="g3cdHLDYXEq3Sa7bxzDLZg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="eKI/5yuCpkOS5WKUtB85Fw" >
+<nam>dsDayType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="RL4Fdblv5kuidrTY62aa6Q" >
+<dsc>Thêm mới kiểu ngày</dsc>
+<nam>AddDayTypeDO</nam>
+<anc reserve="289" >8 NetAttr:17 Name:AddDayTypeDO6 Kind:08 Type:int8 Access:033 Description:Thêm mới kiểu ngày14 IsStatic:False16 IsAbstract:False10 Modifiers:31 ParamList:;;;DataSet;dsDayType;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:40 AllParameterDescription:13 9 dsDayType0 </anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.AddDayTypeDO(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="4hK5Lnn8rUWZXLWCcC5umw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="oK7X1kdICEmSGIo2up9QnA" >
+<nam>dsDayType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="t/OKtpxu3UKt2/2610nv+Q" >
+<dsc>cập nhật kiểu ngày vào cơ sở dữ liệu</dsc>
+<nam>UpdateDayType</nam>
+<anc reserve="313" >8 NetAttr:18 Name:UpdateDayType6 Kind:08 Type:int8 Access:056 Description:cập nhật kiểu ngày vào cơ sở dữ liệu14 IsStatic:False16 IsAbstract:False10 Modifiers:31 ParamList:;;;DataSet;dsDayType;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:40 AllParameterDescription:13 9 dsDayType0 </anc>
+<ans>EVSoft.HRMS.DO.DayTypeDO.UpdateDayType(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="AW5JMvrADU2sAmi42pdYQg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="+uS94tUqGkqcYxwQDT9j8w" >
+<nam>dsDayType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="gpPwo3yD0kC1HC092ClYIA" >
+<otv>
+<stv id="ucxDtp0J/0+LAGWaOWlzCw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<nam>ShiftDO</nam>
+<rlt>
+<grz id="zARBTmtjg0WEGes2xI6N9w" >
+<otv>
+<stv id="XUlgNMdF7UuQCVYfs8RnYQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.ShiftDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="184" >12 Name:ShiftDO12 Description:16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.ShiftDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="+OAcfKIdQkChr7R9UCOzww" >
+<dsc>Thêm một ca làm việc mới</dsc>
+<nam>AddShift</nam>
+<anc reserve="284" >8 NetAttr:13 Name:AddShift6 Kind:08 Type:int8 Access:036 Description:Thêm một ca làm việc mới14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.ShiftDO.AddShift(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="53D8XNPgDkOe5jq6EPToDw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="HIwBva1XCk2WRRH4Iuc6OQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="pF2+wI98SESImONe0cmAlw" >
+<dsc>Lấy thông tin các ca làm việc</dsc>
+<nam>GetShift</nam>
+<anc reserve="261" >8 NetAttr:13 Name:GetShift6 Kind:012 Type:DataSet8 Access:041 Description:Lấy thông tin các ca làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ShiftDO.GetShift()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="tDigoBY+AUORPif30cqGwg" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="v0vyne7cLEKR+w4CyQEMVg" >
+<dsc>Xóa ca làm việc</dsc>
+<nam>DeleteShift</nam>
+<anc reserve="278" >8 NetAttr:16 Name:DeleteShift6 Kind:08 Type:int8 Access:027 Description:Xóa ca làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.ShiftDO.DeleteShift(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="34QmwqmPKE+00ND1ux+dPQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="W04xE1vqYkWh7olxRc34nQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="b7qVOcrB+0SY4hcylDpcRg" >
+<dsc>Cập nhật ca làm việc</dsc>
+<nam>UpdateShift</nam>
+<anc reserve="283" >8 NetAttr:16 Name:UpdateShift6 Kind:08 Type:int8 Access:032 Description:Cập nhật ca làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.ShiftDO.UpdateShift(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="/5IrutRqgEOJTQSfb3fKNQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="AT4gEV6E8kW97WixkuSgiQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="0bbQqYGZEU2s3813BPpJRQ" >
+<otv>
+<stv id="pewNRcwi5k6fGIL8v60H6w" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for LeaveScheduleDO.</dsc>
+<nam>LeaveScheduleDO</nam>
+<rlt>
+<grz id="ReWY53Z3bESEfjKvpvIEKg" >
+<otv>
+<stv id="puUPuvpUjkOUI3mxQcIoVg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.LeaveScheduleDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+<asn id="fIseqGUSyEmiu1SBuyNjXw" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="Ep3H5sjwe0mONGtZFrzu7Q" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="7HHtoU/G9Eq2xDVIfSq+4w" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="0bbQqYGZEU2s3813BPpJRQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="+xAPB2P7PEWrvQT2LsmSvA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="HwXJOZf6/UyTvbsXdgSkdw" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="qqlqk2djVU+N3QCRvOqQNg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="0bbQqYGZEU2s3813BPpJRQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="GtFLo6j7iU+5/8FIVGkGZQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="8gQeJ434qUqih2sYzNNA9w" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="zMAqBv6AEEiqWtTZRHpU9A" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="0bbQqYGZEU2s3813BPpJRQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="DYMWH2/zNUqM4WGJ6SwzZg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="2A5j8tBrOUWJobm7bnxuoA" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="IyyHPh6ssEu0J5l0hwqDvw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="0bbQqYGZEU2s3813BPpJRQ" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="232" >20 Name:LeaveScheduleDO52 Description:Summary description for LeaveScheduleDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="5g8wfR2Cw06BALWWKoGRqQ" >
+<dsc>Lấy về danh sách nhân viên đã đăng ký lịch công tác</dsc>
+<nam>getLeaveSchedule</nam>
+<anc reserve="291" >8 NetAttr:21 Name:getLeaveSchedule6 Kind:012 Type:DataSet8 Access:063 Description:Lấy về danh sách nhân viên đã đăng ký lịch công tác14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.getLeaveSchedule()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="aoHFIJHFekq0iI0u11wyjQ" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="ydpCvYhd+0+YP1XFXXnpvQ" >
+<dsc>Thêm lịch công tác cho một nhân viên</dsc>
+<nam>AddLeaveSchedule</nam>
+<anc reserve="321" >8 NetAttr:21 Name:AddLeaveSchedule6 Kind:08 Type:int8 Access:048 Description:Thêm lịch công tác cho một nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:37 ParamList:;;;DataSet;dsLeaveSchedule;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:47 AllParameterDescription:20 15 dsLeaveSchedule0 </anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.AddLeaveSchedule(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="jcS9IjRxDEm5+LXckwc8mw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="AshyRNFGtUqbQLirk6ML1A" >
+<nam>dsLeaveSchedule</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="cQmVnXlY00SBlK82paMAeQ" >
+<dsc>Cập nhật thông về lịch công tác của một nhân viên</dsc>
+<nam>UpdateLeaveSchedule</nam>
+<anc reserve="337" >8 NetAttr:24 Name:UpdateLeaveSchedule6 Kind:08 Type:int8 Access:061 Description:Cập nhật thông về lịch công tác của một nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:37 ParamList:;;;DataSet;dsLeaveSchedule;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:47 AllParameterDescription:20 15 dsLeaveSchedule0 </anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.UpdateLeaveSchedule(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="FWTIvbu1gkqwdx7WkdYwXQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="1kORlzoOekmNio9hNzS2kw" >
+<nam>dsLeaveSchedule</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="F5/YS3txbk+F2pNxGQfIfQ" >
+<dsc>Lấy tất cả các nhân viên đi công tác trong khoảng  ngày cho trước</dsc>
+<nam>GetListLeaveSchedule</nam>
+<anc reserve="447" >8 NetAttr:25 Name:GetListLeaveSchedule6 Kind:012 Type:DataSet8 Access:077 Description:Lấy tất cả các nhân viên đi công tác trong khoảng  ngày cho trước14 IsStatic:False16 IsAbstract:False10 Modifiers:70 ParamList:;;;DateTime;dtpFrom;;;;;DateTime;dtpTo;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:34 ReturnParameterDescription:Dataset95 AllParameterDescription:19 7 dtpFrom8 ngày đầu18 5 dtpTo9 ngày cuối25 12 DepartmentID8 mã phòng</anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.GetListLeaveSchedule(:DateTime,:DateTime,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="v4V5h/GU206+tjJjEQSoKg" >
+<dsc>Dataset</dsc>
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="ftiBjCawSES8ZhV7mFYSsA" >
+<dsc>ngày đầu</dsc>
+<nam>dtpFrom</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="lKZFwZrkX0ewglk7Otr5bQ" >
+<dsc>ngày cuối</dsc>
+<nam>dtpTo</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="A9ZmGbncmUuIytj4t8o+hw" >
+<dsc>mã phòng</dsc>
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="cPb4yXGKnUaQsLrnQTbO1g" >
+<dsc>Xóa lịch công tác</dsc>
+<nam>DeleteLeaveSchedule</nam>
+<anc reserve="305" >8 NetAttr:24 Name:DeleteLeaveSchedule6 Kind:08 Type:int8 Access:029 Description:Xóa lịch công tác14 IsStatic:False16 IsAbstract:False10 Modifiers:37 ParamList:;;;DataSet;dsLeaveSchedule;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:47 AllParameterDescription:20 15 dsLeaveSchedule0 </anc>
+<ans>EVSoft.HRMS.DO.LeaveScheduleDO.DeleteLeaveSchedule(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="xIgHr+d8iESe3VmD9/x1nQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="10WlT6AJH0KiC8qFCFXsRQ" >
+<nam>dsLeaveSchedule</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="8FZAhuyBbEuvrjjAKsQ05A" >
+<otv>
+<stv id="rOXVmqM3TEudPOaJ1Vn8DQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for RegOverTime.</dsc>
+<nam>RegOverTimeDO</nam>
+<rlt>
+<asn id="SJPdBqmMYEiUz/Adb5eZhQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="LVUtBby2akieSl0PdxSX5g" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="V6cWcWs4gUy9Wj/MnCMgUg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="8FZAhuyBbEuvrjjAKsQ05A" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="iiGX3WatKE6pSNyxVaTTVg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="ZOEbpfS7pEyLslCEkxKmSg" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="8QYG73vTM0uSAuMGb/YFqA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="8FZAhuyBbEuvrjjAKsQ05A" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="sXP/6tF6BkGA3s+/2Z/Yow" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="eDejynK4UUe+Ha0yDvRC5g" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="wGS9H0aZ6EK0se+lagVCXw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="8FZAhuyBbEuvrjjAKsQ05A" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="qkVefqOFBU2JIv69O36IQA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="Hsh0Rs9iB0yooLQM2MGBzA" >
+<nam>ds</nam>
+<anc reserve="151" >7 Name:ds24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.ds</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="enN0eARkLE2a6GsXmhyauQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="8FZAhuyBbEuvrjjAKsQ05A" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="uR3m3EJzIUmZw8nvnTus8A" >
+<otv>
+<stv id="9fj6r7HWBUOYvA8V1ycHzQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.RegOverTimeDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="226" >18 Name:RegOverTimeDO48 Description:Summary description for RegOverTime.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="Iw5+aXxUJUWuacjff490nQ" >
+<nam>RegOverTimeDO</nam>
+<anc reserve="229" >8 NetAttr:18 Name:RegOverTimeDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.RegOverTimeDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="WQ7leywl1UaVlJAF7JdtFg" >
+<dsc>Danh sách nhân viên làm thêm giờ them phòng ban và ngày</dsc>
+<nam>GetRegOverTime</nam>
+<anc reserve="375" >8 NetAttr:19 Name:GetRegOverTime6 Kind:012 Type:DataSet8 Access:067 Description:Danh sách nhân viên làm thêm giờ them phòng ban và ngày14 IsStatic:False16 IsAbstract:False10 Modifiers:54 ParamList:;;;DateTime;WorkingDay;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:62 AllParameterDescription:15 10 WorkingDay0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.GetRegOverTime(:DateTime,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="qEpwiTHWlkOosDE5ixis3w" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="i4M3lX9xOkOlwPzbGsrokA" >
+<nam>WorkingDay</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="jrDICvuKfEWuNsTR+6VtZw" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="7NAY3JkK2kOSelYMaCpUFw" >
+<dsc>Xóa đăng ký làm thêm giờ</dsc>
+<nam>DeleteRegOverTime</nam>
+<anc reserve="306" >8 NetAttr:22 Name:DeleteRegOverTime6 Kind:08 Type:int8 Access:036 Description:Xóa đăng ký làm thêm giờ14 IsStatic:False16 IsAbstract:False10 Modifiers:35 ParamList:;;;DataSet;dsRegOverTime;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:45 AllParameterDescription:18 13 dsRegOverTime0 </anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.DeleteRegOverTime(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="upxqa2NJqkq76TmyNB98ag" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="2BUbb9afykm2hkky8ZKYBg" >
+<nam>dsRegOverTime</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="7FsVoCZ+GkeNSSXxrgClOg" >
+<dsc>Đăng ký làm thêm giờ cho nhân viên</dsc>
+<nam>AddRegOverTime</nam>
+<anc reserve="313" >8 NetAttr:19 Name:AddRegOverTime6 Kind:08 Type:int8 Access:046 Description:Đăng ký làm thêm giờ cho nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:35 ParamList:;;;DataSet;dsRegOverTime;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:45 AllParameterDescription:18 13 dsRegOverTime0 </anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.AddRegOverTime(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="BSpkkvtOKkOpl83BnRXQLw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="gojt2lBw6E2H/oFPIY6yoA" >
+<nam>dsRegOverTime</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="RWWaoQvHS0eSr+Q+K7jFIQ" >
+<dsc>Cập nhật đăng ký làm thêm giờ</dsc>
+<nam>UpdateRegOverTime</nam>
+<anc reserve="311" >8 NetAttr:22 Name:UpdateRegOverTime6 Kind:08 Type:int8 Access:041 Description:Cập nhật đăng ký làm thêm giờ14 IsStatic:False16 IsAbstract:False10 Modifiers:35 ParamList:;;;DataSet;dsRegOverTime;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:45 AllParameterDescription:18 13 dsRegOverTime0 </anc>
+<ans>EVSoft.HRMS.DO.RegOverTimeDO.UpdateRegOverTime(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="OIveclrMr0iVhmcGq0cSWw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="xznR64JWoUqWxFtrGdwFQg" >
+<nam>dsRegOverTime</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="Uy3Xnfs3pU6+jOoiDfaZyw" >
+<otv>
+<stv id="g84JfXVho0aZHyad04skXw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for RegRestEmployeeDO.</dsc>
+<nam>RegRestEmployeeDO</nam>
+<rlt>
+<grz id="l9rwWiHTZU6dE9wXVNg1AQ" >
+<otv>
+<stv id="kawRiDT2GEilg30ISokdPQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.RegRestEmployeeDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+<asn id="RwxYmhz/rEO1ZcLQwPKbtw" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="2yTmO9juf0yQeBZs91tToA" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="g/x55Jo/v0Gy33SWTU/d9Q" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="Uy3Xnfs3pU6+jOoiDfaZyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="oLqgg8P1hUCHJS1S6o27IQ" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="9EO9GDMmi0uR57nG/FltDQ" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="/Y1ewmkJI0WQ+aIRe0n50w" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="Uy3Xnfs3pU6+jOoiDfaZyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="KFOHGFOMPEKzpd+PN+qWbA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="GrM74QYzYUy2IThcuLMOKQ" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="UkuS6JJcQ0CAX2iZqZHRnA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="Uy3Xnfs3pU6+jOoiDfaZyw" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="G9lcqK4oakeJ+4oqW+f82g" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="lE5CHyhld0CM8Y4cA2+CSQ" >
+<nam>dsRestEmployee</nam>
+<anc reserve="164" >19 Name:dsRestEmployee24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.dsRestEmployee</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="kw0JLq9SwUWgRKOLU3M4jQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="Uy3Xnfs3pU6+jOoiDfaZyw" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="236" >22 Name:RegRestEmployeeDO54 Description:Summary description for RegRestEmployeeDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="s3JJOhb5X0eQWuDNzOPhTA" >
+<dsc>Lấy các kiểu ngày đưa vào dataset</dsc>
+<nam>GetRegRestEmployee</nam>
+<anc reserve="275" >8 NetAttr:23 Name:GetRegRestEmployee6 Kind:012 Type:DataSet8 Access:045 Description:Lấy các kiểu ngày đưa vào dataset14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.GetRegRestEmployee()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="51O98oS7B0yDp0nn5ime8w" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="BAbNlg9OWEGHVIw+WPHi/A" >
+<dsc>Ghi đăng ký nghỉ cho nhân viên vào cơ sở dữ liệu</dsc>
+<nam>AddRegRestEmployee</nam>
+<anc reserve="339" >8 NetAttr:23 Name:AddRegRestEmployee6 Kind:08 Type:int8 Access:060 Description:Ghi đăng ký nghỉ cho nhân viên vào cơ sở dữ liệu14 IsStatic:False16 IsAbstract:False10 Modifiers:39 ParamList:;;;DataSet;dsRegRestEmployee;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:49 AllParameterDescription:22 17 dsRegRestEmployee0 </anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.AddRegRestEmployee(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="LwhltLL5xEK+jHy8qP0pYQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="drWP6SzlhU6CEs87k1oq8A" >
+<nam>dsRegRestEmployee</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="hy1JjfK4gUurh5/scTjrrg" >
+<dsc>Thống kê nhân viên nghỉ trong một khoảng thời gian và theo phòng ban</dsc>
+<nam>GetRegRestEmployee</nam>
+<anc reserve="415" >8 NetAttr:23 Name:GetRegRestEmployee6 Kind:012 Type:DataSet8 Access:080 Description:Thống kê nhân viên nghỉ trong một khoảng thời gian và theo phòng ban14 IsStatic:False16 IsAbstract:False10 Modifiers:70 ParamList:;;;DateTime;dtpFrom;;;;;DateTime;dtpTo;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:69 AllParameterDescription:11 7 dtpFrom0 9 5 dtpTo0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.GetRegRestEmployee(:DateTime,:DateTime,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ASbyhatxmU2gbc3W8ifNQw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="CIZa0ASCsEm2MVtyy2TL0A" >
+<nam>dtpFrom</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="M8i9QcQlhUSKjVJIdTjl2A" >
+<nam>dtpTo</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="PQybvNdnEk6oiQo+CnGtvw" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="GQwKjnT8ZEaJOCF1nFCScA" >
+<dsc> xóa đăng ký nghỉ của nhân viên</dsc>
+<nam>DeleteRegRestEmployee</nam>
+<anc reserve="325" >8 NetAttr:26 Name:DeleteRegRestEmployee6 Kind:08 Type:int8 Access:043 Description: xóa đăng ký nghỉ của nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:39 ParamList:;;;DataSet;dsRegRestEmployee;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:49 AllParameterDescription:22 17 dsRegRestEmployee0 </anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.DeleteRegRestEmployee(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="uHrZe7O7WUyaw7ReZZeAzw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="VNWHVzYkcU+Qb5gjpafREw" >
+<nam>dsRegRestEmployee</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="RfMnJsBWJka+eOzHUi3hHQ" >
+<dsc>cập nhật đăng ký nghỉ</dsc>
+<nam>UpdateRegRestEmployee</nam>
+<anc reserve="311" >8 NetAttr:26 Name:UpdateRegRestEmployee6 Kind:08 Type:int8 Access:033 Description:cập nhật đăng ký nghỉ14 IsStatic:False16 IsAbstract:False10 Modifiers:37 ParamList:;;;DataSet;RegRestEmployee;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:47 AllParameterDescription:20 15 RegRestEmployee0 </anc>
+<ans>EVSoft.HRMS.DO.RegRestEmployeeDO.UpdateRegRestEmployee(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="aADuO6aC50u11qB5Dat4Bw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="PKa01cvzBkev795G27FmKA" >
+<nam>RegRestEmployee</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="m26HhnNuq0OR7TviUzrwTg" >
+<otv>
+<stv id="5iK4/YKBxkqpTHVFuzCegQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for RegWorkingTimeDO.</dsc>
+<nam>RegWorkingTimeDO</nam>
+<rlt>
+<grz id="Ajy/jzA/8Ui4OVgri6ZlbQ" >
+<otv>
+<stv id="rqkn/9IKG0Gg4FDBV3Nfzg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.RegWorkingTimeDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="234" >21 Name:RegWorkingTimeDO53 Description:Summary description for RegWorkingTimeDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.RegWorkingTimeDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="r/7ox1kj+UexSugmj0H0qg" >
+<dsc>Lấy thông tin đăng ký làm việc</dsc>
+<nam>GetWorkingTime</nam>
+<anc reserve="268" >8 NetAttr:19 Name:GetWorkingTime6 Kind:012 Type:DataSet8 Access:042 Description:Lấy thông tin đăng ký làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.RegWorkingTimeDO.GetWorkingTime()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="0jM0u5x+d02lpQrVM1dspw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="VjQqMB7SMEa3favgHOERyA" >
+<dsc>Lấy thông tin đăng ký làm việc trong một tháng</dsc>
+<nam>GetWorkingTimeByMonth</nam>
+<anc reserve="379" >8 NetAttr:26 Name:GetWorkingTimeByMonth6 Kind:012 Type:DataSet8 Access:058 Description:Lấy thông tin đăng ký làm việc trong một tháng14 IsStatic:False16 IsAbstract:False10 Modifiers:57 ParamList:;;;int;DepartmentID;;;;;int;Month;;;;;int;Year;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:65 AllParameterDescription:17 12 DepartmentID0 9 5 Month0 8 4 Year0 </anc>
+<ans>EVSoft.HRMS.DO.RegWorkingTimeDO.GetWorkingTimeByMonth(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="L8p2MCjpTkiAn8cYSWB3AA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Y1MuVTDBrkmXXprvmv+ZrA" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="JZ5iWvRV6Eig+KcJudc58A" >
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="Xho98YIbMkOVWehxfUghQw" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="UOPDhI4dQEGq87enrq1UaQ" >
+<dsc>Thêm thời gian làm việc</dsc>
+<nam>AddWorkingTime</nam>
+<anc reserve="289" >8 NetAttr:19 Name:AddWorkingTime6 Kind:08 Type:int8 Access:035 Description:Thêm thời gian làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.RegWorkingTimeDO.AddWorkingTime(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="KKcI56Ie8EGRqBHaq6YyMA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="XQS7+oQE1UCavW6O77vmJw" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="EMNfs0fK4ki/aHiemm1zqA" >
+<dsc>Cập nhật thời gian làm việc</dsc>
+<nam>UpdateWorkingTime</nam>
+<anc reserve="296" >8 NetAttr:22 Name:UpdateWorkingTime6 Kind:08 Type:int8 Access:039 Description:Cập nhật thời gian làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.RegWorkingTimeDO.UpdateWorkingTime(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="vc/5zPq0+EKxB9NkrulyrQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="1N49RcKVWket8RXRlj15/Q" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="CFGbiMxrOEW4S1fKGk1pTw" >
+<dsc>Xóa đăng ký thời gian làm việc</dsc>
+<nam>DeleteWorkingTime</nam>
+<anc reserve="299" >8 NetAttr:22 Name:DeleteWorkingTime6 Kind:08 Type:int8 Access:042 Description:Xóa đăng ký thời gian làm việc14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.RegWorkingTimeDO.DeleteWorkingTime(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Wa8nbyLnp0qh4Q2wDWmUIw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="/034icYocEOrXDmRwbUUdQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="AuH67KZ8GEOu7KoldGPjfQ" >
+<dsc reserve="84" >Lớp kết nối và thao tác cơ sở dữ liệu của chức năng định nghĩa chức vụ</dsc>
+<nam>PositionDO</nam>
+<rlt>
+<grz id="wjMIJb1rb02fUpbDXocqaw" >
+<otv>
+<stv id="EhqVc4RmCEeWOswPGtn+tA" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.PositionDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="191" >15 Name:PositionDO96 Description:Lớp kết nối và thao tác cơ sở dữ liệu của chức năng định nghĩa chức vụ16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:19 NameResolutionList:</anc>
+<ans>EVSoft.HRMS.DO.PositionDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="yHltlbJrYES7hnAMrFzozA" >
+<nam>InsertNewPosition</nam>
+<anc reserve="233" >8 NetAttr:22 Name:InsertNewPosition6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.PositionDO.InsertNewPosition()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+</opr>
+</clx>
+<clx id="KpvLew1Jk0aZmCUYzjQXqw" >
+<otv>
+<stv id="R917bXJeSECYTA/xwRMBLg" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="99" >EVSoft.HRMS.Common,System,System.Data,System.Data.Common,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for LunchDO.</dsc>
+<nam>LunchDO</nam>
+<rlt>
+<grz id="nAEpE3p0uku3AA5J5137Og" >
+<otv>
+<stv id="KzcW1eSUaUGHvTpV4Bvi1Q" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.LunchDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="236" >12 Name:LunchDO44 Description:Summary description for LunchDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:118 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.Common,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.LunchDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr reserve="11" >
+<opr id="zP43Y+jC2kq9WnzWXeVdPQ" >
+<nam>LunchDO</nam>
+<anc reserve="223" >8 NetAttr:12 Name:LunchDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.LunchDO.LunchDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="YAigMQqTPE2yBcoskUs98A" >
+<nam>AddLunch</nam>
+<anc reserve="260" >8 NetAttr:13 Name:AddLunch6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.AddLunch(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="CJE+fP/9lku+XyTZv2AdGQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="l4je+uVEjk2L9yTMwuJFVQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="MAK1z7K1BU6zbNUqbYz2WQ" >
+<dsc>Lấy về danh sách nhân viên, số tiền đăng ký ăn trưa theo phòng ban</dsc>
+<nam>GetLunch</nam>
+<anc reserve="380" >8 NetAttr:13 Name:GetLunch6 Kind:012 Type:DataSet8 Access:078 Description:Lấy về danh sách nhân viên, số tiền đăng ký ăn trưa theo phòng ban14 IsStatic:False16 IsAbstract:False10 Modifiers:54 ParamList:;;;int;DepartmentID;;;;;DateTime;WorkingDay;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:62 AllParameterDescription:17 12 DepartmentID0 15 10 WorkingDay0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.GetLunch(:int,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="kzO8GO16akG5myNi2MG1aw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="GdPMWnPndEC9JkLIbs1+Mg" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="lPOMyjoZzEmE7tvqCwYvwA" >
+<nam>WorkingDay</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="FH024793Z0K3iz8JZjUV9A" >
+<dsc>Cập nhật đăng ký ăn trưa</dsc>
+<nam>UpdateLunch</nam>
+<anc reserve="287" >8 NetAttr:16 Name:UpdateLunch6 Kind:08 Type:int8 Access:036 Description:Cập nhật đăng ký ăn trưa14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.UpdateLunch(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="jqJr5RhN5kKd/8fMckJZlg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="pnOXOMh5x0u2aU9i2jGdDA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="XCS7rOz1nUae9IMwzGDbog" >
+<nam>DeleteLunch</nam>
+<anc reserve="263" >8 NetAttr:16 Name:DeleteLunch6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.DeleteLunch(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="0cMlz+T3IU6RcTVWtBOx8w" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="/n73fpUf80O4c7A47w//2g" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="xI/fixhHP0WiIOW4igzJeQ" >
+<dsc>Chuyển dữ liệu từ một ngày đã đăng ký ăn trưa sang ngày hiện tại</dsc>
+<nam>CopyFromPreviousLunch</nam>
+<anc reserve="395" >8 NetAttr:26 Name:CopyFromPreviousLunch6 Kind:08 Type:int8 Access:076 Description:Chuyển dữ liệu từ một ngày đã đăng ký ăn trưa sang ngày hiện tại14 IsStatic:False16 IsAbstract:False10 Modifiers:61 ParamList:;;;DataSet;dataSet;;;;;DateTime;PreviousWorkingDay;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:64 AllParameterDescription:11 7 dataSet0 23 18 PreviousWorkingDay0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.CopyFromPreviousLunch(:DataSet,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="8C3332GZG0qrDtrvp8v2Mg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="DtqQC8APSkeA0HmaHZQLFA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+<prm id="t9rmFefp9Uy8Na2W7pRMBQ" >
+<nam>PreviousWorkingDay</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="VEIZ1e0zXE+NE2wavNjDuw" >
+<nam>UpdateFromPreviousLunch</nam>
+<anc reserve="333" >8 NetAttr:28 Name:UpdateFromPreviousLunch6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:61 ParamList:;;;DataSet;dataSet;;;;;DateTime;PreviousWorkingDay;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:64 AllParameterDescription:11 7 dataSet0 23 18 PreviousWorkingDay0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.UpdateFromPreviousLunch(:DataSet,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="tgX8kPGFJkGRTGPiyaT7bw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="zVOTSD/nY0qxcSgfI52gzg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+<prm id="s5rJ4Rt4WEiCeAv2sF1dig" >
+<nam>PreviousWorkingDay</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="2jwwx7xE8U6mkd4L3Mz50A" >
+<dsc>Sinh bảng chấm công</dsc>
+<nam>GenerateLunchSheet</nam>
+<anc reserve="363" >8 NetAttr:23 Name:GenerateLunchSheet6 Kind:08 Type:int8 Access:031 Description:Sinh bảng chấm công14 IsStatic:False16 IsAbstract:False10 Modifiers:55 ParamList:;;;int;Month;;;;;int;Year;;;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:86 AllParameterDescription:14 5 Month5 Tháng11 4 Year3 Năm28 10 EmployeeID12 Mã nhân viên</anc>
+<ans>EVSoft.HRMS.DO.LunchDO.GenerateLunchSheet(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="/tBsTtXJ9ECy/bmeFiJ9ow" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="gNLOf7yYQ0+QgpYj8nLypw" >
+<dsc>Tháng</dsc>
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="s4INq4hZQ0yAh28+E8RiAw" >
+<dsc>Năm</dsc>
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="gAyki8075Ue3QFKqtUIDSA" >
+<dsc>Mã nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="yWYPCncBSEu7mMYT9yC4oQ" >
+<nam>GetDepartmentLunchSheet</nam>
+<anc reserve="335" >8 NetAttr:28 Name:GetDepartmentLunchSheet6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:57 ParamList:;;;int;Month;;;;;int;Year;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:65 AllParameterDescription:9 5 Month0 8 4 Year0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.GetDepartmentLunchSheet(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="rxzDtkwHC0GwyQeq/63yIw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="fUZIyMLdJUCiJdzNKgre5g" >
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="srGFuBrKPEq83IpNHcjGLQ" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="IJ1URHqOgUee7DMR/x8tbA" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="i8Vt3zAsk0abgQFA8bC1VA" >
+<dsc>Cập nhật bảng ăn trưa tháng</dsc>
+<nam>UpdateLunchSheet</nam>
+<anc reserve="295" >8 NetAttr:21 Name:UpdateLunchSheet6 Kind:08 Type:int8 Access:039 Description:Cập nhật bảng ăn trưa tháng14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.UpdateLunchSheet(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="a6yZ48oAI0GglOdxiK6XIw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="A2d4/fAsM0KnAE/k4RsG4w" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="CHIZLgVfX0y7yRBvtUUcYw" >
+<nam>DeleteEmployeeLunch</nam>
+<anc reserve="271" >8 NetAttr:24 Name:DeleteEmployeeLunch6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.LunchDO.DeleteEmployeeLunch(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="KLoOosCBckquMgXFe5Jc+Q" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="ITVoTcj77EerGKWmD2CFUA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="EclIw7hX80eLJ5XYfDD4RQ" >
+<otv>
+<stv id="1peoFaS3E0Wantg3Wm21yw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for PunishCardDO.</dsc>
+<nam>PunishCardDO</nam>
+<rlt>
+<grz id="l5is7/anCUC2BrrJ8680BQ" >
+<otv>
+<stv id="dHdV1s43ZkK9bD/zXb44bA" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.PunishCardDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="226" >17 Name:PunishCardDO49 Description:Summary description for PunishCardDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.PunishCardDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="q0PRLhVEfEa5inYSpssHww" >
+<nam>PunishCardDO</nam>
+<anc reserve="228" >8 NetAttr:17 Name:PunishCardDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.PunishCardDO.PunishCardDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="iTE4rRWZ3EOh8vALuIdD2A" >
+<nam>AddPunishCard</nam>
+<anc reserve="265" >8 NetAttr:18 Name:AddPunishCard6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PunishCardDO.AddPunishCard(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="1T2S82yxr0+3USgZu8+vcw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="TXCsMZ3w+Ee8v9PZ5Zm8jg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Yha6pQSXrkGI+yYFMn8llQ" >
+<nam>UpdatePunishCard</nam>
+<anc reserve="268" >8 NetAttr:21 Name:UpdatePunishCard6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PunishCardDO.UpdatePunishCard(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="NY/EJrfDk0ifJ7yMiR2K+Q" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Vqz0KOCCzkygMjnxFkuEWg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="tPYP4D/Rkkmbd/wgweZQXg" >
+<nam>DeletePunishCard</nam>
+<anc reserve="268" >8 NetAttr:21 Name:DeletePunishCard6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PunishCardDO.DeletePunishCard(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ASDhAvNuEE6rYrd0S6nzFQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="0lRAvbI1TUmq/A0BOuJ1LQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="+21w7U4C8EuZxr8T11NMkQ" >
+<nam>GetPunishCard</nam>
+<anc reserve="237" >8 NetAttr:18 Name:GetPunishCard6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.PunishCardDO.GetPunishCard()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="W31cLebOxEmm3QelcCQZsg" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="yqoeG9RQaUmIG0qPhA/+kQ" >
+<otv>
+<stv id="C2V1StsU+ESQ89+9KHRlRw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for PunishDO.</dsc>
+<nam>PunishDO</nam>
+<rlt>
+<grz id="HRfyOfoxIUiWOWf9c2weJw" >
+<otv>
+<stv id="RRrUl/7xU0KBb2Wwv2B+Lw" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.PunishDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="218" >13 Name:PunishDO45 Description:Summary description for PunishDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.PunishDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="Xgtzcf9w3E6Wp04xPQusmQ" >
+<nam>PunishDO</nam>
+<anc reserve="224" >8 NetAttr:13 Name:PunishDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.PunishDO.PunishDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="/M0extm8i0yTpwK7qgqzQw" >
+<nam>AddPunish</nam>
+<anc reserve="261" >8 NetAttr:14 Name:AddPunish6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PunishDO.AddPunish(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="etdov7Fe2EWoeCb/nXA5tQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="n/uw1onkqEuZOgYnBglf0A" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="IzJSlWu+DUi1k/ENfd2dpA" >
+<nam>GetPunish</nam>
+<anc reserve="233" >8 NetAttr:14 Name:GetPunish6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.PunishDO.GetPunish()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="eg7I8g26D0+9mDBSIHt99Q" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="4d6kwwthI0a/6ii0ROzGEw" >
+<nam>UpdatePunish</nam>
+<anc reserve="264" >8 NetAttr:17 Name:UpdatePunish6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PunishDO.UpdatePunish(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="nlAaqkA4b0+qdteVcmGD4g" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="dVj4hnDTD0yzn67bsf9Apg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="b7Z6gu9E70CeaRW6fxJLgQ" >
+<nam>DeletePunish</nam>
+<anc reserve="264" >8 NetAttr:17 Name:DeletePunish6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.PunishDO.DeletePunish(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="a98nl6qr60qeY08gGj3hnQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="KNWV+I5w4kO4EFe63yQeZQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="uad3/3I220u3PM2GsBXWZQ" >
+<nam>GetListPunish</nam>
+<anc reserve="360" >8 NetAttr:18 Name:GetListPunish6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:78 ParamList:;;;DateTime;dtpFromDate;;;;;DateTime;dtpToDate;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:79 AllParameterDescription:16 11 dtpFromDate0 13 9 dtpToDate0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.PunishDO.GetListPunish(:DateTime,:DateTime,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="KzyRm3tYIUWunQ0OdSc8fQ" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="zXh1rOxLZkeWQZkrlA123w" >
+<nam>dtpFromDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="oP5Awejsy0aI6ag9a4ieUA" >
+<nam>dtpToDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="S3Zmi+2Crk2LExdG5g5gdw" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="czxJNKIkrkmepQxoy7fvug" >
+<otv>
+<stv id="UQJL7Q1UakqMEb+sTWzYrQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<nam>SalaryDO</nam>
+<rlt>
+<grz id="D0QAM7DByUiau7Zxmy8hKg" >
+<otv>
+<stv id="MxjSTVFkhEuOMKL7GgT+5w" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.SalaryDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="185" >13 Name:SalaryDO12 Description:16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.SalaryDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="tPekCjNWbEmImEeiDYDfQQ" >
+<dsc>Lấy thông tin lương của các nhân viên trong bộ phận</dsc>
+<nam>GetDepartmentSalary</nam>
+<anc reserve="382" >8 NetAttr:24 Name:GetDepartmentSalary6 Kind:012 Type:DataSet8 Access:063 Description:Lấy thông tin lương của các nhân viên trong bộ phận14 IsStatic:False16 IsAbstract:False10 Modifiers:57 ParamList:;;;int;Month;;;;;int;Year;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:65 AllParameterDescription:9 5 Month0 8 4 Year0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.SalaryDO.GetDepartmentSalary(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Z/WiAPv9JU+oTkvmLGwv6Q" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Nekudv8IMUuYZzDw0HRKMw" >
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="nr4Fu/LgYkKAHSr1lG3WmQ" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="aAjMgb9HWE+jJ1zen8f2eQ" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="kFJDyz+Yj0e8c7zlpa3ZJQ" >
+<dsc>Sinh bảng lương tháng</dsc>
+<nam>GenerateSalary</nam>
+<anc reserve="361" >8 NetAttr:19 Name:GenerateSalary6 Kind:08 Type:int8 Access:033 Description:Sinh bảng lương tháng14 IsStatic:False16 IsAbstract:False10 Modifiers:55 ParamList:;;;int;Month;;;;;int;Year;;;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:86 AllParameterDescription:14 5 Month5 Tháng11 4 Year3 Năm28 10 EmployeeID12 Mã nhân viên</anc>
+<ans>EVSoft.HRMS.DO.SalaryDO.GenerateSalary(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="8UM6DE5x4E2svHHxvbGpUQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="D4NvmjsbL0a4a/kDmzthPg" >
+<dsc>Tháng</dsc>
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="LSO1ZK5RDk+n/04+j8XvuQ" >
+<dsc>Năm</dsc>
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="OzpXNWktTECxJeA6QgfSWQ" >
+<dsc>Mã nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="QJNN8USG7UmPM9SdXWc19g" >
+<dsc>Cập nhật bảng lương nhân viên</dsc>
+<nam>UpdateSalary</nam>
+<anc reserve="293" >8 NetAttr:17 Name:UpdateSalary6 Kind:08 Type:int8 Access:041 Description:Cập nhật bảng lương nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.SalaryDO.UpdateSalary(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="E79ZHPmq5EqRscHx9bIw0A" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="tPhbAyTdf0iI5fwB/9lBiA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="zI9iI8L4wECwWo+NOjOHQQ" >
+<dsc>Xóa nhân viên khỏi bảng lương</dsc>
+<nam>DeleteEmployeeSalary</nam>
+<anc reserve="301" >8 NetAttr:25 Name:DeleteEmployeeSalary6 Kind:08 Type:int8 Access:041 Description:Xóa nhân viên khỏi bảng lương14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.SalaryDO.DeleteEmployeeSalary(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="OhZyGyG3AkqBmEQ/dtXLLQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="rxm3hQ5n+0ahv74Yy/x6vA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="N8kDoTXcqUCVwReQtibV2w" >
+<otv>
+<stv id="g1WyD/N4cEy4SG+9Q+P8YQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for StatusDO.</dsc>
+<nam>StatusDO</nam>
+<rlt>
+<grz id="cCqJM94UwEChHl0iUOKD7A" >
+<otv>
+<stv id="/Dhh/RIom0CHzWYngKi2CA" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.StatusDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="218" >13 Name:StatusDO45 Description:Summary description for StatusDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.StatusDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="b8pG/SGz2EmgyLKWvvKdXQ" >
+<dsc>Lấy thông tin trạng thái nhân viên</dsc>
+<nam>GetEmployeeStatus</nam>
+<anc reserve="396" >8 NetAttr:22 Name:GetEmployeeStatus6 Kind:012 Type:DataSet8 Access:046 Description:Lấy thông tin trạng thái nhân viên14 IsStatic:False16 IsAbstract:False10 Modifiers:62 ParamList:;;;int;DepartmentID;;;;;DateTime;Date;;;;;int;Order;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:93 AllParameterDescription:30 12 DepartmentID12 Mã phòng ban22 4 Date13 Ngày kiểm tra9 5 Order0 </anc>
+<ans>EVSoft.HRMS.DO.StatusDO.GetEmployeeStatus(:int,:DateTime,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="cFdSCfCAbkOG5mT1a2IFMA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="KoFR5ltM30yML9lZMyjw6g" >
+<dsc>Mã phòng ban</dsc>
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="FnsVIwi1sUCtbNMVuTFUBg" >
+<dsc>Ngày kiểm tra</dsc>
+<nam>Date</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="40PKf3bsB0KmI24IrIMgHg" >
+<nam>Order</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="GnKQ9DHbA0ya6L3NtYGz9g" >
+<dsc>Lấy thông tin đăng ký công tác của nhân viên trong ngày</dsc>
+<nam>GetEmployeeLeaveStatus</nam>
+<anc reserve="448" >8 NetAttr:27 Name:GetEmployeeLeaveStatus6 Kind:08 Type:int8 Access:067 Description:Lấy thông tin đăng ký công tác của nhân viên trong ngày14 IsStatic:False16 IsAbstract:False10 Modifiers:72 ParamList:;;;int;EmployeeID;;;;;DateTime;StartDate;;;;;DateTime;EndDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:113 AllParameterDescription:28 10 EmployeeID12 Mã nhân viên27 9 StartDate13 Ngày kiểm tra25 7 EndDate13 Ngày kiểm tra</anc>
+<ans>EVSoft.HRMS.DO.StatusDO.GetEmployeeLeaveStatus(:int,:DateTime,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="O8PE0p+ekUCceNeOrB+EcQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Tsbbop+8bkWxk8gm9y463A" >
+<dsc>Mã nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="jZF916XzMUikz4YN+h7RBA" >
+<dsc>Ngày kiểm tra</dsc>
+<nam>StartDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="Vbtkmzb3Xkm/d2/xH6RchQ" >
+<dsc>Ngày kiểm tra</dsc>
+<nam>EndDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="NL6eDShTw0KXhZQZbLxAfA" >
+<dsc>Lấy thông tin đăng ký nghỉ của nhân viên trong ngày</dsc>
+<nam>GetEmployeeRestStatus</nam>
+<anc reserve="443" >8 NetAttr:26 Name:GetEmployeeRestStatus6 Kind:08 Type:int8 Access:063 Description:Lấy thông tin đăng ký nghỉ của nhân viên trong ngày14 IsStatic:False16 IsAbstract:False10 Modifiers:72 ParamList:;;;int;EmployeeID;;;;;DateTime;StartDate;;;;;DateTime;EndDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:113 AllParameterDescription:28 10 EmployeeID12 Mã nhân viên27 9 StartDate13 Ngày kiểm tra25 7 EndDate13 Ngày kiểm tra</anc>
+<ans>EVSoft.HRMS.DO.StatusDO.GetEmployeeRestStatus(:int,:DateTime,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="gozqXR8A0kC4uyxad38Btg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Ea+o+oFIbkuUp5HfuROLLQ" >
+<dsc>Mã nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="8ZkcVZjHDE23ldFFBtWDgw" >
+<dsc>Ngày kiểm tra</dsc>
+<nam>StartDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="9ln3KNOh0EKnOolD1Y9Jxw" >
+<dsc>Ngày kiểm tra</dsc>
+<nam>EndDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="resZgNIzb0mWB/UTPMUNuQ" >
+<otv>
+<stv id="FKka1OCLckKwN0pZKm5Feg" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for TimeSheetDO.</dsc>
+<nam>TimeSheetDO</nam>
+<rlt>
+<grz id="TjsYCZBBoUG/+PASmKZ6BQ" >
+<otv>
+<stv id="QwCKVe3A3EWgiUj/C9a88Q" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.TimeSheetDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="224" >16 Name:TimeSheetDO48 Description:Summary description for TimeSheetDO.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="8HMXaHTI606pbJqyns9HRQ" >
+<nam>GetTimeSheet</nam>
+<anc reserve="268" >8 NetAttr:17 Name:GetTimeSheet6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DateTime;ToDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:37 AllParameterDescription:10 6 ToDate0 </anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO.GetTimeSheet(:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="t17zPCHdQEeZscZFfnwClg" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="mPe2nkFtUEqrGJvjbQLXgw" >
+<nam>ToDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="wbPKPpyM1UWYaonujk2FGA" >
+<nam>GetDepartmentTimeSheet</nam>
+<anc reserve="334" >8 NetAttr:27 Name:GetDepartmentTimeSheet6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:57 ParamList:;;;int;Month;;;;;int;Year;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:65 AllParameterDescription:9 5 Month0 8 4 Year0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO.GetDepartmentTimeSheet(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="8/Gqgzitt0O1+onmbiDJ7w" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="awlzgn5TUUGqso+D9hHoYw" >
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="Ej4B30WkmkeaFuidz4zE2Q" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="H0i+GFlVSkWbO+w0zYZkOA" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="VmRypYUkCkKhtH2qZZJOcg" >
+<dsc>Sinh bảng chấm công</dsc>
+<nam>GenerateTimeSheet</nam>
+<anc reserve="362" >8 NetAttr:22 Name:GenerateTimeSheet6 Kind:08 Type:int8 Access:031 Description:Sinh bảng chấm công14 IsStatic:False16 IsAbstract:False10 Modifiers:55 ParamList:;;;int;Month;;;;;int;Year;;;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:86 AllParameterDescription:14 5 Month5 Tháng11 4 Year3 Năm28 10 EmployeeID12 Mã nhân viên</anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO.GenerateTimeSheet(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="AHygWKTlf0Sz3a8jktNj8Q" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="aTNQDPdVdkekuREb4SOZRw" >
+<dsc>Tháng</dsc>
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="6H7Kmw4U+Eyx4D6JEYhLxA" >
+<dsc>Năm</dsc>
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="TcrzT1kHSUaN895ZOYWPgQ" >
+<dsc>Mã nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="OdZ8PTOG+0Gn2IDTCa98Xg" >
+<nam>UpdateTimeSheet</nam>
+<anc reserve="267" >8 NetAttr:20 Name:UpdateTimeSheet6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO.UpdateTimeSheet(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="l2yisL8ut0+8i18RrxuOyg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="F7oPuWzxAk2/80iQqMSxKQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="QzUy+f5JWkycju924gQmfw" >
+<nam>GenerateEmployeeSummaryInMonth</nam>
+<anc reserve="333" >8 NetAttr:35 Name:GenerateEmployeeSummaryInMonth6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:55 ParamList:;;;int;Month;;;;;int;Year;;;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:63 AllParameterDescription:9 5 Month0 8 4 Year0 15 10 EmployeeID0 </anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO.GenerateEmployeeSummaryInMonth(:int,:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ecB/utubEEGmY53R2tabCw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="k+pDXHfwPEik1Awv4JX+yw" >
+<nam>Month</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="XhMu9r6QRUmbF3QWmn0qpg" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="Pnzqp3vecEm/2xA0dQPNPw" >
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="7VmdCcJy8UqArawedYxNfw" >
+<nam>DeleteTimeSheet</nam>
+<anc reserve="267" >8 NetAttr:20 Name:DeleteTimeSheet6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.TimeSheetDO.DeleteTimeSheet(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="e/MJrMQFSU2hcSH7p6vtpA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="0WNOSjf0VUWIGDS1OISmXA" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="IOSfWL67xUSj0CzSevKSZA" >
+<otv>
+<stv id="taji24mpLEuPzorM6SS87Q" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Lớp kết nối và thao tác với CSDL cho chức năng định nghĩa các loại hợp đồng</dsc>
+<nam>ContractTypeDO</nam>
+<rlt>
+<asn id="NsA7sEx+wUygfo2b6vzH3g" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="CIRJJ8oan0KebfXaWT/sEw" >
+<nam>conn</nam>
+<anc reserve="169" >9 Name:conn40 Type:System.Data.SqlClient.SqlConnection8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.conn</ans>
+<ari>15 6:SqlConnection4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="4zZK2M8tVUe9oZf5Tkt5Zw"  name="System.Data::System::Data::SqlClient::SqlConnection"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="xzGH1KA7S0OoiSuUsssjYg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IOSfWL67xUSj0CzSevKSZA" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="80sSsnozdU+HcskkO4ihZg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="f16w/czSa0+kALoi+R39eg" >
+<nam>sqlCommand</nam>
+<anc reserve="173" >15 Name:sqlCommand37 Type:System.Data.SqlClient.SqlCommand8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.sqlCommand</ans>
+<ari>12 6:SqlCommand4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="MiGC6pAQFESXHa1MH7yJ5g"  name="System.Data::System::Data::SqlClient::SqlCommand"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="ZIpO5h8/FUe0yhSLDwLnOg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IOSfWL67xUSj0CzSevKSZA" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="5dZOIMfB30WHyxMBpPVVGA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="5hCEqTUqsEuA9jLiNMT5qw" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="6pkWgXXVUEeBCM4tA78FFg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IOSfWL67xUSj0CzSevKSZA" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="Eh8gosjsSkCTAMvrEWJJ4w" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="Oj3t7d+Xrke+L1xFXhj2hQ" >
+<nam>dataSet</nam>
+<anc reserve="157" >12 Name:dataSet24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.dataSet</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="cc9CHSrkDEeADPiBdrGygQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IOSfWL67xUSj0CzSevKSZA" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="L+qptmPbNEm6wec3PS/EmQ" >
+<otv>
+<stv id="Cl4yc/Up+EiVMAf3cxmqMA" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.ContractTypeDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="266" >19 Name:ContractTypeDO87 Description:Lớp kết nối và thao tác với CSDL cho chức năng định nghĩa các loại hợp đồng16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="QqRW+/2s70y46NgkplgNSA" >
+<dsc>Thêm mới kiểu hợp đồng</dsc>
+<nam>AddContractTypeDO</nam>
+<anc reserve="295" >8 NetAttr:22 Name:AddContractTypeDO6 Kind:08 Type:int8 Access:034 Description:Thêm mới kiểu hợp đồng14 IsStatic:False16 IsAbstract:False10 Modifiers:31 ParamList:;;;DataSet;dsDayType;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:40 AllParameterDescription:13 9 dsDayType0 </anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.AddContractTypeDO(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="knQRQctHS0SPUFpQYQE3yQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="vJX6NuVQxU6iypy7E7WEGA" >
+<nam>dsDayType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="0i8IyyZauUChLqemv5fP2g" >
+<dsc>Lấy ra một bảng đưa vào DataSet</dsc>
+<nam>GetContractType</nam>
+<anc reserve="270" >8 NetAttr:20 Name:GetContractType6 Kind:012 Type:DataSet8 Access:043 Description:Lấy ra một bảng đưa vào DataSet14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.GetContractType()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Q3g5Mu9Nf0WKj4+V4czDkQ" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="Y8FY+WCaaEyjFUFtolZGFw" >
+<dsc>Cập nhật kiểu hợp đồng vào CSDL</dsc>
+<nam>UpdateContractType</nam>
+<anc reserve="316" >8 NetAttr:23 Name:UpdateContractType6 Kind:08 Type:int8 Access:043 Description:Cập nhật kiểu hợp đồng vào CSDL14 IsStatic:False16 IsAbstract:False10 Modifiers:36 ParamList:;;;DataSet;dsContractType;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:46 AllParameterDescription:19 14 dsContractType0 </anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.UpdateContractType(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="SmargEoUUkqqwpLamP9E6A" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="aLZ7DVPu90KzikA+l7m/Ew" >
+<nam>dsContractType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="oI5fiAqaW0W2RDoMnobfbQ" >
+<dsc>Xóa kiều hợp đồng</dsc>
+<nam>DeleteContractTypeDB</nam>
+<anc reserve="304" >8 NetAttr:25 Name:DeleteContractTypeDB6 Kind:08 Type:int8 Access:029 Description:Xóa kiều hợp đồng14 IsStatic:False16 IsAbstract:False10 Modifiers:36 ParamList:;;;DataSet;dsContractType;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:46 AllParameterDescription:19 14 dsContractType0 </anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.DeleteContractTypeDB(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="pS0Pajtxr0CqkzUqEzXdqQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="/NWRYAsu4UiX0LYe7P8HcA" >
+<nam>dsContractType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Zj4Ji1+s/k6/UB0nYuSSjA" >
+<nam>GetAllContract</nam>
+<anc reserve="238" >8 NetAttr:19 Name:GetAllContract6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.ContractTypeDO.GetAllContract()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="UINvTA8lH0ekaO/agN07bw" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="1Lia0xc2XEOaPUO46WRPPw" >
+<otv>
+<stv id="Cg2x/yHpW0WBzTXXePgMlA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for Class1.</dsc>
+<nam>RestSheetDO</nam>
+<rlt>
+<grz id="RlfcOOp1Zka3w/aYVP0kOA" >
+<otv>
+<stv id="TO1wBIdcMEWoocz0mz3sgg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.RestSheetDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="219" >16 Name:RestSheetDO43 Description:Summary description for Class1.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.RestSheetDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="3h0pILYTkkqbzSI1df8Lyg" >
+<nam>RestSheetDO</nam>
+<anc reserve="227" >8 NetAttr:16 Name:RestSheetDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.RestSheetDO.RestSheetDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="FZeS5jnLq0GEXy+0lB4FNA" >
+<nam>GetDepartmentRestSheet</nam>
+<anc reserve="309" >8 NetAttr:27 Name:GetDepartmentRestSheet6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:43 ParamList:;;;int;Year;;;;;int;DepartmentID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:54 AllParameterDescription:8 4 Year0 17 12 DepartmentID0 </anc>
+<ans>EVSoft.HRMS.DO.RestSheetDO.GetDepartmentRestSheet(:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="P/gZ0I5Lt0ahB58QahTuvA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="77GJDpbyCEiev9PIfYn2Mw" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="+N3nvFZgMEyzaLtJVPwNLw" >
+<nam>DepartmentID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="vqQLU+0ILk2Kch+nb7idaA" >
+<dsc>Sinh b?ng Thanh toán ti?n phép</dsc>
+<nam>GenerateRestSheet</nam>
+<anc reserve="342" >8 NetAttr:22 Name:GenerateRestSheet6 Kind:08 Type:int8 Access:042 Description:Sinh b?ng Thanh toán ti?n phép14 IsStatic:False16 IsAbstract:False10 Modifiers:41 ParamList:;;;int;Year;;;;;int;EmployeeID;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:69 AllParameterDescription:11 4 Year3 Nam28 10 EmployeeID12 Mă nhân viên</anc>
+<ans>EVSoft.HRMS.DO.RestSheetDO.GenerateRestSheet(:int,:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="iNErIE1w2UuSVRYch1Tosg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="xdtHOZ3hE0S0b8C165V2wg" >
+<dsc>Nam</dsc>
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="OeHStNYW0Ea5kOOl8seLKg" >
+<dsc>Mă nhân viên</dsc>
+<nam>EmployeeID</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="bQmgOv7bcEuhVxLSm2vigw" >
+<nam>UpdateRestSheet</nam>
+<anc reserve="267" >8 NetAttr:20 Name:UpdateRestSheet6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.RestSheetDO.UpdateRestSheet(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="wK2LTNo5jkGrRvvV/3mqlg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="MGcjfWBl9EGYHmQz6gfTnQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="Cscs/QESt0+0ISz9aaZX5w" >
+<nam>DeleteRestSheet</nam>
+<anc reserve="267" >8 NetAttr:20 Name:DeleteRestSheet6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.RestSheetDO.DeleteRestSheet(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="eYskOAfiRE6K3Mjlw2Bkwg" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Oqz3/QxMlkCLn8X4YLU9CQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="FfCAgJnuEUClB/lNGJDYjA" >
+<otv>
+<stv id="zA3diufh70aeVx7RO3NvpA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for SocialInsurance.</dsc>
+<nam>SocialInsuranceDO</nam>
+<rlt>
+<asn id="FVg/Xdrzu0G0k27hIdfXXg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="O3FZUoQtbk2C8yNKbdoomw" >
+<nam>dsInsurance</nam>
+<anc reserve="161" >16 Name:dsInsurance24 Type:System.Data.DataSet8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.dsInsurance</ans>
+<ari>9 6:DataSet4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="mRQ5+nrAekGfkXfeUPDPjQ"  name="System.Data::System::Data::DataSet"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="kgWUOpwdW0CeoYPHI+eMRw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="FfCAgJnuEUClB/lNGJDYjA" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="QlvZ5+aXmUitxfxV0W++RA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="alQYYYZXBU2bkzEy4eaiEw" >
+<nam>dadapter</nam>
+<anc reserve="175" >13 Name:dadapter41 Type:System.Data.SqlClient.SqlDataAdapter8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.dadapter</ans>
+<ari>16 6:SqlDataAdapter4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="gZKVQ3dDIkWjEf75wCAamA"  name="System.Data::System::Data::SqlClient::SqlDataAdapter"  classStr="clx"  import="0" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="tUnFeVSgeUa4tqg5jExppQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="FfCAgJnuEUClB/lNGJDYjA" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="6PYIBuBIekir0S4eu314iw" >
+<otv>
+<stv id="2G/smcktzkeQCZqRmU/HxQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.DO.SocialInsuranceDO.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="234" >22 Name:SocialInsuranceDO52 Description:Summary description for SocialInsurance.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:99 NameResolutionList:EVSoft.HRMS.Common,System,System.Data,System.Data.SqlClient,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="pShpdJlJJEaXILTo8ZQVdw" >
+<nam>SocialInsuranceDO</nam>
+<anc reserve="233" >8 NetAttr:22 Name:SocialInsuranceDO6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.SocialInsuranceDO()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="totAPiB6ZUeW94RmvSMVzg" >
+<nam>GetListInsuranceInYear</nam>
+<anc reserve="268" >8 NetAttr:27 Name:GetListInsuranceInYear6 Kind:012 Type:DataSet8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:22 ParamList:;;;int;Year;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:34 AllParameterDescription:8 4 Year0 </anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.GetListInsuranceInYear(:int)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="r0KPE4OXVE24FYY0ONAaGA" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="3ZqqHVbrtUinnAxnnC/hJA" >
+<nam>Year</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="CuMG4X3AVUKRsN08xFroSg" >
+<dsc>L?y danh sách t?t c? nhân viên xét thanh toán b?o hi?m x? h?i trong theo đ?t</dsc>
+<nam>GetSocialInsurance</nam>
+<anc reserve="387" >8 NetAttr:23 Name:GetSocialInsurance6 Kind:012 Type:DataSet8 Access:088 Description:L?y danh sách t?t c? nhân viên xét thanh toán b?o hi?m x? h?i trong theo đ?t14 IsStatic:False16 IsAbstract:False10 Modifiers:51 ParamList:;;;DateTime;fromDate;;;;;DateTime;toDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:52 AllParameterDescription:12 8 fromDate0 10 6 toDate0 </anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.GetSocialInsurance(:DateTime,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="b4uUaJzfPkymYMOCw8TH7w" >
+<nam>DataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="WAZKyrGzU0+gkJEIryPyrQ" >
+<nam>fromDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="/+Z4w6+Gek2aFjlVw7hkZQ" >
+<nam>toDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="BXLyEFos2EqyHpgrHMGhog" >
+<dsc>sinh bang tong thanh toan BHXH de xuat</dsc>
+<nam>GenerateSocialInsurance</nam>
+<anc reserve="353" >8 NetAttr:28 Name:GenerateSocialInsurance6 Kind:08 Type:int8 Access:050 Description:sinh bang tong thanh toan BHXH de xuat14 IsStatic:False16 IsAbstract:False10 Modifiers:53 ParamList:;;;DateTime;startDate;;;;;DateTime;endDate;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:54 AllParameterDescription:13 9 startDate0 11 7 endDate0 </anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.GenerateSocialInsurance(:DateTime,:DateTime)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Cby3sb2L0ky7dDITUibaKA" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="yMKWeuBLnUiHkDEyA3J1jg" >
+<nam>startDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+<prm id="3dr0NMGFdUSqQkmCzOuTDQ" >
+<nam>endDate</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DateTime</tye>
+</prm>
+</prm>
+</opr>
+<opr id="SM3J047PAkqTt6fIMugmFg" >
+<dsc>Cập nhật bảng thanh toán BHXH</dsc>
+<nam>UpdateSocialInsuranceDO</nam>
+<anc reserve="304" >8 NetAttr:28 Name:UpdateSocialInsuranceDO6 Kind:08 Type:int8 Access:041 Description:Cập nhật bảng thanh toán BHXH14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.UpdateSocialInsuranceDO(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="khBR54cdV0mF980lhyQwTw" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="sPmhngTy8kqOOUmosxPUfg" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+<opr id="h1WtBgeh7U6CZuhFaUZqeg" >
+<nam>DeleteSocialSheetDO</nam>
+<anc reserve="271" >8 NetAttr:24 Name:DeleteSocialSheetDO6 Kind:08 Type:int8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:29 ParamList:;;;DataSet;dataSet;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 dataSet0 </anc>
+<ans>EVSoft.HRMS.DO.SocialInsuranceDO.DeleteSocialSheetDO(:DataSet)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="7MEV4FvK5Ee07KkPZl41UQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Ewnvp9MIHUmli962BDLuXQ" >
+<nam>dataSet</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>DataSet</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+</cls>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

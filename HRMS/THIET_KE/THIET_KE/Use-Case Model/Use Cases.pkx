@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (FdXYCuCkY0W4Av3OGCkqIg) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="5L0iKWaklUyr3jocXsBB3A"  model="..\..\Use-Case Model.mdx"  contain="1011011000000000000000100010001001100110011000001100101100010000010100000000000000101001110010000000010111000010111001100000000001000000010111101100001100000000010100000100100110"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;TxHCKnv0OE21abFO/95mHQ&quot; &gt;&lt;tvs&gt;&lt;RMS:URF id=&quot;j6NzPXrNjE2/D1iWE0If2w&quot;  name=&quot;Use-Case Model::RequisitePro::RequisitePro_default__Package&quot;  classStr=&quot;tvs&quot; /&gt;&lt;/tvs&gt;&lt;nam&gt;Use Cases&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="TxHCKnv0OE21abFO/95mHQ" >
+<otv>
+<stv id="8G6KEszjmEW9d7X/Xd4CFw" >
+<tgd>
+<RMS:URF id="ZqdvB1XrkkykUvWWOcE6mQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="Pjl/n2KEpESJTOdTTCRwQQ" >
+<tgd>
+<RMS:URF id="VVfl8PNU1U2JGhzxXWM58g"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="7QARItA/9UmjfawvU274Ig" >
+<tgd>
+<RMS:URF id="1wOzipI5j0WU2JYmOPvcJQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="Y7lbgPgTQESqruEIH6U8MQ" >
+<tgd>
+<RMS:URF id="g2nFOYyL1keCT0FXnAUqKA"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="9Ne3L++NxUCQariRchpfvg" >
+<tgd>
+<RMS:URF id="ZCWVb1xXD06DZhk4SUYfqw"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="wbvWLILlykqbFIoLz0WGSQ" >
+<tgd>
+<RMS:URF id="Ek5/rpHtSEautPlvg7J9/w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="EhUdwj7I4U6G1IUr9ouL1Q" >
+<tgd>
+<RMS:URF id="H6DodwgRpUy9FMWVLC+AGQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="j6NzPXrNjE2/D1iWE0If2w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package"  classStr="tvs" />
+</tvs>
+<dsc reserve="330" >The &quot;Use Cases&quot; package contains all of the use cases for the system.  
+If desired, additional packages can be created  to further organize the use cases.  In this template, there are two sub-packages (&quot;Use-Case Package 1&quot; and &quot;Use-Case Package 2&quot;).  These may be deleted if you determine that further partitioning is not needed.</dsc>
+<nam>Use Cases</nam>
+<mnd>
+<RMS:LRF id="lyxZKcwgvUuwgDMDEI+eAg" />
+</mnd>
+<owd>
+<dgx id="lyxZKcwgvUuwgDMDEI+eAg" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="G0T1C+87R0OZ18qk0iY2Bw"  name="Use-Case Model::Appearance::showactions=-1;showchoicepointlabels=-1;showexclusions=0;showguards=-1;showjunctionpointlabels=-1;showstatelabels=-1;showtransitionlabels=-1;showtransitionnames=0;showtriggers=-1"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<dsc reserve="314" >The &quot;Use Cases&quot; package &quot;Main&quot; diagram contains the model elements in the &quot;Use Cases&quot; package.
+
+In this template, two sub-packages have been defined to further partition the use cases (&quot;Use-Case Package 1&quot; and &quot;Use-Case Package 2&quot;).  These may be deleted if you determine that further partitioning is not needed.</dsc>
+<nam>Main</nam>
+<typ>USE_CASE</typ>
+<chl reserve="10" >
+<pgv id="WRrxjs9dxUqGygxDVWJ2nA" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="MSqG7W6GGkmseLNBZwbBlA"  name="Use-Case Model::Use Cases::Giao tiếp với hệ thống thẻ từ"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="kbvohyRWK0CnqiFkVULGHQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="MSqG7W6GGkmseLNBZwbBlA"  name="Use-Case Model::Use Cases::Giao tiếp với hệ thống thẻ từ"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(4974,1700)</ext>
+<pst>(2500,4000)</pst>
+</pgv>
+<pgv id="i2uGb43dX0ihhaD2aHBwkQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="/xSpw8nEa06NvadO0Y0Xqg"  name="Use-Case Model::Use Cases::Lập lịch"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="VWlaFw142ECj/UggTXlA7A" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="/xSpw8nEa06NvadO0Y0Xqg"  name="Use-Case Model::Use Cases::Lập lịch"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(8750,7000)</pst>
+</pgv>
+<pgv id="vSOThEdrS0+FDzr5nl3pgg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="YsyY+mfxe0qqc1HYrSJCHA"  name="Use-Case Model::Use Cases::Quản lý cơ cấu tổ chức"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="dFLaUP4v80Kt6uCJeIcNTA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="YsyY+mfxe0qqc1HYrSJCHA"  name="Use-Case Model::Use Cases::Quản lý cơ cấu tổ chức"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(4128,1700)</ext>
+<pst>(13500,4000)</pst>
+</pgv>
+<pgv id="dS8vDRB9aEeE2RG2eNw6qw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="oCHPNeIG9ES24ids07tr7w"  name="Use-Case Model::Use Cases::Quản lý lương"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="Qi0G/tyrQ0OM5B+H9wjlXw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="oCHPNeIG9ES24ids07tr7w"  name="Use-Case Model::Use Cases::Quản lý lương"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2778,1700)</ext>
+<pst>(2500,6750)</pst>
+</pgv>
+<pgv id="iXyCj1DvzE22ZbO19Hc4pQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="0slqwhOoaU2V/1M4xFGQDw"  name="Use-Case Model::Use Cases::Quản lý nhân sự"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="NLJBMugEj0yZoqk6MXTaZw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="0slqwhOoaU2V/1M4xFGQDw"  name="Use-Case Model::Use Cases::Quản lý nhân sự"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3149,1700)</ext>
+<pst>(8750,4000)</pst>
+</pgv>
+<pgv id="KjFUdMPGRkGQcV/uZ9DaqQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="0zg/jP94Lku4NF58L942xQ"  name="Use-Case Model::Use Cases::Quản trị hệ thống"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="4ZRgJPxdgk2IzXo91JJnwg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="0zg/jP94Lku4NF58L942xQ"  name="Use-Case Model::Use Cases::Quản trị hệ thống"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3334,1700)</ext>
+<pst>(13500,6750)</pst>
+</pgv>
+<pgv id="wgleriipJUmaTSwFqecrvQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="5f0aTzJks0et3U9BeQStRw"  name="Use-Case Model::Use Cases::Thống kê báo cáo"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="R12r7f2E30iBBALFYqzVFQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="5f0aTzJks0et3U9BeQStRw"  name="Use-Case Model::Use Cases::Thống kê báo cáo"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3387,1700)</ext>
+<pst>(2250,9000)</pst>
+</pgv>
+<pgv id="nqup03hiAkmQ6C3HFWwrow" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="YrLCdCmxGE6qOi3W5u97WA"  name="Use-Case Model::Use Cases::Dinh nghia cac danh sach tu dien"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="uqDZ5r6AsUKyPXmgEs7ifQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="YrLCdCmxGE6qOi3W5u97WA"  name="Use-Case Model::Use Cases::Dinh nghia cac danh sach tu dien"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(5662,1700)</ext>
+<pst>(8750,9250)</pst>
+</pgv>
+<pgv id="Aj9gFeI+SEesW31ig+MHSg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="o3bL0zTkIUyPFIJZ3RyC6Q"  name="Use-Case Model::Use Cases::Quan ly thuong phat"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="rbmGirr+XE6uHis/5ySfKw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="o3bL0zTkIUyPFIJZ3RyC6Q"  name="Use-Case Model::Use Cases::Quan ly thuong phat"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3731,1700)</ext>
+<pst>(2250,11500)</pst>
+</pgv>
+<pgv id="XYh9vZcjL0yCLA8x3ptGCA" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="5AY1BKPR4EGaprg3JXiXZA"  name="Use-Case Model::Use Cases::Chấm công"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="18/WgUV+AU6mYlFjOO5c4A" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="5AY1BKPR4EGaprg3JXiXZA"  name="Use-Case Model::Use Cases::Chấm công"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(8750,11500)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<nsp reserve="11" >
+<pkx id="YsyY+mfxe0qqc1HYrSJCHA"  file="USE CASES\Quan ly co cau to chuc.pkx" >
+</pkx>
+<pkx id="MSqG7W6GGkmseLNBZwbBlA"  file="USE CASES\Giao tiep voi he thong the tu.pkx" >
+</pkx>
+<pkx id="0slqwhOoaU2V/1M4xFGQDw"  file="USE CASES\Quan ly nhan su.pkx" >
+</pkx>
+<pkx id="/xSpw8nEa06NvadO0Y0Xqg"  file="USE CASES\Lap lich.pkx" >
+</pkx>
+<pkx id="0zg/jP94Lku4NF58L942xQ"  file="USE CASES\Quan tri he thong.pkx" >
+</pkx>
+<pkx id="5f0aTzJks0et3U9BeQStRw"  file="USE CASES\Thong ke bao cao.pkx" >
+</pkx>
+<pkx id="oCHPNeIG9ES24ids07tr7w"  file="USE CASES\Quan ly luong thuong.pkx" >
+</pkx>
+<pkx id="5AY1BKPR4EGaprg3JXiXZA"  file="USE CASES\Cham cong.pkx" >
+</pkx>
+<pkx id="YrLCdCmxGE6qOi3W5u97WA"  file="Use Cases\Dinh nghia cac danh sach tu dien.pkx" >
+</pkx>
+<pkx id="o3bL0zTkIUyPFIJZ3RyC6Q"  file="Use Cases\Quan ly thuong phat.pkx" >
+</pkx>
+<pkx id="xq4BUcsnkEO7FulGOfMMVQ"  file="Use Cases\Quan ly BHYT-BHXH.pkx" >
+</pkx>
+</nsp>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

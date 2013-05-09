@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (wkkKs5XcuEmhGuxRPq/aSg) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="XRQ6xoRCIkiPxB5kg6qPyw"  model="..\..\..\..\Analysis Model.mdx"  contain="0000000000001100100000100000011000000000010000000000101100000000000100000000000000000000000000000000000101000000001000000000000001000000010000000001000000000000010000000001000000"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;GxqKsUs1J0O7iPhZe7TgyA&quot; &gt;&lt;nam&gt;Quan ly thuong phat&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="GxqKsUs1J0O7iPhZe7TgyA" >
+<nam>Quan ly thuong phat</nam>
+<mnd>
+<RMS:LRF id="51bRsQOrekGhXNh/c3t1WQ" />
+</mnd>
+<owd>
+<dgx id="51bRsQOrekGhXNh/c3t1WQ" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<rlt>
+<asn id="D4JdZ3XMmEegbU+uanF2/w" >
+<end>
+<ase id="dNOtNnyb9k+6+DpldOv6GQ" >
+<nam>tblPunish</nam>
+<noe>
+<RMS:LRF id="Iffam9gTr06FTGNPUpEu9Q" />
+</noe>
+<mlt>0..*</mlt>
+<isn>TRUE</isn>
+</ase>
+<ase id="ZW2dHb5xNEinPTIz6j0IrA" >
+<noe>
+<RMS:LRF id="uRabEAeTCUe6Cx/PhaachA" />
+</noe>
+<mlt>1</mlt>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+</rlt>
+<cls>
+<clx id="uRabEAeTCUe6Cx/PhaachA" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<nam>tblPunishCard</nam>
+<att>
+<att id="UXA35ROMj0WFgEuNmOwckg" >
+<otv>
+<ntv id="mZPsoGUqTky+UKPiB+XUzg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="QyHT2TpFu02SBdPk42ldig" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>PunishCardID</nam>
+<tye>Integer</tye>
+</att>
+<att id="KwBa4fSTokm9U6UXP/44Cg" >
+<otv>
+<ntv id="UbHSzGJnvkCzV8SPmPuIBQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>CardName</nam>
+<tye>String</tye>
+</att>
+<att id="pFEoQHMzr06mWGAWUFdVoQ" >
+<otv>
+<ntv id="t7MKhTh440WWa82Rr36ToQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>PunishFactor</nam>
+<tye>Double</tye>
+</att>
+<att id="PA3tbh/daE6cp9Lr6lsi9Q" >
+<nam>Note</nam>
+<tye>String</tye>
+</att>
+</att>
+</clx>
+<clx id="Iffam9gTr06FTGNPUpEu9Q" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<nam>tblPunish</nam>
+<att>
+<att id="05QpaVhKW0mOFfmjIW5kKw" >
+<otv>
+<ntv id="UqaVNRbGCkSlDyT00n9FRQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="x7JtByrNTUm3fyiKlx+7Cg" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>PunishID</nam>
+<tye>Integer</tye>
+</att>
+<att id="2dANfMihAU+P1n+/a9Z2hA" >
+<otv>
+<ntv id="a3kkjABN1U+M5QBMSY/q1g" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>WorkingDay</nam>
+<tye>Date</tye>
+</att>
+<att id="B/1R+4T77ECEIpukUCAozA" >
+<nam>Reason</nam>
+<tye>String</tye>
+</att>
+</att>
+</clx>
+</cls>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

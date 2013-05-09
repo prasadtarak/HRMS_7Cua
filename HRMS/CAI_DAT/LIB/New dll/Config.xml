@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<ModuleSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Database>wims_qlns</Database>
+  <UserName>sa</UserName>
+  <Password>123</Password>
+  <Server>server</Server>
+  <PicturePath>E:\QLNS_18_12_2006\wims_qlns_hp\CAI_DAT\IMAGES\PHOTO</PicturePath>
+  <Language>vi-VN</Language>
+</ModuleSettings>

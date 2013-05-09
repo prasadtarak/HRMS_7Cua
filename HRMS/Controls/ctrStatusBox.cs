@@ -1,0 +1,155 @@
+using System;
+using System.Collections;
+using System.ComponentModel;
+using System.Drawing;
+using System.Data;
+using System.Windows.Forms;
+
+namespace EVSoft.HRMS.Controls
+{
+	/// <summary>
+	/// Summary description for ctrStatusBox.
+	/// </summary>
+	public class ctrStatusBox : System.Windows.Forms.UserControl
+	{
+		public System.Windows.Forms.Label lblEmployeeName;
+		public System.Windows.Forms.PictureBox picEmployee;
+		public System.Windows.Forms.PictureBox picStatus;
+		public System.Windows.Forms.Label lblYellowCard;
+		public System.Windows.Forms.Label lblRedCard;
+		/// <summary> 
+		/// Required designer variable.
+		/// </summary>
+		private System.ComponentModel.Container components = null;
+
+		public ctrStatusBox()
+		{
+			// This call is required by the Windows.Forms Form Designer.
+			InitializeComponent();
+
+			// TODO: Add any initialization after the InitializeComponent call
+
+		}
+
+		/// <summary> 
+		/// Clean up any resources being used.
+		/// </summary>
+		protected override void Dispose( bool disposing )
+		{
+			if( disposing )
+			{
+				if(components != null)
+				{
+					components.Dispose();
+				}
+			}
+			base.Dispose( disposing );
+		}
+
+		#region Component Designer generated code
+		/// <summary> 
+		/// Required method for Designer support - do not modify 
+		/// the contents of this method with the code editor.
+		/// </summary>
+		private void InitializeComponent()
+		{
+			System.Resources.ResourceManager resources = new System.Resources.ResourceManager(typeof(ctrStatusBox));
+			this.lblEmployeeName = new System.Windows.Forms.Label();
+			this.picEmployee = new System.Windows.Forms.PictureBox();
+			this.picStatus = new System.Windows.Forms.PictureBox();
+			this.lblYellowCard = new System.Windows.Forms.Label();
+			this.lblRedCard = new System.Windows.Forms.Label();
+			this.SuspendLayout();
+			// 
+			// lblEmployeeName
+			// 
+			this.lblEmployeeName.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+				| System.Windows.Forms.AnchorStyles.Right)));
+			this.lblEmployeeName.BackColor = System.Drawing.Color.CornflowerBlue;
+			this.lblEmployeeName.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((System.Byte)(163)));
+			this.lblEmployeeName.ForeColor = System.Drawing.Color.Navy;
+			this.lblEmployeeName.Location = new System.Drawing.Point(0, 0);
+			this.lblEmployeeName.Name = "lblEmployeeName";
+			this.lblEmployeeName.Size = new System.Drawing.Size(112, 24);
+			this.lblEmployeeName.TabIndex = 0;
+			this.lblEmployeeName.Text = "Bùi Thị Giao Linh";
+			this.lblEmployeeName.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// picEmployee
+			// 
+			this.picEmployee.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+				| System.Windows.Forms.AnchorStyles.Left) 
+				| System.Windows.Forms.AnchorStyles.Right)));
+			this.picEmployee.Image = ((System.Drawing.Image)(resources.GetObject("picEmployee.Image")));
+			this.picEmployee.Location = new System.Drawing.Point(0, 24);
+			this.picEmployee.Name = "picEmployee";
+			this.picEmployee.Size = new System.Drawing.Size(112, 128);
+			this.picEmployee.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.picEmployee.TabIndex = 1;
+			this.picEmployee.TabStop = false;
+			this.picEmployee.Click += new System.EventHandler(this.picEmployee_Click);
+			this.picEmployee.MouseHover += new System.EventHandler(this.picEmployee_MouseHover);
+			// 
+			// picStatus
+			// 
+			this.picStatus.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+				| System.Windows.Forms.AnchorStyles.Right)));
+			this.picStatus.Image = ((System.Drawing.Image)(resources.GetObject("picStatus.Image")));
+			this.picStatus.Location = new System.Drawing.Point(0, 152);
+			this.picStatus.Name = "picStatus";
+			this.picStatus.Size = new System.Drawing.Size(80, 32);
+			this.picStatus.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.picStatus.TabIndex = 5;
+			this.picStatus.TabStop = false;
+			// 
+			// lblYellowCard
+			// 
+			this.lblYellowCard.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.lblYellowCard.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblYellowCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(163)));
+			this.lblYellowCard.ForeColor = System.Drawing.Color.Navy;
+			this.lblYellowCard.Location = new System.Drawing.Point(80, 152);
+			this.lblYellowCard.Name = "lblYellowCard";
+			this.lblYellowCard.Size = new System.Drawing.Size(16, 24);
+			this.lblYellowCard.TabIndex = 3;
+			this.lblYellowCard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// lblRedCard
+			// 
+			this.lblRedCard.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+			this.lblRedCard.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.lblRedCard.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((System.Byte)(163)));
+			this.lblRedCard.ForeColor = System.Drawing.Color.Navy;
+			this.lblRedCard.Location = new System.Drawing.Point(96, 152);
+			this.lblRedCard.Name = "lblRedCard";
+			this.lblRedCard.Size = new System.Drawing.Size(16, 24);
+			this.lblRedCard.TabIndex = 4;
+			this.lblRedCard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+			// 
+			// ctrStatusBox
+			// 
+			this.BackColor = System.Drawing.SystemColors.ControlLightLight;
+			this.Controls.Add(this.picStatus);
+			this.Controls.Add(this.picEmployee);
+			this.Controls.Add(this.lblEmployeeName);
+			this.Controls.Add(this.lblRedCard);
+			this.Controls.Add(this.lblYellowCard);
+			this.Name = "ctrStatusBox";
+			this.Size = new System.Drawing.Size(120, 184);
+			this.ResumeLayout(false);
+
+		}
+		#endregion
+
+		private void picEmployee_Click(object sender, System.EventArgs e)
+		{
+			
+		}
+
+		private void picEmployee_MouseHover(object sender, System.EventArgs e)
+		{
+		
+		}
+
+	}
+}

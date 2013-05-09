@@ -1,0 +1,2864 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (NqgjHlT+GUqAsmppqPMR3Q) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="5L0iKWaklUyr3jocXsBB3A"  model="..\..\..\Use-Case Model.mdx"  contain="0000000000000000000000100000001000000010011000000000101100000000010100000000000000001000000000000000000111000000101000100000010001000000010000000100001100000000010100000000100110"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;0zg/jP94Lku4NF58L942xQ&quot; &gt;&lt;RMS:IMPORTS&gt;&lt;RMS:IMPORT uref=&quot;2:5:1:88:SW1wb3J0IG9mIG1vZGVsICdBbmFseXNpcyBNb2RlbC5tZHgnIGJ5IG1vZGVsICdVc2UtQ2FzZSBNb2RlbC5tZHgn:24:QW5hbHlzaXMgTW9kZWwubWR4:24:QW5hbHlzaXMgTW9kZWwubWR4:&quot;  id=&quot;XRQ6xoRCIkiPxB5kg6qPyw&quot;  refcount=&quot;1&quot; /&gt;&lt;/RMS:IMPORTS&gt;&lt;tvs&gt;&lt;RMS:URF id=&quot;j6NzPXrNjE2/D1iWE0If2w&quot;  name=&quot;Use-Case Model::RequisitePro::RequisitePro_default__Package&quot;  classStr=&quot;tvs&quot; /&gt;&lt;/tvs&gt;&lt;nam&gt;Quản trị hệ thống&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:IMPORTS>
+<RMS:IMPORT uref="2:5:1:88:SW1wb3J0IG9mIG1vZGVsICdBbmFseXNpcyBNb2RlbC5tZHgnIGJ5IG1vZGVsICdVc2UtQ2FzZSBNb2RlbC5tZHgn:24:QW5hbHlzaXMgTW9kZWwubWR4:24:QW5hbHlzaXMgTW9kZWwubWR4:"  id="XRQ6xoRCIkiPxB5kg6qPyw"  refcount="1" />
+</RMS:IMPORTS>
+<RMS:ROOT>
+<pkx id="0zg/jP94Lku4NF58L942xQ" >
+<otv>
+<stv id="jG6WQjkU2kO6wdtmYCvqVw" >
+<tgd>
+<RMS:URF id="ZqdvB1XrkkykUvWWOcE6mQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="4RwspU4l4EmbqKD9BvM4mQ" >
+<tgd>
+<RMS:URF id="VVfl8PNU1U2JGhzxXWM58g"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="DI3RFn8j7ESYBcTlE0Nx+Q" >
+<tgd>
+<RMS:URF id="1wOzipI5j0WU2JYmOPvcJQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="wcoqyBGs5E+V/Ld3SDQLHA" >
+<tgd>
+<RMS:URF id="g2nFOYyL1keCT0FXnAUqKA"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="MZk/f3UcyEubAl6l1GZ5kA" >
+<tgd>
+<RMS:URF id="ZCWVb1xXD06DZhk4SUYfqw"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="6vRd5fwIr0WPsBP6Q519yQ" >
+<tgd>
+<RMS:URF id="Ek5/rpHtSEautPlvg7J9/w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="knbwn7FUO0S2i9QQsMZShA" >
+<tgd>
+<RMS:URF id="H6DodwgRpUy9FMWVLC+AGQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="j6NzPXrNjE2/D1iWE0If2w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package"  classStr="tvs" />
+</tvs>
+<nam>Quản trị hệ thống</nam>
+<mnd>
+<RMS:LRF id="G1HMetMGzkuvCyOAE4/R7g" />
+</mnd>
+<owd>
+<dgx id="G1HMetMGzkuvCyOAE4/R7g" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:LRF id="HvvlDs95OU6Eawc8mj9DMA" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="KGhUhNOplEWAOujpx63P0A" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="GiheE1Bnrka/4jjK39jWnA" />
+</mdr>
+<chl>
+<ncv id="lL8pGHbUEkyntzRngFEJcw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="GiheE1Bnrka/4jjK39jWnA" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3360,1700)</ext>
+<pst>(750,-1500)</pst>
+</pgv>
+<pgv id="xW7SDhtg/U+t/2tiHm9uLQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="FzO1DliT8UGE1b8G5TWcTA" />
+</mdr>
+<chl>
+<ncv id="OwJQ9LmqvEmyYCjp+ah5/Q" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="FzO1DliT8UGE1b8G5TWcTA" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3334,1700)</ext>
+<pst>(7250,-1250)</pst>
+</pgv>
+<pgv id="fuUvLW7poEOa06tzW+iccQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="5NiywlmiRkau3lyp21HVTw" />
+</mdr>
+<chl>
+<ncv id="WYeP75tAu0mlYuEEIcGkdg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="5NiywlmiRkau3lyp21HVTw" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3704,1700)</ext>
+<pst>(750,1500)</pst>
+</pgv>
+<pgv id="q6kUA+Cq0UevCduWylCyRQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="e3WlMRAcVUetIzn5YpNxMQ" />
+</mdr>
+<chl>
+<ncv id="dctKrZWlbEeGEL0R4Qb6xg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="e3WlMRAcVUetIzn5YpNxMQ" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3281,1700)</ext>
+<pst>(7250,1500)</pst>
+</pgv>
+</chl>
+<lcs>
+<sty id="q3gmtWka5kKlkBy8qCqpQA" >
+<dsn>View</dsn>
+<nam reserve="144" >attributecompartment=0;compartmentstereotypes=1;operationcompartment=0;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2</nam>
+<btv>
+<RMS:URF id="Zge0/BbRXEuVAVgPIjTJbQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+</btv>
+<tgv>
+<ntv id="Xse69oA7J0mrf9/bIlvWxg" >
+<tgd>
+<RMS:URF id="/f6FMYqvRkq8kPB1kvDQ0A"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::AttributeCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="ELfg48cXOkKIQ2f4u6ISgg" >
+<tgd>
+<RMS:URF id="v2pR9JW5Q0G5xSckAiDjgQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::OperationCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+</tgv>
+<typ>ClassifierViewAppearance</typ>
+</sty>
+<sty id="3ueAYQM0Vki/qjBfyftHog" >
+<dsn>View</dsn>
+<nam>pseudostatekind=2;showchoicepointlabels=-1;showjunctionpointlabels=-1</nam>
+<btv>
+<RMS:URF id="z9741kyG3EanknFKxR04Wg"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="EU3oZv+gXEGFIdp/grGb7g" >
+<tgd>
+<RMS:URF id="XTWlTDo5yUGHMv4hPjOuoA"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1::PseudoStateKind"  classStr="tgd" />
+</tgd>
+<val>2</val>
+</itv>
+</tgv>
+<typ>PseudoStateViewAppearance</typ>
+</sty>
+<sty id="HvvlDs95OU6Eawc8mj9DMA" >
+<dsn>Print</dsn>
+<nam reserve="457" >cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=-4680;pagebreaktop=-21613;pagescale=100;papersize=0;showfooter=-1;showheader=-1</nam>
+<btv>
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="6Ft+HkKd3kiqyhPDCBpErw" >
+<tgd>
+<RMS:URF id="L08wUmqF4kOWD5q2vKtY3Q"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1::PageBreakLeft"  classStr="tgd" />
+</tgd>
+<val>-4680</val>
+</itv>
+<itv id="aLHetKRTUE6yYmc8z2rm/Q" >
+<tgd>
+<RMS:URF id="TyZD+lP080G/97KY+cvR8g"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1::PageBreakTop"  classStr="tgd" />
+</tgd>
+<val>-21613</val>
+</itv>
+</tgv>
+<typ>DiagramPrint</typ>
+</sty>
+</lcs>
+</dgx>
+</owd>
+<nsp>
+<pkx id="e3WlMRAcVUetIzn5YpNxMQ" >
+<otv>
+<stv id="UebCw9ebxEWs878lZ9b7tA" >
+<tgd>
+<RMS:URF id="ZqdvB1XrkkykUvWWOcE6mQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="Vis/qXMpEE6sRWPvC60jkA" >
+<tgd>
+<RMS:URF id="VVfl8PNU1U2JGhzxXWM58g"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="1/NGrj+3zk62p312i6liOg" >
+<tgd>
+<RMS:URF id="1wOzipI5j0WU2JYmOPvcJQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="/jDQBjyYiEWN5bVrWr56ag" >
+<tgd>
+<RMS:URF id="g2nFOYyL1keCT0FXnAUqKA"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="XXQ17OaPokuw6UZy6E6yTw" >
+<tgd>
+<RMS:URF id="ZCWVb1xXD06DZhk4SUYfqw"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="BZ/hD3aEqky9Lwg3hjEdwg" >
+<tgd>
+<RMS:URF id="Ek5/rpHtSEautPlvg7J9/w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="qirGiBlg7k2ve4Hs1YH5Zw" >
+<tgd>
+<RMS:URF id="H6DodwgRpUy9FMWVLC+AGQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="j6NzPXrNjE2/D1iWE0If2w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package"  classStr="tvs" />
+</tvs>
+<nam>Tìm kiếm tra cứu</nam>
+<mnd>
+<RMS:LRF id="bL6buxj8gkOl4vUXBWtqmA" />
+</mnd>
+<owd>
+<dgx id="bL6buxj8gkOl4vUXBWtqmA" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="Pcnd9JlmC0CM9o50p1aYpQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="PUswAbR0qUGVaey/CTaZWA" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="bYWoIYMcz0G5rqwzTYRgIA"  name="Use-Case Model::Actors::Người sử dụng"  classStr="acx" />
+</mdr>
+<chl>
+<ssv id="GfOKUfPeT06mHhjajtr9Jg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:URF id="bYWoIYMcz0G5rqwzTYRgIA"  name="Use-Case Model::Actors::Người sử dụng"  classStr="acx" />
+</mdr>
+<btm>2</btm>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="dXLUtrR6J0S4LROC8fia4Q" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="bYWoIYMcz0G5rqwzTYRgIA"  name="Use-Case Model::Actors::Người sử dụng"  classStr="acx" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2592,2000)</ext>
+<pst>(8500,8750)</pst>
+</pgv>
+<pgv id="mTnpt3f5yEOZyiRsRtATwA" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="PUswAbR0qUGVaey/CTaZWA" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="21c67mVHwkCtRJgVZA7c9Q" />
+</mdr>
+<chl>
+<ssv id="NuhRu62zgUGtpC7tyTANnw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="21c67mVHwkCtRJgVZA7c9Q" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="C7RqlDAPgkatvGLLllDeWA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="21c67mVHwkCtRJgVZA7c9Q" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(5724,1198)</ext>
+<pst>(12000,5250)</pst>
+</pgv>
+<cnv id="U/pm9TI2TUqg0P3b+RP0Jw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="2oEtuF5BbkyxB7rMph2MnQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="LNU+rbNTV0+j2snz7HryLg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<bnd>
+(10144,9025)
+(14285,6435)
+</bnd>
+<frv>
+<RMS:LRF id="Pcnd9JlmC0CM9o50p1aYpQ" />
+</frv>
+<lbl>
+<olv id="gnOTLxtYRU6i2TI4jsluhA" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="LNU+rbNTV0+j2snz7HryLg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="+CuJm8DMjEaPXXJLvbPZvQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="LNU+rbNTV0+j2snz7HryLg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="AQCejx0Xf0WtWfVcZwUzsQ" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="LNU+rbNTV0+j2snz7HryLg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="mTnpt3f5yEOZyiRsRtATwA" />
+</tvw>
+</cnv>
+</chl>
+<lcs>
+<sty id="PUswAbR0qUGVaey/CTaZWA" >
+<dsn>View</dsn>
+<nam reserve="144" >attributecompartment=0;compartmentstereotypes=1;operationcompartment=0;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2</nam>
+<btv>
+<RMS:URF id="Zge0/BbRXEuVAVgPIjTJbQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+</btv>
+<tgv>
+<ntv id="3ZmR8GqF0EuLZJeWF/6Q4g" >
+<tgd>
+<RMS:URF id="/f6FMYqvRkq8kPB1kvDQ0A"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::AttributeCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="KWJV0CLSaUmOxe1TC1JPGg" >
+<tgd>
+<RMS:URF id="v2pR9JW5Q0G5xSckAiDjgQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::OperationCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+</tgv>
+<typ>ClassifierViewAppearance</typ>
+</sty>
+<sty id="2oEtuF5BbkyxB7rMph2MnQ" >
+<dsn>View</dsn>
+<nam>pseudostatekind=2;showchoicepointlabels=-1;showjunctionpointlabels=-1</nam>
+<btv>
+<RMS:URF id="z9741kyG3EanknFKxR04Wg"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="GfAUM06BxU230oVhiH/WMw" >
+<tgd>
+<RMS:URF id="XTWlTDo5yUGHMv4hPjOuoA"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1::PseudoStateKind"  classStr="tgd" />
+</tgd>
+<val>2</val>
+</itv>
+</tgv>
+<typ>PseudoStateViewAppearance</typ>
+</sty>
+</lcs>
+</dgx>
+</owd>
+<cls>
+<ucx id="21c67mVHwkCtRJgVZA7c9Q" >
+<otv reserve="9" >
+<stv id="IDlV24M1A065oo9BR9FMFQ" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="tnDqMPhLdUmUuNsIWfup1Q" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="AiGrxQP+JEmQ//WuSPv2BQ" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="KH08KcPnmUmLFdb4Uf6QFQ" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="1mA8sShYK0CDEDYqfDhXMQ" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="kgJASdNqAkK5a00iazvPUA" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="xNzATgjk8EqG7c4/g/GM2w" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="sBu6i/Memki9E4dVUY2q8w" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{1A2C919F-1EEA-4ECC-947D-E99B962BA19E}</val>
+</stv>
+<stv id="DdDQqOTC7EWtN9fd7ra9Aw" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC59</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="170" >Use case này xảy ra khi người dùng muốn tìm kiếm một nhân viên theo các thông tin liên quan đến nhân viên như: mã thẻ, mã nhân viên, tên nhân viên, chức vụ</dsc>
+<nam>Tìm kiếm thông tin hồ sơ nhân viên</nam>
+</ucx>
+<ucx id="Wdjm/rykuk6+J56GdqySDQ" >
+<nam>UseCase1</nam>
+</ucx>
+</cls>
+</pkx>
+<pkx id="GiheE1Bnrka/4jjK39jWnA" >
+<otv>
+<stv id="vJ14XIVRnUeu1PVP0AVdEw" >
+<tgd>
+<RMS:URF id="ZqdvB1XrkkykUvWWOcE6mQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="FLI0eRgc8E6eXosj4W0lSQ" >
+<tgd>
+<RMS:URF id="VVfl8PNU1U2JGhzxXWM58g"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="Md8ojRAjOEKh2wic/qYmHg" >
+<tgd>
+<RMS:URF id="1wOzipI5j0WU2JYmOPvcJQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="zEQZGPihH0Kfibdezj8MVw" >
+<tgd>
+<RMS:URF id="g2nFOYyL1keCT0FXnAUqKA"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="/J/CkpVGH0mAfNQIQlZVvw" >
+<tgd>
+<RMS:URF id="ZCWVb1xXD06DZhk4SUYfqw"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="8OzoQIo3MEWTX6/1+yOi9w" >
+<tgd>
+<RMS:URF id="Ek5/rpHtSEautPlvg7J9/w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="RMHLzlNiXEmH2eUoQipqRw" >
+<tgd>
+<RMS:URF id="H6DodwgRpUy9FMWVLC+AGQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="j6NzPXrNjE2/D1iWE0If2w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package"  classStr="tvs" />
+</tvs>
+<nam>Bảo mật hệ thống</nam>
+<mnd>
+<RMS:LRF id="6UZvpT4YsEafF/JraG9GRA" />
+</mnd>
+<owd>
+<dgx id="6UZvpT4YsEafF/JraG9GRA" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<cls>
+<ucx id="JWLrEId8Fke7ZMmPVSz85A" >
+<otv reserve="9" >
+<stv id="2L7rHYGN2UGk3Bm6JHBH6g" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="G41MipJVMUa0gl1FxJI1Ew" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="Nb7MdP8aAUSCnYGEjVGQhw" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="1hfaNG2JJUqN5DUFZymMeA" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="JO136FZh/Ey5aKv46WO9wA" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="wLkuvzOMuk6/gaRu/BvHXQ" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="ufN88Qh0dEOt1u4ID1btTw" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="NIv5z52ePk2ktnvFTlZARQ" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{33D0E8B6-CD11-47A6-859A-14B1B2A23C6A}</val>
+</stv>
+<stv id="4RWNbYHbWkiUVbWl46BpgQ" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC55</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="588" >Mô tả vắn tắt &#13;Use Case xảy ra khi người dùng đăng nhập vào hệ thống. Hai kiểu người dùng chính là người quản trị (Administrator) và người dùng bình thường (user)
+Luồng sự kiện (Flow of Events)
+ Luồng sự kiện chính (Basic Flow) 
+ 	Người sử dụng bấm vào nút &lt;Đăng nhập&gt;
+ 	Hệ thống hiển thị form yêu cầu người sử dụng nhập username và password để đăng nhập
+ 	Nếu thông tin đăng nhập hợp lệ, hệ thống sẽ hiện thông báo việc đăng nhập thành công và người dùng sẽ được cấp quyền sử dụng các chức năng của hệ thống</dsc>
+<nam>Đăng nhập</nam>
+</ucx>
+<ucx id="7Rco38SZm0eoY0UJ31NHlQ" >
+<otv reserve="9" >
+<stv id="dcyn+tvOB02ICJ4wEVB4FQ" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="vjYZV99l6keRiaX2XcRZGw" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="/o6iRufo4U2v++u4BbmZ5Q" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="NJddY2pGqEu9IiZEb5Tnig" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="qprtmz41NU+PzQmCucfRMg" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="5CpRmhqUX0SZDtcyJIRA7g" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="B9wsUS9Vlk2JpNkNRX3gfQ" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="2e9D/sqhM0yBAI5KGSHS8g" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{83CFDDA1-5664-4A90-815D-12267D93CE1C}</val>
+</stv>
+<stv id="hTTBp/cZUUSHk/53QMc0uw" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC106</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="224" >UC này xảy ra khi người sử dụng đăng xuất khỏi hệ thống.
+FoE:
+Người sử dụng chọn chức năng đăng xuất khỏi hệ thống
+Hệ thống sẽ reset lại các quyền và các chức năng hiển thị trong chương trình</dsc>
+<nam>Đăng xuất</nam>
+</ucx>
+</cls>
+</pkx>
+<pkx id="FzO1DliT8UGE1b8G5TWcTA" >
+<nam>Quản trị hệ thống</nam>
+<mnd>
+<RMS:LRF id="dlPmem4P0UOjGBbtT3SEtg" />
+</mnd>
+<owd>
+<dgx id="dlPmem4P0UOjGBbtT3SEtg" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<cls>
+<ucx id="jM+khUwDt0aVoJ9yneOGGA" >
+<otv reserve="9" >
+<stv id="Q4eTQW8mQU+Cp0ICJmI4LA" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="LDPvj2GMmk2jAXoyEfILCw" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="+2ai2+cDuU6IPb4NtbcIkw" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="NmSf11fouEWx86M18bHiOw" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="EAPoLPUsqU2/FIISDsD6IQ" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="tl8O7EREpE2I4uR/QcGlrg" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="OysvxJ8qrkOX9rcRhXLatg" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="X+VnR3g7kk+IBWeHztVKgw" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{36DBDA89-4711-4A4B-B220-13575CA50E21}</val>
+</stv>
+<stv id="VyVcKClTokqHib6y/4G9jA" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC58</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="258" >Cấu hình, thiết lập các thông số hệ thống. Use case này xảy ra khi người dùng muốn cấu hình thay đổi một số thông số hệ thống như: giao diện người dùng ( skin), ngôn ngữ hiển thị, các thông số để liên lạc với máy chủ, v.v...</dsc>
+<nam>Cấu hình, thiết lập các thông số hệ thống</nam>
+</ucx>
+</cls>
+</pkx>
+<pkx id="5NiywlmiRkau3lyp21HVTw" >
+<otv>
+<stv id="tRwOZ0EtoE6l28gAR75v8g" >
+<tgd>
+<RMS:URF id="ZqdvB1XrkkykUvWWOcE6mQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="82mSTp4di0SvMcjNQLY1IA" >
+<tgd>
+<RMS:URF id="VVfl8PNU1U2JGhzxXWM58g"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="ODr1sab0NkeQSKIjR32+5w" >
+<tgd>
+<RMS:URF id="1wOzipI5j0WU2JYmOPvcJQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="RiOY8shAEEGbDACIKQ+C3w" >
+<tgd>
+<RMS:URF id="g2nFOYyL1keCT0FXnAUqKA"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="MYnl0Qa43Ei3Lq/D4dW5kw" >
+<tgd>
+<RMS:URF id="ZCWVb1xXD06DZhk4SUYfqw"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="UIGBJq5ZBEC+4ICZl88jpw" >
+<tgd>
+<RMS:URF id="Ek5/rpHtSEautPlvg7J9/w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="uVm8WK4ntkGSnI9XKz/KMw" >
+<tgd>
+<RMS:URF id="H6DodwgRpUy9FMWVLC+AGQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="j6NzPXrNjE2/D1iWE0If2w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package"  classStr="tvs" />
+</tvs>
+<nam>Quản trị người dùng</nam>
+<mnd>
+<RMS:LRF id="D8Ewh30fJE6/w+UiqeMVJw" />
+</mnd>
+<owd>
+<dgx id="D8Ewh30fJE6/w+UiqeMVJw" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl reserve="18" >
+<pgv id="VjxTVV4uf0aIeJdmXIyU4A" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="I3NExoxE4EivcB/a+Han3g" />
+</mdr>
+<chl>
+<ssv id="2AqQBZlBk0ie8r3WWVOgSQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="I3NExoxE4EivcB/a+Han3g" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="GHXRkSQC5UClF0YTbr6s0A" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="I3NExoxE4EivcB/a+Han3g" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(5724,1198)</ext>
+<pst>(11500,5000)</pst>
+</pgv>
+<pgv id="TRtIVSXkP0O9cQGoZ/XOJQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="bDsCoHxd1E6vJ70ZOqtRzA" />
+</mdr>
+<chl>
+<ssv id="Omy3PE+56UKjJPk+RneLFg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="bDsCoHxd1E6vJ70ZOqtRzA" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="n9iMgRL8iEWOU2Gp0O89JQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="bDsCoHxd1E6vJ70ZOqtRzA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(5763,1198)</ext>
+<pst>(1000,12000)</pst>
+</pgv>
+<pgv id="uePEY/4OLU6OZvhG0f3Keg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="4JIxTrYG+kOxHjwBsCPn7g" />
+</mdr>
+<chl>
+<ssv id="LVFgfRzkqE2gnTHil55pCg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="4JIxTrYG+kOxHjwBsCPn7g" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="YDYfmbxZv0apWhYLVGlZMQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="4JIxTrYG+kOxHjwBsCPn7g" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(6174,1198)</ext>
+<pst>(11500,8000)</pst>
+</pgv>
+<pgv id="HHLoTA68OEqcvYH4UdlKcg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="ljSmXo7r/0S4C+q9wbzpWQ" />
+</mdr>
+<chl>
+<ssv id="SpG3u8tZt0SYXHTz8NusBQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="ljSmXo7r/0S4C+q9wbzpWQ" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="fumVxK0eAEuahZl2BLMUxw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="ljSmXo7r/0S4C+q9wbzpWQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(6211,1198)</ext>
+<pst>(6500,2750)</pst>
+</pgv>
+<pgv id="qBOasw8M0k2YMHCIUn8A7A" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="q5kBfL63/063+FqTabBJHg" />
+</mdr>
+<chl>
+<ssv id="H4zeJ5KfCkaUFVssWwurBA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="q5kBfL63/063+FqTabBJHg" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="GPHOU5zKLE2BpGHK7qUajA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="q5kBfL63/063+FqTabBJHg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(5688,1100)</ext>
+<pst>(1250,5750)</pst>
+</pgv>
+<pgv id="MsE6cVS64EOr30mvj4SPZw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="C9SNSsfITkiGohcWanE7Dg" />
+</mdr>
+<chl>
+<ssv id="kOtrj94uO0iW5FeOJU9xxw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="C9SNSsfITkiGohcWanE7Dg" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="YbU8GVqkC0+WLvs77mU61A" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="C9SNSsfITkiGohcWanE7Dg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(6286,1198)</ext>
+<pst>(6000,15000)</pst>
+</pgv>
+<pgv id="oaxedYl590OQn6a7XQfYsw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="u+GuvAShiUSsY4jjOwo3Ig" />
+</mdr>
+<chl>
+<ssv id="JpH4KLffa0e/s3E5qb+UWQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="u+GuvAShiUSsY4jjOwo3Ig" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="31lwdsQSzUWrXYvGVEF1YA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="u+GuvAShiUSsY4jjOwo3Ig" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(5688,1100)</ext>
+<pst>(1500,9500)</pst>
+</pgv>
+<pgv id="ct6cpddbuUq8wgpDD+Devw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="uwsUDA/8Ak6fULBVdFU6RA" />
+</mdr>
+<chl>
+<ssv id="YyrZZXdiuE+K9ODp0zcP+A" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="uwsUDA/8Ak6fULBVdFU6RA" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="9EwowUxcNEmL7Y+YP2uYdw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="uwsUDA/8Ak6fULBVdFU6RA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(6286,1198)</ext>
+<pst>(11000,11500)</pst>
+</pgv>
+<pgv id="mAf0X6Ewn02eiwAh51a/jA" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="Ci2oAYBgOUS30MgxvC+3iw" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="NSkHoSXQ1k2pH0nPrfEalg"  name="Use-Case Model::Actors::Người quản trị"  classStr="acx" />
+</mdr>
+<chl>
+<ssv id="esU0C5dg4UCsbGKA9Im1WA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:URF id="NSkHoSXQ1k2pH0nPrfEalg"  name="Use-Case Model::Actors::Người quản trị"  classStr="acx" />
+</mdr>
+<btm>2</btm>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="3yJsryHFrEaif2GlaR4ylw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="NSkHoSXQ1k2pH0nPrfEalg"  name="Use-Case Model::Actors::Người quản trị"  classStr="acx" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2566,2000)</ext>
+<pst>(7750,7500)</pst>
+</pgv>
+<cnv id="PsSjsbocQkatj+MAu6n2gg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="xVBRTm2InEqhVd0X6zfVUg"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(8787,7529)
+(8829,3928)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="KnjQHMYTm0yYwuNt+N36mA" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="xVBRTm2InEqhVd0X6zfVUg"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="HnVmprRyIEuHpg4I+oNWqw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="xVBRTm2InEqhVd0X6zfVUg"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="VEb3T/f88EeV188kSuruTw" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="xVBRTm2InEqhVd0X6zfVUg"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="HHLoTA68OEqcvYH4UdlKcg" />
+</tvw>
+</cnv>
+<cnv id="TyFj8UbaTkuLHF1H3NM6ow" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="HvFm9f2zOE6dj9dKY7ZfQQ"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(9033,9500)
+(9143,15000)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="hAxnxY6zrk6xbml7IJjizA" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="HvFm9f2zOE6dj9dKY7ZfQQ"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="yxJzjz1CV0OiJyoPVSUL4Q" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="HvFm9f2zOE6dj9dKY7ZfQQ"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="PlOULyMPfEOCjyWFGdqCGw" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="HvFm9f2zOE6dj9dKY7ZfQQ"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="MsE6cVS64EOr30mvj4SPZw" />
+</tvw>
+</cnv>
+<cnv id="Wp3pVBfKQkuvhVTNeFiBqg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="dwWIpj3FlkOiErBB3qdmkw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(8685,7775)
+(5683,6755)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="BI6bXbM+G0e0G1OvsJIIQg" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="dwWIpj3FlkOiErBB3qdmkw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="jKI8gzsKW0avDM6Ge84rIQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="dwWIpj3FlkOiErBB3qdmkw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="Upi19GOp1kWNYmrYsKAq9w" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="dwWIpj3FlkOiErBB3qdmkw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>59</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="qBOasw8M0k2YMHCIUn8A7A" />
+</tvw>
+</cnv>
+<cnv id="rA22L3JyzEOLymO4ZzSnJA" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="boRTONBfpE2ntuzuCEaKLw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(9279,7529)
+(11650,5790)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="FpGKFEFhbUiDgum6ZIivZQ" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="boRTONBfpE2ntuzuCEaKLw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="fNpRwJzmD06RQF1NuPzqpw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="boRTONBfpE2ntuzuCEaKLw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="wlfQzlwrrUGO8LI9stAwvQ" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="boRTONBfpE2ntuzuCEaKLw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="VjxTVV4uf0aIeJdmXIyU4A" />
+</tvw>
+</cnv>
+<cnv id="MOJlvwg1u0eVDfXFm/IdMg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="XVIFrb+j1Em3+iXrbAoOjw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(8787,7529)
+(8829,3928)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="bD/Tkmcr6UeDKH6HCPTSeQ" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="XVIFrb+j1Em3+iXrbAoOjw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="k6Id+vyAXk+3cxElHm2Dlw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="XVIFrb+j1Em3+iXrbAoOjw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="CRHGxIWZG0+k9GPwfQsZiA" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="XVIFrb+j1Em3+iXrbAoOjw"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="HHLoTA68OEqcvYH4UdlKcg" />
+</tvw>
+</cnv>
+<cnv id="M5MGOVHxI0Gz19dMGY1auw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="wlyLq2+HokipvaTHdltK0w"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(9433,9500)
+(11868,11686)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="oKG0a4fajkW/eVrdg/w2dg" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="wlyLq2+HokipvaTHdltK0w"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="QeU7vQgZD0mbw9ARNnhUZA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="wlyLq2+HokipvaTHdltK0w"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="9EU68vM9+EC6HGGj7+a6+A" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="wlyLq2+HokipvaTHdltK0w"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="ct6cpddbuUq8wgpDD+Devw" />
+</tvw>
+</cnv>
+<cnv id="6w9OJrgSG0SwqXgeb2rgBw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="D2mr5OaNJ0yw18B3e8f5hA"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(8933,9500)
+(6508,12352)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="Eb43sywtjk+TSGrcLh7FJg" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="D2mr5OaNJ0yw18B3e8f5hA"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="9cV8W6CioEO+OAURoCZRkw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="D2mr5OaNJ0yw18B3e8f5hA"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="z4KpabTCuEWt034jr6mWKg" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="D2mr5OaNJ0yw18B3e8f5hA"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="TRtIVSXkP0O9cQGoZ/XOJQ" />
+</tvw>
+</cnv>
+<cnv id="d+/Y7AybYU+afHrlFRteZw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="D/UHJ5u2vkyvNUQsFCSB8Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(8637,8375)
+(6907,9811)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="AXBTZaCNjkK7ZZj2voPlDw" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="D/UHJ5u2vkyvNUQsFCSB8Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="6ViLJ93lVU+Klx2vPulzPQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="D/UHJ5u2vkyvNUQsFCSB8Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="3arKdrR+rkumxfiJw0EpMg" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="D/UHJ5u2vkyvNUQsFCSB8Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="oaxedYl590OQn6a7XQfYsw" />
+</tvw>
+</cnv>
+<cnv id="UBKrB6svaUijVjQ+lpspFw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="fHYxY39gPke+vPV448y1JQ" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="R3mispjo7EG794Va7MT/9Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<bnd>
+(9033,7500)
+(12352,8186)
+</bnd>
+<frv>
+<RMS:LRF id="mAf0X6Ewn02eiwAh51a/jA" />
+</frv>
+<lbl>
+<olv id="FIPexnbaQkW7T5Lykp9l3A" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="R3mispjo7EG794Va7MT/9Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="tZEKuBJGZkC3PVo4hPv9cw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="R3mispjo7EG794Va7MT/9Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="7WgfNyXvmEy9MVF/RvFNlw" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="R3mispjo7EG794Va7MT/9Q"  name="Use-Case Model::Actors::Người quản trị::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="uePEY/4OLU6OZvhG0f3Keg" />
+</tvw>
+</cnv>
+</chl>
+<lcs>
+<sty id="Ci2oAYBgOUS30MgxvC+3iw" >
+<dsn>View</dsn>
+<nam reserve="144" >attributecompartment=0;compartmentstereotypes=1;operationcompartment=0;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2</nam>
+<btv>
+<RMS:URF id="Zge0/BbRXEuVAVgPIjTJbQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+</btv>
+<tgv>
+<ntv id="a7MnGaK7FEK+2QFZAI/Jvg" >
+<tgd>
+<RMS:URF id="/f6FMYqvRkq8kPB1kvDQ0A"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::AttributeCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="e+6sczi0xUOFFqG5xcvZkg" >
+<tgd>
+<RMS:URF id="v2pR9JW5Q0G5xSckAiDjgQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::OperationCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+</tgv>
+<typ>ClassifierViewAppearance</typ>
+</sty>
+<sty id="fHYxY39gPke+vPV448y1JQ" >
+<dsn>View</dsn>
+<nam>pseudostatekind=2;showchoicepointlabels=-1;showjunctionpointlabels=-1</nam>
+<btv>
+<RMS:URF id="z9741kyG3EanknFKxR04Wg"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="02eZhdKL7UamZed1jgaOJQ" >
+<tgd>
+<RMS:URF id="XTWlTDo5yUGHMv4hPjOuoA"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1::PseudoStateKind"  classStr="tgd" />
+</tgd>
+<val>2</val>
+</itv>
+</tgv>
+<typ>PseudoStateViewAppearance</typ>
+</sty>
+</lcs>
+</dgx>
+</owd>
+<cls>
+<ucx id="C9SNSsfITkiGohcWanE7Dg" >
+<otv reserve="9" >
+<stv id="B2g2ADT/qEioi4hj+/Y7Rw" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="8tsk84b9WEGDlON340yN7g" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="jhGK36n8YU+pF5hwwc8Tzw" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="E9SQp+Vjaky4ucQtJWFAPA" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="CUgWiqkh1EyOA9ol1CtXug" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="WNwBc5R4CUW2OTtFHlxdFQ" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="KSbcozzenE2pjocnxLTctQ" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="YknGKiMPhUSxyBMvInbqHQ" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{5CD5C01E-C85B-404C-A9D4-22557AE97D19}</val>
+</stv>
+<stv id="X7BBEOrVuEKyIBnT3FL0iw" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC57</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="211" >Thay đổi tài khỏan người dùng. Use case này xảy ra khi muốn thay đổi tài khoản truy cập của người dùng trong hệ thống: từ người sử dụng bình thường sang người quản trị hoặc ngược lại</dsc>
+<nam>Sửa đổi tài khỏan người dùng</nam>
+</ucx>
+<ucx id="ljSmXo7r/0S4C+q9wbzpWQ" >
+<otv reserve="9" >
+<stv id="hXE60jndh0uAV2Ti85f60g" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="fP1Am5MBkUWYIH54keTXrw" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="mYRoB31xwE+CXzYYuKQ1yQ" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="1ypZGWJ2SkCYN2jsGZmdcQ" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="cBCzdS1ZVkC2/yXIb+hsjg" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="1XeX++iNQkuzPPzkUV4JiQ" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="3efasaqSlkKWDHPepVnWOg" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="vegMAtfEXk6t2uVIeaeaew" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{7C23D3F6-9D5D-461E-A21C-F827E3272177}</val>
+</stv>
+<stv id="vb0/6Jlpa0qfFQF60xbJ+Q" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC56</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="448" >Tạo người dùng trong hệ thống. Use case xảy ra khi người quản trị tạo người dùng trong hệ thống. Có hai đối tượng người dùng có thể sử dụng hệ thống: người dùng bình thường (user) và người quản trị (administrator). Người dùng bình thường chỉ được phép thực hiện thao tác đọc các dữ liệu có trong hệ thống, người quản trị có toàn bộ các quyền: đọc, ghi, xoá các dữ liệu trong hệ thống</dsc>
+<nam>Thêm người dùng trong hệ thống</nam>
+</ucx>
+<ucx id="bDsCoHxd1E6vJ70ZOqtRzA" >
+<otv reserve="9" >
+<stv id="BRxAwi3sfECbOAf5dp5aYw" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="7b7CuAfU2EqIKvuNQ789uQ" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="ksJdl6AEjkm2L73VscY5qg" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="FQFFBHzKMUiSzgCmSumk4A" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="nR9qfR2Mq02n9zM3PqusIQ" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="GzKiZ7jvDEm9wZzXAJSIGA" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="gawCLPTSE0WRXkNqIWJq/A" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="cXwX2VQx2kqpWG2UKVYo7A" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{9E498C07-9B54-4D26-A8D7-DAC394B41F0D}</val>
+</stv>
+<stv id="kSxnqI8wekuIgnIcmNF6oQ" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC107</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc>UC này xảy ra khi</dsc>
+<nam>Xem danh sách người sử dụng</nam>
+</ucx>
+<ucx id="I3NExoxE4EivcB/a+Han3g" >
+<otv reserve="9" >
+<stv id="SD/a/5mIzUadbQ/dFed1aw" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="Ev1pKfRyqUapaetNH5f07Q" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="Nk1zpWS46kWyWYCoTM/+6Q" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="iwTVgd8+CEuiS8qJ6oBQCg" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="LX6HahsqvkONLEspgDbJ4g" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="83AuCQmN30+9GNLIYfz+fw" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="k3RLGJeqoEKbX+E1sm09Cg" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="gBCYGjcKa0eXrl7X8b4FKQ" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{0390FD15-ECC0-48E9-991A-F410F1AB3660}</val>
+</stv>
+<stv id="RFhmyW61DUiJ02qZLPXbZQ" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC112</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc>hgfdhmgf</dsc>
+<nam>Xem danh sách nhóm người dùng</nam>
+</ucx>
+<ucx id="u+GuvAShiUSsY4jjOwo3Ig" >
+<otv reserve="9" >
+<stv id="mRuAbD7vPUiJuOPa/L4yig" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="Rdq64SNA8U+rHyS0I5RXJQ" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="q9ZZZhvuPU+puEronynR0g" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="zeoE+W42GEGIGtJhItdt3g" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="R3symLUncEO4T/Abxf/BRA" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="matCBAmD1US+nNlwxz5PRw" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="2PYIOMDt+UOM3LlJZVFDyg" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="9fAMxk6rmkakkyyLPf3sOw" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{DD787DA9-5CA1-4A49-89DA-1403E3DC6FC6}</val>
+</stv>
+<stv id="z6/cgE0GMU+Wh1VbTem8cA" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC111</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc>6tf6fr685d86fr8</dsc>
+<nam>Xóa nhóm người dùng</nam>
+</ucx>
+<ucx id="q5kBfL63/063+FqTabBJHg" >
+<otv reserve="9" >
+<stv id="dO1Y7lgJ90OfpqvWh0RRMA" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="t5xhyQYXH0CYkzq3ljyW4A" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="qtu7RM2l6E+jh/8FwiBscQ" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="EbxnNOwW6EeztAfp2KUV9Q" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="HyiORDr7XUiAYz2g3uokvA" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="1oG/0mfegECkq2lvwvrsjw" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="4U8hh/g/K0qNtmp6xeMvZw" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="QWEtkhLZOE6Zk4FpK+ZsAQ" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{70D39C93-E084-4EE5-AD82-BE2D1EF82DBF}</val>
+</stv>
+<stv id="HnM1Lu50GkmwuKTsPqpm0Q" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC110</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="136" >UC này xảy ra khi người sử dụng muốn sửa thông tin về nhóm người dùng: quyền sử dụng hệ thống, các user trong nhóm ...</dsc>
+<nam>Sửa nhóm người dùng</nam>
+</ucx>
+<ucx id="4JIxTrYG+kOxHjwBsCPn7g" >
+<otv reserve="9" >
+<stv id="qcMZWXq3A0SDZDl8eskfHQ" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="N/JuBO70NU6TSMlbZ9Tdbg" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="+muzEPFprEOaY7t0gcrFyg" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="84NvPGlqRUKmia9Yv1gglA" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="3Zk6cCik4UWKUtF5UERKVw" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="BABw7YAiWEGqtg2sgOV5hA" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="3ENMT37Ez0yn93dwLm/MVA" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="kB+hdGHx6kiYsrD22ifp1g" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{CDA7C7A1-5433-47DB-8F41-AE035D7474D1}</val>
+</stv>
+<stv id="DUutePJ4cka/EUfVgR5E6A" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC109</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="94" >UC này xảy ra khi người quản trị muốn thêm một nhóm người dùng mới trong hệ thống</dsc>
+<nam>Thêm nhóm người dùng mới</nam>
+</ucx>
+<ucx id="uwsUDA/8Ak6fULBVdFU6RA" >
+<otv reserve="9" >
+<stv id="6JroeVMmWkCGraFMqFf5PQ" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="HrHUMqbjjU+X7av6V5GtJg" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="IW3xEDr0CE+FnCFy8cOrww" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="g34dmjO2U0SYJiKDAZQ98Q" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="ZQ/vL5zsPkmtmwiNz0E9cQ" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="bG+OHvl6yUWGodbP3aMiig" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="p3u3GRPZ0kOarjjMnUKiUA" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="2CyLdV5ge06z2nEDYECoiQ" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{BDE1F41C-CCD1-42A8-A516-35A1367B3523}</val>
+</stv>
+<stv id="E8ew1hEO30S3TBuykKDIvg" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC125</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="289" >UC này xảy ra khi người quản trị muốn thiết lập các quyền cho từng nhóm người dùng trong hệ thống dựa trên cây phân quyền. Mỗi user thuộc nhóm người dùng nào thì sẽ chỉ được thực hiện các chức năng mà người quản trị đã thiết lập quyền cho nhóm đó.</dsc>
+<nam>Quản trị quyền sử dụng các chức năng hệ thống</nam>
+</ucx>
+</cls>
+</pkx>
+<pkx id="dorFlYDupkq1hBZ2wa8C+g" >
+<otv>
+<stv id="gwHWYWwfmkaHUmM+MT8oJg" >
+<tgd>
+<RMS:URF id="ZqdvB1XrkkykUvWWOcE6mQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="w8ZHZCwMwUqkHWmzrV/KzA" >
+<tgd>
+<RMS:URF id="VVfl8PNU1U2JGhzxXWM58g"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="MoWfwUDvNkmA1FAOje2xRg" >
+<tgd>
+<RMS:URF id="1wOzipI5j0WU2JYmOPvcJQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="hgM981FBi0WI5fnS8dAdzQ" >
+<tgd>
+<RMS:URF id="g2nFOYyL1keCT0FXnAUqKA"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="xT3CyJGs6km8yxxomF/6eA" >
+<tgd>
+<RMS:URF id="ZCWVb1xXD06DZhk4SUYfqw"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="OLWeORDVO0KEKP9tyPnGPQ" >
+<tgd>
+<RMS:URF id="Ek5/rpHtSEautPlvg7J9/w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="5g+GJy3ldk2ReIKeJueOQA" >
+<tgd>
+<RMS:URF id="H6DodwgRpUy9FMWVLC+AGQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="j6NzPXrNjE2/D1iWE0If2w"  name="Use-Case Model::RequisitePro::RequisitePro_default__Package"  classStr="tvs" />
+</tvs>
+<nam>Sao lưu và khôi phục CSDL</nam>
+<mnd>
+<RMS:LRF id="wMN3p7kjYEOwCvyOg5CPdQ" />
+</mnd>
+<owd>
+<dgx id="wMN3p7kjYEOwCvyOg5CPdQ" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="zQsPTgsQSkC4YB1+RxeSIg" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="2xzNvOekAUOQye3pt47+lg" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="+cRrdIjauEaqTU2FLUZ89A" />
+</mdr>
+<chl>
+<ssv id="aG7VJuTcuEqL80iu1/Xd4g" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="+cRrdIjauEaqTU2FLUZ89A" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="PD16lM10qkasYAC+WdWIQQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="+cRrdIjauEaqTU2FLUZ89A" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(4527,1100)</ext>
+<pst>(4250,8500)</pst>
+</pgv>
+<pgv id="sN7KIkjsdkGLpOGFrOj2HQ" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="2xzNvOekAUOQye3pt47+lg" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="QelGFazsY0WKLj2gij0Xsg" />
+</mdr>
+<chl>
+<ssv id="bGx5jo6Sq0C/XmeK24hlmA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="QelGFazsY0WKLj2gij0Xsg" />
+</mdr>
+<lfm>5</lfm>
+<maa>TRUE</maa>
+<rgm>5</rgm>
+<chl>
+<ncv id="LQOONRFSIkiCYCKTeLpWsQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="QelGFazsY0WKLj2gij0Xsg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>Center</grv>
+</ssv>
+</chl>
+<ext>(4115,1100)</ext>
+<pst>(11750,8750)</pst>
+</pgv>
+<pgv id="SvXI+BqdFUK9t8923mcerw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="+IrS8fE5ykeTSw0Ud8esaQ"  name="Use-Case Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:LRF id="2xzNvOekAUOQye3pt47+lg" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="bYWoIYMcz0G5rqwzTYRgIA"  name="Use-Case Model::Actors::Người sử dụng"  classStr="acx" />
+</mdr>
+<chl>
+<ssv id="LZ+D/bE8t0ycU9d0a46TXQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:URF id="bYWoIYMcz0G5rqwzTYRgIA"  name="Use-Case Model::Actors::Người sử dụng"  classStr="acx" />
+</mdr>
+<btm>2</btm>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="Ke/jXp8LTUCWXvOwucFN5w" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="bYWoIYMcz0G5rqwzTYRgIA"  name="Use-Case Model::Actors::Người sử dụng"  classStr="acx" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2592,2000)</ext>
+<pst>(7804,3500)</pst>
+</pgv>
+<cnv id="neOo37Gwmkmhxo+KFUQSnw" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="X2sGYUEwIEiDlDGBjEPF6w" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="2nYfJovsskmX2yQQlo8xsg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<bnd>
+(8854,3529)
+(7500,3500)
+(7500,2500)
+(8500,2500)
+(8854,3529)
+</bnd>
+<frv>
+<RMS:LRF id="SvXI+BqdFUK9t8923mcerw" />
+</frv>
+<lbl>
+<olv id="et6VnKmBiEGOpvV7AuHnAw" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="2nYfJovsskmX2yQQlo8xsg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="e1EqNK4Q7UaCdWKkmsRVSg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="2nYfJovsskmX2yQQlo8xsg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="HdUwG9iF4kSTHD9nSshLqQ" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="2nYfJovsskmX2yQQlo8xsg"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="SvXI+BqdFUK9t8923mcerw" />
+</tvw>
+</cnv>
+<cnv id="fRQAcNDyAU+ef6Shnyl9wA" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="X2sGYUEwIEiDlDGBjEPF6w" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="Vjh++ThZQkOoqiXV3SPP5A"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<bnd>
+(8700,5500)
+(7291,8533)
+</bnd>
+<frv>
+<RMS:LRF id="SvXI+BqdFUK9t8923mcerw" />
+</frv>
+<lbl>
+<olv id="Nmu4wtZobEukFpQb7viZmQ" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="Vjh++ThZQkOoqiXV3SPP5A"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="SAbwVQuFfUSX1RiXiStxMQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="Vjh++ThZQkOoqiXV3SPP5A"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="eozwTNxRokyPM1EIFGPB/w" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="Vjh++ThZQkOoqiXV3SPP5A"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="zQsPTgsQSkC4YB1+RxeSIg" />
+</tvw>
+</cnv>
+<cnv id="BwFqK1X0CEma6ZD0abwV1Q" >
+<tvs>
+<RMS:URF id="qjexhN6cNEO+bVAXjfoNlg"  name="Use-Case Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="qVIiJ88bZ0m7DUB7EBBOBg"  name="Use-Case Model::Appearance::connectorstereotype=1;linestyle=0;visibilitystyle=2"  classStr="sty" />
+<RMS:LRF id="X2sGYUEwIEiDlDGBjEPF6w" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="Znh8boK2RkO2isJXoEgXJw"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<bnd>
+(9500,5500)
+(13392,8761)
+</bnd>
+<frv>
+<RMS:LRF id="SvXI+BqdFUK9t8923mcerw" />
+</frv>
+<lbl>
+<olv id="8qimeYvHiEKfTvrhIX5G+A" >
+<fch>Name</fch>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="Znh8boK2RkO2isJXoEgXJw"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<chl>
+<ncv id="PovCcTw8BEev6Pejf2w/FA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="Znh8boK2RkO2isJXoEgXJw"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<chl>
+<ssv id="AvnKXbwoGEmq1aoOzmIhjA" >
+<fch>{77AE38A4-56B7-4663-A03E-67CF032C4307}</fch>
+<mdr>
+<RMS:URF id="Znh8boK2RkO2isJXoEgXJw"  name="Use-Case Model::Actors::Người sử dụng::"  classStr="acc" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<fre>50</fre>
+<frl>-100</frl>
+<isp>TRUE</isp>
+</olv>
+</lbl>
+<tvw>
+<RMS:LRF id="sN7KIkjsdkGLpOGFrOj2HQ" />
+</tvw>
+</cnv>
+</chl>
+<lcs>
+<sty id="2xzNvOekAUOQye3pt47+lg" >
+<dsn>View</dsn>
+<nam reserve="144" >attributecompartment=0;compartmentstereotypes=1;operationcompartment=0;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2</nam>
+<btv>
+<RMS:URF id="Zge0/BbRXEuVAVgPIjTJbQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+</btv>
+<tgv>
+<ntv id="jUqa+2JWVk6bYnT28DDhhg" >
+<tgd>
+<RMS:URF id="/f6FMYqvRkq8kPB1kvDQ0A"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::AttributeCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="DkQhOBjrX0S/MgJmqZjaIQ" >
+<tgd>
+<RMS:URF id="v2pR9JW5Q0G5xSckAiDjgQ"  name="Use-Case Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2::OperationCompartment"  classStr="tgd" />
+</tgd>
+</ntv>
+</tgv>
+<typ>ClassifierViewAppearance</typ>
+</sty>
+<sty id="X2sGYUEwIEiDlDGBjEPF6w" >
+<dsn>View</dsn>
+<nam>pseudostatekind=2;showchoicepointlabels=-1;showjunctionpointlabels=-1</nam>
+<btv>
+<RMS:URF id="z9741kyG3EanknFKxR04Wg"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1"  classStr="sty" />
+</btv>
+<tgv>
+<itv id="THYDm91bj02Pn8YXTXuL6w" >
+<tgd>
+<RMS:URF id="XTWlTDo5yUGHMv4hPjOuoA"  name="Use-Case Model::Appearance::pseudostatekind=0;showchoicepointlabels=-1;showjunctionpointlabels=-1::PseudoStateKind"  classStr="tgd" />
+</tgd>
+<val>2</val>
+</itv>
+</tgv>
+<typ>PseudoStateViewAppearance</typ>
+</sty>
+</lcs>
+</dgx>
+</owd>
+<cls>
+<ucx id="QelGFazsY0WKLj2gij0Xsg" >
+<otv reserve="9" >
+<stv id="eT6anCsa+U6gIFsrOiy1eg" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="owePPbtiWU6lQF13ezU++A" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="snzr+5wi+0KUlSFuKfYPAg" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="Y4c9MTl4w0e19hUchR3usw" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="L7Wip9/Lfk++5wFnmmMYGg" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="1BxTS2EmBUum54D1M7Ww2g" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="P2fYZvsBO02Qexk0pL3AQg" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="Ph9PTBnhg0KdEiOaTwFU+A" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{E0C994E1-5A89-4ABF-A2D7-3CF77ABE3097}</val>
+</stv>
+<stv id="ESSGnhClu0mdXTYh5h1QTw" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC128</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc>cho phép sao lưu giữ liệu trên SQL Server trực tiếp từ trong chương trình</dsc>
+<nam>Sao lưu giữ liệu</nam>
+</ucx>
+<ucx id="+cRrdIjauEaqTU2FLUZ89A" >
+<otv reserve="9" >
+<stv id="0h9wUQIQLUejSfxsmoOqWw" >
+<tgd>
+<RMS:URF id="F2QdYgGLhEGTHAKF0lP+fQ"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectPath"  classStr="tgd" />
+</tgd>
+<val>P:\wims_qlns_hp\khao_sat\RequisitePro\wims_QLNS.rqs</val>
+</stv>
+<stv id="AouSBb06tUOWZst4EcmzOA" >
+<tgd>
+<RMS:URF id="z/f7UCpSdk+pb4MM0ycO4Q"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProReqType"  classStr="tgd" />
+</tgd>
+<val>{ECF3E41D-3AD6-49C4-B40C-5BE5B43F1FFD}</val>
+</stv>
+<stv id="pB7Hus4or0+JjURH+3qF/A" >
+<tgd>
+<RMS:URF id="l71K9bOAIUeXvRq8yxACiA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProProjectGuid"  classStr="tgd" />
+</tgd>
+<val>{F68A5F39-737F-455B-980D-74C8EED7DD06}</val>
+</stv>
+<stv id="T/qTfro69k+8LfP1LSx6Sw" >
+<tgd>
+<RMS:URF id="AGiYgKIvEEiFQBG+Q1c2bA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProDocType"  classStr="tgd" />
+</tgd>
+<val>{EB7EB385-85B0-4895-97D4-FE65717E9B82}</val>
+</stv>
+<stv id="/n/OcFZEF0Ghv6m/079kvw" >
+<tgd>
+<RMS:URF id="DsCE3+voL0qReqBGnr9ncA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::RequirementType"  classStr="tgd" />
+</tgd>
+<val>UC: Use Case</val>
+</stv>
+<stv id="Xfsk9FGqxUCiSw6VE8GMew" >
+<tgd>
+<RMS:URF id="04Wz/5v0302/jDmT6oFaMg"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ProjectName"  classStr="tgd" />
+</tgd>
+<val>wims_QLNS</val>
+</stv>
+<stv id="VhBZnrBNy0aZNoWCRykueA" >
+<tgd>
+<RMS:URF id="z+XEPdG8DUmp97K++YGk5w"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::DocumentType"  classStr="tgd" />
+</tgd>
+<val>Đặc tả Use Case</val>
+</stv>
+<stv id="Dk1no8WxjUKt8m+vGy/iBw" >
+<tgd>
+<RMS:URF id="V2v49KPzfkC4Z+R4PQclDA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::ReqProRequirementId"  classStr="tgd" />
+</tgd>
+<val>{E98F4D98-A680-42FF-9A10-FB90A9F063D0}</val>
+</stv>
+<stv id="+8gOT+7TDUWmnRtaEvo4og" >
+<tgd>
+<RMS:URF id="ZZUZ6ujf90+I6lM2+g6/lA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase::Requirement"  classStr="tgd" />
+</tgd>
+<val>UC129</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="UEGTOYnXXUWhwOLl39SilA"  name="Use-Case Model::RequisitePro::RequisitePro_default__UseCase"  classStr="tvs" />
+</tvs>
+<dsc reserve="82" >cho phép khôi phục dữ liệu trên SQL Server trực tiếp từ trong chương trình</dsc>
+<nam>Khôi phục dữ liệu</nam>
+<rlt>
+<rlz id="j4J2J5ACxECGCexmoZRzEA" >
+<noe>
+<RMS:IRF id="MfnGNHcfM0CIO7JTcygN/Q"  name="Analysis Model::Analysis Use-Case Realizations::Hệ thống::Sao lưu vào khôi phục dữ liệu::Khôi phục dữ liệu"  classStr="cix"  import="0" />
+</noe>
+</rlz>
+</rlt>
+</ucx>
+</cls>
+</pkx>
+<pkx id="qyCorlHq9UiMM3/91FQAaQ" >
+<nam>Gửi Email</nam>
+<mnd>
+<RMS:LRF id="vDpuTbj68kCiS8W9lcEOyg" />
+</mnd>
+<owd>
+<dgx id="vDpuTbj68kCiS8W9lcEOyg" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+</pkx>
+<pkx id="AxRGBHuRGEKjr193PeTN2Q" >
+<nam>Đặt tham số hệ thống</nam>
+<mnd>
+<RMS:LRF id="CgAQNl2xnk+s4U8uzTgoZg" />
+</mnd>
+<owd>
+<dgx id="CgAQNl2xnk+s4U8uzTgoZg" >
+<tvs>
+<RMS:URF id="XHrUbxKj+0CJ2vn6jfPVXQ"  name="Use-Case Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="1Px5uQl7fEWkPnJCaeOaZg"  name="Use-Case Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="BpFtyfll2ky3QjAS6FmORA"  name="Use-Case Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+</pkx>
+</nsp>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

@@ -1,0 +1,1860 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7B5A25EC-B129-4981-81E6-77CD6F65BE84}</ProjectGuid>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccProvider>
+    </SccProvider>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>HRMS</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EVSoft.HRMS</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>EVSoft.HRMS.UI.frmMain</StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SignManifests>true</SignManifests>
+    <ManifestCertificateThumbprint>A99364414327E24A5630ACF06A94A0F2CCF40FAE</ManifestCertificateThumbprint>
+    <ManifestKeyFile>CAI_DAT_TemporaryKey.pfx</ManifestKeyFile>
+    <GenerateManifests>true</GenerateManifests>
+    <TargetZone>LocalIntranet</TargetZone>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>..\Deploy\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Web</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <InstallUrl>http://evsoftcom/HRMSystem/</InstallUrl>
+    <SupportUrl>http://www.lifetimetech.vn</SupportUrl>
+    <ProductName>HRMSystem</ProductName>
+    <PublisherName>LTT Co.,Ltd</PublisherName>
+    <MinimumRequiredVersion>1.11.05.900</MinimumRequiredVersion>
+    <WebPage>index.htm</WebPage>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.11.05.0900</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility">
+      <Name>Accessibility</Name>
+    </Reference>
+    <Reference Include="AMS.TextBox">
+      <Name>AMS.TextBox</Name>
+      <HintPath>LIB\AMS.TextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Aspose.Cells, Version=4.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>LIB\Aspose.Cells.dll</HintPath>
+    </Reference>
+    <Reference Include="AxInterop.PPSwipe">
+      <Name>AxInterop.PPSwipe</Name>
+      <HintPath>LIB\AxInterop.PPSwipe.dll</HintPath>
+    </Reference>
+    <Reference Include="BusyBar">
+      <Name>BusyBar</Name>
+      <HintPath>LIB\BusyBar.dll</HintPath>
+    </Reference>
+    <Reference Include="BusyBarLib">
+      <Name>BusyBarLib</Name>
+      <HintPath>LIB\BusyBarLib.dll</HintPath>
+    </Reference>
+    <Reference Include="ControlVault.MenuSuite, Version=1.2.0.4, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>LIB\ControlVault.MenuSuite.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Business Objects\Common\3.5\managed\dotnet2\CrystalDecisions.CrystalReports.Engine.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.ReportSource, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Business Objects\Common\3.5\managed\dotnet2\CrystalDecisions.ReportSource.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Shared, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Business Objects\Common\3.5\managed\dotnet2\CrystalDecisions.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=11.5.3700.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files\Business Objects\Common\3.5\managed\dotnet2\CrystalDecisions.Windows.Forms.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.PPSwipe, Version=1.0.0.0, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>LIB\Interop.PPSwipe.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.SQLDMO">
+      <Name>Interop.SQLDMO</Name>
+      <HintPath>LIB\Interop.SQLDMO.dll</HintPath>
+    </Reference>
+    <Reference Include="LookupComboBox, Version=1.0.1951.20080, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>LIB\LookupComboBox.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel">
+      <Name>Microsoft.Office.Interop.Excel</Name>
+      <HintPath>LIB\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic">
+      <Name>Microsoft.VisualBasic</Name>
+    </Reference>
+    <Reference Include="MonthCalendar">
+      <Name>MonthCalendar</Name>
+      <HintPath>LIB\MonthCalendar.dll</HintPath>
+    </Reference>
+    <Reference Include="MTGCCombobox">
+      <Name>MTGCCombobox</Name>
+      <HintPath>LIB\MTGCCombobox.dll</HintPath>
+    </Reference>
+    <Reference Include="MyClasses">
+      <Name>MyClasses</Name>
+      <HintPath>LIB\MyClasses.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Design">
+      <Name>System.Design</Name>
+    </Reference>
+    <Reference Include="System.DirectoryServices">
+      <Name>System.DirectoryServices</Name>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web">
+      <Name>System.Web</Name>
+    </Reference>
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\WINDOWS\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+    <Reference Include="WaitingForm, Version=1.0.2511.19562, Culture=neutral">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>LIB\WaitingForm.dll</HintPath>
+    </Reference>
+    <Reference Include="XPTable">
+      <Name>xptable</Name>
+      <HintPath>lib\xptable.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="CAI_DAT.mdx" />
+    <None Include="CAI_DAT\CAI_DAT.mdx" />
+    <None Include="CAI_DAT\EVSoft.pkx" />
+    <None Include="CAI_DAT\EVSoft\HRMS.pkx" />
+    <None Include="CAI_DAT\EVSoft\HRMS\Common.pkx" />
+    <None Include="CAI_DAT\EVSoft\HRMS\DO.pkx" />
+    <None Include="CAI_DAT\EVSoft\HRMS\UI.pkx" />
+    <None Include="CAI_DAT_TemporaryKey.pfx" />
+    <None Include="Common.pkx" />
+    <None Include="DO.pkx" />
+    <BaseApplicationManifest Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <EmbeddedResource Include="Lisence\SerialBox.resx">
+      <DependentUpon>SerialBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AverageEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AverageEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BriefSalary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BriefSalary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DepartmentHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DepartmentHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DetailAttendance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetailAttendance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\DetailSalary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetailSalary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EmployeeDepartment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeDepartment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EmployeeSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InvalidStrike.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvalidStrike.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\InvalidStrikeYesterday.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvalidStrikeYesterday.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LeaveSchedule.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LeaveSchedule.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LunchSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LunchSheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PositionHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PositionHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\PunishEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PunishEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RegOverTime.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegOverTime.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RestEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RestEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RestSheet_New.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RestSheet_New.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SalaryHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SalaryPerEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryPerEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TimeSheetSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TimeSheetSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TotalRestSheetDepartment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TotalRestSheetDepartment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SalaryPerEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryPerEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SalarySheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalarySheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <Content Include="Templates\Temp_BangThanhToanTienPhep.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Temp_DanhSachNhanVien.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Templates\Temp_DanhSachNhanVienThoiViec.xls">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="UI.pkx" />
+    <None Include="UI\BHXH\dsInsurance.xsc">
+      <DependentUpon>dsInsurance.xsd</DependentUpon>
+    </None>
+    <None Include="UI\BHXH\dsInsurance.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>dsInsurance.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="UI\BHXH\dsInsurance.xss">
+      <DependentUpon>dsInsurance.xsd</DependentUpon>
+    </None>
+    <None Include="Use-Case Realizations.pkx" />
+    <None Include="wims_qlnsDataSet.xsc">
+      <DependentUpon>wims_qlnsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="wims_qlnsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>wims_qlnsDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="wims_qlnsDataSet.xss">
+      <DependentUpon>wims_qlnsDataSet.xsd</DependentUpon>
+    </None>
+    <Content Include="App.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Config.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="HRMS.exe.manifest" />
+    <Content Include="Images\about.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\absent.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\evsoft.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\GoHome.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\late.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\mission.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\noimage2.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\noimage3.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PHOTO\Absent.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\PHOTO\noimage.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\rest.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\wGoodRead.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\working.gif">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\wReadError.wav">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\BarCodeHelper.cs" />
+    <Compile Include="Common\ConvertFont.cs" />
+    <Compile Include="Common\ctrStatusBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Common\EmployeeStatus.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\ExportToExcel.cs" />
+    <Compile Include="Common\GeneralProcess.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\Lang\LangManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Lang\LangResource.vi-VN.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LangResource.vi-VN.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Lang\LangResource.en-US.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LangResource.en-US.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\Lang\LangResource.ja-JP.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LangResource.ja-JP.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Common\ModuleConfig.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\ModuleSettings.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Setting.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\SystemProcess.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Common\ThumbnailCreator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\UserSettingsBase.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\Utils.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Common\WorkingContext.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\AdminDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\CompanyDO.cs" />
+    <Compile Include="DO\ContractTypeDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\DayTypeDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\DepartmentDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\EmployeeDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\LeaveScheduleDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\LunchDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\PayrollDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\PositionDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\PunishCardDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\PunishDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\RegOverTimeDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\RegRestEmployeeDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\RegWorkingTimeDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\RestSheetDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\SalaryDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\ScheduleDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\ShiftDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\SocialInsuranceDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\StatusDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\TimeInOutDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\TimeSheetDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="DO\WorkingDayReportDO.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Lisence\Encryption.cs" />
+    <Compile Include="Lisence\FileReadWrite.cs" />
+    <Compile Include="Lisence\License.cs" />
+    <Compile Include="Lisence\RegistionType.cs" />
+    <Compile Include="Lisence\Registration.cs" />
+    <Compile Include="Lisence\SerialBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Lisence\SerialBox.designer.cs">
+      <DependentUpon>SerialBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lisence\SystemInfo.cs" />
+    <Compile Include="Lisence\TrialVersion.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\AllEmployeeInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllEmployeeInfo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AttendanceRecord.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceRecord.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\AverageEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AverageEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BHXH\InsuranceC45.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InsuranceC45.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BHXH\InsuranceC46.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InsuranceC46.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BHXH\InsuranceSDH02.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InsuranceSDH02.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BHXH\RestLookChildEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestLookChildEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\BriefSalary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BriefSalary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DepartmentHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DepartmentHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DetailAttendance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetailAttendance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\DetailSalary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetailSalary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EmployeeDepartment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeDepartment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EmployeeSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EmployeeSummaryInMonth.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeSummaryInMonth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\EmployeeSummaryInYear.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeSummaryInYear.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\InvalidStrike.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvalidStrike.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\InvalidStrikeYesterday.cs">
+      <DependentUpon>InvalidStrikeYesterday.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\LeaveSchedule.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeaveSchedule.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\LunchOverTime1.cs">
+      <DependentUpon>LunchOverTime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\LunchOverTimeInMonth.cs">
+      <DependentUpon>LunchOverTimeInMonth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\LunchSheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LunchSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PositionHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PositionHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\PunishEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PunishEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RegOverTime.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegOverTime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RestEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RestSheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\RestSheet_New.cs">
+      <DependentUpon>RestSheet_New.rpt</DependentUpon>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+    </Compile>
+    <Compile Include="Reports\SalaryHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SalaryPerEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryPerEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SalarySheet.cs">
+      <DependentUpon>SalarySheet.rpt</DependentUpon>
+      <AutoGen>True</AutoGen>
+      <SubType>Component</SubType>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="Reports\SalarySummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalarySummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SocialInsurance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SocialInsurance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SocialInsuranceAdjust.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SocialInsuranceAdjust.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\SocialInsuranceAllowance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SocialInsuranceAllowance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TimeSheet1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TimeSheetSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeSheetSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports\TotalRestSheetDepartment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TotalRestSheetDepartment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\AllEmployeeInfo.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AllEmployeeInfo.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\AttendanceRecord1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AttendanceRecord.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\BriefSalary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BriefSalary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\DepartmentHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DepartmentHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\DetailAttendance.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetailAttendance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\DetailSalary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DetailSalary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\EmployeeDepartment.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeDepartment.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\EmployeeSummary.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeSummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\EmployeeSummaryInMonth1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeSummaryInMonth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\EmployeeSummaryInYear1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EmployeeSummaryInYear.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\InvalidStrike.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InvalidStrike.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\LeaveSchedule.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LeaveSchedule.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\LunchOverTime.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LunchOverTime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\LunchOverTimeInMonth.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LunchOverTimeInMonth.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\LunchSheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LunchSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\PositionHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PositionHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\PunishEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PunishEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\RegOverTime.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RegOverTime.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\RestEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\RestSheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>RestSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SalaryHistory.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryHistory.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SalaryPerEmployee.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalaryPerEmployee.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SalarySheet.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalarySheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SalarySummary1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SalarySummary.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SocialInsurance1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SocialInsurance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SocialInsuranceAdjust.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SocialInsuranceAdjust.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\SocialInsuranceAllowance1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SocialInsuranceAllowance.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Reports_JP\TimeSheet1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>TimeSheet.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\frmAddSysVar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\frmBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\frmCompanyUserInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\FrmGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\frmRestore.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\frmThamsohethong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\FrmUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Administration\FrmUserAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BHXH\dsInsurance.cs">
+      <DependentUpon>dsInsurance.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\BHXH\dsInsurance.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>dsInsurance.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BHXH\frmInsuranceC46.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BHXH\frmInsuranceC46.Designer.cs">
+      <DependentUpon>frmInsuranceC46.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BHXH\frmInsuranceC47.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BHXH\frmInsuranceC47.Designer.cs">
+      <DependentUpon>frmInsuranceC47.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BHXH\frmListEmployeeInsurance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BHXH\frmListEmployeeInsurance.Designer.cs">
+      <DependentUpon>frmListEmployeeInsurance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BHXH\frmReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\BHXH\frmReport.Designer.cs">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Reports\BHXH\InsuranceC47.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>InsuranceC47.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmDepartmentGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmDepartmentGroup.Designer.cs">
+      <DependentUpon>frmDepartmentGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Employee\frmEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmEmployeeStatus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmExportExcelBC.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmExportExcelBC.Designer.cs">
+      <DependentUpon>frmExportExcelBC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Employee\frmHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmHospital.Designer.cs">
+      <DependentUpon>frmHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Employee\frmListDepartment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmListDepartmentGroup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmListDepartmentGroup.Designer.cs">
+      <DependentUpon>frmListDepartmentGroup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Employee\frmListEmployees.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmListHospital.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmListHospital.Designer.cs">
+      <DependentUpon>frmListHospital.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Employee\frmListPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmListPunish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmPosition.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmPunish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\frmStatusOptions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\FrmUpdateDepartmentHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\FrmUpdateDepartmentHistory.Designer.cs">
+      <DependentUpon>FrmUpdateDepartmentHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Employee\FrmUpdateSalaryHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Employee\FrmUpdateSalaryHistory.Designer.cs">
+      <DependentUpon>FrmUpdateSalaryHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmActivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmActivation.Designer.cs">
+      <DependentUpon>frmActivation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\frmBackUpInMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmBusyBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmChooseSocialInsurance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmRestoreInMonth.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmRestSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSearch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\FrmSendMail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmSocialSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmStatusMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmTimeSheet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\frmVersion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Report\frmListReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Report\frmReportPreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Salary\frmListPayrollItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Salary\frmListSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Salary\frmPayrollItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Salary\frmSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmAddSalaryType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmAddSalaryType.Designer.cs">
+      <DependentUpon>frmAddSalaryType.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Schedule\frmContractType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmCopyLunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmDayType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListContractType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListDayType.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListLeaveSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListLunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListRegOverTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListRegRestEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListShift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListTypeSalary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmListTypeSalary.Designer.cs">
+      <DependentUpon>frmListTypeSalary.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Schedule\frmLunch.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmOverTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmPunishCard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRegLeaveSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRegOverTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRegOverTime_New.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRegOverTime_New.Designer.cs">
+      <DependentUpon>frmRegOverTime_New.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRegRestEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRegWorkingTime.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRestDay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\Schedule\frmRestDay.Designer.cs">
+      <DependentUpon>frmRestDay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Schedule\frmShift.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\SplashScreeen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TimeInOut\frmAddTimeInOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TimeInOut\frmChangeTimeInOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UI\TimeInOut\frmChooseTimeInOut.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="wims_qlnsDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>wims_qlnsDataSet.xsd</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Common\ctrStatusBox.resx">
+      <DependentUpon>ctrStatusBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\GeneralProcess.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>GeneralProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Lang\LangResource.vi-VN.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LangResource.vi-VN.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Lang\LangResource.en-US.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LangResource.en-US.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\Lang\LangResource.ja-JP.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LangResource.ja-JP.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\SystemProcess.resx">
+      <DependentUpon>SystemProcess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConfigFiles\hrms.Config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AllEmployeeInfo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllEmployeeInfo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\AttendanceRecord.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AttendanceRecord.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BHXH\InsuranceC45.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InsuranceC45.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BHXH\InsuranceC46.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InsuranceC46.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BHXH\InsuranceSDH02.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InsuranceSDH02.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BHXH\RestLookChildEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RestLookChildEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EmployeeSummaryInMonth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeSummaryInMonth.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\EmployeeSummaryInYear.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeSummaryInYear.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LunchOverTime.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LunchOverTime1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\LunchOverTimeInMonth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LunchOverTimeInMonth.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\RestSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RestSheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SalarySummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalarySummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SocialInsurance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SocialInsurance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SocialInsuranceAdjust.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SocialInsuranceAdjust.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\SocialInsuranceAllowance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SocialInsuranceAllowance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\TimeSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TimeSheet1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\AllEmployeeInfo.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AllEmployeeInfo.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\AttendanceRecord.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>AttendanceRecord1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\BriefSalary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>BriefSalary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\DepartmentHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DepartmentHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\DetailAttendance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetailAttendance.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\DetailSalary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>DetailSalary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\EmployeeDepartment.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeDepartment.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\EmployeeSummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeSummary.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\EmployeeSummaryInMonth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeSummaryInMonth1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\EmployeeSummaryInYear.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>EmployeeSummaryInYear1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\InvalidStrike.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InvalidStrike.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\LeaveSchedule.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LeaveSchedule.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\LunchOverTime.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LunchOverTime.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\LunchOverTimeInMonth.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LunchOverTimeInMonth.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\LunchSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>LunchSheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\PositionHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PositionHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\PunishEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>PunishEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\RegOverTime.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RegOverTime.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\RestEmployee.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RestEmployee.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\RestSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>RestSheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SalaryHistory.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalaryHistory.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SalarySheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalarySheet.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SalarySummary.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SalarySummary1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SocialInsurance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SocialInsurance1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SocialInsuranceAdjust.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SocialInsuranceAdjust.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\SocialInsuranceAllowance.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>SocialInsuranceAllowance1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports_JP\TimeSheet.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>TimeSheet1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL\CreateNewDatabase.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL\Restore.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SQL\RestoreFinall.sql">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\frmAddSysVar.resx">
+      <DependentUpon>frmAddSysVar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\frmBackup.resx">
+      <DependentUpon>frmBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\frmCompanyUserInfo.resx">
+      <DependentUpon>frmCompanyUserInfo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\FrmGroup.resx">
+      <DependentUpon>FrmGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\frmRestore.resx">
+      <DependentUpon>frmRestore.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\frmThamsohethong.resx">
+      <DependentUpon>frmThamsohethong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\FrmUser.resx">
+      <DependentUpon>FrmUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Administration\FrmUserAdmin.resx">
+      <DependentUpon>FrmUserAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BHXH\frmInsuranceC46.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsuranceC46.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BHXH\frmInsuranceC47.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmInsuranceC47.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BHXH\frmListEmployeeInsurance.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListEmployeeInsurance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\BHXH\frmReport.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Reports\BHXH\InsuranceC47.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>InsuranceC47.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmDepartment.resx">
+      <DependentUpon>frmDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmDepartmentGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmDepartmentGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmEmployee.resx">
+      <DependentUpon>frmEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmEmployeeStatus.resx">
+      <DependentUpon>frmEmployeeStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmExportExcelBC.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmExportExcelBC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmHospital.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmListDepartment.resx">
+      <DependentUpon>frmListDepartment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmListDepartmentGroup.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListDepartmentGroup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmListEmployees.resx">
+      <DependentUpon>frmListEmployees.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmListHospital.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListHospital.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmListPosition.resx">
+      <DependentUpon>frmListPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmListPunish.resx">
+      <DependentUpon>frmListPunish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmPosition.resx">
+      <DependentUpon>frmPosition.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmPunish.resx">
+      <DependentUpon>frmPunish.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\frmStatusOptions.resx">
+      <DependentUpon>frmStatusOptions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\FrmUpdateDepartmentHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUpdateDepartmentHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Employee\FrmUpdateSalaryHistory.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>FrmUpdateSalaryHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmActivation.resx">
+      <DependentUpon>frmActivation.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmBackUpInMonth.resx">
+      <DependentUpon>frmBackUpInMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmBusyBar.resx">
+      <DependentUpon>frmBusyBar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmChooseSocialInsurance.resx">
+      <DependentUpon>frmChooseSocialInsurance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmMessage.resx">
+      <DependentUpon>frmMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmRestoreInMonth1.resx">
+      <DependentUpon>frmRestoreInMonth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmRestSheet.resx">
+      <DependentUpon>frmRestSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\FrmSendMail.resx">
+      <DependentUpon>FrmSendMail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSettings.resx">
+      <DependentUpon>frmSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmSocialSheet.resx">
+      <DependentUpon>frmSocialSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmStatusMessage.resx">
+      <DependentUpon>frmStatusMessage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmTimeSheet.resx">
+      <DependentUpon>frmTimeSheet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\frmVersion.resx">
+      <DependentUpon>frmVersion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\frmListReport.resx">
+      <DependentUpon>frmListReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Report\frmReportPreview.resx">
+      <DependentUpon>frmReportPreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Salary\frmListPayrollItem.resx">
+      <DependentUpon>frmListPayrollItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Salary\frmListSalary.resx">
+      <DependentUpon>frmListSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Salary\frmPayrollItem.resx">
+      <DependentUpon>frmPayrollItem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Salary\frmSalary.resx">
+      <DependentUpon>frmSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmAddSalaryType.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmAddSalaryType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmContractType.resx">
+      <DependentUpon>frmContractType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmCopyLunch.resx">
+      <DependentUpon>frmCopyLunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmDayType.resx">
+      <DependentUpon>frmDayType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListContractType.resx">
+      <DependentUpon>frmListContractType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListDayType.resx">
+      <DependentUpon>frmListDayType.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListLeaveSchedule.resx">
+      <DependentUpon>frmListLeaveSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListLunch.resx">
+      <DependentUpon>frmListLunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListRegOverTime.resx">
+      <DependentUpon>frmListRegOverTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListRegRestEmployee.resx">
+      <DependentUpon>frmListRegRestEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListShift.resx">
+      <DependentUpon>frmListShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmListTypeSalary.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmListTypeSalary.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmLunch.resx">
+      <DependentUpon>frmLunch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmOverTime.resx">
+      <DependentUpon>frmOverTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmPunishCard.resx">
+      <DependentUpon>frmPunishCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmRegLeaveSchedule.resx">
+      <DependentUpon>frmRegLeaveSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmRegOverTime.resx">
+      <DependentUpon>frmRegOverTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmRegOverTime_New.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRegOverTime_New.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmRegRestEmployee.resx">
+      <DependentUpon>frmRegRestEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmRegWorkingTime.resx">
+      <DependentUpon>frmRegWorkingTime.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmRestDay.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frmRestDay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\Schedule\frmShift.resx">
+      <DependentUpon>frmShift.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\SplashScreeen.resx">
+      <DependentUpon>SplashScreeen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TimeInOut\frmAddTimeInOut.resx">
+      <DependentUpon>frmAddTimeInOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TimeInOut\frmChangeTimeInOut.resx">
+      <DependentUpon>frmChangeTimeInOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UI\TimeInOut\frmChooseTimeInOut.resx">
+      <DependentUpon>frmChooseTimeInOut.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{5AD368F8-9AD3-4E4C-97D8-1F4F1C124158}" />
+    <Service Include="{967B4E0D-AD0C-4609-AB67-0FA40C0206D8}" />
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+    <Service Include="{CF845C55-C321-4742-B673-E6212D061ED9}" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Controls\Controls.csproj">
+      <Project>{ADAE1513-A97C-45DA-A846-3785EFBA0B64}</Project>
+      <Name>Controls</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <PublishFile Include="Config.xml">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.CrystalReports.Engine">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.ReportSource">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Shared">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Web">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="CrystalDecisions.Windows.Forms">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Assembly</FileType>
+    </PublishFile>
+    <PublishFile Include="ja-JP\HRMS.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="vi-VN\HRMS.resources">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>Satellite</FileType>
+    </PublishFile>
+    <PublishFile Include="WaitingForm.pdb">
+      <Visible>False</Visible>
+      <Group>
+      </Group>
+      <TargetPath>
+      </TargetPath>
+      <PublishState>Include</PublishState>
+      <IncludeHash>True</IncludeHash>
+      <FileType>File</FileType>
+    </PublishFile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.2.0">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 2.0</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Help\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

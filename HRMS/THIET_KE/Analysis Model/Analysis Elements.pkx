@@ -1,0 +1,2799 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (vxtpv7UH10WV4d92DqYj+g) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="XRQ6xoRCIkiPxB5kg6qPyw"  model="..\..\Analysis Model.mdx"  contain="1000000000011100100000101000011001010010011000000000101100000000000100000000000000101000000000010000000111000010101000100000000001000000010000000001001100000000010100000001000110"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;jmaVNCs36ECZbgaGJUsGbg&quot; &gt;&lt;nam&gt;Analysis Elements&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="jmaVNCs36ECZbgaGJUsGbg" >
+<dsc reserve="169" >The “Analysis Elements” package contains the Analysis Classes.
+Instances of the Analysis Classes appear in the diagrams in the &quot;Analysis Use-Case Realizations&quot; package.</dsc>
+<nam>Analysis Elements</nam>
+<nsp>
+<pkx id="+6WqBgCc3kuNfuZNphgUpQ" >
+<tvs>
+<RMS:URF id="EkepJR3cmU+mU/pYJj/dYg"  name="Analysis Model::SoftwareEngineeringProcess::Analysis Package"  classStr="str" />
+</tvs>
+<nam>Boundary</nam>
+<mnd>
+<RMS:LRF id="YkkOXWS4Nk6Y7Wamv3F16w" />
+</mnd>
+<owd>
+<dgx id="YkkOXWS4Nk6Y7Wamv3F16w" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="4wxlIr1DrU2Gt99jeUByiw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="MXEsOgtvQUCTNMtQG2egWg" />
+</mdr>
+<chl>
+<ncv id="ST1ZPLekekCnnBH8QiCzTw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="MXEsOgtvQUCTNMtQG2egWg" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(13750,3000)</pst>
+</pgv>
+<pgv id="lqmiuhLqzk6fUKnDikQX8A" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="/cufmeWW4EOvFvQ7Q0aK1Q" />
+</mdr>
+<chl>
+<ncv id="csBsSmgMoEOAvi9sfZWWkA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="/cufmeWW4EOvFvQ7Q0aK1Q" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(10500,3000)</pst>
+</pgv>
+<pgv id="xO0VnuIDkUWZQ56StnzWRw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="+Kl3183Um0WymRQ0yCGcdg" />
+</mdr>
+<chl>
+<ncv id="X/iSTeaq7U+mFrs05vmLUg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="+Kl3183Um0WymRQ0yCGcdg" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(10500,6250)</pst>
+</pgv>
+<pgv id="jkFzuj92vkWEIvPnBvt1IA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="u+2RnxULrUOgDauD2kJekA" />
+</mdr>
+<chl>
+<ncv id="EMaMsnIDukCjiNEzzJm9SA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="u+2RnxULrUOgDauD2kJekA" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(4128,1700)</ext>
+<pst>(13750,6250)</pst>
+</pgv>
+<pgv id="h/wJsOdD60WAoO61ti2FWg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="x7gHppkOFkC8aNZIj0GrAQ" />
+</mdr>
+<chl>
+<ncv id="PYHDR8qGK0G3G1RRVAnjYw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="x7gHppkOFkC8aNZIj0GrAQ" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3149,1700)</ext>
+<pst>(18500,3000)</pst>
+</pgv>
+<pgv id="0P2QjziAtE2gHCv3yqEVXA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="gYmLMSn1lUCFd5RoKuRXAQ" />
+</mdr>
+<chl>
+<ncv id="G7XPw8aOBk2n1npGyu9QWA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="gYmLMSn1lUCFd5RoKuRXAQ" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3334,1700)</ext>
+<pst>(18500,6250)</pst>
+</pgv>
+<pgv id="C2iJGsnvm0q4JTLrGxH7BA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="qpyoj1WXIEKc6hC8H4R0og" />
+</mdr>
+<chl>
+<ncv id="3MtNs93e+EuPyj+6CO3epg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="qpyoj1WXIEKc6hC8H4R0og" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(10500,8500)</pst>
+</pgv>
+<pgv id="zgHZ8bTSdkeK112sZQN8/w" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="r3volfQWrESYBQ5l6VhLOw" />
+</mdr>
+<chl>
+<ncv id="q38J6WQbjkuXAppLjLoUuA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="r3volfQWrESYBQ5l6VhLOw" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(14000,8500)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<nsp reserve="10" >
+<pkx id="u+2RnxULrUOgDauD2kJekA" >
+<nam>Quản lý cơ cấu tổ chức</nam>
+<mnd>
+<RMS:LRF id="nPG5czRyHEGiFqY5Z7/6Pw" />
+</mnd>
+<owd>
+<dgx id="nPG5czRyHEGiFqY5Z7/6Pw" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="adgIQzu51Uanz56BmeyKmQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="OxPsxo2KxU2zWV6KUy0sRQ" />
+</mdr>
+<chl>
+<ssv id="DcI/eQMORE2YJQoieH00RA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="OxPsxo2KxU2zWV6KUy0sRQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="vnRJ/HljoUyd8zpTuOOm/A" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="OxPsxo2KxU2zWV6KUy0sRQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="gz00oPVaf0uCSlhkRjpfgw" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="OxPsxo2KxU2zWV6KUy0sRQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="+hXFhMSg4kun1aP6p45Vug" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="OxPsxo2KxU2zWV6KUy0sRQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3862,3226)</ext>
+<pst>(5369,3500)</pst>
+</pgv>
+<pgv id="Oe4vCTczTki1jJYE5kvKmA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="ndBOiDYVbkuAm9Uba+zvSg" />
+</mdr>
+<chl>
+<ssv id="UDgWMcAyZ0uLShWvtAoPyA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="ndBOiDYVbkuAm9Uba+zvSg" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="ZPN/nolThECjoHf0ZmoPFQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="ndBOiDYVbkuAm9Uba+zvSg" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="HGHSBs3F8kOzSZ0STfDFSA" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="ndBOiDYVbkuAm9Uba+zvSg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="D7q0jqhNEkmHhlXqP+OCtA" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="ndBOiDYVbkuAm9Uba+zvSg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3096,3226)</ext>
+<pst>(11750,3250)</pst>
+</pgv>
+<pgv id="lGBSIU8JFEmJhXtlVekbLA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Z8lNVj8N+0+3ipJWPuqcnw" />
+</mdr>
+<chl>
+<ssv id="3eh6M9sOrkymi43dM/l8dg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Z8lNVj8N+0+3ipJWPuqcnw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="L3GLQk4ohUy7BUycS3cFKg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Z8lNVj8N+0+3ipJWPuqcnw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="VobkqA1MuEmzOZDx5qw6xQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Z8lNVj8N+0+3ipJWPuqcnw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="2N/lnNh0gE6+oVnKiFMzPg" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Z8lNVj8N+0+3ipJWPuqcnw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2990,3226)</ext>
+<pst>(5250,8000)</pst>
+</pgv>
+<pgv id="C66fqZvYNU6ObWoGON15VQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="4rskpDIJHE+N99d+slJ/lQ" />
+</mdr>
+<chl>
+<ssv id="B91HOy5Qn025Cead9NtbWQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="4rskpDIJHE+N99d+slJ/lQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="/T4shMdtqUKCWFJJnpzuTQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="4rskpDIJHE+N99d+slJ/lQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="MIXvRlpUnEG3NV5M5fWGdw" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="4rskpDIJHE+N99d+slJ/lQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="QzcCYQCWGECB/q/Khb55sw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="4rskpDIJHE+N99d+slJ/lQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2380,3226)</ext>
+<pst>(11750,8000)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls>
+<clx id="4rskpDIJHE+N99d+slJ/lQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>PositionUI</nam>
+</clx>
+<clx id="ndBOiDYVbkuAm9Uba+zvSg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>DepartmentUI</nam>
+</clx>
+<clx id="OxPsxo2KxU2zWV6KUy0sRQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>DepartmentTreeUI</nam>
+</clx>
+<clx id="Z8lNVj8N+0+3ipJWPuqcnw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListPositionUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="x7gHppkOFkC8aNZIj0GrAQ" >
+<nam>Quản lý nhân sự</nam>
+<mnd>
+<RMS:LRF id="0vL8cyaeokKL3PLwt43p0w" />
+</mnd>
+<owd>
+<dgx id="0vL8cyaeokKL3PLwt43p0w" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="3eTIE6WXoE6rzZcIVbzu5A" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Sn4eX3EFzE6gB8FURaQimw" />
+</mdr>
+<chl>
+<ssv id="bfzBoFNSKUyHTV1asqUlUQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Sn4eX3EFzE6gB8FURaQimw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="+6HuvP9WeEiOOKpXL+jFMw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Sn4eX3EFzE6gB8FURaQimw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="IOnkTCO5LkuXQVVdYyUF8Q" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Sn4eX3EFzE6gB8FURaQimw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="1fiInUPUh0m6s81EjnRBDw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Sn4eX3EFzE6gB8FURaQimw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2646,3226)</ext>
+<pst>(9750,6250)</pst>
+</pgv>
+<pgv id="f0BSqdzDikSGHmlkFVsauw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="2RAe5Hor/0iFcDOq1jgVHw" />
+</mdr>
+<chl>
+<ssv id="NdvGrrhf/kWpCnLNzjYB6w" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="2RAe5Hor/0iFcDOq1jgVHw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="hTvRmBd38UmEevNMV8lzWA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="2RAe5Hor/0iFcDOq1jgVHw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="3KiGZIKBVUiIOxFzCPZOFA" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="2RAe5Hor/0iFcDOq1jgVHw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="PXefQfPjME2wrpELxTfrpQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="2RAe5Hor/0iFcDOq1jgVHw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3254,3226)</ext>
+<pst>(13750,6500)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls>
+<clx id="Sn4eX3EFzE6gB8FURaQimw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>EmployeeUI</nam>
+</clx>
+<clx id="2RAe5Hor/0iFcDOq1jgVHw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListEmployeeUI</nam>
+</clx>
+<clx id="AbdVElvHaEKosSxM3MAT2w" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>tblEmployeeSummary</nam>
+<att>
+<att id="ZeqCrJqws0eDJHUWU/NesA" >
+<otv>
+<ntv id="w3Z3eKjkJUeJBNT9D6Os9w" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="Wmptx3QKnEOCIfKCltBWzA" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>Month</nam>
+<tye>Integer</tye>
+</att>
+<att id="qyYdviyXIEGrYeXQC5XzXw" >
+<otv>
+<ntv id="CIk0L4sIKk2yGDYmcOyEFA" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="dd1VC0sTlUqU/Lvvc9WcPA" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>Year</nam>
+<tye>Integer</tye>
+</att>
+<att id="dCguwMZBgEmILZTfEM8FTA" >
+<otv>
+<ntv id="/H5ATMvtkkC4ZL0T2cyUYQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+<ntv id="p7X5kiecy0S6SxQAztGsqg" >
+<tgd>
+<RMS:URF id="qs1USIQx3EO8KAocvzclDA"  name="Analysis Model::Logical Data Model::Candidate Key::oid"  classStr="tgd" />
+</tgd>
+<val>TRUE</val>
+</ntv>
+</otv>
+<nam>EmployeeID</nam>
+<tye>Integer</tye>
+</att>
+<att id="DrI7btgfQUmCd03594l0Eg" >
+<nam>TotalWorkingDay</nam>
+<tye>Integer</tye>
+</att>
+<att id="tknkVh6ii0a9jF5zwULrrg" >
+<nam>TotalRest</nam>
+<tye>Integer</tye>
+</att>
+<att id="17cJFBtu+EyX3JR46jjLXQ" >
+<nam>TotalLeave</nam>
+<tye>Integer</tye>
+</att>
+<att id="T5xBGczJq0qNPeFF9S1xfg" >
+<nam>TotalAbsent</nam>
+<tye>Integer</tye>
+</att>
+</att>
+</clx>
+<clx id="hjJ/Z8uwyEaoylUchEnwSQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListRestUI</nam>
+</clx>
+<clx id="mNrjMV/TAUW+UXoCgRgFbw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>EmployeeStatus</nam>
+</clx>
+<clx id="72b3uBFkvE6H/XldWrAcTg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListTimeInOut</nam>
+</clx>
+<clx id="w/YpnYrQIkCvoORq6PIUKg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>TimeInOutUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="+Kl3183Um0WymRQ0yCGcdg" >
+<nam>Lập lịch</nam>
+<mnd>
+<RMS:LRF id="706QhWp6EEGM0oXePgW7Kg" />
+</mnd>
+<owd>
+<dgx id="706QhWp6EEGM0oXePgW7Kg" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl reserve="13" >
+<pgv id="mRtrrU+2Y0qbahUVieuKUw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="e34Yk/pFk0+RLzf2kZLG/w" />
+</mdr>
+<chl>
+<ssv id="abMILccp5EWGZUl7sdvlCg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="e34Yk/pFk0+RLzf2kZLG/w" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="u3NCLNsyCUmC4OUNY9ow6Q" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="e34Yk/pFk0+RLzf2kZLG/w" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="7dY+8sykLk27jPe3t3aWVQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="e34Yk/pFk0+RLzf2kZLG/w" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="6VHNLEJ8sE+OfksicHUg9w" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="e34Yk/pFk0+RLzf2kZLG/w" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2514,3226)</ext>
+<pst>(11750,2500)</pst>
+</pgv>
+<pgv id="rNwbnq/N2ky0asaXgfRqZw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="oiMsSMDsaEWppTxAH5cWbw" />
+</mdr>
+<chl>
+<ssv id="XnvKJLFlnUubIS+Lo2SV0Q" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="oiMsSMDsaEWppTxAH5cWbw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="b4lZLsyhk06IqexvRGhdig" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="oiMsSMDsaEWppTxAH5cWbw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="msJJdwoqDUmSQDGVnzcYHw" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="oiMsSMDsaEWppTxAH5cWbw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="ud2Da4ZglkmqV23D62Oj6g" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="oiMsSMDsaEWppTxAH5cWbw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3122,3226)</ext>
+<pst>(7739,2250)</pst>
+</pgv>
+<pgv id="78jdJHRMLEWGdSxVlCsnxA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="e2UOytDY40KNBS/E1xi8ZA" />
+</mdr>
+<chl>
+<ssv id="Y12DQsZqrUyBLc+rhuBXLw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="e2UOytDY40KNBS/E1xi8ZA" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="XsjxWnI8oEWoWEnuPHaQYw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="e2UOytDY40KNBS/E1xi8ZA" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="SiBCpvl6hU2vtOvyFRSAuw" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="e2UOytDY40KNBS/E1xi8ZA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="SNPgqUkjIEmuIdLB8zC0CQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="e2UOytDY40KNBS/E1xi8ZA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2646,3226)</ext>
+<pst>(12500,6750)</pst>
+</pgv>
+<pgv id="n5tkvqh9zUqUf02ow+Wt1g" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="uaKtp4H26kCto7KwX8bVOw" />
+</mdr>
+<chl>
+<ssv id="6Lq5FXXw7kCXOLUduhxyzw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="uaKtp4H26kCto7KwX8bVOw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="iAWARS+kUEuKYxAmCwekqQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="uaKtp4H26kCto7KwX8bVOw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="sixb2TxqZkKl0CBfqXPu9g" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="uaKtp4H26kCto7KwX8bVOw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="xiVe7h6pLU+il7V41YpBmg" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="uaKtp4H26kCto7KwX8bVOw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3334,3226)</ext>
+<pst>(16250,6750)</pst>
+</pgv>
+<pgv id="0ajykwVoBUyYhvOTe2ICSg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="13pu0tzZykSPZXDcU4CMgQ" />
+</mdr>
+<chl>
+<ssv id="7sbEuJ7RYUS05Al9hXJbqg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="13pu0tzZykSPZXDcU4CMgQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="+Gy7puTT4Eq0LOtKyS1eew" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="13pu0tzZykSPZXDcU4CMgQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="EO2sgIqoe0WGrUD1hX1lyw" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="13pu0tzZykSPZXDcU4CMgQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="rOJho79h8EWb2nEh7kNkGg" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="13pu0tzZykSPZXDcU4CMgQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3888,3226)</ext>
+<pst>(3356,6750)</pst>
+</pgv>
+<pgv id="ntMTCbSoU0yK8T6wU6FDqQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="reKGGoG1SkmPxofywLJR+A" />
+</mdr>
+<chl>
+<ssv id="1cPjrplYo0iTuxLEZUHXNw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="reKGGoG1SkmPxofywLJR+A" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="R0ux3msh0USH2jdR8y76OA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="reKGGoG1SkmPxofywLJR+A" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="bq1QEkrL4UqpXFbew8c6MQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="reKGGoG1SkmPxofywLJR+A" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="pYg4xt/YskmlcXrE5th5Ag" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="reKGGoG1SkmPxofywLJR+A" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3096,3226)</ext>
+<pst>(8000,6750)</pst>
+</pgv>
+<pgv id="mFxCjQIDTk205E7w+4kViA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="CqmpFnrWMk+inGgdcaUE9Q" />
+</mdr>
+<chl>
+<ssv id="WLwPsO+gnU+O2S61Oi7GVQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="CqmpFnrWMk+inGgdcaUE9Q" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="WdkdlMo2IkW26OI+YeIOBA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="CqmpFnrWMk+inGgdcaUE9Q" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="B/G9Nz21m0iNOe6PjnzwYg" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="CqmpFnrWMk+inGgdcaUE9Q" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="O3iWJA5LmUKg9FOsspklKw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="CqmpFnrWMk+inGgdcaUE9Q" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2434,3226)</ext>
+<pst>(3750,2500)</pst>
+</pgv>
+<pgv id="RqXAf1+fJUKxsI5nqUoekg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Xe5LBToiNE6x73zucJhBUg" />
+</mdr>
+<chl>
+<ssv id="VBl7zRTXsUWXHFf3MPwLww" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Xe5LBToiNE6x73zucJhBUg" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="Da3qRefUV0uRMOSFvRkiYA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Xe5LBToiNE6x73zucJhBUg" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="Iw3acHBrmk2KKAuXryDxHQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Xe5LBToiNE6x73zucJhBUg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="teVhDinYuE2MLM6GzF1Qvw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Xe5LBToiNE6x73zucJhBUg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2036,3226)</ext>
+<pst>(3500,10500)</pst>
+</pgv>
+<pgv id="QhrWzq4G5EmbvYf1woE2vQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Bt9dIW1B9EOXMtIVk44g9A" />
+</mdr>
+<chl>
+<ssv id="6hllQYfW50aVNbKxo93rDA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Bt9dIW1B9EOXMtIVk44g9A" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="nWqEL7Q7x0q/QYglIsapRQ" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Bt9dIW1B9EOXMtIVk44g9A" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="yU4hhC999kua4FpDWaApvA" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Bt9dIW1B9EOXMtIVk44g9A" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="0YAsU1ufP0+9vfQSdKzP5g" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Bt9dIW1B9EOXMtIVk44g9A" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2724,3226)</ext>
+<pst>(7438,10750)</pst>
+</pgv>
+<pgv id="eoR6UE/Il0qr7WAiHNnoKQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="a43vQV5Tu023SEyiyvwtnQ" />
+</mdr>
+<chl>
+<ssv id="WcupH21VcESBqMibxYtKFw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="a43vQV5Tu023SEyiyvwtnQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="/OezFbcYAU6lW51thQFqsw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="a43vQV5Tu023SEyiyvwtnQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="nVwroQrawEm+SIvpiEov9A" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="a43vQV5Tu023SEyiyvwtnQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="sQQM8TqeeU25SvTY+79kpg" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="a43vQV5Tu023SEyiyvwtnQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3280,3226)</ext>
+<pst>(11000,10750)</pst>
+</pgv>
+<pgv id="zcqQ6Dkrykmzv0UJDUr8nQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="uKNpYsAdZ0us48LnWNzLtw" />
+</mdr>
+<chl>
+<ssv id="ZViY1rt1jEuyw64UCxGMww" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="uKNpYsAdZ0us48LnWNzLtw" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="N37iTH56EUe0ZHKHEKBPaA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="uKNpYsAdZ0us48LnWNzLtw" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="uLHTLYDydE+YnqcpRyeHxA" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="uKNpYsAdZ0us48LnWNzLtw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="wfzPGKiciEebvnqawjO33Q" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="uKNpYsAdZ0us48LnWNzLtw" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2486,3226)</ext>
+<pst>(15000,10750)</pst>
+</pgv>
+<pgv id="p2bKkHkCs0SogRm6dFUOHg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="Ty/BSuuE306X4YKYaTrWqQ" />
+</mdr>
+<chl>
+<ssv id="6wqm4Y5Kv0m4eQi2uH0jEg" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="Ty/BSuuE306X4YKYaTrWqQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="20zyvoPLwESsb/10xx8uSg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="Ty/BSuuE306X4YKYaTrWqQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="qypLOnmr3kSYlBZiqWc/PA" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="Ty/BSuuE306X4YKYaTrWqQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="RTgAtfYyDE2jc4OW1qzpRw" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="Ty/BSuuE306X4YKYaTrWqQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3862,3226)</ext>
+<pst>(14500,2500)</pst>
+</pgv>
+<pgv id="ePbD6VimY0CDjPy2s72c/A" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="I6GyIbN95kGf114FBE0s4Q" />
+</mdr>
+<chl>
+<ssv id="vl3oZwmnrECUkUI5BntBEA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="I6GyIbN95kGf114FBE0s4Q" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="Ifdrc62MMkeIjuxaaFBsqw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="I6GyIbN95kGf114FBE0s4Q" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="Axt6WR8R+UuQtRYjoxd0uQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="I6GyIbN95kGf114FBE0s4Q" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="jdnLE0m2bEiW5ObSoCN7pQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="I6GyIbN95kGf114FBE0s4Q" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(1969,3226)</ext>
+<pst>(18750,2500)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls reserve="16" >
+<clx id="a43vQV5Tu023SEyiyvwtnQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>RegOverTimeUI</nam>
+</clx>
+<clx id="Bt9dIW1B9EOXMtIVk44g9A" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<dsc>dfsfdsf</dsc>
+<nam>RegLeaveUI</nam>
+</clx>
+<clx id="uKNpYsAdZ0us48LnWNzLtw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>RegRestUI</nam>
+</clx>
+<clx id="Ty/BSuuE306X4YKYaTrWqQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>RegWorkingTimeUI</nam>
+</clx>
+<clx id="I6GyIbN95kGf114FBE0s4Q" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ShiftUI</nam>
+</clx>
+<clx id="e34Yk/pFk0+RLzf2kZLG/w" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>DayTypeUI</nam>
+</clx>
+<clx id="oiMsSMDsaEWppTxAH5cWbw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListDayTypeUI</nam>
+</clx>
+<clx id="uaKtp4H26kCto7KwX8bVOw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListRegLeaveUI</nam>
+</clx>
+<clx id="13pu0tzZykSPZXDcU4CMgQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListRegOverTimeUI</nam>
+</clx>
+<clx id="reKGGoG1SkmPxofywLJR+A" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListRegRestUI</nam>
+</clx>
+<clx id="CqmpFnrWMk+inGgdcaUE9Q" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListShiftUI</nam>
+</clx>
+<clx id="Xe5LBToiNE6x73zucJhBUg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>LunchUI</nam>
+</clx>
+<clx id="e2UOytDY40KNBS/E1xi8ZA" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListLunchUI</nam>
+</clx>
+<clx id="5Fchuyh0VU2HT8E2hDaJvw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListContractUI</nam>
+</clx>
+<clx id="s3doqCHM7EODkyLEGKs1gA" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ContractUI</nam>
+</clx>
+<clx id="xi43mxPzfUmXttunI7rcYQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>SyntheticUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="MXEsOgtvQUCTNMtQG2egWg" >
+<nam>Báo cáo</nam>
+<mnd>
+<RMS:LRF id="e39IeABN5kq13lvPgvCO8w" />
+</mnd>
+<owd>
+<dgx id="e39IeABN5kq13lvPgvCO8w" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="+8RwTeN3LEmrkgomsBY8iw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="EbWE5w+h/0Kr8VXiJTYvxA" />
+</mdr>
+<chl>
+<ssv id="paHjBw6z00iCHws2BHqP1Q" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="EbWE5w+h/0Kr8VXiJTYvxA" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="xDWenqeG3E6Fs41Ayqf+XA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="EbWE5w+h/0Kr8VXiJTYvxA" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="0XwZDRTbI0mLIUd19Ui1vw" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="EbWE5w+h/0Kr8VXiJTYvxA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="fzIDjDGEe0OGPpx0MuKjUA" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="EbWE5w+h/0Kr8VXiJTYvxA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(3598,3226)</ext>
+<pst>(5750,3000)</pst>
+</pgv>
+<pgv id="/PdvjDW+Z0mfEphrZ8Dghg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="lq2khWoLY0GLe3gkGqhxiQ" />
+</mdr>
+<chl>
+<ssv id="at86s/xaiEG7hY86AFwanA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="lq2khWoLY0GLe3gkGqhxiQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="vRl35TDWuE2/mtI3GxvtVw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="lq2khWoLY0GLe3gkGqhxiQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="qFC4yV1hBESN+4YcuYp4yA" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="lq2khWoLY0GLe3gkGqhxiQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="p9/+hFqwCkirQ7uWt0+b9A" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="lq2khWoLY0GLe3gkGqhxiQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2830,3226)</ext>
+<pst>(11250,2750)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls>
+<clx id="lq2khWoLY0GLe3gkGqhxiQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListReportUI</nam>
+</clx>
+<clx id="EbWE5w+h/0Kr8VXiJTYvxA" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ReportPreviewUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="qpyoj1WXIEKc6hC8H4R0og" >
+<nam>Tính lương</nam>
+<mnd>
+<RMS:LRF id="+xmCw8XiMUiJsmNj6sfvSw" />
+</mnd>
+<owd>
+<dgx id="+xmCw8XiMUiJsmNj6sfvSw" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="E/9cdogJP0ulBi+3IFNiig" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="wzRzSR8HC0uqXtzcOIev8w" />
+</mdr>
+<chl>
+<ssv id="HO7ntD2yXUG/afuv+muL6Q" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="wzRzSR8HC0uqXtzcOIev8w" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="uOEmxIbGdUWVoG+hg0+bJw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="wzRzSR8HC0uqXtzcOIev8w" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="KZt3xDyK3keXMNrWDcDG0Q" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="wzRzSR8HC0uqXtzcOIev8w" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="w6mwSd1cE0+DuwLrtNBDzg" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="wzRzSR8HC0uqXtzcOIev8w" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2116,3226)</ext>
+<pst>(8492,5250)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls>
+<clx id="wzRzSR8HC0uqXtzcOIev8w" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>SalaryUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="/cufmeWW4EOvFvQ7Q0aK1Q" >
+<nam>Chấm công</nam>
+<mnd>
+<RMS:LRF id="Et8o+iYJg068OyT3q8kFEQ" />
+</mnd>
+<owd>
+<dgx id="Et8o+iYJg068OyT3q8kFEQ" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="NFCUFfqWoU2JpuPoZXWI2A" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="wNIm/GdTiUCBUSGA5DBmsQ" />
+</mdr>
+<chl>
+<ssv id="LkD5l9zyH0OXWl8Pb39VTA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="wNIm/GdTiUCBUSGA5DBmsQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="rGWRnZlzOUyx6sPiBem7FA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="wNIm/GdTiUCBUSGA5DBmsQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="iF4bX0xUBUmYdb21xICxTg" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="wNIm/GdTiUCBUSGA5DBmsQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="2a3Ga2pdRUaWc9cEgegWrQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="wNIm/GdTiUCBUSGA5DBmsQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2804,3226)</ext>
+<pst>(7398,3500)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls>
+<clx id="wNIm/GdTiUCBUSGA5DBmsQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>TimeSheetUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="gYmLMSn1lUCFd5RoKuRXAQ" >
+<nam>Quản trị hệ thống</nam>
+<mnd>
+<RMS:LRF id="T23EppXhZ0uwKTGYqerlUw" />
+</mnd>
+<owd>
+<dgx id="T23EppXhZ0uwKTGYqerlUw" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="qRoLSmRHBUi2Cigdl73oaw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="5QyvE7IoSE2cx5rOKrToAQ" />
+</mdr>
+<chl>
+<ssv id="WghsjNatD0+M3+gplT4CZw" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="5QyvE7IoSE2cx5rOKrToAQ" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="nKnjVcEMgEmRrWrQx82/UA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="5QyvE7IoSE2cx5rOKrToAQ" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="INaLwgD8AkOFWyLHwO4wGQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="5QyvE7IoSE2cx5rOKrToAQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="NdmYi3CXQ0iIctBTqcjjVQ" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="5QyvE7IoSE2cx5rOKrToAQ" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2036,3226)</ext>
+<pst>(3032,2500)</pst>
+</pgv>
+<pgv id="R+v6kMdBEEmuL+va7jgiyw" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="QRiO/+uiD0u+S7SonRpJcA" />
+</mdr>
+<chl>
+<ssv id="E3ItXLtC90SOyJJvTTHctQ" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="QRiO/+uiD0u+S7SonRpJcA" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="16bMcggb90CvHmBif6NxcA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="QRiO/+uiD0u+S7SonRpJcA" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="olEa1mlThUmQCijgXq6krQ" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="QRiO/+uiD0u+S7SonRpJcA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="diUos3v+hEunRbt7tp+iBg" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="QRiO/+uiD0u+S7SonRpJcA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(1969,3226)</ext>
+<pst>(7816,2500)</pst>
+</pgv>
+<pgv id="Hpr9BwG4rUmWuc/IMcYfEA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="MXaCcSlom0+1iTNUANN0fg" />
+</mdr>
+<chl>
+<ssv id="B0qlTIh52EWaw+UM1CFGOA" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="MXaCcSlom0+1iTNUANN0fg" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="HYFaB27+yUSuFjKo4Rnekg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="MXaCcSlom0+1iTNUANN0fg" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="hsIR/DqiPUWqtf1HrpI76Q" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="MXaCcSlom0+1iTNUANN0fg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="HkP9oDsJdUKEp4j/GCV84Q" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="MXaCcSlom0+1iTNUANN0fg" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(2274,3226)</ext>
+<pst>(11250,2500)</pst>
+</pgv>
+<pgv id="gpZZFhGXKkO5AWBDwYgnOg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+<RMS:URF id="hO2hL41FVEeWITHgMt+BvA"  name="Analysis Model::Appearance::attributecompartment=-1;compartmentstereotypes=1;operationcompartment=-1;operationsignatures=0;sortattributes=1;sortoperations=1;visibilitystyle=2"  classStr="sty" />
+<RMS:URF id="0iYUaiuBxUGONnNU2IhZtQ"  name="Analysis Model::Appearance::signalcompartment=0;signalsignatures=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:LRF id="HkRcW3afW066Fp1IJmpffA" />
+</mdr>
+<chl>
+<ssv id="WK2sIwAV6U+h/pMVP5j75Q" >
+<fch>LayoutGraphic</fch>
+<mdr>
+<RMS:LRF id="HkRcW3afW066Fp1IJmpffA" />
+</mdr>
+<lyt>2</lyt>
+<lfm>2</lfm>
+<maa>TRUE</maa>
+<rgm>2</rgm>
+<tpm>2</tpm>
+<chl>
+<ncv id="xemnH3K6lEihflOAAzWXhg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:LRF id="HkRcW3afW066Fp1IJmpffA" />
+</mdr>
+<btm>5</btm>
+<lfm>10</lfm>
+<maa>TRUE</maa>
+<rgm>10</rgm>
+<tpm>5</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+<lcv id="kgbjS1wLcEOGmfhQhzRD+A" >
+<fch>Attribute</fch>
+<mdr>
+<RMS:LRF id="HkRcW3afW066Fp1IJmpffA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>1</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+<lcv id="Hy/Gw8pd7Uyd6tDlZ6pg3w" >
+<fch>Operation</fch>
+<mdr>
+<RMS:LRF id="HkRcW3afW066Fp1IJmpffA" />
+</mdr>
+<maa>TRUE</maa>
+<ext>(0,0)</ext>
+<grv>NorthWest</grv>
+<hrf>TRUE</hrf>
+<rwn>2</rwn>
+<hgr>-1</hgr>
+<ovh>-1</ovh>
+</lcv>
+</chl>
+<ext>(0,0)</ext>
+<grv>South</grv>
+<hrf>TRUE</hrf>
+</ssv>
+</chl>
+<ext>(1969,3226)</ext>
+<pst>(14500,2500)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<cls reserve="11" >
+<clx id="HkRcW3afW066Fp1IJmpffA" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>UserUI</nam>
+</clx>
+<clx id="5QyvE7IoSE2cx5rOKrToAQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>GroupUI</nam>
+</clx>
+<clx id="MXaCcSlom0+1iTNUANN0fg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>SettingUI</nam>
+</clx>
+<clx id="QRiO/+uiD0u+S7SonRpJcA" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>LoginUI</nam>
+</clx>
+<clx id="BNpI8rcjvUmykrTZWoaxxw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>MainUI</nam>
+</clx>
+<clx id="HB8jP+zlb0KWNlro5FtXXg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ChangePassUI</nam>
+</clx>
+<clx id="KtDXmO51rk6n4siqnnQReQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>UserAdminUI</nam>
+</clx>
+<clx id="Jo5Xh4Vqd0W9AHg86yvT/Q" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>MessageUI</nam>
+</clx>
+<clx id="rXb8zVEKIkKxu0lQeSsfFg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>SendMailUI</nam>
+</clx>
+<clx id="H0xvuEQaZE+K8OHcd/ir6g" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>SysVarUI</nam>
+</clx>
+<clx id="GKW1qUCH7EekbVSBZnTO7w" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>UpdateSysVarUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="r3volfQWrESYBQ5l6VhLOw" >
+<nam>Đọc thẻ</nam>
+<mnd>
+<RMS:LRF id="vWFv/qN/wkmkJAgT8vbHdg" />
+</mnd>
+<owd>
+<dgx id="vWFv/qN/wkmkJAgT8vbHdg" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<cls>
+<clx id="wB0+rnOEPk61u/85X+j6BA" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>CardReaderUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="1/rkTzQMekGX/dAsE7L8YQ" >
+<nam>Quản lý BHXH,BHYT</nam>
+<mnd>
+<RMS:LRF id="8UQOZylD7UOddU81QQM6/w" />
+</mnd>
+<owd>
+<dgx id="8UQOZylD7UOddU81QQM6/w" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<cls>
+<clx id="2O67GeOnkkGy+uDrREREzw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>InsuranceUI</nam>
+</clx>
+<clx id="AnTpEXRMqE+EqlLV/bLb5A" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<dsc>Form chứa danh sách nhân viên được hưởng trợ cấp BHXH</dsc>
+<nam>ListInsuranceUI</nam>
+</clx>
+<clx id="Q+2nFb0qQk26SftJfZCTTg" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>InsurancePayC46UI</nam>
+</clx>
+<clx id="X9352Ch9r0iB9MXP5Hs+qA" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<nam>InsuranceListAnyChangeUI</nam>
+</clx>
+</cls>
+</pkx>
+<pkx id="Iz5mN5RIxEqp7q/PnrD3DA" >
+<nam>Quản lý thưởng phạt</nam>
+<mnd>
+<RMS:LRF id="WjVTFOc+pkOwLEtY7qgpeg" />
+</mnd>
+<owd>
+<dgx id="WjVTFOc+pkOwLEtY7qgpeg" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<cls>
+<clx id="qEUYrGYYs02Ov8PZceTKhQ" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>PunishUI</nam>
+</clx>
+<clx id="4IQkgLY7Q0e/OT3Jnbjm1g" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListPunishUI</nam>
+</clx>
+<clx id="DbexLb1YpkO5bT0EAegp1A" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>PunishCardUI</nam>
+</clx>
+<clx id="9yGPqYvuTkqPOOIbfUNECw" >
+<tvs>
+<RMS:URF id="kLo6WqEjUUyPGIBJ7IjNcw"  name="Analysis Model::SoftwareEngineeringProcess::Boundary"  classStr="str" />
+</tvs>
+<nam>ListPunishCardUI</nam>
+</clx>
+</cls>
+</pkx>
+</nsp>
+</pkx>
+<pkx id="v6eHoHVgwkuGHvlMe39eeg"  file="Analysis Elements\Key Abtractions.pkx" >
+</pkx>
+<pkx id="t4H/90/9yEaqzUmSj7h7sQ" >
+<nam>Other Elements</nam>
+<mnd>
+<RMS:LRF id="Gvm8OQacX0W3/3H+YhsfjQ" />
+</mnd>
+<owd>
+<dgx id="Gvm8OQacX0W3/3H+YhsfjQ" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+</dgx>
+</owd>
+<cls>
+<clx id="3icBB2px7Uebl0bHzzrGLA" >
+<nam>hrms.Config</nam>
+</clx>
+</cls>
+</pkx>
+</nsp>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="dsInsurance" targetNamespace="http://tempuri.org/dsInsurance.xsd" xmlns:mstns="http://tempuri.org/dsInsurance.xsd" xmlns="http://tempuri.org/dsInsurance.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+        </Connections>
+        <Tables>
+        </Tables>
+        <Sources>
+        </Sources>
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="dsInsurance" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:Generator_UserDSName="dsInsurance" msprop:Generator_DataSetName="dsInsurance">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="tblInsuranceC47P2" msprop:Generator_UserTableName="tblInsuranceC47P2" msprop:Generator_RowDeletedName="tblInsuranceC47P2RowDeleted" msprop:Generator_RowChangedName="tblInsuranceC47P2RowChanged" msprop:Generator_RowClassName="tblInsuranceC47P2Row" msprop:Generator_RowChangingName="tblInsuranceC47P2RowChanging" msprop:Generator_RowEvArgName="tblInsuranceC47P2RowChangeEvent" msprop:Generator_RowEvHandlerName="tblInsuranceC47P2RowChangeEventHandler" msprop:Generator_TableClassName="tblInsuranceC47P2DataTable" msprop:Generator_TableVarName="tabletblInsuranceC47P2" msprop:Generator_RowDeletingName="tblInsuranceC47P2RowDeleting" msprop:Generator_TablePropName="tblInsuranceC47P2">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="STT" msprop:Generator_UserColumnName="STT" msprop:Generator_ColumnPropNameInRow="STT" msprop:Generator_ColumnVarNameInTable="columnSTT" msprop:Generator_ColumnPropNameInTable="STTColumn" type="xs:short" />
+              <xs:element name="ChiTieu" msprop:Generator_UserColumnName="ChiTieu" msprop:Generator_ColumnPropNameInRow="ChiTieu" msprop:Generator_ColumnVarNameInTable="columnChiTieu" msprop:Generator_ColumnPropNameInTable="ChiTieuColumn" type="xs:string" minOccurs="0" />
+              <xs:element name="LastMonth" msprop:Generator_UserColumnName="LastMonth" msprop:Generator_ColumnPropNameInRow="LastMonth" msprop:Generator_ColumnVarNameInTable="columnLastMonth" msprop:Generator_ColumnPropNameInTable="LastMonthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="NextMonth" msprop:Generator_UserColumnName="NextMonth" msprop:Generator_ColumnPropNameInRow="NextMonth" msprop:Generator_ColumnVarNameInTable="columnNextMonth" msprop:Generator_ColumnPropNameInTable="NextMonthColumn" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Check" msprop:Generator_UserColumnName="Check" msprop:Generator_ColumnPropNameInRow="Check" msprop:Generator_ColumnVarNameInTable="columnCheck" msprop:Generator_ColumnPropNameInTable="CheckColumn" type="xs:decimal" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="tblInsuranceC47P1" msprop:Generator_UserTableName="tblInsuranceC47P1" msprop:Generator_RowDeletedName="tblInsuranceC47P1RowDeleted" msprop:Generator_RowChangedName="tblInsuranceC47P1RowChanged" msprop:Generator_RowClassName="tblInsuranceC47P1Row" msprop:Generator_RowChangingName="tblInsuranceC47P1RowChanging" msprop:Generator_RowEvArgName="tblInsuranceC47P1RowChangeEvent" msprop:Generator_RowEvHandlerName="tblInsuranceC47P1RowChangeEventHandler" msprop:Generator_TableClassName="tblInsuranceC47P1DataTable" msprop:Generator_TableVarName="tabletblInsuranceC47P1" msprop:Generator_RowDeletingName="tblInsuranceC47P1RowDeleting" msprop:Generator_TablePropName="tblInsuranceC47P1">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Col_1" msprop:Generator_UserColumnName="Col_1" msprop:Generator_ColumnPropNameInRow="Col_1" msprop:Generator_ColumnVarNameInTable="columnCol_1" msprop:Generator_ColumnPropNameInTable="Col_1Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Col_2" msprop:Generator_UserColumnName="Col_2" msprop:Generator_ColumnPropNameInRow="Col_2" msprop:Generator_ColumnVarNameInTable="columnCol_2" msprop:Generator_ColumnPropNameInTable="Col_2Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Col_3" msprop:Generator_UserColumnName="Col_3" msprop:Generator_ColumnPropNameInRow="Col_3" msprop:Generator_ColumnVarNameInTable="columnCol_3" msprop:Generator_ColumnPropNameInTable="Col_3Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Col_4" msprop:Generator_UserColumnName="Col_4" msprop:Generator_ColumnPropNameInRow="Col_4" msprop:Generator_ColumnVarNameInTable="columnCol_4" msprop:Generator_ColumnPropNameInTable="Col_4Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_5" msprop:Generator_UserColumnName="Col_5" msprop:Generator_ColumnPropNameInRow="Col_5" msprop:Generator_ColumnVarNameInTable="columnCol_5" msprop:Generator_ColumnPropNameInTable="Col_5Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_6" msprop:Generator_UserColumnName="Col_6" msprop:Generator_ColumnPropNameInRow="Col_6" msprop:Generator_ColumnVarNameInTable="columnCol_6" msprop:Generator_ColumnPropNameInTable="Col_6Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_7" msprop:Generator_UserColumnName="Col_7" msprop:Generator_ColumnPropNameInRow="Col_7" msprop:Generator_ColumnVarNameInTable="columnCol_7" msprop:Generator_ColumnPropNameInTable="Col_7Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_8" msprop:Generator_UserColumnName="Col_8" msprop:Generator_ColumnPropNameInRow="Col_8" msprop:Generator_ColumnVarNameInTable="columnCol_8" msprop:Generator_ColumnPropNameInTable="Col_8Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_9" msprop:Generator_UserColumnName="Col_9" msprop:Generator_ColumnPropNameInRow="Col_9" msprop:Generator_ColumnVarNameInTable="columnCol_9" msprop:Generator_ColumnPropNameInTable="Col_9Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_10" msprop:Generator_UserColumnName="Col_10" msprop:Generator_ColumnPropNameInRow="Col_10" msprop:Generator_ColumnVarNameInTable="columnCol_10" msprop:Generator_ColumnPropNameInTable="Col_10Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Col_11" msprop:Generator_UserColumnName="Col_11" msprop:Generator_ColumnPropNameInRow="Col_11" msprop:Generator_ColumnVarNameInTable="columnCol_11" msprop:Generator_ColumnPropNameInTable="Col_11Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Col_12" msprop:Generator_UserColumnName="Col_12" msprop:Generator_ColumnPropNameInRow="Col_12" msprop:Generator_ColumnVarNameInTable="columnCol_12" msprop:Generator_ColumnPropNameInTable="Col_12Column" type="xs:string" minOccurs="0" />
+              <xs:element name="Col_13" msprop:Generator_UserColumnName="Col_13" msprop:Generator_ColumnPropNameInRow="Col_13" msprop:Generator_ColumnVarNameInTable="columnCol_13" msprop:Generator_ColumnPropNameInTable="Col_13Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_14" msprop:Generator_UserColumnName="Col_14" msprop:Generator_ColumnPropNameInRow="Col_14" msprop:Generator_ColumnVarNameInTable="columnCol_14" msprop:Generator_ColumnPropNameInTable="Col_14Column" type="xs:decimal" minOccurs="0" />
+              <xs:element name="Col_15" msprop:Generator_UserColumnName="Col_15" msprop:Generator_ColumnPropNameInRow="Col_15" msprop:Generator_ColumnVarNameInTable="columnCol_15" msprop:Generator_ColumnPropNameInTable="Col_15Column" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:tblInsuranceC47P2" />
+      <xs:field xpath="mstns:STT" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

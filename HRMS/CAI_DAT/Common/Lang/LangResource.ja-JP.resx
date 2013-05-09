@@ -1,0 +1,5494 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Bosung_tool1" xml:space="preserve">
+    <value>社員に昼食設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool10" xml:space="preserve">
+    <value>年数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool11" xml:space="preserve">
+    <value>月数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool12" xml:space="preserve">
+    <value>日区分は１０以下です。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool2" xml:space="preserve">
+    <value>社員管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool3" xml:space="preserve">
+    <value>勤務時間計算</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool4" xml:space="preserve">
+    <value>終了</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool5" xml:space="preserve">
+    <value>区分１の残業</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool6" xml:space="preserve">
+    <value>区分1.5</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool7" xml:space="preserve">
+    <value>区分2</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool8" xml:space="preserve">
+    <value>区分3</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung_tool9" xml:space="preserve">
+    <value>社会保険手当受ける労働者一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung1" xml:space="preserve">
+    <value>選択した日が正しい形式ではありませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung2" xml:space="preserve">
+    <value>レポートをもっと早く作成できるために部課により選択してください。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung3_1" xml:space="preserve">
+    <value>レポート前照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung4_1" xml:space="preserve">
+    <value>用意しています...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung5_1" xml:space="preserve">
+    <value>部課変更照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung6_1" xml:space="preserve">
+    <value>ログイン情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung7_1" xml:space="preserve">
+    <value>ログイン</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Bosung8_1" xml:space="preserve">
+    <value>ログインしていません...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_bntSave" xml:space="preserve">
+    <value>保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_GroupBox1" xml:space="preserve">
+    <value>出退社情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_GroupBox1_lblNgaylamViec" xml:space="preserve">
+    <value>平日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_GroupBox1_lblNhanVien" xml:space="preserve">
+    <value>社員</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_GroupBox1_lblTimeIn" xml:space="preserve">
+    <value>出社時刻</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_GroupBox1_lblTimeOut" xml:space="preserve">
+    <value>退社時刻</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa" xml:space="preserve">
+    <value>出退社時刻の更新が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa1" xml:space="preserve">
+    <value>時間が修正できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa2" xml:space="preserve">
+    <value>出社時刻は必ず退社時刻の前です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa3" xml:space="preserve">
+    <value>出・退社時刻を追加しているうちにトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa4" xml:space="preserve">
+    <value>社員</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa5" xml:space="preserve">
+    <value>がカードをスキャンしました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa6" xml:space="preserve">
+    <value>出張登録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Messa7" xml:space="preserve">
+    <value>が休暇を登録しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Sua_ThongBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Text" xml:space="preserve">
+    <value>出退社時刻追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Text2" xml:space="preserve">
+    <value>出退社時刻修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Them_ThongBao_Messa" xml:space="preserve">
+    <value>出退社時刻の追加が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAddInOut_Them_ThongBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser" xml:space="preserve">
+    <value>ユーザー管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_cmdAddGroup" xml:space="preserve">
+    <value>新グループ追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_cmdAddUser" xml:space="preserve">
+    <value>新ユーザー追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_cmdDeleteGroup" xml:space="preserve">
+    <value>グループ削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_cmdDeleteUser" xml:space="preserve">
+    <value>ユーザー削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_cmdEditGroup" xml:space="preserve">
+    <value>グループ更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_cmdEditUser" xml:space="preserve">
+    <value>ユーザー修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_GroupBox1" xml:space="preserve">
+    <value>ユーザーリスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_GroupBox2" xml:space="preserve">
+    <value>ユーザーグループリスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwGroup_MaNhom" xml:space="preserve">
+    <value>グループコード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwGroup_MoTa" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwGroup_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwGroup_TenNhom" xml:space="preserve">
+    <value>グループ名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwUser_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwUser_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwUser_TenDangNhap" xml:space="preserve">
+    <value>ログイン名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmAdminUser_lvwUser_TenDayDu" xml:space="preserve">
+    <value>氏名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmBackUpInMonth_dangsaoluudulieu" xml:space="preserve">
+    <value>Đang sao lưu dữ liệu...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmBackupInMonth_Messa1" xml:space="preserve">
+    <value>Sao lưu dữ liệu thành công</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmBackupInMonth_Messa2" xml:space="preserve">
+    <value>Có lỗi sảy ra. Không thể sao lưu dữ liệu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmBackUpInMonth_title" xml:space="preserve">
+    <value>Sao lưu dữ liệu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmBackUpInMonth_xacnhansaoluudulieu" xml:space="preserve">
+    <value>Bạn có muốn sao lưu dữ liệu ?</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Delete_CanhBao_Messa" xml:space="preserve">
+    <value>該当の出退社時刻がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Delete_CanhBao_Title" xml:space="preserve">
+    <value>出退社時刻削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Delete_ThongBao1_Messa" xml:space="preserve">
+    <value>確かに削除したいですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Delete_ThongBao1_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Delete_ThongBao2_Messa" xml:space="preserve">
+    <value>選択された情報が完成にデータべースより削除されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Delete_ThongBao2_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Messa1" xml:space="preserve">
+    <value>時間の追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Messa2" xml:space="preserve">
+    <value>データベースより削除できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Messa3" xml:space="preserve">
+    <value>時間の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Sua_CanhBao_Messa" xml:space="preserve">
+    <value>出退社時刻がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeInOut_Sua_CanhBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_btnOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_Error1_Messa" xml:space="preserve">
+    <value>確認パスワードが新パスワードでわありませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_Error1_Title" xml:space="preserve">
+    <value>トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_lblMatKhau" xml:space="preserve">
+    <value>新パスワード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_lblMatKhau1" xml:space="preserve">
+    <value>パスワード確認</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_lblTen" xml:space="preserve">
+    <value>ログイン名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_lblTen1" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_Text" xml:space="preserve">
+    <value>パスワード変更</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_Thongbao1" xml:space="preserve">
+    <value>メッセジー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_Thongbao1_Title" xml:space="preserve">
+    <value>パスワードの更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangePass_Thongbao2_Title" xml:space="preserve">
+    <value>パスワードの更新が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_bntAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_bntDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_bntHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_bntModifile" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_GroupBox1" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_GroupBox2" xml:space="preserve">
+    <value>出退社情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_GroupBox2_lvwTimeInOut_NgaylamViec" xml:space="preserve">
+    <value>平日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_GroupBox2_lvwTimeInOut_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_GroupBox2_lvwTimeInOut_TimeIn" xml:space="preserve">
+    <value>出社時刻</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_GroupBox2_lvwTimeInOut_TimeOut" xml:space="preserve">
+    <value>退社時刻</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_lblNhanVien" xml:space="preserve">
+    <value>社員</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChangeTimeInOut_Text" xml:space="preserve">
+    <value>出退社時間管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_btnNew" xml:space="preserve">
+    <value>新規作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_lblYear" xml:space="preserve">
+    <value>年</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_lvwDot" xml:space="preserve">
+    <value>支払回分</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_lvwFrom" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_lvwTo" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChoocseSocial_Text" xml:space="preserve">
+    <value>社会保険・健康保険一覧作成回数の選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseBackupData_Text" xml:space="preserve">
+    <value>Chọn khoảng thời gian sao lưu dữ liệu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseInOut_Messa1" xml:space="preserve">
+    <value>時間が正しい形式ではありませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseRestoreData_Text" xml:space="preserve">
+    <value>Chọn khoảng thời gian khôi phục dữ liệu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_bntCancle" xml:space="preserve">
+    <value>キャンセル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_bntDisplay" xml:space="preserve">
+    <value>表示</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_GroupBox1" xml:space="preserve">
+    <value>初期設定の期間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_GroupBox1_lblFromDate" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_GroupBox1_lblFromMonth" xml:space="preserve">
+    <value>Từ tháng :</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_GroupBox1_lblToDate" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_GroupBox1_lblToMonth" xml:space="preserve">
+    <value>Đến tháng :</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmChooseTimeInOut_Text" xml:space="preserve">
+    <value>出退社期間選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_btnSave" xml:space="preserve">
+    <value>保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_groupbox1" xml:space="preserve">
+    <value>契約種類情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_lable2" xml:space="preserve">
+    <value>契約種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_lable3" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Messa" xml:space="preserve">
+    <value>契約種類がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Messa2" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Text" xml:space="preserve">
+    <value>契約情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Them_Messa1" xml:space="preserve">
+    <value>この契約種類は登録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Them_Messa2" xml:space="preserve">
+    <value>契約種類の追加が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Them_Messa3" xml:space="preserve">
+    <value>トラブルが発生しました。契約種類の追加が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Them_Title" xml:space="preserve">
+    <value>契約種類の追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Update_Messa1" xml:space="preserve">
+    <value>この契約種類は登録されていますので、更新されませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Update_Messa2" xml:space="preserve">
+    <value>契約種類の更新が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Update_Messa3" xml:space="preserve">
+    <value>トラブルが発生しました。契約種類の更新が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmContract_Update_Title" xml:space="preserve">
+    <value>契約種類の更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmCopyLunch_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmCopyLunch_btnSaoChep" xml:space="preserve">
+    <value>コピー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmCopyLunch_Text" xml:space="preserve">
+    <value>設定済み日の選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error" xml:space="preserve">
+    <value>トラブルが発生しました。休暇種類が追加できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Messa1" xml:space="preserve">
+    <value>休暇種類が入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Messa2" xml:space="preserve">
+    <value>省略名が入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Messa3" xml:space="preserve">
+    <value>有給区分が入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Messa4" xml:space="preserve">
+    <value>この休暇種類か省略名が既に登録されています。この休暇種類が追加できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Title1" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Title2" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Title3" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_Error_Title4" xml:space="preserve">
+    <value>休暇種類追加トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_ThongBao_Messa" xml:space="preserve">
+    <value>休暇種類の追加が完成されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Add_ThongBao_Title" xml:space="preserve">
+    <value>休暇種類の追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_bntSave" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_Error_Messa" xml:space="preserve">
+    <value>休暇種類削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_Error_Title" xml:space="preserve">
+    <value>休暇種類の更新が完了されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_ThongBao_Messa1" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_ThongBao_Messa2" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_ThongBao_Messa3" xml:space="preserve">
+    <value>休暇種類がデータベースより削除できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_ThongBao_Title1" xml:space="preserve">
+    <value>休暇種類がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_ThongBao_Title11" xml:space="preserve">
+    <value>休暇種類の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Delete_ThongBao_Title2" xml:space="preserve">
+    <value>確かにこの休暇種類を削除したいですか</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2" xml:space="preserve">
+    <value>休暇種類情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblCo" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblHeSoNgay" xml:space="preserve">
+    <value>有給区分</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblHeSoNgay1" xml:space="preserve">
+    <value>有給区分</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblHSTroCapBHXH" xml:space="preserve">
+    <value>社会保険手当レベル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblKhong" xml:space="preserve">
+    <value>いいえ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblKyHieuNgay" xml:space="preserve">
+    <value>省略名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblTenKieuNgay" xml:space="preserve">
+    <value>休暇種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_GroupBox2_lblTroCapBHXH" xml:space="preserve">
+    <value>社会保険手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Sua_Error1" xml:space="preserve">
+    <value>休暇種類か省略名が既に登録されています。この休暇種類が更新できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Sua_Error2" xml:space="preserve">
+    <value>トラブルが発生しました。この休暇種類が更新できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Text" xml:space="preserve">
+    <value>休暇種類定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_Text2" xml:space="preserve">
+    <value>休暇種類修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_UpDate_Error_Messa" xml:space="preserve">
+    <value>該当の休暇種類がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_UpDate_Error_Title" xml:space="preserve">
+    <value>休暇種類の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_UpDate_ThongBao_Messa" xml:space="preserve">
+    <value>この休暇種類がデータベースより完全に削除されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDayType_UpDate_ThongBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDep_CapNhat_ThongBao_Messa" xml:space="preserve">
+    <value>この部課はシステムに登録されています。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDep_CapNhat_ThongBao_Title" xml:space="preserve">
+    <value>社員の更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDep_Text1" xml:space="preserve">
+    <value>新しい部課の情報の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDep_Text2" xml:space="preserve">
+    <value>新しい部課の追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Add_Error_Messa1" xml:space="preserve">
+    <value>部課がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Add_Error_Messa2" xml:space="preserve">
+    <value>この部課が既に登録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Add_Error_Title1" xml:space="preserve">
+    <value>部課追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Add_Error_Title2" xml:space="preserve">
+    <value>部課追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Add_ThongBao_Messa" xml:space="preserve">
+    <value>部課の追加が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Add_ThongBao_Title" xml:space="preserve">
+    <value>部課追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_bntOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_GroupBox2" xml:space="preserve">
+    <value>部課情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_GroupBox2_lblDecription" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_GroupBox2_lblDepartmentName" xml:space="preserve">
+    <value>部課名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Text1" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_Text2" xml:space="preserve">
+    <value>新部課追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_UpDate_Error_Messa" xml:space="preserve">
+    <value>部課がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_UpDate_Error_Title" xml:space="preserve">
+    <value>部課修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_UpDate_ThongBao_Messa" xml:space="preserve">
+    <value>部課の更新が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmDepartment_UpDate_ThongBao_Title" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmE_BHXH" xml:space="preserve">
+    <value>労働者自身で社会保険料金納め</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmE_btnAnh" xml:space="preserve">
+    <value>ピクチャー選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmE_btnKP" xml:space="preserve">
+    <value>回復</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmE_lbl1" xml:space="preserve">
+    <value>日当たり</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmE_lblSalaryChangedDay" xml:space="preserve">
+    <value>Ngày thay đổi</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmE_text" xml:space="preserve">
+    <value>社員プロファイル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_AddE_Error_Messa1" xml:space="preserve">
+    <value>この社員コードが既に登録されています。この社員の追加ができませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_AddE_Error_Messa2" xml:space="preserve">
+    <value>この社員の追加ができませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_AddE_ThongBao_Messa" xml:space="preserve">
+    <value>社員の追加が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_AddE_ThongBao_Title" xml:space="preserve">
+    <value>社員の追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Bophan_ChucVu" xml:space="preserve">
+    <value>部門・職務</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_BoPhanChucVu" xml:space="preserve">
+    <value>部門・職務</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_CapNhat_Loi_Messa" xml:space="preserve">
+    <value>データベースの更新のトラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_CapNhat_Loi_TItle" xml:space="preserve">
+    <value>メッセジー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteCT_ThongBao_Messa1" xml:space="preserve">
+    <value>配置転換の削除が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteCT_ThongBao_Messa2" xml:space="preserve">
+    <value>配置転換の削除が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteCT_ThongBao_Title" xml:space="preserve">
+    <value>配置転換の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteCV_ThongBao_Messa" xml:space="preserve">
+    <value>職位転換の削除が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteCV_ThongBao_Messa1" xml:space="preserve">
+    <value>職位転換の削除が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteCV_ThongBao_Title" xml:space="preserve">
+    <value>職位転換の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteE_ThongBao_Messa" xml:space="preserve">
+    <value>給料変更状況の削除が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteE_ThongBao_Messa1" xml:space="preserve">
+    <value>給料変更状況の削除が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_DeleteE_ThongBao_Title" xml:space="preserve">
+    <value>給料変更状況削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_grpBasicSalary" xml:space="preserve">
+    <value>給与変更状況</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Loi_Messa" xml:space="preserve">
+    <value>社員のデータの入力トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Loi_Messa1" xml:space="preserve">
+    <value>生年月日は必ず当日の前の日である。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Loi_Messa2" xml:space="preserve">
+    <value>身分証明書の受給日付は必ず生年月日の後の日で、当日の前の日である。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message1" xml:space="preserve">
+    <value>社員名がまだ入力されていませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message2" xml:space="preserve">
+    <value>社員コードがまだ入力されていませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message3" xml:space="preserve">
+    <value>生年月日は必ず当日の前の日です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message4" xml:space="preserve">
+    <value>身分証明書の受給日付は必ず生年月日の後の日で、当日の前の日です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message5" xml:space="preserve">
+    <value>社会保険料納日は必ず生年月日の後の日で、当日の前の日です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message6" xml:space="preserve">
+    <value>採用日は必ず本採用日の前の日です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message7" xml:space="preserve">
+    <value>Ngày thử việc phải lớn hơn hoặc bằng ngày tuyển</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_Message8" xml:space="preserve">
+    <value>Ngày làm chính thức phải sau ngày thử việc</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_NhapDL_Loi_Messa1" xml:space="preserve">
+    <value>社員名が入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_NhapDL_Loi_Messa2" xml:space="preserve">
+    <value>社員の社員コードがまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_NhapDL_Loi_Title" xml:space="preserve">
+    <value>社員のデータトラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_NhapDL_ThongBao_Messa" xml:space="preserve">
+    <value>社員の追加が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_NhapDL_ThongBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment" xml:space="preserve">
+    <value>職場*職位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_bntCancle" xml:space="preserve">
+    <value>スキップ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_bntChangeDepartment" xml:space="preserve">
+    <value>出向</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_bntSave" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_GroupBox2" xml:space="preserve">
+    <value>配置転換</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_GroupBox4" xml:space="preserve">
+    <value>職位変更</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_GroupBox4_bntChangePosition" xml:space="preserve">
+    <value>職位転換</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_GroupBox4_lblGhiChu" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_GroupBox4_lblQDS" xml:space="preserve">
+    <value>決定番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lblBoPhan" xml:space="preserve">
+    <value>職場</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lblChucVu" xml:space="preserve">
+    <value>職位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lblGhiChu" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lblQDS" xml:space="preserve">
+    <value>決定番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwDeparrtmentHistory_NgayThayDoi" xml:space="preserve">
+    <value>転換日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwDeparrtmentHistory_Note" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwDeparrtmentHistory_QDS" xml:space="preserve">
+    <value>決定番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwDeparrtmentHistory_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwDeparrtmentHistory_TenBoPhan" xml:space="preserve">
+    <value>部門名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwPostionHistory_NgayThayDoi" xml:space="preserve">
+    <value>転換日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwPostionHistory_Note" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwPostionHistory_QDS" xml:space="preserve">
+    <value>決定番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwPostionHistory_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbDepartment_lvwPostionHistory_TenChucVu" xml:space="preserve">
+    <value>職位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile" xml:space="preserve">
+    <value>一般情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_blCity" xml:space="preserve">
+    <value>県・都市</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_blEmployeeName" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_blQuanHuyen" xml:space="preserve">
+    <value>区</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_grpEmployeeProfile" xml:space="preserve">
+    <value>一般情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_grpProfessional" xml:space="preserve">
+    <value>学問</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblAddr" xml:space="preserve">
+    <value>場所</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap" xml:space="preserve">
+    <value>学位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_CuNhan" xml:space="preserve">
+    <value>学士</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_Khong" xml:space="preserve">
+    <value>ない</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_KySu" xml:space="preserve">
+    <value>技術などの大学卒業</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_ThacSy" xml:space="preserve">
+    <value>修士</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_TienSy" xml:space="preserve">
+    <value>博士</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_TrungCap" xml:space="preserve">
+    <value>高等専門学校卒業</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBangCap_TuTai" xml:space="preserve">
+    <value>高等学校卒業</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblBHXH" xml:space="preserve">
+    <value>社会保険簿番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblChungChi" xml:space="preserve">
+    <value>他証明書</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblCMND" xml:space="preserve">
+    <value>身分証明書番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblDanToc" xml:space="preserve">
+    <value>民族</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblDateOfBHXH" xml:space="preserve">
+    <value>社会保険料納日付</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblDateOfBirth" xml:space="preserve">
+    <value>生年月日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblDateOfCMND" xml:space="preserve">
+    <value>受給日付</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblEmail" xml:space="preserve">
+    <value>電子メール</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblGioiTinh" xml:space="preserve">
+    <value>性別</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblGioiTinh_Nam" xml:space="preserve">
+    <value>男</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblGioiTinh_Nu" xml:space="preserve">
+    <value>女</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblHoKhau" xml:space="preserve">
+    <value>住民票</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblHonNhan" xml:space="preserve">
+    <value>婚姻</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblHonNhan_ChuaGD" xml:space="preserve">
+    <value>未婚</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblHonNhan_CoGD" xml:space="preserve">
+    <value>既婚</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblMaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblNganhHoc" xml:space="preserve">
+    <value>専門</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblNgoaiNgu" xml:space="preserve">
+    <value>外語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblNgoaiNgu_China" xml:space="preserve">
+    <value>中国語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblNgoaiNgu_English" xml:space="preserve">
+    <value>英語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblNgoaiNgu_JP" xml:space="preserve">
+    <value>日本語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblNoiSinh" xml:space="preserve">
+    <value>生まれ故郷</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblPhone" xml:space="preserve">
+    <value>電話番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblPhuongXa" xml:space="preserve">
+    <value>村</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich" xml:space="preserve">
+    <value>国籍</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_Han" xml:space="preserve">
+    <value>韓国</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_JP" xml:space="preserve">
+    <value>日本</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_Lao" xml:space="preserve">
+    <value>ラオス</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_Others" xml:space="preserve">
+    <value>他国</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_ThaiLan" xml:space="preserve">
+    <value>タイ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_TQ" xml:space="preserve">
+    <value>中国</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblQuocTich_VN" xml:space="preserve">
+    <value>ベトナム</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTinHoc" xml:space="preserve">
+    <value>パソコン</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTinHoc_ChuaBiet" xml:space="preserve">
+    <value>使えない</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTinHoc_Coban" xml:space="preserve">
+    <value>基本</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTinHoc_ThanhThao" xml:space="preserve">
+    <value>熟達</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTonGiao" xml:space="preserve">
+    <value>宗教</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTrinhDo_CaoDang" xml:space="preserve">
+    <value>短期大学</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTrinhDo_DaiHoc" xml:space="preserve">
+    <value>大学</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTrinhDo_PhoThong" xml:space="preserve">
+    <value>高等普通</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTrinhDo_SauDaiHoc" xml:space="preserve">
+    <value>大学院など</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTrinhDo_TrungCap" xml:space="preserve">
+    <value>専門職業</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbProfile_lblTrinhDoVanHoa" xml:space="preserve">
+    <value>学問レベル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary" xml:space="preserve">
+    <value>給与・採用</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_bntCancle" xml:space="preserve">
+    <value>スキップ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_bntSave" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpAllowance" xml:space="preserve">
+    <value>手当種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpAllowance_lblNgay" xml:space="preserve">
+    <value>１日当たり</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpAllowance_lblPCAnTrua" xml:space="preserve">
+    <value>昼食手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpAllowance_lblPCDocHai" xml:space="preserve">
+    <value>毒害手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpAllowance_lblPCTrachNhiem" xml:space="preserve">
+    <value>職位手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpBasicSalary_bntChangeSalary" xml:space="preserve">
+    <value>新給レベル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpBasicSalary_lblBasicSalary" xml:space="preserve">
+    <value>基本給料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpBasicSalary_lblNote" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpBasicSalary_lblQDS" xml:space="preserve">
+    <value>決定番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo" xml:space="preserve">
+    <value>採用情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong" xml:space="preserve">
+    <value>契約</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong_1Nam" xml:space="preserve">
+    <value>一年間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong_2Nam" xml:space="preserve">
+    <value>二年間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong_3Nam" xml:space="preserve">
+    <value>３年間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong_6Thang" xml:space="preserve">
+    <value>六ヶ月</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong_KhongThoiHan" xml:space="preserve">
+    <value>無期限</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblHopDong_ThuViec" xml:space="preserve">
+    <value>試用</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblkieuluong" xml:space="preserve">
+    <value>Kiểu lương</value>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblNgayLamChinhThuc" xml:space="preserve">
+    <value>本採用日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblNgayThuViec" xml:space="preserve">
+    <value>試用開始</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblNgayTuyen" xml:space="preserve">
+    <value>採用日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_grpHiringInfo_lblNgayTuyenDung" xml:space="preserve">
+    <value>採用日付 </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_lblIssue" xml:space="preserve">
+    <value>Ngày cấp</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_lvwSalaryHistory_BasicSalary" xml:space="preserve">
+    <value>基本給料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_lvwSalaryHistory_NgayThayDoi" xml:space="preserve">
+    <value>変更日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_tbSalary_vwSalaryHistory_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_ThongTinKhac" xml:space="preserve">
+    <value>他の情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Error_Messa1" xml:space="preserve">
+    <value>この社員コードが既に登録されています。この社員の更新ができませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Error_Messa2" xml:space="preserve">
+    <value>この社員の更新ができませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Error_Messa3" xml:space="preserve">
+    <value>この社員の給料状況の変更ができませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Error_Messa4" xml:space="preserve">
+    <value>社員の出張の変更ができませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Error_Title1" xml:space="preserve">
+    <value>メッセジー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Thongbao_Messa" xml:space="preserve">
+    <value>社員の更新が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployee_UpdateE_Thongbao_Title" xml:space="preserve">
+    <value>社員の更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_bntOption" xml:space="preserve">
+    <value>オプション</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_bntRefresh" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2" xml:space="preserve">
+    <value>統計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_btnSearch" xml:space="preserve">
+    <value>Tìm kiếm</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_label6" xml:space="preserve">
+    <value>Lọc</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblGoHome" xml:space="preserve">
+    <value>退社</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblLate" xml:space="preserve">
+    <value>遅く出勤</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblLate1" xml:space="preserve">
+    <value>Đi muộn</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblNhanVienDiCongTac" xml:space="preserve">
+    <value>出張人数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblNhanVienNghiPhep" xml:space="preserve">
+    <value>休暇人数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblNhanVienVang" xml:space="preserve">
+    <value>欠勤人数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblTongNhanVien" xml:space="preserve">
+    <value>社員総数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_GroupBox2_lblWorking" xml:space="preserve">
+    <value>出勤中</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_grpChonPhong" xml:space="preserve">
+    <value>部門選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_grpChonPhong_groupBox1" xml:space="preserve">
+    <value>Tùy chọn</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_grpChonPhong_lblChonPhong" xml:space="preserve">
+    <value>部門名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_grpChonPhong_lblSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_grpChonPhong_lblSort" xml:space="preserve">
+    <value>表示</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_grpEmployee" xml:space="preserve">
+    <value>社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_Text" xml:space="preserve">
+    <value>社員の状況検察</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmEmployeeStatus_ThongBao" xml:space="preserve">
+    <value>社員がありません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdBoQua" xml:space="preserve">
+    <value>スキップ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdCapNhat" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdClearAll" xml:space="preserve">
+    <value>取消</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdDel" xml:space="preserve">
+    <value>削減</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdDong" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_cmdSelectAll" xml:space="preserve">
+    <value>全て選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_grbAccountInfo" xml:space="preserve">
+    <value>アカウント情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_grbMemberShip" xml:space="preserve">
+    <value>グループ内成員</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_grbPermission" xml:space="preserve">
+    <value>権限</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_lblMaNhom" xml:space="preserve">
+    <value>グループコード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_lblMember" xml:space="preserve">
+    <value>成員</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_lblMoTa" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_lblTenNhom" xml:space="preserve">
+    <value>グループ名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_lblUser" xml:space="preserve">
+    <value>ユーザー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_SuaNhom_Loi_Messa" xml:space="preserve">
+    <value>グループがまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_SuaNhom_Loi_Title" xml:space="preserve">
+    <value>グループ修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_SuaNhom_ThongBao_Messa" xml:space="preserve">
+    <value>グループの更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Text1" xml:space="preserve">
+    <value>新グループ追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Text2" xml:space="preserve">
+    <value>グループ更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Them_Error1_Title" xml:space="preserve">
+    <value>グループコードがもう記録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Them_Error2_Title" xml:space="preserve">
+    <value>グループ名がもう記録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Them_Loi_Messa" xml:space="preserve">
+    <value>グループコードがまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Them_Loi_Title" xml:space="preserve">
+    <value>新グループ追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Them_Thongbao_Messa" xml:space="preserve">
+    <value>新グループの追加が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Them_Thongbao_Title" xml:space="preserve">
+    <value>グループ追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1" xml:space="preserve">
+    <value>グループ更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1_Messa" xml:space="preserve">
+    <value>グループにユーザーを更新できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1_Messa1" xml:space="preserve">
+    <value>Adminグループのシステム管理権が削除されなくて、いつも存在必要です。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1_Messa2" xml:space="preserve">
+    <value>このグループの権限を更新できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1_Messa3" xml:space="preserve">
+    <value>グループ名が入力していません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1_Messa4" xml:space="preserve">
+    <value>adminとするユーザーのグループの変更ができません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_Update_Error1_Messa5" xml:space="preserve">
+    <value>Adminグループよりadminの移動ができません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_XoaNhom_CanhBao_Messa" xml:space="preserve">
+    <value>このグループにはユーザーが存在しています。グループを削除する前にグループ内の全ユーザーを削除してください。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_XoaNhom_Loi_Messa" xml:space="preserve">
+    <value>グループがまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_XoaNhom_Loi_Title" xml:space="preserve">
+    <value>グループ削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_XoaNhom_ThongBao1_Messa" xml:space="preserve">
+    <value>確かにこのグループを削除したいですか</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmGroup_XoaNhom_ThongBao2_Messa" xml:space="preserve">
+    <value>Xóa nhóm thành công!</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_btnAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_btnUpdate" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_groupbox1" xml:space="preserve">
+    <value>契約種類類リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_lvwContract_Note" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_lvwContract_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_lvwContract_TenHopDong" xml:space="preserve">
+    <value>契約種類類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Sua_Messa1" xml:space="preserve">
+    <value>修正したい契約種類が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Sua_Title" xml:space="preserve">
+    <value>契約種類修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Text" xml:space="preserve">
+    <value>契約種類類統計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Xoa_Messa1" xml:space="preserve">
+    <value>契約種類が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Xoa_Messa2" xml:space="preserve">
+    <value>確かにこの契約種類を削除したいですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Xoa_Messa3" xml:space="preserve">
+    <value>選択した契約種類がデータベースより完全に削除されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Xoa_Messa4" xml:space="preserve">
+    <value>この採用契約種類には社員が存在しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Xoa_Messa5" xml:space="preserve">
+    <value>この採用契約種類はデータベースより削除できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListContract_Xoa_Title" xml:space="preserve">
+    <value>契約種類削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_bntAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_bntDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_bntHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_bntUpDate" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_GroupBox1" xml:space="preserve">
+    <value>休暇別リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_lvwDayType_HeSoNgay" xml:space="preserve">
+    <value>有給区分</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_lvwDayType_KyHieuNgay" xml:space="preserve">
+    <value>省略名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_lvwDayType_SoNgayNghi" xml:space="preserve">
+    <value>休暇日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_lvwDayType_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_lvwDayType_TenKieuNgay" xml:space="preserve">
+    <value>休暇種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDayType_Text" xml:space="preserve">
+    <value>休暇別統計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_Error_Messa" xml:space="preserve">
+    <value>データベースの更新トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_Error_Messa1" xml:space="preserve">
+    <value>部課がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_Error_Messa2" xml:space="preserve">
+    <value>削除したい部課がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_Error_Messa3" xml:space="preserve">
+    <value>この部・課は本部の部課ので、削除できませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_Error_Messa4" xml:space="preserve">
+    <value>確かに、「。。。」の部課を削除ですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_ThongBao_Messa" xml:space="preserve">
+    <value>部課の削除が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_ThongBao_Messa1" xml:space="preserve">
+    <value>この部課には子部課か社員がまだ存在しています。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_ThongBao_Title" xml:space="preserve">
+    <value>部課の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Delete_title" xml:space="preserve">
+    <value>部課の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Sua_ThongBao_Title" xml:space="preserve">
+    <value>部課の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDep_Them_ThongBao_Title" xml:space="preserve">
+    <value>部課の追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_CanhBao_Messa" xml:space="preserve">
+    <value>確かに「　」部門を削除したいですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_CanhBao_Title" xml:space="preserve">
+    <value>部課削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_Error_Messa1" xml:space="preserve">
+    <value>削除したい部課が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_Error_Messa2" xml:space="preserve">
+    <value>この部課は子部課か社員がまだ存在しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_Error_Title1" xml:space="preserve">
+    <value>部課削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_Error_Title2" xml:space="preserve">
+    <value>データバース更新トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_ThongBao_Messa" xml:space="preserve">
+    <value>部課の削除が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDeparment_Delete_ThongBao_Title" xml:space="preserve">
+    <value>部課削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDepartment_bntAddNew" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDepartment_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDepartment_bntDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDepartment_bntUpDate" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDepartment_GroupBox1" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListDepartment_Text" xml:space="preserve">
+    <value>部課管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmliste_text" xml:space="preserve">
+    <value>社員一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmliste_text1" xml:space="preserve">
+    <value>一覧の総人数 : </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_DeleteE_Messa" xml:space="preserve">
+    <value>かに社員を削除ですか</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_DeleteE_Messa1" xml:space="preserve">
+    <value>社員がデータベースより正常に削除されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_DeleteE_Messa2" xml:space="preserve">
+    <value>社員がデータベースより削除できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_DeleteE_Messa3" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_DeleteE_Title" xml:space="preserve">
+    <value>社員削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_KhoiPhucE_Messa" xml:space="preserve">
+    <value>確かに社員を元にもどりますか</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_KhoiPhucE_Messa1" xml:space="preserve">
+    <value>社員が元に戻りました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_KhoiPhucE_Messa2" xml:space="preserve">
+    <value>社員の元に戻りができません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_KhoiPhucE_Title" xml:space="preserve">
+    <value>社員の元に戻り</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_ThoiViecE_Messa" xml:space="preserve">
+    <value>確かに、この社員を退社させますか '</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_ThoiViecE_Messa1" xml:space="preserve">
+    <value>確かに、この社員を退社させますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_ThoiViecE_Messa2" xml:space="preserve">
+    <value>この社員が退社できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_ThoiViecE_Title" xml:space="preserve">
+    <value>社員退社</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_ThoiViecE_Title1" xml:space="preserve">
+    <value>メッセジー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_UpdateE_Messa" xml:space="preserve">
+    <value>社員名がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_UpdateE_Title" xml:space="preserve">
+    <value>社員修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_XuatExcel_Error" xml:space="preserve">
+    <value>Excelファイルに出力の途中にトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEm_XuatExcel_Error_Title" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntDeletedEmployee" xml:space="preserve">
+    <value>退社済み社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntEdit" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntExcel" xml:space="preserve">
+    <value>Excel</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_bntSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_Edit_ThongBao_Messa" xml:space="preserve">
+    <value>社員の更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_Edit_ThongBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_Excel_frmMessa" xml:space="preserve">
+    <value>Excelファイルに出力しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_kinhnghiem" xml:space="preserve">
+    <value>Kinh nghiệm</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lblDepartment" xml:space="preserve">
+    <value>部門リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lblEmployee" xml:space="preserve">
+    <value>リスト内の社員集合</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_Addr" xml:space="preserve">
+    <value>場所</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_BasicSalary" xml:space="preserve">
+    <value>基本給料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_BHXH" xml:space="preserve">
+    <value>社会保険簿番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_City" xml:space="preserve">
+    <value>県・都市</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_DateOfBirth" xml:space="preserve">
+    <value>生年月日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_Department" xml:space="preserve">
+    <value>部門</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_GioiTinh" xml:space="preserve">
+    <value>性別</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_NgayChinhThuc" xml:space="preserve">
+    <value>本採用日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_Phone" xml:space="preserve">
+    <value>電話番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_PhuongXa" xml:space="preserve">
+    <value>村</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_Position" xml:space="preserve">
+    <value>職位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_QuanHuyen" xml:space="preserve">
+    <value>区</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_SCMND" xml:space="preserve">
+    <value>身分証明書番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_StartDate" xml:space="preserve">
+    <value>試用日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_TenNhanVien" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_lvwEmployee_TrinhDo" xml:space="preserve">
+    <value>レベル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_ThoiViec_ThongBao2_Messa" xml:space="preserve">
+    <value>確かに 社員を退職させますか？　</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_ThoiViec_ThongBao2_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_ThoiViec_ThongBao3_Messa" xml:space="preserve">
+    <value>この社員が退職されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_ThoiViec_ThongBao3_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_TimKiem_ThongBao" xml:space="preserve">
+    <value>ありません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListEmployee_txtSearch" xml:space="preserve">
+    <value>検索したい情報入力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_btnAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_btnEdit" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_btnExcel" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_btnView" xml:space="preserve">
+    <value>照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lable1" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lable2" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lable3" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_BatDau" xml:space="preserve">
+    <value>開始時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_BoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_KetThuc" xml:space="preserve">
+    <value>終了時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_MaTHe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_NDCV" xml:space="preserve">
+    <value>業務内容</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_NoiCT" xml:space="preserve">
+    <value>出張場所</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_lvwLeave_TenNV" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa1" xml:space="preserve">
+    <value>形式正しいではありませんでした。開始時間は必ず終了時間の前です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa2" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa2_Title1" xml:space="preserve">
+    <value>社員の出張登録の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa2_Title2" xml:space="preserve">
+    <value>社員の出張登録の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa3" xml:space="preserve">
+    <value>昼食データがExcelファイルに出力されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa4" xml:space="preserve">
+    <value>データをExcelファイルへ出力している中にはトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa4_Title" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Messa5" xml:space="preserve">
+    <value>確かに削除ですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Text" xml:space="preserve">
+    <value>出張社員一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLeaveSchedule_Thongbao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnExportExcel" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnGenarate" xml:space="preserve">
+    <value>昼食表作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnRefesh" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnSetLunch" xml:space="preserve">
+    <value>昼食設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_btnUpdate" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Delete_Messa1" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Delete_Messa2" xml:space="preserve">
+    <value>確かに、この社員を昼食登録表より削除ですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Delete_Title" xml:space="preserve">
+    <value>昼食登録表より社員削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_groupbox1" xml:space="preserve">
+    <value>当月昼食リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_grpDepartment" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_grpMonth" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_label1" xml:space="preserve">
+    <value>月</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_label2" xml:space="preserve">
+    <value>年</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_PCAT" xml:space="preserve">
+    <value>昼食手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_PCLT" xml:space="preserve">
+    <value>残業手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_Phong" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_TenNV" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_TongAT" xml:space="preserve">
+    <value>昼食日計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_lvwListLunch_TongTC" xml:space="preserve">
+    <value>手当合計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Messa1" xml:space="preserve">
+    <value>Excelファイルに出力しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Messa2" xml:space="preserve">
+    <value>データをExcelファイルへ出力している中にはトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Messa3" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Messa4" xml:space="preserve">
+    <value>昼食表の作成には少し時間がかかります。本当に実行しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Sinh_Messa1" xml:space="preserve">
+    <value>昼食データが作成されています...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Sinh_Messa2" xml:space="preserve">
+    <value>昼食表の作成が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Sinh_Messa3" xml:space="preserve">
+    <value>昼食表の作成が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Sinh_Title" xml:space="preserve">
+    <value>昼食表の作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Text" xml:space="preserve">
+    <value>昼食統合</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_TextTitle" xml:space="preserve">
+    <value>総人数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_txtSearch" xml:space="preserve">
+    <value>検索したい情報入力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Update_Messa1" xml:space="preserve">
+    <value>昼食表の更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Update_Messa2" xml:space="preserve">
+    <value>昼食表の更新が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListLunch_Update_Title" xml:space="preserve">
+    <value>昼食表更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_bntAddNew" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_bntDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_bntUpDate" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_CapNhat_ThongBao_Messa" xml:space="preserve">
+    <value>職位がまだ選択されていません。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_CapNhat_ThongBao_title" xml:space="preserve">
+    <value>職位の更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Del_ThongBao_Messa" xml:space="preserve">
+    <value>削除したい職位がまだ選択されていません。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Del_ThongBao_Messa1" xml:space="preserve">
+    <value>確かに、「。。。」の職位を削除ですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Del_ThongBao_Messa2" xml:space="preserve">
+    <value>職位の削除が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Del_ThongBao_Messa3" xml:space="preserve">
+    <value>職位の削除が失敗しました。既に、この職位を登録した社員があります。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Del_ThongBao_title" xml:space="preserve">
+    <value>職位の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Delete_Error_Messa" xml:space="preserve">
+    <value>削除したい職位がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Delete_Error_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Delete_ThongBao_Messa1" xml:space="preserve">
+    <value>確かに「　」職位を削除したいですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Delete_ThongBao_Messa2" xml:space="preserve">
+    <value>職位の削除が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Delete_ThongBao_Title1" xml:space="preserve">
+    <value>職位削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Delete_ThongBao_Title2" xml:space="preserve">
+    <value>職位削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_grpPosotionList" xml:space="preserve">
+    <value>職位リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_lvwPosition_MoTa" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_lvwPosition_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_lvwPosition_TenChucVu" xml:space="preserve">
+    <value>職位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_lvwPosition_TenVietTat" xml:space="preserve">
+    <value>省略名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPosition_Text" xml:space="preserve">
+    <value>職位管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_btnAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_btnExcel" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_btnModifile" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_btnView" xml:space="preserve">
+    <value>照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_groupbox1" xml:space="preserve">
+    <value>処罰される社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lable1" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lable2" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lable3" xml:space="preserve">
+    <value>部門</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_BoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_HinhThucPhat" xml:space="preserve">
+    <value>処罰形式</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_HoTen" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_LyDo" xml:space="preserve">
+    <value>処罰理由</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_NgayLamViec" xml:space="preserve">
+    <value>日付</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_lvwListPunish_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Messa_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_messa1" xml:space="preserve">
+    <value>処罰される社員リストのデータがExcelファイルへ出力されています...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Messa2" xml:space="preserve">
+    <value>開始日は必ず完了日の前です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Sua_Messa" xml:space="preserve">
+    <value>社員が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Text1" xml:space="preserve">
+    <value>処罰される社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Xoa_Messa" xml:space="preserve">
+    <value>確かに削除したいですか</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Xoa_Messa1" xml:space="preserve">
+    <value>削除したい社員が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Xoa_Messa2" xml:space="preserve">
+    <value>データベースより完全に削除されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListPunish_Xoa_Messa3" xml:space="preserve">
+    <value>データベースより削除できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_btnAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_btnEdit" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_btnExcel" xml:space="preserve">
+    <value>Excel ファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_btnView" xml:space="preserve">
+    <value>照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_Delete_Title" xml:space="preserve">
+    <value> 社員の休暇登録の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_Edit_Title" xml:space="preserve">
+    <value>社員の休暇登録の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_groupbox1" xml:space="preserve">
+    <value>休暇社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lable1" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lable2" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lable3" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwBoPhan" xml:space="preserve">
+    <value>部課:</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwKieuNN" xml:space="preserve">
+    <value>休暇日種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwLD" xml:space="preserve">
+    <value>休暇理由</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwMeTHe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwNgayBD" xml:space="preserve">
+    <value>開始日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwNgayKT" xml:space="preserve">
+    <value>終了日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwSTT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_lvwTenNV" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_Messa1" xml:space="preserve">
+    <value>選択された時間が形式正しいではありませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_Messa2" xml:space="preserve">
+    <value>Excelファイルへ休暇登録表のデータが出力されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListRegRest_Text" xml:space="preserve">
+    <value>休暇社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_1" xml:space="preserve">
+    <value>社員リスト報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_10" xml:space="preserve">
+    <value>日次勤怠明細報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_11" xml:space="preserve">
+    <value>月次勤怠明細報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_12" xml:space="preserve">
+    <value>カードをスキャンなし社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_13" xml:space="preserve">
+    <value>当日社員総合報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_14" xml:space="preserve">
+    <value>当月社員総合報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_15" xml:space="preserve">
+    <value>当年社員総合報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_16" xml:space="preserve">
+    <value>給与清算総合報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_17" xml:space="preserve">
+    <value>給与清算明細報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_18" xml:space="preserve">
+    <value>社員の給与総合表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_19" xml:space="preserve">
+    <value>部課別の給与清算表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_2" xml:space="preserve">
+    <value>休暇社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_20" xml:space="preserve">
+    <value>処罰される社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_21" xml:space="preserve">
+    <value>当月社員別の給与明細報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_23" xml:space="preserve">
+    <value>残業リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_24" xml:space="preserve">
+    <value>残業リスト報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_25" xml:space="preserve">
+    <value>Báo cáo trung bình nhân sự</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_3" xml:space="preserve">
+    <value>昼食照会表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_4" xml:space="preserve">
+    <value>残業リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_5" xml:space="preserve">
+    <value>出張社員リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_51" xml:space="preserve">
+    <value>日選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_52" xml:space="preserve">
+    <value>月選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_53" xml:space="preserve">
+    <value>年選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_54" xml:space="preserve">
+    <value>日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_55" xml:space="preserve">
+    <value>月</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_56" xml:space="preserve">
+    <value>年</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_6" xml:space="preserve">
+    <value>部課変更照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_61" xml:space="preserve">
+    <value>年</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_67" xml:space="preserve">
+    <value>Danh sách nhân viên quẹt thẻ không hợp lệ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_68" xml:space="preserve">
+    <value>Báo cáo chấm công theo phòng ban</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_7" xml:space="preserve">
+    <value>部課変更照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_8" xml:space="preserve">
+    <value>社員の給与変更状況</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_9" xml:space="preserve">
+    <value>部課別の残り年次有給休暇</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_baocaochamcong" xml:space="preserve">
+    <value>勤怠報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_baocaoluong" xml:space="preserve">
+    <value>給与報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_baocaonhansu" xml:space="preserve">
+    <value>人事報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_baocaothuongphat" xml:space="preserve">
+    <value>賞罰報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh" xml:space="preserve">
+    <value>社会保険料支払報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh1" xml:space="preserve">
+    <value>月次社会保険料納必要社員一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh2" xml:space="preserve">
+    <value>社会保険料調整社員一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh3" xml:space="preserve">
+    <value>Danh sách lao động và quỹ tiền lương trích nộp BHXH</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh4" xml:space="preserve">
+    <value>Xác nhận người lao động nghỉ việc trông con ốm</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh5" xml:space="preserve">
+    <value>Xác nhận người lao động nghỉ ốm do tai nạn rủi ro</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_bhxh6" xml:space="preserve">
+    <value>Báo cáo chi trợ cấp ốm đau, thai sản, dưỡng sức</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_btnExit" xml:space="preserve">
+    <value>完了</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_btnHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_btnView" xml:space="preserve">
+    <value>照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_btnView_thongBao" xml:space="preserve">
+    <value>必ず一つの明細報告を選択しなければなりません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_btnView_thongBao_Title" xml:space="preserve">
+    <value>報告照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_Error_Messa1" xml:space="preserve">
+    <value>報告ファイルのパスが検察されませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_Error_Messa2" xml:space="preserve">
+    <value>報告ファイルの読込みトラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_Error_Messa3" xml:space="preserve">
+    <value>トラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_FromDate1" xml:space="preserve">
+    <value>日の選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_groupbox1" xml:space="preserve">
+    <value>期間選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_groupbox1_lblFromDate" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_groupbox1_lblToDate" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_groupbox2" xml:space="preserve">
+    <value>報告種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_groupbox3" xml:space="preserve">
+    <value>明細報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_grpPhamVi" xml:space="preserve">
+    <value>範囲</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_grpPhamVi_optGlobal" xml:space="preserve">
+    <value>全て</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_grpPhamVi_optLocal" xml:space="preserve">
+    <value>部分</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_NVN" xml:space="preserve">
+    <value>社員の詳細情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_SalaryPerEm" xml:space="preserve">
+    <value>給料明細票</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_Text" xml:space="preserve">
+    <value>報告リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_thongbao" xml:space="preserve">
+    <value>データベースにログインできませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_thongbao_Title" xml:space="preserve">
+    <value>メッセジー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnCapNhat" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnCapNhat_ThongBao" xml:space="preserve">
+    <value>給与明細表の更新が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnCapNhat_ThongBao_Title" xml:space="preserve">
+    <value>給与明細表更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnCapNhat_ThongBao1" xml:space="preserve">
+    <value>給与明細表の更新が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnDong" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnNapLai" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinh_THongBao" xml:space="preserve">
+    <value>この部門の当月勤怠データがまだありません。必ず当月給与明細表を作成する前に、当月勤怠表を作成しなければなりません。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinh_THongBao_title" xml:space="preserve">
+    <value>給与明細表作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinh_THongBao1" xml:space="preserve">
+    <value>給与明細表のデータが入力されました。確かに、給与明細表を再作成しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinh_THongBao3" xml:space="preserve">
+    <value>給与明細表が作成されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinh_THongBao4" xml:space="preserve">
+    <value>給与明細表の作成が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinh_THongBao5" xml:space="preserve">
+    <value>給与明細表の作成が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnSinhbangLuong" xml:space="preserve">
+    <value>給与明細表作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXoa" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXoa_ThongBao" xml:space="preserve">
+    <value>リスト内の社員が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXoa_ThongBao_Title" xml:space="preserve">
+    <value>給与明細表より社員削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXoa_ThongBao1" xml:space="preserve">
+    <value>確かにこの社員を削除したいですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXuatE_ThongBao" xml:space="preserve">
+    <value>Excelファイルに出力しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXuatE_ThongBao1" xml:space="preserve">
+    <value>Excelファイルにデータを出力しているいちにトラブルが発生しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_btnXuatExcel" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_groupbox1" xml:space="preserve">
+    <value>当月給与明細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_grpDepartment" xml:space="preserve">
+    <value>部門</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_grpMonth" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_grpMonth_lable1" xml:space="preserve">
+    <value>月</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_grpMonth_lable2" xml:space="preserve">
+    <value>年</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lblTongSoNV" xml:space="preserve">
+    <value>総人数 :</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_BH" xml:space="preserve">
+    <value>保険料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_BoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_CKT" xml:space="preserve">
+    <value>未控除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_CongKhac" xml:space="preserve">
+    <value>他とプラス</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_ConglamThem" xml:space="preserve">
+    <value>残業とプラス</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_HoTen" xml:space="preserve">
+    <value>氏名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_HS1.5" xml:space="preserve">
+    <value>給料区分1.5</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_HS2" xml:space="preserve">
+    <value>給料区分2</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_HS3" xml:space="preserve">
+    <value>給料区分3</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_KhauTruKhac" xml:space="preserve">
+    <value>他の控除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_KTAT" xml:space="preserve">
+    <value>昼食差引き</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_LCB" xml:space="preserve">
+    <value>基本給料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_LTHS1" xml:space="preserve">
+    <value>給料区分１</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_PCAT" xml:space="preserve">
+    <value>昼食手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_PCDH" xml:space="preserve">
+    <value>毒害手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_PCTN" xml:space="preserve">
+    <value>職位手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_SoCong" xml:space="preserve">
+    <value>出勤日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_STD" xml:space="preserve">
+    <value>合計（ベトナムドン</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_ThucLinh" xml:space="preserve">
+    <value>実際受取り</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_lvwSalary_Thue" xml:space="preserve">
+    <value>税金</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_Text" xml:space="preserve">
+    <value>当月給与明細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListSalary_txtSearch" xml:space="preserve">
+    <value>検索したい情報入力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_btnAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_btnEdit" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Del_Messa" xml:space="preserve">
+    <value>該当の交替勤務がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Del_Messa1" xml:space="preserve">
+    <value>確かにこの交替勤務を削除したいですか</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Del_Messa2" xml:space="preserve">
+    <value>交替勤務が選択されていませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Del_Messa3" xml:space="preserve">
+    <value>交替勤務がデータベースより完全に削除されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Del_Messa4" xml:space="preserve">
+    <value>データベースより交替勤務が削除できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Del_Title" xml:space="preserve">
+    <value>交替勤務削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Edit_Messa" xml:space="preserve">
+    <value>該当の交替勤務がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Edit_Title" xml:space="preserve">
+    <value>交替勤務修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_groupbox1" xml:space="preserve">
+    <value>交替勤務リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_lvw_ChieuDai" xml:space="preserve">
+    <value>交替の勤務時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_lvw_GioBD" xml:space="preserve">
+    <value>開始時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_lvw_MoTa" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_lvw_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_lvw_TenCa" xml:space="preserve">
+    <value>交替種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListShift_Text" xml:space="preserve">
+    <value>交替勤務リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_cmdDangNhap" xml:space="preserve">
+    <value>ログイン</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_cmdThoat" xml:space="preserve">
+    <value>完了</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Error_Loi" xml:space="preserve">
+    <value>エラーメッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Error1_Messa" xml:space="preserve">
+    <value>データベースに接続できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Error1_Title" xml:space="preserve">
+    <value>ログイントラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Error2_Messa" xml:space="preserve">
+    <value>このユーザーがまだ登録されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Error3_Messa" xml:space="preserve">
+    <value>パスワードが正しい形式でわありませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_lblMatKhau" xml:space="preserve">
+    <value>パスワード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_lblTenDangNhap" xml:space="preserve">
+    <value>ログイン名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Loi_KhongTheDangNhapHeThong" xml:space="preserve">
+    <value>システムにログインできませんでした！</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLogin_Loi_MatKhauKhongHopLe" xml:space="preserve">
+    <value>Mật khẩu không hợp lệ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_AddLunch_ThongBao" xml:space="preserve">
+    <value>昼食登録の追加ができませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_AddLunch_Title" xml:space="preserve">
+    <value>昼食追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_btnClearAll" xml:space="preserve">
+    <value>取り消し</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_btnSaoChep" xml:space="preserve">
+    <value>コピー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_btnSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_btnSelectAll" xml:space="preserve">
+    <value>全て選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_btnSet" xml:space="preserve">
+    <value>設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_groupbox1" xml:space="preserve">
+    <value>昼食登録リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_groupbox2" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_groupbox3" xml:space="preserve">
+    <value>１日当たりの昼食費</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_groupbox4" xml:space="preserve">
+    <value>日付</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lblTotalEm1" xml:space="preserve">
+    <value>全社員数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lblTotalLunch1" xml:space="preserve">
+    <value>昼食社員の総数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lblTotalLunchMoney" xml:space="preserve">
+    <value>昼食費合計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lvwLunchBoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lvwLunchMAT" xml:space="preserve">
+    <value>１日当たりの昼食費</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lvwLunchMaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lvwLunchSTT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_lvwLunchTenNV" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa1" xml:space="preserve">
+    <value>社員が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa2" xml:space="preserve">
+    <value>１日当たりの昼食費がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa3" xml:space="preserve">
+    <value>１日当たりの昼食費が必ずゼロより高いです</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa4" xml:space="preserve">
+    <value>入力した１日当たりの昼食費が形式正しいではありませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa5" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa6" xml:space="preserve">
+    <value>社員が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa7" xml:space="preserve">
+    <value>昼食が設定されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Messa8" xml:space="preserve">
+    <value>昼食登録データのコピーが取り消されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_SetLunch_ThongBao" xml:space="preserve">
+    <value>昼食データを更新している中にはトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_SetLunch_ThongBao1" xml:space="preserve">
+    <value>昼食設定が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_SetLunch_Title" xml:space="preserve">
+    <value>昼食設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Text" xml:space="preserve">
+    <value>昼食設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Text1" xml:space="preserve">
+    <value>未設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_Text2" xml:space="preserve">
+    <value>総人数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmLunch_txtSearch" xml:space="preserve">
+    <value>検索したい情報入力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_MessaThem" xml:space="preserve">
+    <value>確かに、プログラムより完了しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_MessaThem1" xml:space="preserve">
+    <value>完了</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_MessaThem2" xml:space="preserve">
+    <value>有給休暇買取金額支払...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_MessaThem3" xml:space="preserve">
+    <value>健康保険・社会保険管理...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_MessaThem4" xml:space="preserve">
+    <value>パスワード変更...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuDefinition" xml:space="preserve">
+    <value>定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuDefinition_mnuContract" xml:space="preserve">
+    <value>契約種類定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuDefinition_mnuDayType" xml:space="preserve">
+    <value>カレンダー定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuDefinition_mnuPunish" xml:space="preserve">
+    <value>処罰カード定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuDefinition_mnuShift" xml:space="preserve">
+    <value>交替勤務定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHelp_mnuAbout" xml:space="preserve">
+    <value>レイヤー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHelp_mnuHelp" xml:space="preserve">
+    <value>取り扱い説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHuman" xml:space="preserve">
+    <value>人事</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHuman_mnuEmployeeProfile" xml:space="preserve">
+    <value>プロファイル管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHuman_mnuEmployeeStatus" xml:space="preserve">
+    <value>状態検察</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHuman_mnuInOut" xml:space="preserve">
+    <value>出退社管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHuman_mnuOrganization" xml:space="preserve">
+    <value>部課管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuHuman_mnuPosition" xml:space="preserve">
+    <value>職位管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption" xml:space="preserve">
+    <value>オプション</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuDisplay" xml:space="preserve">
+    <value>表示</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage" xml:space="preserve">
+    <value>言語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage_mnuEnglish" xml:space="preserve">
+    <value>英語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage_mnuEnglish1" xml:space="preserve">
+    <value>英語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage_mnuJapanese" xml:space="preserve">
+    <value>日本語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage_mnuJapanese1" xml:space="preserve">
+    <value>日本語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage_mnuVietNamese" xml:space="preserve">
+    <value>ベトナム語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuLanguage_mnuVietNamese1" xml:space="preserve">
+    <value>ベトナム語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuPreference" xml:space="preserve">
+    <value>パラメーター設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuOption_mnuSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuRegistration" xml:space="preserve">
+    <value>登録</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuRegistration_mnuLeaveShedule" xml:space="preserve">
+    <value>出張スケジュール</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuRegistration_mnuListPunish" xml:space="preserve">
+    <value>処罰カード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuRegistration_mnuOverTime" xml:space="preserve">
+    <value>残業</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuRegistration_mnuRest" xml:space="preserve">
+    <value>休暇</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuRegistration_mnuWorkingTime" xml:space="preserve">
+    <value>スケジュール</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuReport" xml:space="preserve">
+    <value>報告</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuReport_mnuListReport" xml:space="preserve">
+    <value>報告リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSalary" xml:space="preserve">
+    <value>給料計算</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSalary_mnuCalculateSalary" xml:space="preserve">
+    <value>当月給与明細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSalary_mnuTimeSheet" xml:space="preserve">
+    <value>当月勤怠明細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem" xml:space="preserve">
+    <value>システム</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuAdmin" xml:space="preserve">
+    <value>ユーザー管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuBachup" xml:space="preserve">
+    <value>データコピー・保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuBachupAll" xml:space="preserve">
+    <value>データコピー・保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuBachupInMonth" xml:space="preserve">
+    <value>データコピー・保存.</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuChangePass" xml:space="preserve">
+    <value>Thay đổi mật khẩu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuExit" xml:space="preserve">
+    <value>完了</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuLogin" xml:space="preserve">
+    <value>ログイン</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuLogout" xml:space="preserve">
+    <value>ログアウト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuRestore" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuRestoreAll" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuSystem_mnuRestoreInMonth" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuWindows" xml:space="preserve">
+    <value>ウインドウ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuWindows_mnuCuaSoDoc" xml:space="preserve">
+    <value>縦</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuWindows_mnuCuaSoDong" xml:space="preserve">
+    <value>全て閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuWindows_mnuCuaSoNgang" xml:space="preserve">
+    <value>横</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_mmnuWindows_mnuCuaSoTang" xml:space="preserve">
+    <value>レイヤー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_Name" xml:space="preserve">
+    <value>人事管理システム</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_StaCompany" xml:space="preserve">
+    <value>ベトナムエステール有限会社</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_staState1" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_StaState2" xml:space="preserve">
+    <value>Sắn sàng</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_StaUser" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbDangNhap" xml:space="preserve">
+    <value>   ログイン   </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbExit" xml:space="preserve">
+    <value>   完了  </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbHelp" xml:space="preserve">
+    <value>   ヘルプ  </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbblManage" xml:space="preserve">
+    <value>   人事  </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbLunch" xml:space="preserve">
+    <value>   昼食   </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbReport" xml:space="preserve">
+    <value>   報告  </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbSalary" xml:space="preserve">
+    <value>   給与明細表  </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbSetting" xml:space="preserve">
+    <value>   設定    </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbStatus" xml:space="preserve">
+    <value>   照会  </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMain_tbbTimeSheet" xml:space="preserve">
+    <value>   勤怠   </value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmMian_mmnuRegistration_mnuLunch" xml:space="preserve">
+    <value>昼食</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_CanhBao_Messa" xml:space="preserve">
+    <value>職位か省略名が既に登録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_CanhBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_Error_Messa1" xml:space="preserve">
+    <value>職位がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_Error_Messa2" xml:space="preserve">
+    <value>省略名がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_Error_Title1" xml:space="preserve">
+    <value>データ入力トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_Error_Title2" xml:space="preserve">
+    <value>データ入力トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_ThongBao_Messa" xml:space="preserve">
+    <value>職位の追加が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Add_ThongBao_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_bntOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_GroupBox1" xml:space="preserve">
+    <value>職位情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_GroupBox1_lblDecription" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_GroupBox1_lblPositionName" xml:space="preserve">
+    <value>職位</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_GroupBox1_lblPositionSortName" xml:space="preserve">
+    <value>省略名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Text1" xml:space="preserve">
+    <value>職位管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Text2" xml:space="preserve">
+    <value>新職位追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Text3" xml:space="preserve">
+    <value>職位情報修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_Text31" xml:space="preserve">
+    <value>職位情報の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_UpDate_Error_Messa" xml:space="preserve">
+    <value>職位がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_UpDate_Error_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_UpDate_ThongBao_Messa" xml:space="preserve">
+    <value>職位の更新が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPosition_UpDate_ThongBao_Title" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_AddMessa1" xml:space="preserve">
+    <value>処罰カード設定が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_AddMessa2" xml:space="preserve">
+    <value>処罰カードの設定が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_btnHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_btnSave" xml:space="preserve">
+    <value>保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_groupbox1" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_groupbox2" xml:space="preserve">
+    <value>処罰カード情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_lable2" xml:space="preserve">
+    <value>日付</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_lable4" xml:space="preserve">
+    <value>処罰形式</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_lable5" xml:space="preserve">
+    <value>処罰理由</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_lable6" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_Messa" xml:space="preserve">
+    <value>必ず社員を選択必要です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_Messa1" xml:space="preserve">
+    <value>必ず処罰カード種類を選択必要です</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_Messa2" xml:space="preserve">
+    <value>Chưa chọn nhân viên cần thiết lập</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_Text1" xml:space="preserve">
+    <value>処罰カード設定情報修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunish_Text2" xml:space="preserve">
+    <value>処罰カード設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_bntAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_bntDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_bntIgron" xml:space="preserve">
+    <value>スキップ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_bntUpDate" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_GroupBox1" xml:space="preserve">
+    <value>処罰カードリスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_GroupBox2" xml:space="preserve">
+    <value>処罰カード情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_GroupBox2_lblChuThich" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_GroupBox2_lblMucPhat" xml:space="preserve">
+    <value>減額率</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_GroupBox2_lblTenThe" xml:space="preserve">
+    <value>カード種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_lvwPunishCard_ChuThich" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_lvwPunishCard_HeSoPhat" xml:space="preserve">
+    <value>減額率</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_lvwPunishCard_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_lvwPunishCard_TenThePhat" xml:space="preserve">
+    <value>カード種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_Text" xml:space="preserve">
+    <value>処罰カード定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_update_Messa" xml:space="preserve">
+    <value>更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmPunishCard_update_Messa1" xml:space="preserve">
+    <value>更新できませんでした。トラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_btnhelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_btnOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_DK_Messa1" xml:space="preserve">
+    <value>出張登録が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_DK_Messa2" xml:space="preserve">
+    <value>登録したい日が予め休暇登録済み日と同日付です。この社員に出張登録が更新できません！</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_DK_Messa3" xml:space="preserve">
+    <value>登録日は既に出張登録されている日と重ねられました。この社員に出張登録が更新できませんでした！</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_DK_Messa4" xml:space="preserve">
+    <value>この社員のカードが登録時間にスキャンされました。この社員に出張登録が更新できませんでした。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_groupbox1" xml:space="preserve">
+    <value>社員情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_groupbox2" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_lable2" xml:space="preserve">
+    <value>開始時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_lable3" xml:space="preserve">
+    <value>終了時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_lable4" xml:space="preserve">
+    <value>出張場所</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_lable5" xml:space="preserve">
+    <value>業務内容</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_lable6" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Messa1" xml:space="preserve">
+    <value>必ず社員が選択されます！</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Messa2" xml:space="preserve">
+    <value>出張場所がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Messa3" xml:space="preserve">
+    <value>日が形式正しいではありませんでした。開始日は必ず終了日の前日です！</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Messa4" xml:space="preserve">
+    <value>この機能は作成されています。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Messa5" xml:space="preserve">
+    <value>出張登録トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Text" xml:space="preserve">
+    <value>出張スケジュール登録</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegLeaveSchedule_Text2" xml:space="preserve">
+    <value>社員の出張登録の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_btnAdd" xml:space="preserve">
+    <value>追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_btnEdit" xml:space="preserve">
+    <value>修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_btnExcel" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_btnView" xml:space="preserve">
+    <value>照会</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Del_Messa1" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Del_Messa2" xml:space="preserve">
+    <value>確かに、削除ですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Del_Messa3" xml:space="preserve">
+    <value>残業登録が削除されているいちにトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Del_Messa4" xml:space="preserve">
+    <value>残業登録の削除が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Del_Title" xml:space="preserve">
+    <value>残業登録の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Edit_messa" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Edit_Title" xml:space="preserve">
+    <value>残業時間修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Excell_Messa1" xml:space="preserve">
+    <value> Excelファイルへデータが出力されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_Excell_Messa2" xml:space="preserve">
+    <value>Excelファイルへデータを出力しているうちにトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_groupbox1" xml:space="preserve">
+    <value>一覧表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lable1" xml:space="preserve">
+    <value>残業した日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lblDepartment" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_Anthem" xml:space="preserve">
+    <value>残業日の食事代</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_BatDau" xml:space="preserve">
+    <value>始業時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_BoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_NgayLT" xml:space="preserve">
+    <value>残業した日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_TenNV" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_ThoiGian" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_lvw_TTLT" xml:space="preserve">
+    <value>残業情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime_text" xml:space="preserve">
+    <value>残業社員一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_btnHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_btnSave" xml:space="preserve">
+    <value>保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_ckHaveDinner" xml:space="preserve">
+    <value>食費支給</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_DangKyOT_Messa1" xml:space="preserve">
+    <value>社員に残業登録が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_DangKyOT_Messa2" xml:space="preserve">
+    <value>この社員に残業登録できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_DangKyOT_Title" xml:space="preserve">
+    <value>残業登録</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_groupbox1" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_groupbox1_optAll" xml:space="preserve">
+    <value>全て</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_groupbox1_optEm" xml:space="preserve">
+    <value>社員</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_groupbox2" xml:space="preserve">
+    <value>残業情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_groupbox3" xml:space="preserve">
+    <value>対象設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_lable1" xml:space="preserve">
+    <value>食費手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_lable2" xml:space="preserve">
+    <value>残業日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_lable3" xml:space="preserve">
+    <value>始業時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_lable5" xml:space="preserve">
+    <value>事務内容</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_lable6" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_lblLength" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_Messa1" xml:space="preserve">
+    <value>必ず社員が選択されます</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_Messa2" xml:space="preserve">
+    <value>日種類が選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_Messa3" xml:space="preserve">
+    <value>この機能が作成されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_Messa4" xml:space="preserve">
+    <value>残業登録のトラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_SuaDangKyOT_Messa1" xml:space="preserve">
+    <value>残業登録の修正が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_SuaDangKyOT_Messa2" xml:space="preserve">
+    <value>この社員の残業登録が修正できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_SuaDangKyOT_Title" xml:space="preserve">
+    <value>残業登録の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_Text1" xml:space="preserve">
+    <value>残業登録追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegOverTime1_Text2" xml:space="preserve">
+    <value>残業登録の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_btnhelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_btnSave" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Edit_Successfully" xml:space="preserve">
+    <value>Sửa đăng ký nghỉ cho nhân viên thành công !</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa1" xml:space="preserve">
+    <value>休暇登録が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa2" xml:space="preserve">
+    <value>登録日は既存の休暇登録日と重ねました。この社員に休暇登録の更新ができませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa3" xml:space="preserve">
+    <value>登録したい日が予め出張登録済み日と同日付です。この社員に休暇登録が更新できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa4" xml:space="preserve">
+    <value>この社員のカードが休暇登録したい時間にスキャンされました。この社員に休暇登録の更新ができませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa5" xml:space="preserve">
+    <value>データベース更新のトラブルです。この社員に休暇登録の更新ができませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa51" xml:space="preserve">
+    <value>trong năm</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Messa6" xml:space="preserve">
+    <value>社員の休暇登録のトラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_DK_Title" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_grpDepartment" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_grpRegRestInfo" xml:space="preserve">
+    <value>休暇登録情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_lable1" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_lable2" xml:space="preserve">
+    <value>開始日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_lable3" xml:space="preserve">
+    <value>終了日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_lable4" xml:space="preserve">
+    <value>休暇日種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_lable5" xml:space="preserve">
+    <value>休暇理由</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_Text1" xml:space="preserve">
+    <value>休暇登録追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegRest_Text2" xml:space="preserve">
+    <value>社員の休暇登録の修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_btnCancel" xml:space="preserve">
+    <value>スキップ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_btnHelp" xml:space="preserve">
+    <value>ヘルプ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_btnUpdate" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_groupbox2" xml:space="preserve">
+    <value>カレンダー設定</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_groupbox3" xml:space="preserve">
+    <value>色規約</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_groupbox4" xml:space="preserve">
+    <value>スケジュール</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_groupbox5" xml:space="preserve">
+    <value>部課リスト</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_lable2" xml:space="preserve">
+    <value>祝祭日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_lblNonWork" xml:space="preserve">
+    <value>休日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_lblOverTime" xml:space="preserve">
+    <value>残業日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_lblShif" xml:space="preserve">
+    <value>交替選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_lblWork" xml:space="preserve">
+    <value>平日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_rptHoliday" xml:space="preserve">
+    <value>祝祭日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_rptNonWork" xml:space="preserve">
+    <value>休日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_rptOverTime" xml:space="preserve">
+    <value>残業日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_rptWork" xml:space="preserve">
+    <value>平日</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_Text" xml:space="preserve">
+    <value>スケジュール登録</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_Up_Messa" xml:space="preserve">
+    <value>スケジュール登録が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_Up_Messa1" xml:space="preserve">
+    <value>勤務時間の登録が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRegWork_Up_Title" xml:space="preserve">
+    <value>勤務時間登録</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestoreInMonth_dangkhoiphucdulieu" xml:space="preserve">
+    <value>Đang khôi phục dữ liệu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestoreInMonth_Messa1" xml:space="preserve">
+    <value>Khôi phục dữ liệu thành công</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestoreInMonth_Messa2" xml:space="preserve">
+    <value>Có lỗi sảy ra. Không thể khôi phục dữ liệu !</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestoreInMonth_Messa3" xml:space="preserve">
+    <value>bản ghi</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestoreInMonth_title" xml:space="preserve">
+    <value>Khôi phục dữ liệu</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestoreInMonth_xacnhankhoiphucdulieu" xml:space="preserve">
+    <value>Bạn có tiếp tục khôi phục dữ liệu ?</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnDel" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnExcel" xml:space="preserve">
+    <value>Excelファイルへ出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnGenerate" xml:space="preserve">
+    <value>有給休暇日数買取表生成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnRefresh" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_btnUp" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Del_Messa" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Del_Messa1" xml:space="preserve">
+    <value>確かに、この社員を有給休暇日数買取表より削除しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Del_Title" xml:space="preserve">
+    <value>有給休暇日数買取表より社員削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_groupbox1" xml:space="preserve">
+    <value>有給休暇日数買取詳細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_grpDep" xml:space="preserve">
+    <value>部門</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_grpMonth" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lable2" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lblTotalE" xml:space="preserve">
+    <value>総人数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwBoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwLuong" xml:space="preserve">
+    <value>基本給料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwMaTHe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwNKHD" xml:space="preserve">
+    <value>契約締結日付</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwNPDH" xml:space="preserve">
+    <value>休暇日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwPhuCap" xml:space="preserve">
+    <value>手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwSNCL" xml:space="preserve">
+    <value>残り日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwSTT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwTenNV" xml:space="preserve">
+    <value>氏名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwThanhTien" xml:space="preserve">
+    <value>合計</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_lvwTong" xml:space="preserve">
+    <value>総日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Messa1" xml:space="preserve">
+    <value>こちらにマイナス数値の入力がだめです</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Messa2" xml:space="preserve">
+    <value>有給休暇日数買取表のデータが既に入力されました。確かに、有給休暇日数買取表を再作成しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Messa3" xml:space="preserve">
+    <value>有給休暇日数買取表のデータがExcelファイルへ出力されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Messa4" xml:space="preserve">
+    <value>データがExcelファイルへ出力されているうちにトラブルが発生しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Sinh_Messa" xml:space="preserve">
+    <value>有給休暇日数買取表の作成が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Sinh_Messa1" xml:space="preserve">
+    <value>有給休暇日数買取表の作成が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Sinh_Title" xml:space="preserve">
+    <value>有給休暇日数買取表の作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Text" xml:space="preserve">
+    <value>有給休暇日数買取表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_txtSearch" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Up_Messa" xml:space="preserve">
+    <value>有給休暇日数買取表の更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Up_Messa2" xml:space="preserve">
+    <value>有給休暇日数買取表の更新が失敗しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmRestSheet_Up_Title" xml:space="preserve">
+    <value>有給休暇日数買取表の更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_btnCancle" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_btnClose" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_btnSave" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbNgayCong" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbNgayCong_label1" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbNgayCong_label3" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbNgayCong_label4" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbThongTinChung" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbThongTinChung_label23" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbThongTinChung_lblEmployeeName" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_grbThongTinChung_lblSalary" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox1" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox1_label2" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox1_label24" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox1_label25" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox1_label5" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox1_label6" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox2" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox2_label11" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox2_label12" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox2_label13" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_groupbox3" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSalary_Text" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSearch_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSearch_Text" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_bntBrown" xml:space="preserve">
+    <value>選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_bntOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_Error1" xml:space="preserve">
+    <value>システムコンフィグファイルが作成できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_Error1_Title" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_Error2" xml:space="preserve">
+    <value>データベースに接続できませんでした。システムコンフィグパラメータをもう一度入力してください。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_GroupBox2" xml:space="preserve">
+    <value>パス選択</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_TabSetting_tbPicturePath" xml:space="preserve">
+    <value>イメージのパス</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_tabSetting_tbWorkingContext" xml:space="preserve">
+    <value>データ接続</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_tblDataBase" xml:space="preserve">
+    <value>データバース名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_tblPassword" xml:space="preserve">
+    <value>パスワード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_tblServer" xml:space="preserve">
+    <value>サーバー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_tblUserID" xml:space="preserve">
+    <value>ログイン名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_Text" xml:space="preserve">
+    <value>システムコンフィグ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_ThongBao_Messa" xml:space="preserve">
+    <value>システムコンフィグの保存が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSetting_ThongBao_Title" xml:space="preserve">
+    <value>コンフィグ情報保存</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Add_Messa" xml:space="preserve">
+    <value>この交替種類が既に登録されています。この交替種類が追加できません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Add_Messa1" xml:space="preserve">
+    <value>交替勤務の追加が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Add_Messa2" xml:space="preserve">
+    <value>トラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Add_Title" xml:space="preserve">
+    <value>交替勤務の追加のトラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_btnDong" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_btnUpdate" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_chkLateShift" xml:space="preserve">
+    <value>登録済遅く出勤</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_groupbox1" xml:space="preserve">
+    <value>明細情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_groupbox2" xml:space="preserve">
+    <value>交替勤務情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label1" xml:space="preserve">
+    <value>交替種類</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label12" xml:space="preserve">
+    <value>交替の勤務時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label13" xml:space="preserve">
+    <value>許可早く出社時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label14" xml:space="preserve">
+    <value>早出時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label2" xml:space="preserve">
+    <value>説明</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label3" xml:space="preserve">
+    <value>交替開始時刻</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label4" xml:space="preserve">
+    <value>許可遅く退社時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label5" xml:space="preserve">
+    <value>許可早く退社時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label6" xml:space="preserve">
+    <value>残業時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label7" xml:space="preserve">
+    <value>許可遅く出社時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_label8" xml:space="preserve">
+    <value />
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Text1" xml:space="preserve">
+    <value>交替勤務定義</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Text2" xml:space="preserve">
+    <value>交替勤務修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Update_Messa" xml:space="preserve">
+    <value>交替種類がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Update_Messa1" xml:space="preserve">
+    <value>この交替勤務名が既に登録されました。この交替勤務が更新できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Update_Messa2" xml:space="preserve">
+    <value>交替勤務の修正が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Update_Messa3" xml:space="preserve">
+    <value>トラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Update_Title" xml:space="preserve">
+    <value>更新トラブル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmShift_Update_Title1" xml:space="preserve">
+    <value>メッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnDel" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnExel" xml:space="preserve">
+    <value>Excelファイルへ出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnReport" xml:space="preserve">
+    <value>レポート出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnSinh" xml:space="preserve">
+    <value>健康保険表・社会保険表の作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_btnUp" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_CapNhat_Messa" xml:space="preserve">
+    <value>社会保険料支払表の更新が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_CapNhat_Messa1" xml:space="preserve">
+    <value>社会保険料支払表のデータの更新が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Excel_Messa" xml:space="preserve">
+    <value>社会保険料支払表のデータがExcelファイルへ出力されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_groupbox1" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_groupbox2" xml:space="preserve">
+    <value>労働者一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lable1" xml:space="preserve">
+    <value>自</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lable2" xml:space="preserve">
+    <value>至</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_BoPhan" xml:space="preserve">
+    <value>部門</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_Luong" xml:space="preserve">
+    <value>基本給料</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_LuyKe" xml:space="preserve">
+    <value>年始から累進的な日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_MaThe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_Note" xml:space="preserve">
+    <value>備考</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_SNDX" xml:space="preserve">
+    <value>認証日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_SoBHXH" xml:space="preserve">
+    <value>社会保険帳番号</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_SoNN" xml:space="preserve">
+    <value>当年休暇日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_STDX" xml:space="preserve">
+    <value>認証金額</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_TenNV" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_TGDBHXH" xml:space="preserve">
+    <value>社会保険料納期間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_lvw_TroCap" xml:space="preserve">
+    <value>手当</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Messa" xml:space="preserve">
+    <value>選択された曜日が形式正しいではありませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Messa1" xml:space="preserve">
+    <value>社会保険料手当て受取り社員一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Sinh_Messa" xml:space="preserve">
+    <value>社会保険料支払表のデータが既に入力されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Sinh_Messa1" xml:space="preserve">
+    <value>社会保険料支払表のデータが生成されています。ちょっとの間にお待ちください</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Sinh_Messa2" xml:space="preserve">
+    <value>社会保険料支払表の作成が正常に完了しました。</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Sinh_Messa3" xml:space="preserve">
+    <value>社会保険料支払表の作成が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Sinh_Title" xml:space="preserve">
+    <value>メッセジー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Text" xml:space="preserve">
+    <value>社会保険管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Xoa_Messa" xml:space="preserve">
+    <value>社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmSocialSheet_Xoa_Messa1" xml:space="preserve">
+    <value>確かに、この社員を社会保険料支払い表より削除しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatus_thongbao" xml:space="preserve">
+    <value>Đang cập nhật trạng thái nhân viên</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_bntClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_bntOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_grbOptions" xml:space="preserve">
+    <value>状況セル寸法</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_grbOptions_lblChieuCao" xml:space="preserve">
+    <value>縦</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_grbOptions_lblChieurong" xml:space="preserve">
+    <value>横</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_grbOptions_SoTrangThai" xml:space="preserve">
+    <value>状況セル数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmStatusOptions_Text" xml:space="preserve">
+    <value>表示オプション</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnClose" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnDelete" xml:space="preserve">
+    <value>削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnRefesh" xml:space="preserve">
+    <value>元に戻す</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnSearch" xml:space="preserve">
+    <value>検索</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnSinhBangChamCong" xml:space="preserve">
+    <value>勤怠表作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnUpdate" xml:space="preserve">
+    <value>更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_btnXuatExcel" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_DeleteE_Messa" xml:space="preserve">
+    <value>リスト内社員がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_DeleteE_Messa1" xml:space="preserve">
+    <value>確かにこの社員を勤怠表より削除しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_DeleteE_Title" xml:space="preserve">
+    <value>勤怠表より社員の削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_frmmessa" xml:space="preserve">
+    <value>勤怠表データが作成されています。ちょっとの間にお待ちください</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_grbDepartment" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_grbMonth" xml:space="preserve">
+    <value>時間</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_grbMonth_lable1" xml:space="preserve">
+    <value>月</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_grbMonth_lable2" xml:space="preserve">
+    <value>年</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_groupbox1" xml:space="preserve">
+    <value>当月勤怠明細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lblTongNV" xml:space="preserve">
+    <value>社員総数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_BoPhan" xml:space="preserve">
+    <value>部課</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_HoTen" xml:space="preserve">
+    <value>氏名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_HS1.5" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_HS2" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_HS3" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_LTHS1" xml:space="preserve">
+    <value>(null)</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_MaTHe" xml:space="preserve">
+    <value>社員コード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_STT" xml:space="preserve">
+    <value>順序</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_lvwTimeSheet_Tong" xml:space="preserve">
+    <value>出勤総日数</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_sinh" xml:space="preserve">
+    <value>当月の勤怠表のデータが存在しています。確かに勤怠表をもう一度作成しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_SinhBang_Messa" xml:space="preserve">
+    <value>勤怠表の作成が完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_SinhBang_Messa1" xml:space="preserve">
+    <value>勤怠表の作成が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_SinhBang_Messa2" xml:space="preserve">
+    <value>この部門の勤務時間が登録されていないので、この部門の勤怠表を作成できませんでした</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_SinhBang_Messa3" xml:space="preserve">
+    <value>当月の勤怠表のデータが存在しています。確かに勤怠表をもう一度作成しますか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_SinhBang_Title" xml:space="preserve">
+    <value>勤怠表作成</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_Text" xml:space="preserve">
+    <value>月次勤怠詳細表</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_txtSearch" xml:space="preserve">
+    <value>検索したい情報入力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_UpDate_Messa" xml:space="preserve">
+    <value>勤怠表の更新が正常に完了しました！</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_UpDate_Messa1" xml:space="preserve">
+    <value>勤怠表の更新が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_UpDate_Title" xml:space="preserve">
+    <value>勤怠表の更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_XuatExcel_Erroe_Messa" xml:space="preserve">
+    <value>Excelファイルにデータを出力しているいちにトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_XuatExcel_Erroe_Title" xml:space="preserve">
+    <value>Excelファイルに出力</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmTimeSheet_XuatExcel_ThongBao" xml:space="preserve">
+    <value>Excelファイルに出力しています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Add_ThongBao_Messa" xml:space="preserve">
+    <value>ユーザーの追加が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Add_ThongBao_Messa1" xml:space="preserve">
+    <value>このログイン名が既に記録されています</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Add_ThongBao_Messa2" xml:space="preserve">
+    <value>ユーザーの追加が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Add_ThongBao_Messa3" xml:space="preserve">
+    <value>社員名がまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Add_ThongBao_Messa4" xml:space="preserve">
+    <value>ユーザーのグループがまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Add_ThongBao_Title" xml:space="preserve">
+    <value>新ユーザー追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_CapNhat_Loi_Messa" xml:space="preserve">
+    <value>ユーザー名がまだ入力されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_CapNhat_Loi_Title" xml:space="preserve">
+    <value>ユーザー更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_cmdCancel" xml:space="preserve">
+    <value>キャンセル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_cmdOK" xml:space="preserve">
+    <value>はい</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_DelUser_Loi_Messa" xml:space="preserve">
+    <value>ユーザーがまだ選択されていません!</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_DeLUser_Loi_Title" xml:space="preserve">
+    <value>ユーザー削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_DelUser_ThongBao1_Messa" xml:space="preserve">
+    <value>確かにこのユーザーを削除したいですか？</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_DelUser_ThongBao1_Title" xml:space="preserve">
+    <value>ユーザー削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_DelUser_ThongBao2_Messa" xml:space="preserve">
+    <value>ユーザーの削除が正常に完了しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_GroupBox1" xml:space="preserve">
+    <value>アカウント情報</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_lblMatKhau" xml:space="preserve">
+    <value>パスワード</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_lblTenDangNhap" xml:space="preserve">
+    <value>ログイン名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_lblTenNhanVien" xml:space="preserve">
+    <value>社員名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_lblTenNhom" xml:space="preserve">
+    <value>グループ名</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_SuaNguoiDung_Loi_Messa" xml:space="preserve">
+    <value>ユーザーがまだ選択されていません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_SuaNguoiDung_Loi_Title" xml:space="preserve">
+    <value>ユーザー修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_SuaNguoiDung_ThongBao_Messa" xml:space="preserve">
+    <value>ユーザーの更新が正常に完了しました!</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_SuaNguoiDung_ThongBao_Title" xml:space="preserve">
+    <value>ユーザー情報修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Text1" xml:space="preserve">
+    <value>ユーザー情報修正</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Text2" xml:space="preserve">
+    <value>新ユーザー追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Update_ThongBao_Messa" xml:space="preserve">
+    <value>ユーザーの更新が正常に更新されました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Update_ThongBao_Messa1" xml:space="preserve">
+    <value>ユーザーの更新が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Update_ThongBao_Title" xml:space="preserve">
+    <value>ユーザー更新</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUser_Update_ThongBao_Title1" xml:space="preserve">
+    <value>新ユーザー追加</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteG_Error1" xml:space="preserve">
+    <value>グループ削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteG_Error1_Title" xml:space="preserve">
+    <value>Adminグループの削除ができません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteG_Error2_Title" xml:space="preserve">
+    <value>グループの削除の途中にトラブルが発生しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteU_Error1_Messa" xml:space="preserve">
+    <value>システムの全ユーザーの消し取りができません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteU_Error1_Title" xml:space="preserve">
+    <value>ユーザー削除</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteU_Error2_Messa" xml:space="preserve">
+    <value>Admin の削除ができません</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_DeleteU_Error3_Messa" xml:space="preserve">
+    <value>ユーザーの削除が失敗しました</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmUserAdmin_Text" xml:space="preserve">
+    <value>ユーザー管理</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmVersion_Close" xml:space="preserve">
+    <value>閉じる</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmVersion_text" xml:space="preserve">
+    <value>プログラムバジョンー</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Loi" xml:space="preserve">
+    <value>エラーメッセージ</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="Message_Punish" xml:space="preserve">
+    <value>Chưa nhập hệ số thẻ phạt</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="rpt_DSLD_BHXH" xml:space="preserve">
+    <value>社会保険料金修正労働者一覧</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_FORM2_00001" xml:space="preserve">
+    <value>Mdi　の子供の変更の言語についてのサンプル</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_FORM2_00002" xml:space="preserve">
+    <value>こんにちは世界の皆</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_FORM2_00003" xml:space="preserve">
+    <value>端</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_LANGUAGE" xml:space="preserve">
+    <value>Japanese</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_MAIN_00001" xml:space="preserve">
+    <value>邪魔イェぅ副後</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_MAIN_00002" xml:space="preserve">
+    <value>言語</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_MENU_00001" xml:space="preserve">
+    <value>test English</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_MENU_00002" xml:space="preserve">
+    <value>Help</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="TXT_MENU_00003" xml:space="preserve">
+    <value>Exit</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="XPtable" xml:space="preserve">
+    <value>データがありません...</value>
+    <comment>(null)</comment>
+  </data>
+  <data name="frmListReport_26" xml:space="preserve">
+    <value>有給買い取りの集計表</value>
+  </data>
+</root>

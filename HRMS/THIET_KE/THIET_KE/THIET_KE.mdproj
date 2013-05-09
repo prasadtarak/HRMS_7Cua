@@ -1,0 +1,158 @@
+"General"
+{
+"SccProjectName" = "\"$/HRMS/THIET_KE\", TNAAAAAA"
+"SccLocalPath" = "."
+"SccAuxPath" = ""
+"SccProvider" = "MSSCCI:Microsoft Visual SourceSafe"
+"ProjectIdGuid" = "{B7AFB6BC-0E18-4849-9561-89511C773FCF}"
+"ShowAllFiles" = "T"
+}
+"Configurations"
+{
+    "Debug|Win32"
+    {
+    }
+    "Release|Win32"
+    {
+    }
+}
+"Folders"
+{
+    "Analysis Model"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Lap lich"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"Files"
+{
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Cham cong.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Khen thuong, ky luat.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Lap lich.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Quan ly co cau to chuc.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Quan ly nhan su.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Quan ly thoi gian vao ra.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Quan tri he thong.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Tinh luong.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions\\Thong ke bao cao.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements\\Key Abtractions.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model\\Analysis Elements.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\Use Cases\\Cham cong.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\Use Cases\\Dinh nghia cac danh sach tu dien.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Giao tiep voi he thong the tu.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Lap lich.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\Use Cases\\Quan ly BHYT-BHXH.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Quan ly co cau to chuc.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Quan ly luong thuong.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Quan ly nhan su.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\Use Cases\\Quan ly thuong phat.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Quan tri he thong.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\USE CASES\\Thong ke bao cao.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model\\Use Cases.pkx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Analysis Model.mdx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "SQL Server Data Model.mdx"
+    {
+    "ProjRelPath" = "T"
+    }
+    "Use-Case Model.mdx"
+    {
+    "ProjRelPath" = "T"
+    }
+}
+"ProjStartupServices"
+{
+}
+"Globals"
+{
+}

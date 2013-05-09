@@ -1,0 +1,2797 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (LmYkQc4YKUWiPi8bDH9qZw) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="2x9GRMGmBEeGzCFIHWi88g"  model="..\..\..\..\CAI_DAT.mdx"  contain="0000000000001100100000000000011000000000010000100100001100001100000100000000100000000000000000000000000101000000011100000000000001000000010000000101000000000000010000000001000000"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;KR4PoLu/iUK3SiwiNHwG8g&quot; &gt;&lt;RMS:IMPORTS&gt;&lt;RMS:IMPORT uref=&quot;2:31:2:140:SW1wb3J0IG9mIG1vZGVsICdtc2NvcmxpYi5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCcgdXNpbmcgZGV2ZWxvcG1lbnQgY29tcG9uZW50IFJURSBSZXBvc2l0b3J5IE1vZGVscw==:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:20:XG1zY29ybGliLm1keA==:8:ZHVtbXk=:8:ZHVtbXk=:100:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxtc2NvcmxpYi5tZHg=:&quot;  id=&quot;wAzxWiZigE6fQ5fncH96ww&quot;  refcount=&quot;11&quot; /&gt;&lt;RMS:IMPORT uref=&quot;2:31:2:136:SW1wb3J0IG9mIG1vZGVsICdTeXN0ZW0ubWR4JyBieSBtb2RlbCAnQ0FJX0RBVC5tZHgnIHVzaW5nIGRldmVsb3BtZW50IGNvbXBvbmVudCBSVEUgUmVwb3NpdG9yeSBNb2RlbHM=:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:16:XFN5c3RlbS5tZHg=:8:ZHVtbXk=:8:ZHVtbXk=:96:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxTeXN0ZW0ubWR4:&quot;  id=&quot;RsJWZ9UXBUuZdCcGpQGadg&quot;  refcount=&quot;3&quot; /&gt;&lt;RMS:IMPORT uref=&quot;2:5:1:80:SW1wb3J0IG9mIG1vZGVsICdJbnRlcm9wLlNRTERNTy5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCc=:32:TElCXEludGVyb3AuU1FMRE1PLm1keA==:32:TElCXEludGVyb3AuU1FMRE1PLm1keA==:&quot;  id=&quot;6t4ZQUP8iUOcZSESP2Crzw&quot;  refcount=&quot;1&quot; /&gt;&lt;/RMS:IMPORTS&gt;&lt;tvs&gt;&lt;RMS:URF id=&quot;4FRDGzE0BUywQC8mTpgpNA&quot;  name=&quot;Design Model::.Net::namespace&quot;  classStr=&quot;str&quot; /&gt;&lt;/tvs&gt;&lt;nam&gt;Common&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:IMPORTS>
+<RMS:IMPORT uref="2:31:2:140:SW1wb3J0IG9mIG1vZGVsICdtc2NvcmxpYi5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCcgdXNpbmcgZGV2ZWxvcG1lbnQgY29tcG9uZW50IFJURSBSZXBvc2l0b3J5IE1vZGVscw==:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:20:XG1zY29ybGliLm1keA==:8:ZHVtbXk=:8:ZHVtbXk=:100:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxtc2NvcmxpYi5tZHg=:"  id="wAzxWiZigE6fQ5fncH96ww"  refcount="11" />
+<RMS:IMPORT uref="2:31:2:136:SW1wb3J0IG9mIG1vZGVsICdTeXN0ZW0ubWR4JyBieSBtb2RlbCAnQ0FJX0RBVC5tZHgnIHVzaW5nIGRldmVsb3BtZW50IGNvbXBvbmVudCBSVEUgUmVwb3NpdG9yeSBNb2RlbHM=:40:a3baff7c.22a94c35.b30f.fa:a7:60:9a:23:a9:16:XFN5c3RlbS5tZHg=:8:ZHVtbXk=:8:ZHVtbXk=:96:QzpcUHJvZ3JhbSBGaWxlc1xSYXRpb25hbFxYREVcQWRkaW5zXHZzN3J0ZVx2c25ldFxNb2RlbHNcdjEuMVxTeXN0ZW0ubWR4:"  id="RsJWZ9UXBUuZdCcGpQGadg"  refcount="3" />
+<RMS:IMPORT uref="2:5:1:80:SW1wb3J0IG9mIG1vZGVsICdJbnRlcm9wLlNRTERNTy5tZHgnIGJ5IG1vZGVsICdDQUlfREFULm1keCc=:32:TElCXEludGVyb3AuU1FMRE1PLm1keA==:32:TElCXEludGVyb3AuU1FMRE1PLm1keA==:"  id="6t4ZQUP8iUOcZSESP2Crzw"  refcount="1" />
+</RMS:IMPORTS>
+<RMS:ROOT>
+<pkx id="KR4PoLu/iUK3SiwiNHwG8g" >
+<tvs>
+<RMS:URF id="4FRDGzE0BUywQC8mTpgpNA"  name="Design Model::.Net::namespace"  classStr="str" />
+</tvs>
+<nam>Common</nam>
+<ari>3 0:14 1:C#</ari>
+<cls reserve="11" >
+<clx id="613GzbO8JUmbYEHo6krGHQ" >
+<otv>
+<stv id="7uA6cep53UGuwtqCCaUkGQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="174" >System,System.Collections.Specialized,System.Configuration,System.Data,System.Data.SqlClient,System.IO,System.IO.IsolatedStorage,System.Windows.Forms,System.Xml.Serialization</val>
+</stv>
+</otv>
+<dsc reserve="83" >Lớp này chịu trách nhiệm duy trì tất cả các context của người sử dụng.</dsc>
+<nam>WorkingContext</nam>
+<rlt>
+<grz id="2RZhAu8tSUa3dzxG5qN1cw" >
+<otv>
+<stv id="9nlDXYbSC02HOdKOMNGo5A" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.WorkingContext.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+<asn id="eb8sNL7X0UyGUkmjsSxj2Q" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<dsc>Lấy về đối tượng chứa text của các control</dsc>
+<rlt>
+<dpn id="rB8qICM4GEmQH9kQVjyICw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="UNfelgltsk+REk9Qj4D1og" />
+</noe>
+</dpn>
+</rlt>
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="1r8MEhNIW0C9/BdKlILREA" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>LangManager</nam>
+<anc reserve="303" >16 Name:LangManager35 Type:EVSoft.HRMS.Common.LangManager8 Access:061 Description:Lấy về đối tượng chứa text của các control28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:110 ParamList:13 IsStatic:True16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.LangManager()</ans>
+<ari>13 6:LangManager4 1:C#10 3:Property3 0:1</ari>
+<noe>
+<RMS:LRF id="+vJFPF2s7ECVejsutcXLfQ" />
+</noe>
+<ows>CLASSIFIER</ows>
+<isn>TRUE</isn>
+</ase>
+<ase id="KDB4zAglpE6MMYxPi9zL1g" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="613GzbO8JUmbYEHo6krGHQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="0xhinfkhHESwXexikfZYow" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="prWclUVZiU2JEIWotc2eCw" >
+<nam>langManager</nam>
+<anc reserve="167" >16 Name:langManager35 Type:EVSoft.HRMS.Common.LangManager8 Access:212 Description:11 Stereotype:13 IsConst:False13 IsStatic:True13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.langManager</ans>
+<ari>13 6:LangManager4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:LRF id="+vJFPF2s7ECVejsutcXLfQ" />
+</noe>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="3F8OOOhyxEmbGUV4OLtwzg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="613GzbO8JUmbYEHo6krGHQ" />
+</noe>
+</ase>
+</end>
+</asn>
+</rlt>
+<anc reserve="369" >19 Name:WorkingContext95 Description:Lớp này chịu trách nhiệm duy trì tất cả các context của người sử dụng.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:193 NameResolutionList:System,System.Collections.Specialized,System.Configuration,System.Data,System.Data.SqlClient,System.IO,System.IO.IsolatedStorage,System.Windows.Forms,System.Xml.Serialization</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att>
+<att id="tMOkNkr4bEqNMqqoRnYV1Q" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<dsc>Thiết lập hoặc lấy về ngôn ngữ đang được thiết lập cho ứng dụng</dsc>
+<nam>Language</nam>
+<rlt>
+<dpn id="oMwwrTDAhki5g1xWAd1iLA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="KG9FjqzcuEyFJOq5M+X/7A" />
+</noe>
+</dpn>
+<dpn id="FAAyfOt55kGC+HfTMEQuuA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="1MQ0ZWwGIUqDubc68PSvyQ" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="290" >13 Name:Language11 Type:string8 Access:075 Description:Thiết lập hoặc lấy về ngôn ngữ đang được thiết lập cho ứng dụng28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:13 IsStatic:True16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.Language()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="/Pjn0W+0mU2SBYx0UP4oNA" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Setting</nam>
+<rlt>
+<dpn id="djp4HiMTT0S1Vl+9SwngQQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="2rmOJ9rYLkO3mfey+mrtBg" />
+</noe>
+</dpn>
+<dpn id="R6EzjEAPHEOzzdim1DYTzQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="wGIobwlz+0ujvX2a5Oec8w" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="234" >12 Name:Setting19 Type:ModuleSettings8 Access:012 Description:28 Stereotype:AttributeProperty8 NetAttr:14 PropRWStatus:010 ParamList:13 IsStatic:True16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.Setting()</ans>
+<ari>16 6:ModuleSettings4 1:C#10 3:Property3 0:1</ari>
+<tye>ModuleSettings</tye>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="QplEeQhYPU2M9Twstm507Q" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<dsc>Thiết lập hoặc lấy về người dùng đang truy nhập hệ thống</dsc>
+<nam>Username</nam>
+<rlt>
+<dpn id="68pjHNxs+EmueJB+TYEjxw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="TyHwptyZ9UKjpJfZl6ow3Q" />
+</noe>
+</dpn>
+<dpn id="BRCQP+uY+k2se/5/tFE/xQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="YfbCBEMqBk67gSKGjwE/LA" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="283" >13 Name:Username11 Type:string8 Access:068 Description:Thiết lập hoặc lấy về người dùng đang truy nhập hệ thống28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:13 IsStatic:True16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.Username()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="FBO3QcjGrUGPYN0VUx2f8Q" >
+<dsc>Các thiết lập của hệ thống</dsc>
+<nam>setting</nam>
+<anc reserve="173" >12 Name:setting19 Type:ModuleSettings38 Description:Các thiết lập của hệ thống8 Access:211 Stereotype:13 IsConst:False13 InitialValue:13 IsStatic:True8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.setting</ans>
+<ari>16 6:ModuleSettings4 1:C#10 3:Variable3 0:1</ari>
+<tye>ModuleSettings</tye>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="91IvQGtbJkyjy3W9aeAfpw" >
+<dsc>Thuộc tính duy trì ngôn ngữ được thiết lập khi sử dụng ngôn ngữ</dsc>
+<nam>language</nam>
+<anc reserve="205" >13 Name:language11 Type:string75 Description:Thuộc tính duy trì ngôn ngữ được thiết lập khi sử dụng ngôn ngữ8 Access:211 Stereotype:13 IsConst:False15 InitialValue:&quot;&quot;13 IsStatic:True8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.language</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<dve>&quot;&quot;</dve>
+<tye>string</tye>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="Hc1dPlSPtUWK258vzbAndw" >
+<dsc>Người dùng đang đăng nhập trong hệ thống</dsc>
+<nam>username</nam>
+<anc reserve="180" >13 Name:username11 Type:string8 Access:252 Description:Người dùng đang đăng nhập trong hệ thống11 Stereotype:13 IsConst:False13 IsStatic:True13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.username</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr reserve="12" >
+<opr id="YrGAISI9f0Ku6/Ce+jHPOg" >
+<dsc>Khởi tạo ngôn ngữ mặc định là tiếng Việt</dsc>
+<nam>InitWorkingContext</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="332" >8 NetAttr:23 Name:InitWorkingContext6 Kind:08 Type:int8 Access:052 Description:Khởi tạo ngôn ngữ mặc định là tiếng Việt13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:83 ReturnParameterDescription:Mã lỗi xuất hiện khi thực hiện kết nối đến CSDL24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.InitWorkingContext()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="sU87VVOqFkSnAIMFAOXK6Q" >
+<dsc>Mã lỗi xuất hiện khi thực hiện kết nối đến CSDL</dsc>
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="KG9FjqzcuEyFJOq5M+X/7A" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Language</nam>
+<ows>CLASSIFIER</ows>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="fgEC/wvEsEGzqcvLNPoPqg" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="1MQ0ZWwGIUqDubc68PSvyQ" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Language</nam>
+<ows>CLASSIFIER</ows>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="xjZM+sZVzEyso6ANUdofAw" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="2rmOJ9rYLkO3mfey+mrtBg" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Setting</nam>
+<ows>CLASSIFIER</ows>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="UVA1JUGVwUKJTB9HAqVjSA" >
+<nam>ModuleSettings</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>ModuleSettings</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="wGIobwlz+0ujvX2a5Oec8w" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Setting</nam>
+<ows>CLASSIFIER</ows>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="5eN1+pZWykGAS07hPG1gew" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>ModuleSettings</tye>
+</prm>
+</prm>
+</opr>
+<opr id="TyHwptyZ9UKjpJfZl6ow3Q" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Username</nam>
+<ows>CLASSIFIER</ows>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="gAahVQGojUetz8p4KwpM8Q" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="YfbCBEMqBk67gSKGjwE/LA" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Username</nam>
+<ows>CLASSIFIER</ows>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="oXZfufFC/kmxEbyp/9bA8Q" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="ACRZ9jNPfE+QvkPdwRaHvQ" >
+<dsc>Thiết lập kết nối đến database</dsc>
+<nam>GetConnection</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="272" >8 NetAttr:18 Name:GetConnection6 Kind:018 Type:SqlConnection8 Access:042 Description:Thiết lập kết nối đến database13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.GetConnection()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="CjZ7aSyzK0i4aZQYLrm0TA" >
+<nam>SqlConnection</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>SqlConnection</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="pCAX7HzLvEWQRRZ87X5QQg" >
+<dsc>Hàm tạo một parameter (sử dụng để truyền tham số vào stored procedure)</dsc>
+<nam>CreateParam</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="492" >8 NetAttr:16 Name:CreateParam6 Kind:039 Type:System.Data.SqlClient.SqlParameter8 Access:082 Description:Hàm tạo một parameter (sử dụng để truyền tham số vào stored procedure)13 IsStatic:True16 IsAbstract:False10 Modifiers:76 ParamList:;;;string;paramName;;;;;SqlDbType;paramType;;;;;string;columnName;23 ConstructorInitializer:10 VBHandles:39 ReturnParameterDescription:SQLParameter106 AllParameterDescription:25 9 paramName11 Tên tham số26 9 paramType12 kiểu dữ liệu22 10 columnName7 tên cột</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.CreateParam(:string,:SqlDbType,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="3l6yP79MzUyrm9GsfQXBrg" >
+<dsc>SQLParameter</dsc>
+<nam>System.Data.SqlClient.SqlParameter</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>System.Data.SqlClient.SqlParameter</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="b1T2vBJ/Bky0JgbRudghUw" >
+<dsc>Tên tham số</dsc>
+<nam>paramName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="jwhAB//n/0eCJ3t4goNWtA" >
+<dsc>kiểu dữ liệu</dsc>
+<nam>paramType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>SqlDbType</tye>
+</prm>
+<prm id="HGKw8bpqpEu5HC4kRztZNg" >
+<dsc>tên cột</dsc>
+<nam>columnName</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="uCPOp8Kf1kWy+1/jwzUARg" >
+<nam>DisposeWorkingContext</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="239" >8 NetAttr:26 Name:DisposeWorkingContext6 Kind:08 Type:int8 Access:012 Description:13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.WorkingContext.DisposeWorkingContext()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="+P/etPz710Gt5+CRnaPtiQ" >
+<nam>int</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="iPFD0052ckK+jAHBx3uCaQ" >
+<dsc>kiểm tra kết nối CSDL</dsc>
+<nam>CheckConnection</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="389" >8 NetAttr:20 Name:CheckConnection6 Kind:09 Type:bool8 Access:036 Description:kiểm tra kết nối CSDL13 IsStatic:True16 IsAbstract:False10 Modifiers:85 ParamList:;;;string;servername;;;;;string;dbname;;;;;string;user;;;;;string;password;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:80 AllParameterDescription:15 10 servername0 10 6 dbname0 8 4 user0 12 8 password0 </anc>
+<ans reserve="82" >EVSoft.HRMS.Common.WorkingContext.CheckConnection(:string,:string,:string,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ZXcf3q8udU+6cXdTkqC1Eg" >
+<nam>bool</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>bool</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="SdovUN5c40uFbtmTwZfY4w" >
+<nam>servername</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="jz4PQBNpP02Vk0fizikl4Q" >
+<nam>dbname</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="7PQ3aaNhcUmrcf4/2EmJcA" >
+<nam>user</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="l06vA8HrCUSYJYjxdAxTxQ" >
+<nam>password</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="UNfelgltsk+REk9Qj4D1og" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>LangManager</nam>
+<ows>CLASSIFIER</ows>
+<ari>3 0:14 1:C#</ari>
+<prm>
+<prm id="i7p02PsNm0KHcwFrPqniYQ" >
+<nam>LangManager</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>LangManager</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="OEwH+VSEWk2meWi0zZDAnQ" >
+<otv>
+<stv id="3kPV+9fB40KwQ5LdzWQ5Aw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="94" >Microsoft.Office.Interop.Excel,System,System.Globalization,System.Windows.Forms,XPTable.Models</val>
+</stv>
+</otv>
+<dsc>Các hàm dùng chung</dsc>
+<nam>Utils</nam>
+<rlt>
+<grz id="GL51eWvab0K1iY0MROwUAg" >
+<otv>
+<stv id="k+/8SnWthEWtPBjgQ6K1kw" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.Utils.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="215" >10 Name:Utils30 Description:Các hàm dùng chung16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:113 NameResolutionList:Microsoft.Office.Interop.Excel,System,System.Globalization,System.Windows.Forms,XPTable.Models</anc>
+<ans>EVSoft.HRMS.Common.Utils</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="wzujzrScdEO+q1dCqlu/Rw" >
+<nam>ExportExcel</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="299" >8 NetAttr:16 Name:ExportExcel6 Kind:09 Type:bool8 Access:012 Description:13 IsStatic:True16 IsAbstract:False10 Modifiers:57 ParamList:;;;XPTable.Models.Table;table;;;;;String;Title;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:46 AllParameterDescription:9 5 table0 9 5 Title0 </anc>
+<ans>EVSoft.HRMS.Common.Utils.ExportExcel(:XPTable.Models.Table,:String)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="Uwntzik0aEKqiMaaUrQWgg" >
+<nam>bool</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>bool</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="KC+rPYXhYEegKklDhnkmLQ" >
+<nam>table</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>XPTable.Models.Table</tye>
+</prm>
+<prm id="TOkRroU9o0y+DmBu3Sh+gg" >
+<nam>Title</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>String</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="IRiPLfbN90C7I+VQEJ5syw" >
+<otv>
+<stv id="N/QIHHzHR02Q9b5a1qyY/Q" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>System</val>
+</stv>
+</otv>
+<dsc>Summary description for EmployeeStatus.</dsc>
+<nam>EmployeeStatus</nam>
+<rlt>
+<grz id="WYu4rQX2FEqOS0W5BdgjEA" >
+<otv>
+<stv id="u7RXgrMjyUm0kresy47h/Q" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.EmployeeStatus.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="156" >19 Name:EmployeeStatus51 Description:Summary description for EmployeeStatus.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:25 NameResolutionList:System</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att>
+<att id="y/jkfysAT02ef+UK5Y4/jg" >
+<dsc>Nhân viên đang làm việc (có quẹt thẻ)</dsc>
+<nam>EMPLOYEE_WORKING</nam>
+<anc reserve="181" >21 Name:EMPLOYEE_WORKING8 Type:int8 Access:049 Description:Nhân viên đang làm việc (có quẹt thẻ)11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:18 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus.EMPLOYEE_WORKING</ans>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>1</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="dWd9edjwdEaZ8vw3/5FRyg" >
+<dsc>Nhân viên đã đăng ký đi công tác</dsc>
+<nam>EMPLOYEE_LEAVE</nam>
+<anc reserve="174" >19 Name:EMPLOYEE_LEAVE8 Type:int8 Access:044 Description:Nhân viên đã đăng ký đi công tác11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:28 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus.EMPLOYEE_LEAVE</ans>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>2</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="bf+Dkb+PxkOjhhkoELdetA" >
+<dsc>Nhân viên đã đăng ký nghỉ</dsc>
+<nam>EMPLOYEE_REST</nam>
+<anc reserve="166" >18 Name:EMPLOYEE_REST8 Type:int8 Access:037 Description:Nhân viên đã đăng ký nghỉ11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:38 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus.EMPLOYEE_REST</ans>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>3</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="3OOM2Cs8fEadAtHiIhTLLA" >
+<dsc>Nhân viên vắng mặt (không có dữ liệu quẹt thẻ)</dsc>
+<nam>EMPLOYEE_ABSENT</nam>
+<anc reserve="189" >20 Name:EMPLOYEE_ABSENT8 Type:int8 Access:058 Description:Nhân viên vắng mặt (không có dữ liệu quẹt thẻ)11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:48 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus.EMPLOYEE_ABSENT</ans>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>4</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="U4Rk2YI+E0qW2pBNsomunA" >
+<dsc>Có lỗi xảy ra</dsc>
+<nam>EMPLOYEE_ERROR</nam>
+<anc reserve="155" >19 Name:EMPLOYEE_ERROR8 Type:int8 Access:025 Description:Có lỗi xảy ra11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:08 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus.EMPLOYEE_ERROR</ans>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>0</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+</att>
+<att id="VqOWuwjR+UeoH0FaD7n21Q" >
+<dsc>Nhân viên đã quẹt thẻ về</dsc>
+<nam>EMPLOYEE_GOHOME</nam>
+<anc reserve="167" >20 Name:EMPLOYEE_GOHOME8 Type:int8 Access:036 Description:Nhân viên đã quẹt thẻ về11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:58 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.EmployeeStatus.EMPLOYEE_GOHOME</ans>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>5</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+</att>
+</att>
+</clx>
+<clx id="Mmmcqt6bgUa1jcvXgQ1KWA" >
+<nam>Setting</nam>
+<rlt>
+<grz id="uWhq0RvouESHytXy7B28eg" >
+<otv>
+<stv id="WGN5U0jcpUiiZmvcERI/mw" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>UserSettingsBase</val>
+</stv>
+</otv>
+<anc>21 Name:UserSettingsBase44 BaseList:EVSoft.HRMS.Common.UserSettingsBase</anc>
+<ans>[Base]EVSoft.HRMS.Common.Setting.EVSoft-HRMS-Common-UserSettingsBase</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:LRF id="b9Z7XRjQvkir6vDcwMWdaQ" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="104" >12 Name:Setting12 Description:16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:19 NameResolutionList:</anc>
+<ans>EVSoft.HRMS.Common.Setting</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att reserve="10" >
+<att id="RlLiBTwU1E6q7cONb4i6og" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Server</nam>
+<rlt>
+<dpn id="9Inu5LvzBUa69fGVsANaKA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="8NUNMxVWuEq3Rd0wU1FiAQ" />
+</noe>
+</dpn>
+<dpn id="NFLhXnbxRE6wvyRQd0Ghkw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="l/z3dIomFkKH3MQAtOYG4g" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="226" >11 Name:Server11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.Setting.Server()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="CO4zesjHnEaTiFs43buLAg" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Database</nam>
+<rlt>
+<dpn id="zpBhdGpj+EOXLuWmx51+zg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="f4GI8x2OVUOK3JMpKhjEMw" />
+</noe>
+</dpn>
+<dpn id="9QmbJNX7r0iCb9Wp+XON7g" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="f1G2dbhljEO3+lBeu/jxfQ" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="228" >13 Name:Database11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.Setting.Database()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="H1N7OTe8b0S01gFMFkrBig" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>UserID</nam>
+<rlt>
+<dpn id="EUpekFsRa0S+lVH1pXa9JA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="ELvyMUZs60WhMSbeTDGfJA" />
+</noe>
+</dpn>
+<dpn id="K+lIcR6ko0uN65OxU+lJ/A" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="0NvbWL+u4UybrA4yhNqLcQ" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="226" >11 Name:UserID11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.Setting.UserID()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="P+Ut+V/khEa9NhhRgv28pw" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Password</nam>
+<rlt>
+<dpn id="M0mg4ybKRUevPFiPteJ4eA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="LKqkTuojp0CCtcNNybnzJw" />
+</noe>
+</dpn>
+<dpn id="LX8yjrW2T0SkQP+XIRoUHA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="0Fm06FexEUyXtXJEBG2RlA" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="228" >13 Name:Password11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.Setting.Password()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="/ZdmQIfKqE+wGWHbEEzOog" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>PicturePath</nam>
+<rlt>
+<dpn id="5j/MDN4GokC+rebKzo5ciA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="ngykzNquJUe/ejSFq/W0ZQ" />
+</noe>
+</dpn>
+<dpn id="yKxXd+FbMUmW9J04qJBv6w" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="jtH1yyrFWUC4aa3BdpdMrQ" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="231" >16 Name:PicturePath11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.Setting.PicturePath()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="HKQn1eeQ2UmqhE9xbusoLw" >
+<dsc>Thông tin kết nối cơ sở dữ liệu</dsc>
+<nam>server</nam>
+<anc reserve="170" >11 Name:server11 Type:string8 Access:243 Description:Thông tin kết nối cơ sở dữ liệu11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.Setting.server</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="WbTJkbbENUW9Qy4dKzdRUw" >
+<nam>database</nam>
+<anc reserve="141" >13 Name:database11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.Setting.database</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="1HSDxC239kWXB8o+Vm8jkw" >
+<nam>uid</nam>
+<anc reserve="135" >8 Name:uid11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.Setting.uid</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="ujLg8myUVUGZFF7K6h8CWQ" >
+<nam>pwd</nam>
+<anc reserve="135" >8 Name:pwd11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.Setting.pwd</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="/77p2uoz2kSeGoHT3GC29A" >
+<dsc>Đường dẫn ảnh</dsc>
+<nam>picturePath</nam>
+<anc reserve="157" >16 Name:picturePath11 Type:string8 Access:225 Description:Đường dẫn ảnh11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.Setting.picturePath</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr reserve="12" >
+<opr id="QXHC50CX30KSWB9Nj9TPOQ" >
+<dsc>Creates a new, empty settings object which will be
+stored in isolated storage.</dsc>
+<nam>Setting</nam>
+<anc reserve="302" >8 NetAttr:12 Name:Setting6 Kind:35 Type:8 Access:091 Description:Creates a new, empty settings object which will be
+stored in isolated storage.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.Setting.Setting()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="K72Vih3Fr0emn0yk4ch0KA" >
+<otv>
+<stv id="F9N5librgUGShAGIzdlVrQ" >
+<tgd>
+<RMS:URF id="vxKY+V/rXk6tczoG48AH9A"  name="Design Model::.Net::Constructor Initializer - Operation::ConstructorInitializer"  classStr="tgd" />
+</tgd>
+<val>base(StorageOption)</val>
+</stv>
+</otv>
+<dsc>Creates a new, empty settings object.</dsc>
+<nam>Setting</nam>
+<anc reserve="371" >8 NetAttr:12 Name:Setting6 Kind:35 Type:8 Access:049 Description:Creates a new, empty settings object.14 IsStatic:False16 IsAbstract:False10 Modifiers:45 ParamList:;;;UserStorageOption;StorageOption;42 ConstructorInitializer:base(StorageOption)10 VBHandles:27 ReturnParameterDescription:81 AllParameterDescription:54 13 StorageOption35 The location to store the settings.</anc>
+<ans>EVSoft.HRMS.Common.Setting.Setting(:UserStorageOption)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="UNqymjfBI0mCpu0JpMsK3A" >
+<dsc>The location to store the settings.</dsc>
+<nam>StorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserStorageOption</tye>
+</prm>
+</prm>
+</opr>
+<opr id="8NUNMxVWuEq3Rd0wU1FiAQ" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Server</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="egzw5dwOnESOQsuvSd/POA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="l/z3dIomFkKH3MQAtOYG4g" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Server</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="8RXEUhuH4k2LZMGHvctDeQ" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="f4GI8x2OVUOK3JMpKhjEMw" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Database</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="XvLMehYxXUaJPDhd1jAseQ" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="f1G2dbhljEO3+lBeu/jxfQ" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Database</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="/kj9uuBcyEKuSfhCUcizFQ" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="ELvyMUZs60WhMSbeTDGfJA" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>UserID</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="j8BejtHkUUiL8mY3p+9bKA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="0NvbWL+u4UybrA4yhNqLcQ" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>UserID</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="6bfBS/W4qkimZGcMsX+18Q" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="LKqkTuojp0CCtcNNybnzJw" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Password</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="pbJgdrTszk2pEFJv5DXM2Q" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="0Fm06FexEUyXtXJEBG2RlA" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Password</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="4u/tiYuSEkaKDyLMu3oYkQ" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="ngykzNquJUe/ejSFq/W0ZQ" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>PicturePath</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="iG+2mFsWbUur4BAKGtp3yw" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="jtH1yyrFWUC4aa3BdpdMrQ" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>PicturePath</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="apBILvIOLkitjEH8S6knog" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="b9Z7XRjQvkir6vDcwMWdaQ" >
+<otv>
+<stv id="FJfaTuS/wEG2YSSSZwH+AA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="146" >System,System.IO,System.IO.IsolatedStorage,System.Runtime.Serialization,System.Text,System.Threading,System.Windows.Forms,System.Xml.Serialization</val>
+</stv>
+</otv>
+<dsc>Contains base functionality for user settings storage.</dsc>
+<nam>UserSettingsBase</nam>
+<rlt>
+<asn id="QwD2ltnJbUCajJdc+HnjWQ" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<dsc>The location where the settings are stored.</dsc>
+<rlt>
+<dpn id="EP0UUgsDfkSEAgHX4tj0eA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="N6OiVprs10aXhTcj4rfi2Q" />
+</noe>
+</dpn>
+<dpn id="bBT3NeooKUKcr7cgC+DWzg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="tGPqM+Djg0KB4luMdAFLzQ" />
+</noe>
+</dpn>
+</rlt>
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="Tf5VcW6BnECc52TOu/5r3A" >
+<otv>
+<stv id="p3rJ3tHT9UOOIZYSHjMjUA" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlIgnore()</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>StorageOption</nam>
+<anc reserve="321" >18 Name:StorageOption41 Type:EVSoft.HRMS.Common.UserStorageOption8 Access:055 Description:The location where the settings are stored.28 Stereotype:AttributeProperty22 NetAttr:11 XmlIgnore()10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.StorageOption()</ans>
+<ari>19 6:UserStorageOption4 1:C#10 3:Property3 0:1</ari>
+<noe>
+<RMS:LRF id="n7iDf4G8pkKU0trspvEEZg" />
+</noe>
+<isn>TRUE</isn>
+</ase>
+<ase id="CAyqhYi/kkCOB2SjisAfcQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="b9Z7XRjQvkir6vDcwMWdaQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="0UOCnzkFyEO7AmtBs3RUKg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="WLyJm5Rzt0GHEyMv0kx5nA" >
+<nam>mOption</nam>
+<anc reserve="170" >12 Name:mOption41 Type:EVSoft.HRMS.Common.UserStorageOption8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.mOption</ans>
+<ari>19 6:UserStorageOption4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:LRF id="n7iDf4G8pkKU0trspvEEZg" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="2/H7rd4yck6SPACrOgMtfA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="b9Z7XRjQvkir6vDcwMWdaQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="wufDuddv/UGnjHSdYozpOg" >
+<otv>
+<stv id="EOYORzCQLUymhSBs0/j5yg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.UserSettingsBase.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<isa>TRUE</isa>
+<anc reserve="313" >21 Name:UserSettingsBase66 Description:Contains base functionality for user settings storage.15 IsAbstract:True8 Access:08 NetAttr:10 Modifiers:165 NameResolutionList:System,System.IO,System.IO.IsolatedStorage,System.Runtime.Serialization,System.Text,System.Threading,System.Windows.Forms,System.Xml.Serialization</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att>
+<att id="EwrUqTPt2kSBKiMhO2mIWA" >
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<dsc>The section name in which the settings are stored.</dsc>
+<nam>Section</nam>
+<rlt>
+<dpn id="eADbfKrz20+7f+CQdUWexQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="3gFAVOf5SEeHZ/WwKa8sBA" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="277" >12 Name:Section11 Type:string8 Access:062 Description:The section name in which the settings are stored.28 Stereotype:AttributeProperty8 NetAttr:10 Modifiers:14 PropRWStatus:110 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.Section()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="ZSy8uuCAUk2Ud8UawUYCdw" >
+<nam>mSection</nam>
+<anc reserve="141" >13 Name:mSection11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.mSection</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr reserve="18" >
+<opr id="ddus8q3sDUqvQz4Ea1m0qQ" >
+<dsc reserve="113" >Creates a UserSettings object that stores its settings
+in isolated storage in a section based on the class name.</dsc>
+<nam>UserSettingsBase</nam>
+<anc reserve="346" >8 NetAttr:21 Name:UserSettingsBase6 Kind:35 Type:8 Access:0125 Description:Creates a UserSettings object that stores its settings
+in isolated storage in a section based on the class name.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.UserSettingsBase()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="uu3PoYIzw0az2byeijXLeg" >
+<dsc reserve="128" >Creates a UserSettings object that stores its settings
+in the specified storage location in a section based
+on the class name.</dsc>
+<nam>UserSettingsBase</nam>
+<anc reserve="456" >8 NetAttr:21 Name:UserSettingsBase6 Kind:35 Type:8 Access:0140 Description:Creates a UserSettings object that stores its settings
+in the specified storage location in a section based
+on the class name.14 IsStatic:False16 IsAbstract:False10 Modifiers:45 ParamList:;;;UserStorageOption;StorageOption;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:84 AllParameterDescription:57 13 StorageOption38 The storage location for the settings.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.UserSettingsBase(:UserStorageOption)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="2sturAX4pEqm2NeT1iwSpw" >
+<dsc>The storage location for the settings.</dsc>
+<nam>StorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserStorageOption</tye>
+</prm>
+</prm>
+</opr>
+<opr id="0AeDMtEvl0W4n+mbRujFdw" >
+<dsc reserve="134" >Creates a UserSettings object that stores its settings
+in the specified storage location in a section named
+per the parameter value.</dsc>
+<nam>UserSettingsBase</nam>
+<anc reserve="553" >8 NetAttr:21 Name:UserSettingsBase6 Kind:35 Type:8 Access:0146 Description:Creates a UserSettings object that stores its settings
+in the specified storage location in a section named
+per the parameter value.14 IsStatic:False16 IsAbstract:False10 Modifiers:64 ParamList:;;;UserStorageOption;StorageOption;;;;;string;Section;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:155 AllParameterDescription:57 13 StorageOption38 The storage location for the settings.68 7 Section56 The section name in which the settings should be stored.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.UserSettingsBase(:UserStorageOption,:string)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="IVMU/sUUHUCORvagAIb7FQ" >
+<dsc>The storage location for the settings.</dsc>
+<nam>StorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserStorageOption</tye>
+</prm>
+<prm id="zJ1cw/55DU2xt2nGdlb/6w" >
+<dsc>The section name in which the settings should be stored.</dsc>
+<nam>Section</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="lNWeqKFxrUm515BKcPoLKg" >
+<dsc reserve="105" >Saves the current settings based on the currently
+logged in user, the storage location and section name.</dsc>
+<nam>Save</nam>
+<anc reserve="325" >8 NetAttr:9 Name:Save6 Kind:05 Type:8 Access:0117 Description:Saves the current settings based on the currently
+logged in user, the storage location and section name.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.Save()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+<opr id="+FFFxgJ8f0q9J68MpXK+WA" >
+<dsc>Stores the user settings to isolated storage.</dsc>
+<nam>SaveToIsolatedStorage</nam>
+<anc reserve="282" >8 NetAttr:26 Name:SaveToIsolatedStorage6 Kind:05 Type:8 Access:257 Description:Stores the user settings to isolated storage.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.SaveToIsolatedStorage()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+</opr>
+<opr id="lwEFHDZOxEqIK6BenihOVA" >
+<dsc>Stores the user settings to the Windows registry.</dsc>
+<nam>SaveToRegistry</nam>
+<anc reserve="279" >8 NetAttr:19 Name:SaveToRegistry6 Kind:05 Type:8 Access:261 Description:Stores the user settings to the Windows registry.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.SaveToRegistry()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+</opr>
+<opr id="f0hSts7zNEm1ljhIhb02vg" >
+<dsc>Stores the user settings to an XML file.</dsc>
+<nam>SaveToFile</nam>
+<anc reserve="266" >8 NetAttr:15 Name:SaveToFile6 Kind:05 Type:8 Access:252 Description:Stores the user settings to an XML file.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.SaveToFile()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+</opr>
+<opr id="cTdw9qZXuE6SkvnqYGayrQ" >
+<dsc reserve="128" >Creates a new settings object with settings data based
+on the currently logged in user, the storage
+location and section name.</dsc>
+<nam>Restore</nam>
+<anc reserve="405" >8 NetAttr:12 Name:Restore6 Kind:021 Type:UserSettingsBase8 Access:0140 Description:Creates a new settings object with settings data based
+on the currently logged in user, the storage
+location and section name.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:63 ReturnParameterDescription:The newly populated settings object.24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.Restore()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="c4da0lDK+ka3hkudfHYt3Q" >
+<dsc>The newly populated settings object.</dsc>
+<nam>UserSettingsBase</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserSettingsBase</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="JdZRLmR4I0Sp2gpti1YSHg" >
+<dsc reserve="151" >Creates a new settings object of the specified type
+based on the currently logged in user, the specified
+section name and specified storage location.</dsc>
+<nam>Restore</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="665" >8 NetAttr:12 Name:Restore6 Kind:021 Type:UserSettingsBase8 Access:0163 Description:Creates a new settings object of the specified type
+based on the currently logged in user, the specified
+section name and specified storage location.13 IsStatic:True16 IsAbstract:False10 Modifiers:78 ParamList:;;;Type;Type;;;;;string;Section;;;;;UserStorageOption;StorageOption;23 ConstructorInitializer:10 VBHandles:63 ReturnParameterDescription:The newly populated settings object.193 AllParameterDescription:51 4 Type42 The type of the settings object to return.53 7 Section41 The section name containing the settings.56 13 StorageOption37 The storage location of the settings.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.Restore(:Type,:string,:UserStorageOption)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="jdgimx3Jt0GMhf03GzuegA" >
+<dsc>The newly populated settings object.</dsc>
+<nam>UserSettingsBase</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserSettingsBase</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Tee5tDMLyEmwA/1T6s3j+Q" >
+<dsc>The type of the settings object to return.</dsc>
+<nam>Type</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>Type</tye>
+</prm>
+<prm id="R3vG43YLzU2B4+xUSPDRYA" >
+<dsc>The section name containing the settings.</dsc>
+<nam>Section</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="ALfZM4QG1EWfFYnk3oCClA" >
+<dsc>The storage location of the settings.</dsc>
+<nam>StorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserStorageOption</tye>
+</prm>
+</prm>
+</opr>
+<opr id="ID36MLKFGkWHFBBARObzdA" >
+<dsc>Restore the user settings from isolated storage.</dsc>
+<nam>RestoreFromIsolatedStorage</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="471" >8 NetAttr:31 Name:RestoreFromIsolatedStorage6 Kind:021 Type:UserSettingsBase8 Access:260 Description:Restore the user settings from isolated storage.13 IsStatic:True16 IsAbstract:False10 Modifiers:42 ParamList:;;;Type;Type;;;;;string;Section;23 ConstructorInitializer:10 VBHandles:55 ReturnParameterDescription:A populated settings object.128 AllParameterDescription:41 4 Type32 The type of the settings object.57 7 Section45 The section in which the settings are stored.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.RestoreFromIsolatedStorage(:Type,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="3qitwTZZOEuFq6G6GmbJvg" >
+<dsc>A populated settings object.</dsc>
+<nam>UserSettingsBase</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserSettingsBase</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="0qrwP8KmQUCuqQ3NirjGWQ" >
+<dsc>The type of the settings object.</dsc>
+<nam>Type</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>Type</tye>
+</prm>
+<prm id="JrudpWVDlkCFSTCo6kkEKg" >
+<dsc>The section in which the settings are stored.</dsc>
+<nam>Section</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="4hOap27Rr0e2gw68ghwatQ" >
+<dsc>Restore the user settings from the Windows registry.</dsc>
+<nam>RestoreFromRegistry</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="468" >8 NetAttr:24 Name:RestoreFromRegistry6 Kind:021 Type:UserSettingsBase8 Access:264 Description:Restore the user settings from the Windows registry.13 IsStatic:True16 IsAbstract:False10 Modifiers:42 ParamList:;;;Type;Type;;;;;string;Section;23 ConstructorInitializer:10 VBHandles:55 ReturnParameterDescription:A populated settings object.128 AllParameterDescription:41 4 Type32 The type of the settings object.57 7 Section45 The section in which the settings are stored.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.RestoreFromRegistry(:Type,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="P7Z/sPfjVkC9YPR7qJrMqA" >
+<dsc>A populated settings object.</dsc>
+<nam>UserSettingsBase</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserSettingsBase</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="eVDLWV+j9E2HLvMCilg5sw" >
+<dsc>The type of the settings object.</dsc>
+<nam>Type</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>Type</tye>
+</prm>
+<prm id="ehKmVKHiVE+v3VxpN/xAxQ" >
+<dsc>The section in which the settings are stored.</dsc>
+<nam>Section</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="wdI8FTIrw0u6jpz33LobBQ" >
+<dsc>Restore the user settings from an XML file.</dsc>
+<nam>RestoreFromFile</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="455" >8 NetAttr:20 Name:RestoreFromFile6 Kind:021 Type:UserSettingsBase8 Access:255 Description:Restore the user settings from an XML file.13 IsStatic:True16 IsAbstract:False10 Modifiers:42 ParamList:;;;Type;Type;;;;;string;Section;23 ConstructorInitializer:10 VBHandles:55 ReturnParameterDescription:A populated settings object.128 AllParameterDescription:41 4 Type32 The type of the settings object.57 7 Section45 The section in which the settings are stored.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.RestoreFromFile(:Type,:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="TazwiWTYrEGzfvfUeO+ELg" >
+<dsc>A populated settings object.</dsc>
+<nam>UserSettingsBase</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserSettingsBase</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="K1kOn0Kx/0aD6Joy7mVplQ" >
+<dsc>The type of the settings object.</dsc>
+<nam>Type</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>Type</tye>
+</prm>
+<prm id="DGJ+PooOo0OP8AuVSJ6EQw" >
+<dsc>The section in which the settings are stored.</dsc>
+<nam>Section</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="iYwwy+FYR06+ElMUsidMfg" >
+<dsc>Returns the name the the running application.</dsc>
+<nam>GetAppName</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="298" >8 NetAttr:15 Name:GetAppName6 Kind:011 Type:string8 Access:257 Description:Returns the name the the running application.13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:48 ReturnParameterDescription:The application name.24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.GetAppName()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="xGh1/6jP0UGz30geoulSFA" >
+<dsc>The application name.</dsc>
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="NJOXTh2txkqps50akVlMEw" >
+<dsc>Returns the name of the current user.</dsc>
+<nam>GetUser</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="295" >8 NetAttr:12 Name:GetUser6 Kind:011 Type:string8 Access:249 Description:Returns the name of the current user.13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:56 ReturnParameterDescription:The name of the current user.24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.GetUser()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="wEknN5JJ6EeXhhh0EWrXOQ" >
+<dsc>The name of the current user.</dsc>
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="mi+WF7RLoUGoWh5+1Ngp6g" >
+<dsc>Returns a full file path to a user-settings file.</dsc>
+<nam>GetFilePath</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="410" >8 NetAttr:16 Name:GetFilePath6 Kind:011 Type:string8 Access:261 Description:Returns a full file path to a user-settings file.13 IsStatic:True16 IsAbstract:False10 Modifiers:28 ParamList:;;;string;Section;23 ConstructorInitializer:10 VBHandles:86 ReturnParameterDescription:A complete file path (path and name) for the settings file.75 AllParameterDescription:48 7 Section36 The section name for these settings.</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsBase.GetFilePath(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="i3C0wn3HQkuxHUYrX1QDPA" >
+<dsc>A complete file path (path and name) for the settings file.</dsc>
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="0ajiJaR+M0SQXLo9wIndnA" >
+<dsc>The section name for these settings.</dsc>
+<nam>Section</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="3gFAVOf5SEeHZ/WwKa8sBA" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Section</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="W8lOJqyyx0K2a2ttIgERyA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="N6OiVprs10aXhTcj4rfi2Q" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>StorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<prm>
+<prm id="OzI8Ks4AB0+kHXb7uuCI7Q" >
+<nam>UserStorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserStorageOption</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="tGPqM+Djg0KB4luMdAFLzQ" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>StorageOption</nam>
+<ari>3 0:14 1:C#</ari>
+<prm>
+<prm id="bJZMGur/4kOZgUpRI4E94w" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>UserStorageOption</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<enx id="n7iDf4G8pkKU0trspvEEZg" >
+<otv>
+<stv id="JvYvMQX+pkKR+OUK/9RfLA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="146" >System,System.IO,System.IO.IsolatedStorage,System.Runtime.Serialization,System.Text,System.Threading,System.Windows.Forms,System.Xml.Serialization</val>
+</stv>
+</otv>
+<nam>UserStorageOption</nam>
+<rlt>
+<grz id="FL0vDiNajUutplymr3KAnA" >
+<otv>
+<stv id="ves10QRDyEuRPHVbDCY48Q" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Enum</val>
+</stv>
+</otv>
+<anc>16 Name:System.Enum20 BaseList:System.Enum</anc>
+<ans>[Base]EVSoft.HRMS.Common.UserStorageOption.System-Enum</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="SuAebHpgCk6pVgcApXhkkg"  name="mscorlib::System::Enum"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="249" >22 Name:UserStorageOption12 Description:8 Access:08 NetAttr:10 Modifiers:5 Type:165 NameResolutionList:System,System.IO,System.IO.IsolatedStorage,System.Runtime.Serialization,System.Text,System.Threading,System.Windows.Forms,System.Xml.Serialization</anc>
+<ans>EVSoft.HRMS.Common.UserStorageOption</ans>
+<ari>4 1:C#13 3:Enumeration3 0:1</ari>
+<ltr>
+<enl id="qhhvohrF4027jR2IJSe7VA" >
+<dsc>Settings will be stored in isolated storage.</dsc>
+<nam>IsolatedStorage</nam>
+<anc reserve="108" >20 Name:IsolatedStorage56 Description:Settings will be stored in isolated storage.13 InitialValue:8 NetAttr:</anc>
+<ans>EVSoft.HRMS.Common.UserStorageOption.IsolatedStorage</ans>
+<ari>4 1:C#21 3:Enumeration Literal3 0:1</ari>
+</enl>
+<enl id="8BorqQvjVUyISXQ5X0FLUA" >
+<dsc>Settings will be stored in the registry.</dsc>
+<nam>Registry</nam>
+<anc reserve="97" >13 Name:Registry52 Description:Settings will be stored in the registry.13 InitialValue:8 NetAttr:</anc>
+<ans>EVSoft.HRMS.Common.UserStorageOption.Registry</ans>
+<ari>4 1:C#21 3:Enumeration Literal3 0:1</ari>
+</enl>
+<enl id="O0iFqnJMj068HdNueK9kBw" >
+<dsc>Settings will be stored in text files in the
+application directory.</dsc>
+<nam>File</nam>
+<anc reserve="120" >9 Name:File80 Description:Settings will be stored in text files in the
+application directory.13 InitialValue:8 NetAttr:</anc>
+<ans>EVSoft.HRMS.Common.UserStorageOption.File</ans>
+<ari>4 1:C#21 3:Enumeration Literal3 0:1</ari>
+</enl>
+</ltr>
+</enx>
+<clx id="3zGUI4JwgEOK0IVJ5L1ThA" >
+<otv>
+<stv id="yIj2xNOm7USu+2EIpyXrJw" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>Serializable()</val>
+</stv>
+<stv id="90a+r2atRUenSvq4Q5udQA" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="146" >System,System.IO,System.IO.IsolatedStorage,System.Runtime.Serialization,System.Text,System.Threading,System.Windows.Forms,System.Xml.Serialization</val>
+</stv>
+</otv>
+<nam>UserSettingsException</nam>
+<rlt>
+<grz id="kMkOf4jZz0SVjQ5BjYfoWg" >
+<otv>
+<stv id="5h6eG2wgtUmzKYjNyMEwkg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>Exception</val>
+</stv>
+</otv>
+<anc>14 Name:Exception25 BaseList:System.Exception</anc>
+<ans>[Base]EVSoft.HRMS.Common.UserSettingsException.System-Exception</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="X6OAr4F0W0ClTFu77P2w0g"  name="mscorlib::System::Exception"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="283" >26 Name:UserSettingsException12 Description:16 IsAbstract:False8 Access:025 NetAttr:14 Serializable()10 Modifiers:165 NameResolutionList:System,System.IO,System.IO.IsolatedStorage,System.Runtime.Serialization,System.Text,System.Threading,System.Windows.Forms,System.Xml.Serialization</anc>
+<ans>EVSoft.HRMS.Common.UserSettingsException</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="F1DaW98NpkKTm5r47LCGPg" >
+<otv>
+<stv id="3VkW575BU0CBQTMtoZ5q2Q" >
+<tgd>
+<RMS:URF id="vxKY+V/rXk6tczoG48AH9A"  name="Design Model::.Net::Constructor Initializer - Operation::ConstructorInitializer"  classStr="tgd" />
+</tgd>
+<val>base(message)</val>
+</stv>
+</otv>
+<dsc>Creates a new exception.</dsc>
+<nam>UserSettingsException</nam>
+<anc reserve="306" >8 NetAttr:26 Name:UserSettingsException6 Kind:35 Type:8 Access:036 Description:Creates a new exception.14 IsStatic:False16 IsAbstract:False10 Modifiers:28 ParamList:;;;string;message;36 ConstructorInitializer:base(message)10 VBHandles:27 ReturnParameterDescription:38 AllParameterDescription:11 7 message0 </anc>
+<ans>EVSoft.HRMS.Common.UserSettingsException.UserSettingsException(:string)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="npiAkPaZ8U2wDd0GRno1jA" >
+<nam>message</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="ZOh6JH6tdEKHfOSZQ3Rx/Q" >
+<otv>
+<stv id="g9YyqVm2rUqWQzdMYUTt6A" >
+<tgd>
+<RMS:URF id="vxKY+V/rXk6tczoG48AH9A"  name="Design Model::.Net::Constructor Initializer - Operation::ConstructorInitializer"  classStr="tgd" />
+</tgd>
+<val>base(message, innerException)</val>
+</stv>
+</otv>
+<dsc>Creates a new exception with an inner exception.</dsc>
+<nam>UserSettingsException</nam>
+<anc reserve="397" >8 NetAttr:26 Name:UserSettingsException6 Kind:35 Type:8 Access:060 Description:Creates a new exception with an inner exception.14 IsStatic:False16 IsAbstract:False10 Modifiers:57 ParamList:;;;string;message;;;;;Exception;innerException;52 ConstructorInitializer:base(message, innerException)10 VBHandles:27 ReturnParameterDescription:60 AllParameterDescription:11 7 message0 19 14 innerException0 </anc>
+<ans reserve="82" >EVSoft.HRMS.Common.UserSettingsException.UserSettingsException(:string,:Exception)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="PWNM9hY/IkWADjIzyHIKWg" >
+<nam>message</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="u/ttnoW6qUOoDhIRKS9WUg" >
+<nam>innerException</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>Exception</tye>
+</prm>
+</prm>
+</opr>
+<opr id="qGtg4kNzmUK6TaJWK9f6tg" >
+<otv>
+<stv id="fSsyIeDf0U6fwIxuu2Kkrg" >
+<tgd>
+<RMS:URF id="vxKY+V/rXk6tczoG48AH9A"  name="Design Model::.Net::Constructor Initializer - Operation::ConstructorInitializer"  classStr="tgd" />
+</tgd>
+<val>base(info, context)</val>
+</stv>
+</otv>
+<dsc>Required because System.Exception implements ISerializable.</dsc>
+<nam>UserSettingsException</nam>
+<anc reserve="394" >8 NetAttr:26 Name:UserSettingsException6 Kind:35 Type:8 Access:171 Description:Required because System.Exception implements ISerializable.14 IsStatic:False16 IsAbstract:False10 Modifiers:65 ParamList:;;;SerializationInfo;info;;;;;StreamingContext;context;42 ConstructorInitializer:base(info, context)10 VBHandles:27 ReturnParameterDescription:48 AllParameterDescription:8 4 info0 11 7 context0 </anc>
+<ans reserve="100" >EVSoft.HRMS.Common.UserSettingsException.UserSettingsException(:SerializationInfo,:StreamingContext)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<vsb>PROTECTED</vsb>
+<prm>
+<prm id="ITXwMLccsUmMlUk8+WI7Ug" >
+<nam>info</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>SerializationInfo</tye>
+</prm>
+<prm id="D3ZMb2sqik2E9GgPd0cdpw" >
+<nam>context</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>StreamingContext</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="+vJFPF2s7ECVejsutcXLfQ" >
+<otv>
+<stv id="+QzUEFs0CEW1G3AQM6QXtg" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="83" >System,System.Globalization,System.Reflection,System.Resources,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for Lang.</dsc>
+<nam>LangManager</nam>
+<rlt>
+<asn id="UH22fRQomUyVoz578+grsA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="s+quq3Zwn0Ceq0JQuzIn7w" >
+<nam>ci</nam>
+<anc reserve="160" >7 Name:ci37 Type:System.Globalization.CultureInfo8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.LangManager.ci</ans>
+<ari>13 6:CultureInfo4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="ZiPCW/DspE+irfZI6MLjZg"  name="mscorlib::System::Globalization::CultureInfo"  classStr="clx"  import="0" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="J4YfzdSVE0iu6GNsmqGYsw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="+vJFPF2s7ECVejsutcXLfQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="R6bnl6mQYUSGIPeX96DgnA" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="OVEQmBR2LkK3BrqiVCy4XQ" >
+<nam>rm</nam>
+<anc reserve="160" >7 Name:rm37 Type:System.Resources.ResourceManager8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.LangManager.rm</ans>
+<ari>17 6:ResourceManager4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="E2bp/J/z9U+MXpBneClI4w"  name="mscorlib::System::Resources::ResourceManager"  classStr="clx"  import="0" />
+</noe>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="VfY6zPPyc0i9r29MPjZxmA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="+vJFPF2s7ECVejsutcXLfQ" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="AsbRKuTlP0CfDxn40iPS9Q" >
+<otv>
+<stv id="+ym6Do6YPkSuRn5p/JRGRQ" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.LangManager.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="221" >16 Name:LangManager41 Description:Summary description for Lang.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:102 NameResolutionList:System,System.Globalization,System.Reflection,System.Resources,System.Windows.Forms</anc>
+<ans>EVSoft.HRMS.Common.LangManager</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att>
+<att id="5IYVEeXigkK60eeAOvlb/w" >
+<nam>strResourceName</nam>
+<anc reserve="184" >20 Name:strResourceName11 Type:string8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True51 InitialValue:&quot;EVSoft.HRMS.Common.Lang.LangResource&quot;8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.LangManager.strResourceName</ans>
+<ari>8 6:string4 1:C#10 3:Constant3 0:1</ari>
+<dve>&quot;EVSoft.HRMS.Common.Lang.LangResource&quot;</dve>
+<tye>string</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr>
+<opr id="BSo0L/fwi0Cvt5f4iWZxZA" >
+<nam>LangManager</nam>
+<anc reserve="252" >8 NetAttr:16 Name:LangManager6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:25 ParamList:;;;string;lang;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:34 AllParameterDescription:8 4 lang0 </anc>
+<ans>EVSoft.HRMS.Common.LangManager.LangManager(:string)</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="x7IDUJytGEC6pP21lDhCFA" >
+<nam>lang</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="bTnGznpngU2MAfQFDAVj8Q" >
+<dsc>
+Thay đổi ngôn ngữ hiển thị hiện tại</dsc>
+<nam>ChangeLanguage</nam>
+<anc reserve="298" >8 NetAttr:19 Name:ChangeLanguage6 Kind:05 Type:8 Access:055 Description:
+Thay đổi ngôn ngữ hiển thị hiện tại14 IsStatic:False16 IsAbstract:False10 Modifiers:25 ParamList:;;;string;lang;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:34 AllParameterDescription:8 4 lang0 </anc>
+<ans>EVSoft.HRMS.Common.LangManager.ChangeLanguage(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="hUNFwSGo1US1uZMcizXbVw" >
+<nam>lang</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="InrCJDvLL0e2SXBs7XulfA" >
+<dsc>Xóa tất cả tài nguyên đã sử dụng</dsc>
+<nam>Dispose</nam>
+<anc reserve="262" >8 NetAttr:12 Name:Dispose6 Kind:05 Type:8 Access:051 Description:Xóa tất cả tài nguyên đã sử dụng14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.LangManager.Dispose()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+<opr id="tfnmCV7wf0KDVQcUJ7lOcg" >
+<dsc>Lấy về đoạn text theo tên</dsc>
+<nam>GetString</nam>
+<anc reserve="285" >8 NetAttr:14 Name:GetString6 Kind:011 Type:string8 Access:040 Description:Lấy về đoạn text theo tên14 IsStatic:False16 IsAbstract:False10 Modifiers:25 ParamList:;;;string;name;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:34 AllParameterDescription:8 4 name0 </anc>
+<ans>EVSoft.HRMS.Common.LangManager.GetString(:string)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="vYz5GJgAzE+bnzyigviWXA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="86Xx7D0HWEGU2rmna1AP+Q" >
+<nam>name</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="Pj/1LDPb50OyoI8zyAH1cA" >
+<otv>
+<stv id="WpH8KXA92kqg/c5nIeZ+IQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>System,System.Xml,System.Xml.Serialization</val>
+</stv>
+</otv>
+<dsc>Summary of ModuleSettings Class</dsc>
+<nam>ModuleSettings</nam>
+<rlt>
+<grz id="XgT1gF/rs0uxOpWgvPqFtQ" >
+<otv>
+<stv id="A617ZHAbtkKGcpaDV+QabA" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.ModuleSettings.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="184" >19 Name:ModuleSettings43 Description:Summary of ModuleSettings Class16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:61 NameResolutionList:System,System.Xml,System.Xml.Serialization</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<att reserve="12" >
+<att id="CRZCZj7PlkyZWKnSAwPFNg" >
+<otv>
+<stv id="i1Drv6cDJkaBAnH1KQCiyw" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlElement</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>ConnectionStr</nam>
+<rlt>
+<dpn id="ebXU6MGqy0mjIZlxV6y9mg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="ymlDLsY7aUKMWr1l2yQzog" />
+</noe>
+</dpn>
+<dpn id="2q2uRVk4IU+o5D6qxRPdOg" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="TWNhLZiASU2RK8J7APUK3g" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="247" >18 Name:ConnectionStr11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty21 NetAttr:10 XmlElement10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.ConnectionStr()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="FzGT0SCNq0OD6zi8BjEfYw" >
+<otv>
+<stv id="d2IMeENnD0KDI9zIe8D70A" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlElement</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Database</nam>
+<rlt>
+<dpn id="kDO0+2wolkOmsbPsbhRV2Q" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="UAUxxa3d8EeNh5PSiOFKZA" />
+</noe>
+</dpn>
+<dpn id="5q3q/D6A/E+XIVpMJIOIWA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="yWLhPSlXykaiY84QLs2wMw" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="242" >13 Name:Database11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty21 NetAttr:10 XmlElement10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.Database()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="RQ3sqi99cE2PXFIDiZBANg" >
+<otv>
+<stv id="lgV8a9Arl0GEy9eYbYpYMA" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlElement</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>UserName</nam>
+<rlt>
+<dpn id="N51gBxtdzUOajyN1RXWc2Q" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="L1QvgxnHYUKMGxUJBZvIQQ" />
+</noe>
+</dpn>
+<dpn id="/74zRuSmf0alkxiCoNLMGQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="uEliVVd/zkeLY0g5egM/4w" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="242" >13 Name:UserName11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty21 NetAttr:10 XmlElement10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.UserName()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="aXjOd/I3LUmCom+uu3JN8Q" >
+<otv>
+<stv id="aGXDriOb8k63LRrhbiVZjg" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlElement</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Password</nam>
+<rlt>
+<dpn id="5OHcYGt1nUawke5utMIlWA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="GLxx0n1Vuk2VhQ6EjYwv5A" />
+</noe>
+</dpn>
+<dpn id="IuLkr3RsAEWUF9fUnBkPgA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="V4pPO8kURUqjY3KHi65CwA" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="242" >13 Name:Password11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty21 NetAttr:10 XmlElement10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.Password()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="lNAWei08rEqFBzBC4GP5OA" >
+<otv>
+<stv id="seNPRCWRp0WKwdVg2FoZ8w" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlElement</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>Server</nam>
+<rlt>
+<dpn id="96ylvf0BWUKzlR4I0a2qYQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="8E76qAreXUyY1izweKnwrg" />
+</noe>
+</dpn>
+<dpn id="KAnmvqnxm0GhWQRLdJgUxw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="aslD1kE3xkOZaQhwFpaDYA" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="240" >11 Name:Server11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty21 NetAttr:10 XmlElement10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.Server()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="IF1cEEp33E6L31h28PHSAA" >
+<otv>
+<stv id="DvcHJ8pzTEmHnMRKsa41iA" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>XmlElement</val>
+</stv>
+</otv>
+<tvs>
+<RMS:URF id="wHYifLexZ0G+zLW0Rw170g"  name="Design Model::.Net::property"  classStr="str" />
+</tvs>
+<nam>PicturePath</nam>
+<rlt>
+<dpn id="3+t7UFdlDEe/v2ighrtJTQ" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="/k6W/arVU0aPO8rifO1GYg" />
+</noe>
+</dpn>
+<dpn id="IyE5DWqLUE+J7PRJ9NuniA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="Mv2TtCgI7UCpUQUlH1Lx8g" />
+</noe>
+</dpn>
+</rlt>
+<anc reserve="245" >16 Name:PicturePath11 Type:string8 Access:012 Description:28 Stereotype:AttributeProperty21 NetAttr:10 XmlElement10 Modifiers:14 PropRWStatus:010 ParamList:14 IsStatic:False16 IsAbstract:False12 PropGetAttr:12 PropSetAttr:20 PropSetValParamAttr:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.PicturePath()</ans>
+<ari>8 6:string4 1:C#10 3:Property3 0:1</ari>
+<tye>string</tye>
+</att>
+<att id="vAigIu939k6P+adPzAihWw" >
+<nam>connectionString</nam>
+<anc reserve="149" >21 Name:connectionString11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.connectionString</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="MAXnoWx4L0mzphPoeWAljQ" >
+<nam>database</nam>
+<anc reserve="141" >13 Name:database11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.database</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="s0HX46waYkeQf1TDbzs65g" >
+<nam>userName</nam>
+<anc reserve="141" >13 Name:userName11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.userName</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="9EtShQXqa0u2B3/NqtlTJg" >
+<nam>password</nam>
+<anc reserve="141" >13 Name:password11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.password</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="VgkA6luv0ECniYp7weSyFA" >
+<nam>server</nam>
+<anc reserve="139" >11 Name:server11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.server</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="LEOgnWhaIUiSYMfa7QDlDA" >
+<nam>picturePath</nam>
+<anc reserve="144" >16 Name:picturePath11 Type:string8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False13 InitialValue:8 NetAttr:10 Modifiers:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.picturePath</ans>
+<ari>8 6:string4 1:C#10 3:Variable3 0:1</ari>
+<tye>string</tye>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr reserve="13" >
+<opr id="pn+jOYaXD02jC1YpR9CcZg" >
+<nam>ModuleSettings</nam>
+<anc reserve="230" >8 NetAttr:19 Name:ModuleSettings6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.ModuleSettings.ModuleSettings()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="ymlDLsY7aUKMWr1l2yQzog" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>ConnectionStr</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="BvD3GsZlcU+rGo9YPIzHuw" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="TWNhLZiASU2RK8J7APUK3g" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>ConnectionStr</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="qILB9F29sU6You/NfI8GvQ" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="UAUxxa3d8EeNh5PSiOFKZA" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Database</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="G2oSjy9LM0+9uTvOUayZ7A" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="yWLhPSlXykaiY84QLs2wMw" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Database</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="kHRgpNLwoEuX239cNfUfuQ" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="L1QvgxnHYUKMGxUJBZvIQQ" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>UserName</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="cti4hm3kUkeb+QzuYr8veA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="uEliVVd/zkeLY0g5egM/4w" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>UserName</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="jJ7AwI5Qq0GPGJjaKPvsvw" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="GLxx0n1Vuk2VhQ6EjYwv5A" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Password</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="+fe5nA1cq0aaBE+/2QM+ng" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="V4pPO8kURUqjY3KHi65CwA" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Password</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="FjaqlURcKk2ehzZihup3qA" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="8E76qAreXUyY1izweKnwrg" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>Server</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="7SHrMSLS0E62lPZIdOjjVA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="aslD1kE3xkOZaQhwFpaDYA" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>Server</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="2tPjyryuJkmto73dZDrBSQ" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="/k6W/arVU0aPO8rifO1GYg" >
+<tvs>
+<RMS:URF id="WRRi2HLyYk++EhB2GvK1ZA"  name="Design Model::.Net::get"  classStr="str" />
+</tvs>
+<nam>PicturePath</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="qiK/WaaWDUuXWg9kNz++xA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="Mv2TtCgI7UCpUQUlH1Lx8g" >
+<tvs>
+<RMS:URF id="yfY77EGqaE63WY6dGLX6ng"  name="Design Model::.Net::set"  classStr="str" />
+</tvs>
+<nam>PicturePath</nam>
+<ari>4 1:C#3 0:1</ari>
+<prm>
+<prm id="7sLy+l1mT0q34DGsO3XxYw" >
+<nam>value</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="Vy3n7SJyOEWtvVrvkkSirQ" >
+<otv>
+<stv id="C2YttFxO80mOKj7YUfnaZw" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val>System,System.IO,System.Windows.Forms,System.Xml,System.Xml.Serialization</val>
+</stv>
+</otv>
+<dsc>Summary description for ModuleConfig.</dsc>
+<nam>ModuleConfig</nam>
+<rlt>
+<grz id="OOlai/S+60WHl1VHnVpIzQ" >
+<otv>
+<stv id="I1IluBt0+kOEkVP4uTmU0A" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.Object</val>
+</stv>
+</otv>
+<anc>18 Name:System.Object22 BaseList:System.Object</anc>
+<ans>[Base]EVSoft.HRMS.Common.ModuleConfig.System-Object</ans>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="mLXT3MyrkE6naYICWTdcSQ"  name="mscorlib::System::Object"  classStr="clx"  import="0" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="219" >17 Name:ModuleConfig49 Description:Summary description for ModuleConfig.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:92 NameResolutionList:System,System.IO,System.Windows.Forms,System.Xml,System.Xml.Serialization</anc>
+<ans>EVSoft.HRMS.Common.ModuleConfig</ans>
+<ari>4 1:C#7 3:Class3 0:1</ari>
+<opr>
+<opr id="X3vMsDayQUyYoogKWD/KNg" >
+<nam>ModuleConfig</nam>
+<anc reserve="228" >8 NetAttr:17 Name:ModuleConfig6 Kind:35 Type:8 Access:212 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.ModuleConfig.ModuleConfig()</ans>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<vsb>PRIVATE</vsb>
+</opr>
+<opr id="9eyRdq6atUW8ZukowIa97A" >
+<dsc>Get the Setting values from a config file</dsc>
+<nam>GetSettings</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="320" >8 NetAttr:16 Name:GetSettings6 Kind:019 Type:ModuleSettings8 Access:053 Description:Get the Setting values from a config file13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:65 ReturnParameterDescription:Module Setting with all settings value24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.ModuleConfig.GetSettings()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="agWK/ougg0S9yQkqTu+esA" >
+<dsc>Module Setting with all settings value</dsc>
+<nam>ModuleSettings</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>ModuleSettings</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="dF5GGb9RNUGvQzpP1OIY8w" >
+<nam>SaveSettings</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="269" >8 NetAttr:17 Name:SaveSettings6 Kind:05 Type:8 Access:012 Description:13 IsStatic:True16 IsAbstract:False10 Modifiers:37 ParamList:;;;ModuleSettings;settings;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:39 AllParameterDescription:12 8 settings0 </anc>
+<ans>EVSoft.HRMS.Common.ModuleConfig.SaveSettings(:ModuleSettings)</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="CqwSnXbU10iz/m3wIh+Bdw" >
+<nam>settings</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>ModuleSettings</tye>
+</prm>
+</prm>
+</opr>
+<opr id="DRfZKrejoUSd7ADcHSsppQ" >
+<nam>GetSettingsFile</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="237" >8 NetAttr:20 Name:GetSettingsFile6 Kind:011 Type:string8 Access:212 Description:13 IsStatic:True16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ans>EVSoft.HRMS.Common.ModuleConfig.GetSettingsFile()</ans>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="wDRHlmReOkuYBbHA1jDHzA" >
+<nam>string</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+</opr>
+</clx>
+<clx id="IhNMnZOdWE25GViTv7dMjA" >
+<otv>
+<stv id="dBvaAcmUvEKM8gwDrAShjQ" >
+<tgd>
+<RMS:URF id="BD9g+/uc0Eq2Q8GG0xcUpg"  name="Design Model::.Net::NameResolutionList::NameResolutionList"  classStr="tgd" />
+</tgd>
+<val reserve="152" >System,System.Collections,System.ComponentModel,System.Data,System.Diagnostics,System.IO,System.Runtime.InteropServices,System.Text,System.Windows.Forms</val>
+</stv>
+</otv>
+<dsc>Summary description for SystemProcess.</dsc>
+<nam>SystemProcess</nam>
+<rlt>
+<asn id="nZ/tPTN1qku7Rm/2weHMng" >
+<dsc>Required designer variable.</dsc>
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="q5/APypObEOG3vcGTXyxsw" >
+<nam>components</nam>
+<anc reserve="199" >15 Name:components36 Type:System.ComponentModel.Container8 Access:239 Description:Required designer variable.11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ari>33 6:System.ComponentModel.Container4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="Z7CBog2T/0O+Sd+8OJ5MfA"  name="System::System::ComponentModel::Container"  classStr="clx"  import="1" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="wF4PZhcUgk6JiSPHzZwnng" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IhNMnZOdWE25GViTv7dMjA" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="NSxcwXSLmEq0TNn2puOnwg" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="Tg2qPlIbFE+oSCPMUDttOQ" >
+<nam>srv</nam>
+<anc reserve="172" >8 Name:srv21 Type:SQLDMO.SQLServer8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False40 InitialValue:new SQLDMO.SQLServerClass()8 NetAttr:10 Modifiers:</anc>
+<ari>18 6:SQLDMO.SQLServer4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="oVhcHtISwEqIcbJEMM8ebQ"  name="Interop.SQLDMO::SQLDMO::SQLServer"  classStr="ifx"  import="2" />
+</noe>
+<dve>new SQLDMO.SQLServerClass()</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="gpn6Lr676k2cFC8IGgZqGw" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IhNMnZOdWE25GViTv7dMjA" />
+</noe>
+</ase>
+</end>
+</asn>
+<asn id="+z60gKp16kK/J4ddVQA51w" >
+<ari>3 0:14 1:C#</ari>
+<end>
+<ase id="82XlKvKnLUaCeegoiZx6xg" >
+<nam>components1</nam>
+<anc reserve="173" >16 Name:components136 Type:System.ComponentModel.Container8 Access:212 Description:11 Stereotype:13 IsConst:False14 IsStatic:False17 InitialValue:null8 NetAttr:10 Modifiers:</anc>
+<ari>33 6:System.ComponentModel.Container4 1:C#10 3:Variable3 0:1</ari>
+<noe>
+<RMS:IRF id="Z7CBog2T/0O+Sd+8OJ5MfA"  name="System::System::ComponentModel::Container"  classStr="clx"  import="1" />
+</noe>
+<dve>null</dve>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="6QDwwFTk3UOfkhofOwJhOA" >
+<ari>3 0:1</ari>
+<noe>
+<RMS:LRF id="IhNMnZOdWE25GViTv7dMjA" />
+</noe>
+</ase>
+</end>
+</asn>
+<grz id="1OkCUrBQhEOf57VG/6/Xdw" >
+<otv>
+<stv id="J91MtXIR6E2sy57qLDqhJg" >
+<tgd>
+<RMS:URF id="G3LDiJV0IU64e8xnewCkMg"  name="Design Model::.Net::RTE Proxy::BaseName"  classStr="tgd" />
+</tgd>
+<val>System.ComponentModel.Component</val>
+</stv>
+</otv>
+<anc reserve="82" >36 Name:System.ComponentModel.Component40 BaseList:System.ComponentModel.Component</anc>
+<ari>4 1:C#12 3:Generalize3 0:1</ari>
+<noe>
+<RMS:IRF id="s0mwZyqehka/p7xMVClTow"  name="System::System::ComponentModel::Component"  classStr="clx"  import="1" />
+</noe>
+</grz>
+</rlt>
+<anc reserve="301" >18 Name:SystemProcess50 Description:Summary description for SystemProcess.16 IsAbstract:False8 Access:08 NetAttr:10 Modifiers:171 NameResolutionList:System,System.Collections,System.ComponentModel,System.Data,System.Diagnostics,System.IO,System.Runtime.InteropServices,System.Text,System.Windows.Forms</anc>
+<ari>4 1:C#7 3:Class</ari>
+<att>
+<att id="EiP/AXVbaUK+ZCnzjv16Ew" >
+<nam>SQL_HANDLE_ENV</nam>
+<anc reserve="145" >19 Name:SQL_HANDLE_ENV10 Type:short8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:18 NetAttr:10 Modifiers:</anc>
+<ari>7 6:short4 1:C#10 3:Constant3 0:1</ari>
+<dve>1</dve>
+<tye>short</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="oCQRcHO4EkKtxBgndv21OA" >
+<nam>SQL_HANDLE_DBC</nam>
+<anc reserve="145" >19 Name:SQL_HANDLE_DBC10 Type:short8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:28 NetAttr:10 Modifiers:</anc>
+<ari>7 6:short4 1:C#10 3:Constant3 0:1</ari>
+<dve>2</dve>
+<tye>short</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="ScqxGwG9KEOzgq31gjzfow" >
+<nam>SQL_ATTR_ODBC_VERSION</nam>
+<anc reserve="151" >26 Name:SQL_ATTR_ODBC_VERSION8 Type:int8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True16 InitialValue:2008 NetAttr:10 Modifiers:</anc>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>200</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="ALQvBocwx0iuXrZd+bkSeQ" >
+<nam>SQL_OV_ODBC3</nam>
+<anc reserve="140" >17 Name:SQL_OV_ODBC38 Type:int8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:38 NetAttr:10 Modifiers:</anc>
+<ari>5 6:int4 1:C#10 3:Constant3 0:1</ari>
+<dve>3</dve>
+<tye>int</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="FBkez14mFkmFgYGFGxmx7A" >
+<nam>SQL_SUCCESS</nam>
+<anc reserve="142" >16 Name:SQL_SUCCESS10 Type:short8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True14 InitialValue:08 NetAttr:10 Modifiers:</anc>
+<ari>7 6:short4 1:C#10 3:Constant3 0:1</ari>
+<dve>0</dve>
+<tye>short</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="rUu6EAtM+kKmLTmwDEp+Qg" >
+<nam>SQL_NEED_DATA</nam>
+<anc reserve="145" >18 Name:SQL_NEED_DATA10 Type:short8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True15 InitialValue:998 NetAttr:10 Modifiers:</anc>
+<ari>7 6:short4 1:C#10 3:Constant3 0:1</ari>
+<dve>99</dve>
+<tye>short</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="6cPOuFLqg0yDAi3n4Qv0jw" >
+<nam>DEFAULT_RESULT_SIZE</nam>
+<anc reserve="153" >24 Name:DEFAULT_RESULT_SIZE10 Type:short8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True17 InitialValue:10248 NetAttr:10 Modifiers:</anc>
+<ari>7 6:short4 1:C#10 3:Constant3 0:1</ari>
+<dve>1024</dve>
+<tye>short</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+<att id="SwVoFqzW4E+ucYjPoYb4kQ" >
+<nam>SQL_DRIVER_STR</nam>
+<anc reserve="164" >19 Name:SQL_DRIVER_STR11 Type:string8 Access:212 Description:11 Stereotype:12 IsConst:True13 IsStatic:True32 InitialValue:&quot;DRIVER=SQL SERVER&quot;8 NetAttr:10 Modifiers:</anc>
+<ari>8 6:string4 1:C#10 3:Constant3 0:1</ari>
+<dve>&quot;DRIVER=SQL SERVER&quot;</dve>
+<tye>string</tye>
+<chn>FROZEN</chn>
+<ows>CLASSIFIER</ows>
+<vsb>PRIVATE</vsb>
+</att>
+</att>
+<opr reserve="11" >
+<opr id="3m2z5KABokusbfUnv9JEbg" >
+<otv>
+<stv id="+/ioXrfGtkGotITypxxbhQ" >
+<tgd>
+<RMS:URF id="mrZgGe6yY02u9KYI+85Qhg"  name="Design Model::.Net::Language Modifiers::LanguageModifiers"  classStr="tgd" />
+</tgd>
+<val>extern</val>
+</stv>
+<stv id="2WwluZfsi0eujG5yLHHXdg" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>DllImport(&quot;odbc32.dll&quot;)</val>
+</stv>
+</otv>
+<nam>SQLAllocHandle</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="383" >34 NetAttr:23 DllImport(&quot;odbc32.dll&quot;)19 Name:SQLAllocHandle6 Kind:010 Type:short8 Access:212 Description:13 IsStatic:True16 IsAbstract:False16 Modifiers:extern75 ParamList:;;;short;hType;;;;;IntPtr;inputHandle;;;;out;IntPtr;outputHandle;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:74 AllParameterDescription:9 5 hType0 16 11 inputHandle0 17 12 outputHandle0 </anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="kC2ZZ8zYR02tld7x9vWscA" >
+<nam>short</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="5Q2l6WfWy0mZ4D6Sm1WbTA" >
+<nam>hType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+</prm>
+<prm id="KcxbnmzfxEe9ECM3x9ByDA" >
+<nam>inputHandle</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>IntPtr</tye>
+</prm>
+<prm id="mOx6DLV3M0yP+1MRu3+c4Q" >
+<nam>outputHandle</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>IntPtr</tye>
+<knd>OUT</knd>
+</prm>
+</prm>
+</opr>
+<opr id="mlYlwrOcqEOhOn4FbzCbfA" >
+<otv>
+<stv id="DcNUaHsQl0qWwzT6jV1+ZA" >
+<tgd>
+<RMS:URF id="mrZgGe6yY02u9KYI+85Qhg"  name="Design Model::.Net::Language Modifiers::LanguageModifiers"  classStr="tgd" />
+</tgd>
+<val>extern</val>
+</stv>
+<stv id="ZJsKrXXYjECDuzTyhDysmA" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>DllImport(&quot;odbc32.dll&quot;)</val>
+</stv>
+</otv>
+<nam>SQLSetEnvAttr</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="395" >34 NetAttr:23 DllImport(&quot;odbc32.dll&quot;)18 Name:SQLSetEnvAttr6 Kind:010 Type:short8 Access:212 Description:13 IsStatic:True16 IsAbstract:False16 Modifiers:extern81 ParamList:;;;IntPtr;henv;;;;;int;attribute;;;;;IntPtr;valuePtr;;;;;int;strLength;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:81 AllParameterDescription:8 4 henv0 13 9 attribute0 12 8 valuePtr0 13 9 strLength0 </anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="5ek13Ccdn0eFOF0/DQ4pqA" >
+<nam>short</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="grNfkK9QeEmSDqLzvgGtiw" >
+<nam>henv</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>IntPtr</tye>
+</prm>
+<prm id="eEaUf1dL9Ua6fFyyZIpCvg" >
+<nam>attribute</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+<prm id="IyACc22F1UG3ArRABESjug" >
+<nam>valuePtr</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>IntPtr</tye>
+</prm>
+<prm id="wQRqjXhML0a5Dh9KL9HRjg" >
+<nam>strLength</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>int</tye>
+</prm>
+</prm>
+</opr>
+<opr id="4Whsp4N71EmLqTNEZhqxIg" >
+<otv>
+<stv id="FrxyjkawiEiPqAU/C3xh+g" >
+<tgd>
+<RMS:URF id="mrZgGe6yY02u9KYI+85Qhg"  name="Design Model::.Net::Language Modifiers::LanguageModifiers"  classStr="tgd" />
+</tgd>
+<val>extern</val>
+</stv>
+<stv id="b8cVRUzqe0C+cSze2DiHtQ" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>DllImport(&quot;odbc32.dll&quot;)</val>
+</stv>
+</otv>
+<nam>SQLFreeHandle</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="324" >34 NetAttr:23 DllImport(&quot;odbc32.dll&quot;)18 Name:SQLFreeHandle6 Kind:010 Type:short8 Access:212 Description:13 IsStatic:True16 IsAbstract:False16 Modifiers:extern43 ParamList:;;;short;hType;;;;;IntPtr;handle;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:48 AllParameterDescription:9 5 hType0 10 6 handle0 </anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="1+GIEPj5KUGrxr3VMlovxg" >
+<nam>short</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="odKVk83EmUa5+RrKrKKzBA" >
+<nam>hType</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+</prm>
+<prm id="t+DIrOnhU0mGPeHexGmVrQ" >
+<nam>handle</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>IntPtr</tye>
+</prm>
+</prm>
+</opr>
+<opr id="VmAHQAf6v0WpclYlQmm1YQ" >
+<otv>
+<stv id="mAkCTx2bMk2StZ75VcwlqA" >
+<tgd>
+<RMS:URF id="mrZgGe6yY02u9KYI+85Qhg"  name="Design Model::.Net::Language Modifiers::LanguageModifiers"  classStr="tgd" />
+</tgd>
+<val>extern</val>
+</stv>
+<stv id="GKVYfAczp0aK0DEd7RsDMQ" >
+<tgd>
+<RMS:URF id="hX+xzT3lyU6oIhynWM6A2Q"  name="Design Model::.Net::.Net Attributes::Attributes"  classStr="tgd" />
+</tgd>
+<val>DllImport(&quot;odbc32.dll&quot;,CharSet=CharSet.Ansi)</val>
+</stv>
+</otv>
+<nam>SQLBrowseConnect</nam>
+<ows>CLASSIFIER</ows>
+<anc reserve="554" >55 NetAttr:44 DllImport(&quot;odbc32.dll&quot;,CharSet=CharSet.Ansi)21 Name:SQLBrowseConnect6 Kind:010 Type:short8 Access:212 Description:13 IsStatic:True16 IsAbstract:False16 Modifiers:extern161 ParamList:;;;IntPtr;hconn;;;;;StringBuilder;inString;;;;;short;inStringLength;;;;;StringBuilder;outString;;;;;short;outStringLength;;;;out;short;outLengthNeeded;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:134 AllParameterDescription:9 5 hconn0 12 8 inString0 19 14 inStringLength0 13 9 outString0 20 15 outStringLength0 20 15 outLengthNeeded0 </anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+<prm>
+<prm id="WUiKb7IDMEmwspyJNjHNog" >
+<nam>short</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="Y6rDhyAQ5UWiAjddWGDtYw" >
+<nam>hconn</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>IntPtr</tye>
+</prm>
+<prm id="1aRe94d9K0GwKRSdjbGqAg" >
+<nam>inString</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>StringBuilder</tye>
+</prm>
+<prm id="vxW37BRokESNOL3Us5tO+w" >
+<nam>inStringLength</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+</prm>
+<prm id="rbYnGVc8fEGw6cC3uq39IQ" >
+<nam>outString</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>StringBuilder</tye>
+</prm>
+<prm id="HiNMovcorUS+NyuFPuSvOQ" >
+<nam>outStringLength</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+</prm>
+<prm id="QiXPiny4206difhV9avQfA" >
+<nam>outLengthNeeded</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>short</tye>
+<knd>OUT</knd>
+</prm>
+</prm>
+</opr>
+<opr id="Va1EIYc+n06pVLI98hcY4A" >
+<nam>SystemProcess</nam>
+<anc reserve="291" >8 NetAttr:18 Name:SystemProcess6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:56 ParamList:;;;System.ComponentModel.IContainer;container;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:40 AllParameterDescription:13 9 container0 </anc>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+<prm>
+<prm id="CN3zxd6UU0iqT2siAdCCgw" >
+<nam>container</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>System.ComponentModel.IContainer</tye>
+</prm>
+</prm>
+</opr>
+<opr id="vZ0iw+O+S0y85VimZ9AudQ" >
+<nam>SystemProcess</nam>
+<anc reserve="229" >8 NetAttr:18 Name:SystemProcess6 Kind:35 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ari>4 1:C#13 3:Constructor3 0:1</ari>
+</opr>
+<opr id="tCcdwZCqckuzopjA5abrdA" >
+<otv>
+<stv id="T7j1LK04GUuRpWlBLdbB8g" >
+<tgd>
+<RMS:URF id="mrZgGe6yY02u9KYI+85Qhg"  name="Design Model::.Net::Language Modifiers::LanguageModifiers"  classStr="tgd" />
+</tgd>
+<val>override</val>
+</stv>
+</otv>
+<dsc> 
+Clean up any resources being used.</dsc>
+<nam>Dispose</nam>
+<anc reserve="302" >8 NetAttr:12 Name:Dispose6 Kind:05 Type:8 Access:149 Description: 
+Clean up any resources being used.14 IsStatic:False16 IsAbstract:False18 Modifiers:override28 ParamList:;;;bool;disposing;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:40 AllParameterDescription:13 9 disposing0 </anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PROTECTED</vsb>
+<prm>
+<prm id="hE5daAalSEGf9kmntnhFIA" >
+<nam>disposing</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>bool</tye>
+</prm>
+</prm>
+</opr>
+<opr id="fnUiFS4TJ0mRR+UWG7CHWg" >
+<dsc reserve="103" >Required method for Designer support - do not modify
+the contents of this method with the code editor.</dsc>
+<nam>InitializeComponent</nam>
+<anc reserve="339" >8 NetAttr:24 Name:InitializeComponent6 Kind:05 Type:8 Access:2115 Description:Required method for Designer support - do not modify
+the contents of this method with the code editor.14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<vsb>PRIVATE</vsb>
+</opr>
+<opr id="zAI2sxvIj0azFNHm/kmOhA" >
+<nam>GetServers</nam>
+<anc reserve="235" >8 NetAttr:15 Name:GetServers6 Kind:013 Type:string[]8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="iweeqr6OD0a37jPsgMzb1Q" >
+<nam>string[]</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string[]</tye>
+<knd>RETURN</knd>
+</prm>
+</prm>
+</opr>
+<opr id="R1yjS836Q0OHR71DgU+Lyw" >
+<nam>Listdb</nam>
+<anc reserve="340" >8 NetAttr:11 Name:Listdb6 Kind:013 Type:string[]8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:71 ParamList:;;;string;servername;;;;;string;username;;;;;string;password;23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:72 AllParameterDescription:15 10 servername0 12 8 username0 12 8 password0 </anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+<prm>
+<prm id="ShiGxOeWb06w36Ni3T6TlA" >
+<nam>string[]</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string[]</tye>
+<knd>RETURN</knd>
+</prm>
+<prm id="fOqo8ZctKEWg8a5cNByS6g" >
+<nam>servername</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="IAdCFtHNR0qJrnNPCsFeaA" >
+<nam>username</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+<prm id="B0puK7WnOE6AoBQdbC22Fw" >
+<nam>password</nam>
+<ari>3 0:14 1:C#</ari>
+<tye>string</tye>
+</prm>
+</prm>
+</opr>
+<opr id="BruoFzfbf0CMggG0C9gaFg" >
+<nam>CheckManifestFile</nam>
+<anc reserve="233" >8 NetAttr:22 Name:CheckManifestFile6 Kind:05 Type:8 Access:012 Description:14 IsStatic:False16 IsAbstract:False10 Modifiers:10 ParamList:23 ConstructorInitializer:10 VBHandles:27 ReturnParameterDescription:24 AllParameterDescription:</anc>
+<ari>4 1:C#11 3:Operation3 0:1</ari>
+</opr>
+</opr>
+</clx>
+</cls>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>

@@ -1,0 +1,361 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- This file can be merged correctly only with the XDE CompareMerge facility. If you are using a text-based merge tool, stop now. Text merge can lead to model corruption. (j/QdyUcLFECyux8tv68//A) -->
+<RMS:UNIT xmlns:RMS="http://www.rational.com/products/xde"  xmlns:dt="http://www.rational.com/products/xde"  id="XRQ6xoRCIkiPxB5kg6qPyw"  model="..\..\..\Analysis Model.mdx"  contain="0000000000011100100000101000011000000010011000000000101100000000000100000000000000001000000000010000000111000000101000100000000001000000010000000001001100000000010100000001000010"  accel="&lt;RMS:ROOT&gt;&lt;pkx id=&quot;v6eHoHVgwkuGHvlMe39eeg&quot; &gt;&lt;tvs&gt;&lt;RMS:URF id=&quot;EkepJR3cmU+mU/pYJj/dYg&quot;  name=&quot;Analysis Model::SoftwareEngineeringProcess::Analysis Package&quot;  classStr=&quot;str&quot; /&gt;&lt;/tvs&gt;&lt;nam&gt;Key Abtractions&lt;/nam&gt;&lt;/pkx&gt;&lt;/RMS:ROOT&gt;" >
+<RMS:METAMODEL name="UML 7.0"  id="9Bz1bpZ9HU+itfrtkk+fCA"  semanticVersion="1.5k"  version="7.1.409.1500"  server="1.2.407.200"  format="0.28" />
+<RMS:ROOT>
+<pkx id="v6eHoHVgwkuGHvlMe39eeg" >
+<tvs>
+<RMS:URF id="EkepJR3cmU+mU/pYJj/dYg"  name="Analysis Model::SoftwareEngineeringProcess::Analysis Package"  classStr="str" />
+</tvs>
+<nam>Key Abtractions</nam>
+<mnd>
+<RMS:LRF id="wWyTg8WIf0aGbcYF4lYrZQ" />
+</mnd>
+<owd>
+<dgx id="wWyTg8WIf0aGbcYF4lYrZQ" >
+<tvs>
+<RMS:URF id="fQ42b0cUHE2vLPOqceZKEQ"  name="Analysis Model::Appearance::backcolor=16777215;gridsize=250;snaptogrid=-1"  classStr="sty" />
+<RMS:URF id="gfvp4vhJsk2/7dAgog4C8g"  name="Analysis Model::Appearance::showexclusions=0"  classStr="sty" />
+<RMS:URF id="cc+B68SK9ka9JXCEHvd9Zw"  name="Analysis Model::Print::cropmarkhvisible=0;cropmarkvvisible=0;dimension=0;footercentertext=;footerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;footerfontcolor=0;footerlefttext=;footermargin=0.5;footerrighttext=;headercentertext=;headerfont=0,AQAAAAAAgDgBAAZUYWhvbWE;headerfontcolor=0;headerlefttext=;headermargin=0.5;headerrighttext=;marginbottom=1;marginleft=1;marginright=1;margintop=1;orientation=0;pagebreakleft=400;pagebreaktop=400;pagescale=100;papersize=0;showfooter=-1;showheader=-1"  classStr="sty" />
+</tvs>
+<nam>Main</nam>
+<chl>
+<pgv id="OFYWNjj0O02E5H2kx19sKA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="Jbgj9rbT/kq8rvBDNvrw/g"  name="Analysis Model::Analysis Elements::Key Abtractions::Cham cong"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="YoGbD92TOkOXrq41t27GTg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="Jbgj9rbT/kq8rvBDNvrw/g"  name="Analysis Model::Analysis Elements::Key Abtractions::Cham cong"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(5500,1750)</pst>
+</pgv>
+<pgv id="O7HQagDuMkK5ocoEXIWgmg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="BCfxlVm5AEOXBJjENqu7ng"  name="Analysis Model::Analysis Elements::Key Abtractions::Khen thuong, ky luat"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="HvlnbkZii0OEdz7Dgsh+1A" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="BCfxlVm5AEOXBJjENqu7ng"  name="Analysis Model::Analysis Elements::Key Abtractions::Khen thuong, ky luat"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3757,1700)</ext>
+<pst>(9250,1750)</pst>
+</pgv>
+<pgv id="CxUgiLA79kK0ggSkEuqpOg" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="J7aMru+V4UqMqS8Lt8qGfA"  name="Analysis Model::Analysis Elements::Key Abtractions::Lap lich"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="rzucLgsftE6CqlO6ZEKmkg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="J7aMru+V4UqMqS8Lt8qGfA"  name="Analysis Model::Analysis Elements::Key Abtractions::Lap lich"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(2600,1700)</ext>
+<pst>(5500,4750)</pst>
+</pgv>
+<pgv id="Ah1wgVlzR0ad3eILRnUa9g" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="cNENTEFX6kS1YlcwDlbvVA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="zFLVPaRauECdNQxnyxkoOA" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="cNENTEFX6kS1YlcwDlbvVA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3122,1700)</ext>
+<pst>(14750,1750)</pst>
+</pgv>
+<pgv id="d/YXwGumI0aj1GYDoXW5WA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="pvW42sImbUm1VE52LZJX7A"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly co cau to chuc"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="nYBq8YD1SEKcXT4eYq2v0w" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="pvW42sImbUm1VE52LZJX7A"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly co cau to chuc"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(4101,1700)</ext>
+<pst>(9000,4750)</pst>
+</pgv>
+<pgv id="5/7/0U7Q90ezNx3MkO5sUA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="xcn/PAjuaUSjrl1XoaW2WQ"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly thoi gian vao ra"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="F3KBWB8Ir0yDjU81dh+uag" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="xcn/PAjuaUSjrl1XoaW2WQ"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly thoi gian vao ra"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(4286,1700)</ext>
+<pst>(5500,8000)</pst>
+</pgv>
+<pgv id="KtI/jkEig0GutujId2EABA" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="7C4iCRmHIE+T0IeTgHD7Xg"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan tri he thong"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="J2IJjwKh8kaO14GIoROkAg" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="7C4iCRmHIE+T0IeTgHD7Xg"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan tri he thong"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3334,1700)</ext>
+<pst>(11000,8000)</pst>
+</pgv>
+<pgv id="ceJ04XEVTE2duSQgGR0fKQ" >
+<tvs>
+<RMS:URF id="5fk49VbLw0SFIgee0vMknQ"  name="Analysis Model::Appearance::font=0,AQAAAAAAoIYBAAZUYWhvbWE;fontcolor=0;linecolor=3342489;wordwraptextwidth=6000"  classStr="sty" />
+<RMS:URF id="/Dp5rSl/zkegoJXdMCh3cg"  name="Analysis Model::Appearance::autoresize=-1;fillcolor=13434879;shapestereotype=2;showparentname=0"  classStr="sty" />
+</tvs>
+<isv>TRUE</isv>
+<mdr>
+<RMS:URF id="AJpZ8tuUlEWZsxhq2Lch6Q"  name="Analysis Model::Analysis Elements::Key Abtractions::Thong ke bao cao"  classStr="pkx" />
+</mdr>
+<chl>
+<ncv id="7KYjF82jq0ysTWM4tFhJiw" >
+<fch>{FFB3AE02-A66B-4c2e-A896-168A54490600}</fch>
+<mdr>
+<RMS:URF id="AJpZ8tuUlEWZsxhq2Lch6Q"  name="Analysis Model::Analysis Elements::Key Abtractions::Thong ke bao cao"  classStr="pkx" />
+</mdr>
+<btm>12</btm>
+<lfm>12</lfm>
+<maa>TRUE</maa>
+<rgm>12</rgm>
+<tpm>24</tpm>
+<ext>(0,0)</ext>
+<grv>North</grv>
+<hrf>TRUE</hrf>
+</ncv>
+</chl>
+<ext>(3387,1700)</ext>
+<pst>(14750,5000)</pst>
+</pgv>
+</chl>
+</dgx>
+</owd>
+<rlt>
+<asn id="UQ/GPgOHMUGt3HON7peCjA" >
+<end>
+<ase id="/KgLCslFSEK1q9u1hC89Ew" >
+<noe>
+<RMS:URF id="oD6RNuKXGk6CU9zERf+JHA"  name="Analysis Model::Analysis Elements::Key Abtractions::Quan ly nhan su::tblEmployee"  classStr="clx" />
+</noe>
+<mlt>1</mlt>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+<ase id="XYQcBsUImkWFvV1wBUKZ5Q" >
+<noe>
+<RMS:URF id="1s3lCHESSEGiu8wdLLiHWA"  name="Analysis Model::Analysis Elements::Key Abtractions::Khen thuong, ky luat::tblPunish"  classStr="clx" />
+</noe>
+<mlt>*</mlt>
+<vsb>PRIVATE</vsb>
+<isn>TRUE</isn>
+</ase>
+</end>
+</asn>
+</rlt>
+<cls>
+<clx id="JU6Z1Vxhwkqs4s+Er47n1Q" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<nam>tblSysVar</nam>
+<att>
+<att id="cvbmzS0kMEeaQRCEMZu64w" >
+<nam>Descriptions</nam>
+<tye>String</tye>
+</att>
+<att id="4LXGBIKxEEmb2fFVnnPzuA" >
+<otv>
+<ntv id="LnOMCV6g8EKgCRx5QFfLeA" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>Sys_value</nam>
+<tye>String</tye>
+</att>
+<att id="qV9mlEUOwEmEzA70vx3+hw" >
+<otv>
+<ntv id="vor1QWA9g0asTQwBjP7ToQ" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>Modifyable</nam>
+<tye>Boolean</tye>
+</att>
+</att>
+</clx>
+<clx id="j059OPLUJUKaE7TeaNss6g" >
+<tvs>
+<RMS:URF id="FaoOc4Af+kOSrjRDac6SXA"  name="Analysis Model::SoftwareEngineeringProcess::Entity"  classStr="str" />
+</tvs>
+<nam>tblTimeSheetChange</nam>
+<att>
+<att id="1YFdqL2DikmCod2E8vLiRA" >
+<otv>
+<ntv id="SJ/46xQVo0Oj6Vo+Biz2Dg" >
+<tgd>
+<RMS:URF id="gBjPlb5KykC4y+MZUZZUzw"  name="Analysis Model::Logical Data Model::Candidate Key::IsNullsAllowed"  classStr="tgd" />
+</tgd>
+</ntv>
+</otv>
+<nam>OldValue</nam>
+<tye>String</tye>
+</att>
+<att id="wdxyOhEdLEau6/vb+ZqWKw" >
+<nam>NewValue</nam>
+<tye>String</tye>
+</att>
+<att id="Zat48weOLUqIm3Nvr5h1DA" >
+<nam>Description</nam>
+<tye>String</tye>
+</att>
+</att>
+</clx>
+</cls>
+<nsp reserve="11" >
+<pkx id="7C4iCRmHIE+T0IeTgHD7Xg"  file="Analysis Elements\Key Abtractions\Quan tri he thong.pkx" >
+</pkx>
+<pkx id="Jbgj9rbT/kq8rvBDNvrw/g"  file="Analysis Elements\Key Abtractions\Cham cong.pkx" >
+</pkx>
+<pkx id="cNENTEFX6kS1YlcwDlbvVA"  file="Analysis Elements\Key Abtractions\Quan ly nhan su.pkx" >
+</pkx>
+<pkx id="pvW42sImbUm1VE52LZJX7A"  file="Analysis Elements\Key Abtractions\Quan ly co cau to chuc.pkx" >
+</pkx>
+<pkx id="xcn/PAjuaUSjrl1XoaW2WQ"  file="Analysis Elements\Key Abtractions\Quan ly thoi gian vao ra.pkx" >
+</pkx>
+<pkx id="J7aMru+V4UqMqS8Lt8qGfA"  file="Analysis Elements\Key Abtractions\Lap lich.pkx" >
+</pkx>
+<pkx id="BCfxlVm5AEOXBJjENqu7ng"  file="Analysis Elements\Key Abtractions\Khen thuong, ky luat.pkx" >
+</pkx>
+<pkx id="AJpZ8tuUlEWZsxhq2Lch6Q"  file="Analysis Elements\Key Abtractions\Thong ke bao cao.pkx" >
+</pkx>
+<pkx id="ztbrliJs70GEuzwqcqisPg"  file="Analysis Elements\Key Abtractions\Tinh luong.pkx" >
+</pkx>
+<pkx id="oTGAKA5gOESZZWq5p5rjrA"  file="Analysis Elements\Key Abtractions\Quan ly BHXH,BHYT.pkx" >
+</pkx>
+<pkx id="GxqKsUs1J0O7iPhZe7TgyA"  file="Analysis Elements\Key Abtractions\Quan ly thuong phat.pkx" >
+</pkx>
+</nsp>
+</pkx>
+</RMS:ROOT>
+</RMS:UNIT>
